@@ -9,8 +9,7 @@ module.exports = withImages({
   //     },
   //   ];
   // // },
-  basePath: "/bkk-election",
-  distDir: "bkk-election",
+  // basePath: "/bkk-election",
   webpack(config, options) {
     return config;
   },
