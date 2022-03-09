@@ -199,7 +199,6 @@ export default function Dashboard(props) {
       data = selectedData.report_suburban;
       format_type = "suburban";
     }
-    console.log(rankings);
     let note;
     if (selected_theme.name === "น้ำท่วมถนน") {
       note =
