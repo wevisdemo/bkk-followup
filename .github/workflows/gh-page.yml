@@ -21,8 +21,8 @@ jobs:
       - name: Build project
         run: npm run generate
         env:
-          BASE_URL: /bkk-followup
-          SITE_URL: https://wevisdemo.github.io/bkk-followup
+          BASE_URL: /bkk-followup/bkk-election
+          SITE_URL: https://wevisdemo.github.io/bkk-followup/bkk-election
       - name: Deploy to Github Page
         uses: peaceiris/actions-gh-pages@v3
         with:
