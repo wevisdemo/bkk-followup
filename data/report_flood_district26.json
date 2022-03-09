@@ -1,0 +1,158 @@
+{
+  "value": 7,
+  "valuePerYear": {
+    "2555": 1,
+    "2556": 9,
+    "2557": 8,
+    "2558": 15,
+    "2559": 11,
+    "2560": 7,
+    "2561": 47,
+    "2562": 6,
+    "2563": null,
+    "2564": 7
+  },
+  "minimumPoint": {
+    "value": 1,
+    "year": 2555,
+    "districtId": 26,
+    "districtName": "บึงกุ่ม"
+  },
+  "maximumPoint": {
+    "value": 47,
+    "year": 2561,
+    "districtId": 26,
+    "districtName": "บึงกุ่ม"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 339766700,
+      "focused": 50000000
+    },
+    "2556": {
+      "all": 318237800,
+      "focused": 12134600
+    },
+    "2557": {
+      "all": 318237800,
+      "focused": 12134600
+    },
+    "2558": {
+      "all": 450382700,
+      "focused": 134983700
+    },
+    "2559": {
+      "all": 546951100,
+      "focused": 228240900
+    },
+    "2560": {
+      "all": 398313000,
+      "focused": 59890000
+    },
+    "2561": {
+      "all": 357998840,
+      "focused": 19249500
+    },
+    "2562": {
+      "all": 346746000,
+      "focused": 21486500
+    },
+    "2563": {
+      "all": 354848700,
+      "focused": 16716300
+    },
+    "2564": {
+      "all": 375746000,
+      "focused": 17038900
+    }
+  },
+  "budgetOverall": {
+    "all": 3807228640,
+    "focused": 571875000
+  },
+  "ranked": 9,
+  "rankings": [
+    {
+      "ranked": 22,
+      "year": 2555,
+      "value": 1
+    },
+    {
+      "ranked": 17,
+      "year": 2556,
+      "value": 9
+    },
+    {
+      "ranked": 20,
+      "year": 2557,
+      "value": 8
+    },
+    {
+      "ranked": 14,
+      "year": 2558,
+      "value": 15
+    },
+    {
+      "ranked": 12,
+      "year": 2559,
+      "value": 11
+    },
+    {
+      "ranked": 20,
+      "year": 2560,
+      "value": 7
+    },
+    {
+      "ranked": 7,
+      "year": 2561,
+      "value": 47
+    },
+    {
+      "ranked": 21,
+      "year": 2562,
+      "value": 6
+    },
+    {
+      "ranked": 9,
+      "year": 2564,
+      "value": 7
+    }
+  ],
+  "floodHotspots": [
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "ซอยนวมินทร์ 135"
+    },
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "คลองดอนอีกา"
+    },
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "สันติอโศก"
+    },
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "ซอย 79 ซอย95"
+    },
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "ตรงข้ามซอยนวมินทร์ 77ซอยนวมินทร์ 95 (ขาเข้า)"
+    },
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "ซอยนวมินทร์ 77ซอยนวมินทร์ 95 (ขาออก)"
+    },
+    {
+      "name": "ถนนนวมินทร์",
+      "description": "หน้าปากซอยนวมินทร์ 79"
+    }
+  ],
+  "meanFloodLevel": 12.5,
+  "meanFloodLevelMaximumPoint": {
+    "value": 33.2,
+    "year": 2562,
+    "districtId": 26,
+    "districtName": "บึงกุ่ม"
+  }
+}

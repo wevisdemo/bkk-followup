@@ -1,0 +1,83 @@
+{
+  "value": 88,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": 68,
+    "2561": 45,
+    "2562": 105,
+    "2563": 104,
+    "2564": 88
+  },
+  "minimumPoint": {
+    "districtId": 49,
+    "districtName": "หลักสี่",
+    "year": 2561,
+    "value": 20
+  },
+  "maximumPoint": {
+    "districtId": 18,
+    "districtName": "บางเขน",
+    "year": 2562,
+    "value": 105
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "rankings": [
+    {
+      "ranked": 1,
+      "districtId": 22,
+      "districtName": "บางนา",
+      "value": 88
+    },
+    {
+      "ranked": 2,
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 85
+    },
+    {
+      "ranked": 3,
+      "districtId": 16,
+      "districtName": "บางกะปิ",
+      "value": 70
+    }
+  ],
+  "benchmarks": [
+    {
+      "zoneId": "all",
+      "areaName": "ทุกเขตในกรุงเทพมหานคร",
+      "value": 106
+    },
+    {
+      "zoneId": "residence",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
+      "value": 88
+    },
+    {
+      "zoneId": "suburban",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
+      "value": 131
+    },
+    {
+      "zoneId": "tourism-and-cultural",
+      "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
+      "value": 102
+    },
+    {
+      "zoneId": "business",
+      "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
+      "value": 106
+    }
+  ],
+  "sampling": {
+    "count": 75,
+    "aboveThresholdCount": 59
+  }
+}

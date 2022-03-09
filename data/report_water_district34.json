@@ -1,0 +1,80 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": 6.09,
+    "2556": 5.99,
+    "2557": 5.99,
+    "2558": 10.48,
+    "2559": 10.71,
+    "2560": 9.09,
+    "2561": 5,
+    "2562": 6.81,
+    "2563": 8.98,
+    "2564": null
+  },
+  "minimumPoint": {
+    "value": 5,
+    "year": 2561,
+    "districtId": 34,
+    "districtName": "มีนบุรี"
+  },
+  "maximumPoint": {
+    "value": 10.71,
+    "year": 2559,
+    "districtId": 34,
+    "districtName": "มีนบุรี"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": null,
+  "rankings": [
+    {
+      "ranked": 41,
+      "year": 2555,
+      "value": 6.09
+    },
+    {
+      "ranked": 44,
+      "year": 2556,
+      "value": 5.99
+    },
+    {
+      "ranked": 44,
+      "year": 2557,
+      "value": 5.99
+    },
+    {
+      "ranked": 35,
+      "year": 2558,
+      "value": 10.48
+    },
+    {
+      "ranked": 36,
+      "year": 2559,
+      "value": 10.71
+    },
+    {
+      "ranked": 32,
+      "year": 2560,
+      "value": 9.09
+    },
+    {
+      "ranked": 47,
+      "year": 2561,
+      "value": 5
+    },
+    {
+      "ranked": 39,
+      "year": 2562,
+      "value": 6.81
+    },
+    {
+      "ranked": 37,
+      "year": 2563,
+      "value": 8.98
+    }
+  ]
+}

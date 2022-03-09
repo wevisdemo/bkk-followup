@@ -1,0 +1,127 @@
+{
+  "value": 11.94,
+  "valuePerYear": {
+    "2555": 3.6,
+    "2556": 3.94,
+    "2557": 3.94,
+    "2558": 4.65,
+    "2559": 5.22,
+    "2560": 5.25,
+    "2561": 5.71,
+    "2562": 5.66,
+    "2563": 11.5,
+    "2564": 11.94
+  },
+  "minimumPoint": {
+    "value": 3.6,
+    "year": 2555,
+    "districtId": 37,
+    "districtName": "ราษฎร์บูรณะ"
+  },
+  "maximumPoint": {
+    "value": 11.94,
+    "year": 2564,
+    "districtId": 37,
+    "districtName": "ราษฎร์บูรณะ"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 278109300,
+      "focused": 14169800
+    },
+    "2556": {
+      "all": 319588800,
+      "focused": 16313700
+    },
+    "2557": {
+      "all": 319588800,
+      "focused": 16313700
+    },
+    "2558": {
+      "all": 289986300,
+      "focused": 17232600
+    },
+    "2559": {
+      "all": 297592600,
+      "focused": 23516400
+    },
+    "2560": {
+      "all": 304568000,
+      "focused": 13042400
+    },
+    "2561": {
+      "all": 308224840,
+      "focused": 18583700
+    },
+    "2562": {
+      "all": 290051100,
+      "focused": 21867300
+    },
+    "2563": {
+      "all": 298729000,
+      "focused": 20921000
+    },
+    "2564": {
+      "all": 302936000,
+      "focused": 21280800
+    }
+  },
+  "budgetOverall": {
+    "all": 3009374740,
+    "focused": 183241400
+  },
+  "ranked": 21,
+  "rankings": [
+    {
+      "ranked": 25,
+      "year": 2555,
+      "value": 3.6
+    },
+    {
+      "ranked": 23,
+      "year": 2556,
+      "value": 3.94
+    },
+    {
+      "ranked": 23,
+      "year": 2557,
+      "value": 3.94
+    },
+    {
+      "ranked": 23,
+      "year": 2558,
+      "value": 4.65
+    },
+    {
+      "ranked": 22,
+      "year": 2559,
+      "value": 5.22
+    },
+    {
+      "ranked": 21,
+      "year": 2560,
+      "value": 5.25
+    },
+    {
+      "ranked": 17,
+      "year": 2561,
+      "value": 5.71
+    },
+    {
+      "ranked": 19,
+      "year": 2562,
+      "value": 5.66
+    },
+    {
+      "ranked": 21,
+      "year": 2563,
+      "value": 11.5
+    },
+    {
+      "ranked": 21,
+      "year": 2564,
+      "value": 11.94
+    }
+  ],
+  "publicGreenSpacePerCapita": null
+}

@@ -1,0 +1,59 @@
+{
+  "value": 102,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": 23,
+    "2562": 91,
+    "2563": 104,
+    "2564": 102
+  },
+  "minimumPoint": {
+    "value": 23,
+    "year": 2561,
+    "districtId": 13,
+    "districtName": "ธนบุรี"
+  },
+  "maximumPoint": {
+    "value": 104,
+    "year": 2563,
+    "districtId": 13,
+    "districtName": "ธนบุรี"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": 3,
+  "rankings": [
+    {
+      "ranked": 18,
+      "year": 2561,
+      "value": 23
+    },
+    {
+      "ranked": 14,
+      "year": 2562,
+      "value": 91
+    },
+    {
+      "ranked": 9,
+      "year": 2563,
+      "value": 104
+    },
+    {
+      "ranked": 3,
+      "year": 2564,
+      "value": 102
+    }
+  ],
+  "sampling": {
+    "count": 75,
+    "aboveThresholdCount": 59
+  }
+}

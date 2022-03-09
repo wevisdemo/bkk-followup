@@ -1,0 +1,113 @@
+{
+  "value": 1,
+  "valuePerYear": {
+    "2555": 15,
+    "2556": null,
+    "2557": 14,
+    "2558": null,
+    "2559": null,
+    "2560": 2,
+    "2561": 1,
+    "2562": null,
+    "2563": 1,
+    "2564": 1
+  },
+  "minimumPoint": {
+    "value": 1,
+    "year": 2561,
+    "districtId": 31,
+    "districtName": "พระโขนง"
+  },
+  "maximumPoint": {
+    "value": 15,
+    "year": 2555,
+    "districtId": 31,
+    "districtName": "พระโขนง"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 275017700,
+      "focused": 13050700
+    },
+    "2556": {
+      "all": 299120000,
+      "focused": 28326800
+    },
+    "2557": {
+      "all": 299120000,
+      "focused": 28326800
+    },
+    "2558": {
+      "all": 288689500,
+      "focused": 12935200
+    },
+    "2559": {
+      "all": 278897500,
+      "focused": 13728800
+    },
+    "2560": {
+      "all": 309729000,
+      "focused": 14413900
+    },
+    "2561": {
+      "all": 274974840,
+      "focused": 14273500
+    },
+    "2562": {
+      "all": 277170000,
+      "focused": 14418900
+    },
+    "2563": {
+      "all": 281172800,
+      "focused": 36949300
+    },
+    "2564": {
+      "all": 283091000,
+      "focused": 28745400
+    }
+  },
+  "budgetOverall": {
+    "all": 2866982340,
+    "focused": 205169300
+  },
+  "ranked": 27,
+  "rankings": [
+    {
+      "ranked": 9,
+      "year": 2555,
+      "value": 15
+    },
+    {
+      "ranked": 17,
+      "year": 2557,
+      "value": 14
+    },
+    {
+      "ranked": 27,
+      "year": 2560,
+      "value": 2
+    },
+    {
+      "ranked": 28,
+      "year": 2561,
+      "value": 1
+    },
+    {
+      "ranked": 25,
+      "year": 2563,
+      "value": 1
+    },
+    {
+      "ranked": 27,
+      "year": 2564,
+      "value": 1
+    }
+  ],
+  "meanFloodLevel": null,
+  "meanFloodLevelMaximumPoint": {
+    "value": 34.3,
+    "year": 2557,
+    "districtId": 31,
+    "districtName": "พระโขนง"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "value": 67.2,
+  "valuePerYear": {
+    "2555": 6.73,
+    "2556": 7.05,
+    "2557": 7.05,
+    "2558": 16.95,
+    "2559": 17.21,
+    "2560": 18.41,
+    "2561": 19.19,
+    "2562": 19.01,
+    "2563": 63.44,
+    "2564": 67.2
+  },
+  "minimumPoint": {
+    "value": 6.73,
+    "year": 2555,
+    "districtId": 17,
+    "districtName": "บางขุนเทียน"
+  },
+  "maximumPoint": {
+    "value": 67.2,
+    "year": 2564,
+    "districtId": 17,
+    "districtName": "บางขุนเทียน"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 513643800,
+      "focused": 16910900
+    },
+    "2556": {
+      "all": 505763400,
+      "focused": 25449800
+    },
+    "2557": {
+      "all": 505763400,
+      "focused": 25449800
+    },
+    "2558": {
+      "all": 565980900,
+      "focused": 21438900
+    },
+    "2559": {
+      "all": 523141500,
+      "focused": 16212500
+    },
+    "2560": {
+      "all": 568627000,
+      "focused": 16664200
+    },
+    "2561": {
+      "all": 499436840,
+      "focused": 17493800
+    },
+    "2562": {
+      "all": 552423000,
+      "focused": 25762300
+    },
+    "2563": {
+      "all": 626049000,
+      "focused": 24387500
+    },
+    "2564": {
+      "all": 550032000,
+      "focused": 22834600
+    }
+  },
+  "budgetOverall": {
+    "all": 5410860840,
+    "focused": 212604300
+  },
+  "ranked": 1,
+  "rankings": [
+    {
+      "ranked": 11,
+      "year": 2555,
+      "value": 6.73
+    },
+    {
+      "ranked": 12,
+      "year": 2556,
+      "value": 7.05
+    },
+    {
+      "ranked": 12,
+      "year": 2557,
+      "value": 7.05
+    },
+    {
+      "ranked": 4,
+      "year": 2558,
+      "value": 16.95
+    },
+    {
+      "ranked": 3,
+      "year": 2559,
+      "value": 17.21
+    },
+    {
+      "ranked": 2,
+      "year": 2560,
+      "value": 18.41
+    },
+    {
+      "ranked": 3,
+      "year": 2561,
+      "value": 19.19
+    },
+    {
+      "ranked": 4,
+      "year": 2562,
+      "value": 19.01
+    },
+    {
+      "ranked": 1,
+      "year": 2563,
+      "value": 63.44
+    },
+    {
+      "ranked": 1,
+      "year": 2564,
+      "value": 67.2
+    }
+  ],
+  "publicGreenSpacePerCapita": null
+}

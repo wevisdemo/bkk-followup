@@ -1,0 +1,107 @@
+{
+  "value": 4,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": null,
+    "2562": null,
+    "2563": 20,
+    "2564": 4
+  },
+  "minimumPoint": {
+    "value": 4,
+    "year": 2564,
+    "districtId": 34,
+    "districtName": "มีนบุรี"
+  },
+  "maximumPoint": {
+    "value": 20,
+    "year": 2563,
+    "districtId": 34,
+    "districtName": "มีนบุรี"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 383759100,
+      "focused": 16777300
+    },
+    "2556": {
+      "all": 410133000,
+      "focused": 21508900
+    },
+    "2557": {
+      "all": 410133000,
+      "focused": 21508900
+    },
+    "2558": {
+      "all": 459847900,
+      "focused": 22037600
+    },
+    "2559": {
+      "all": 442656300,
+      "focused": 30514900
+    },
+    "2560": {
+      "all": 442360500,
+      "focused": 19490100
+    },
+    "2561": {
+      "all": 457559040,
+      "focused": 28759600
+    },
+    "2562": {
+      "all": 479303600,
+      "focused": 26881800
+    },
+    "2563": {
+      "all": 573544100,
+      "focused": 25417400
+    },
+    "2564": {
+      "all": 485821000,
+      "focused": 38727900
+    }
+  },
+  "budgetOverall": {
+    "all": 4545117540,
+    "focused": 251624400
+  },
+  "ranked": 14,
+  "rankings": [
+    {
+      "ranked": 1,
+      "year": 2563,
+      "value": 20
+    },
+    {
+      "ranked": 14,
+      "year": 2564,
+      "value": 4
+    }
+  ],
+  "floodHotspots": [
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "แยกไปรษณีย์"
+    },
+    {
+      "name": "ถนนสุวินทวงศ์",
+      "description": "หน้า บ.โตโยต้า"
+    },
+    {
+      "name": "ถนนสุวินทวงศ์",
+      "description": "หน้าการไฟฟ้า"
+    }
+  ],
+  "meanFloodLevel": 16.88,
+  "meanFloodLevelMaximumPoint": {
+    "value": 16.88,
+    "year": 2564,
+    "districtId": 34,
+    "districtName": "มีนบุรี"
+  }
+}

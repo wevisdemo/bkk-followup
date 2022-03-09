@@ -1,0 +1,80 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": 20.25,
+    "2556": 20.45,
+    "2557": 20.45,
+    "2558": 20.75,
+    "2559": 19.56,
+    "2560": 18.88,
+    "2561": 13.2,
+    "2562": 19.45,
+    "2563": 20.66,
+    "2564": null
+  },
+  "minimumPoint": {
+    "value": 13.2,
+    "year": 2561,
+    "districtId": 45,
+    "districtName": "สาทร"
+  },
+  "maximumPoint": {
+    "value": 20.75,
+    "year": 2558,
+    "districtId": 45,
+    "districtName": "สาทร"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": null,
+  "rankings": [
+    {
+      "ranked": 6,
+      "year": 2555,
+      "value": 20.25
+    },
+    {
+      "ranked": 6,
+      "year": 2556,
+      "value": 20.45
+    },
+    {
+      "ranked": 6,
+      "year": 2557,
+      "value": 20.45
+    },
+    {
+      "ranked": 9,
+      "year": 2558,
+      "value": 20.75
+    },
+    {
+      "ranked": 13,
+      "year": 2559,
+      "value": 19.56
+    },
+    {
+      "ranked": 10,
+      "year": 2560,
+      "value": 18.88
+    },
+    {
+      "ranked": 17,
+      "year": 2561,
+      "value": 13.2
+    },
+    {
+      "ranked": 8,
+      "year": 2562,
+      "value": 19.45
+    },
+    {
+      "ranked": 8,
+      "year": 2563,
+      "value": 20.66
+    }
+  ]
+}

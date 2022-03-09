@@ -1,0 +1,80 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": 15.42,
+    "2556": 11.6,
+    "2557": 11.6,
+    "2558": 17.04,
+    "2559": 15.34,
+    "2560": 14.6,
+    "2561": 6.33,
+    "2562": 11.97,
+    "2563": 12.94,
+    "2564": null
+  },
+  "minimumPoint": {
+    "value": 6.33,
+    "year": 2561,
+    "districtId": 19,
+    "districtName": "บางคอแหลม"
+  },
+  "maximumPoint": {
+    "value": 17.04,
+    "year": 2558,
+    "districtId": 19,
+    "districtName": "บางคอแหลม"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": null,
+  "rankings": [
+    {
+      "ranked": 15,
+      "year": 2555,
+      "value": 15.42
+    },
+    {
+      "ranked": 15,
+      "year": 2556,
+      "value": 11.6
+    },
+    {
+      "ranked": 15,
+      "year": 2557,
+      "value": 11.6
+    },
+    {
+      "ranked": 15,
+      "year": 2558,
+      "value": 17.04
+    },
+    {
+      "ranked": 25,
+      "year": 2559,
+      "value": 15.34
+    },
+    {
+      "ranked": 21,
+      "year": 2560,
+      "value": 14.6
+    },
+    {
+      "ranked": 38,
+      "year": 2561,
+      "value": 6.33
+    },
+    {
+      "ranked": 24,
+      "year": 2562,
+      "value": 11.97
+    },
+    {
+      "ranked": 27,
+      "year": 2563,
+      "value": 12.94
+    }
+  ]
+}

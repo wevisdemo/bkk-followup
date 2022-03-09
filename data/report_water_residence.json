@@ -1,0 +1,60 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": 13.28,
+    "2556": 10.6,
+    "2557": 13.34,
+    "2558": 16.13,
+    "2559": 18.48,
+    "2560": 16.2,
+    "2561": 16.2,
+    "2562": 15.27,
+    "2563": 15.83,
+    "2564": null
+  },
+  "minimumPoint": {
+    "districtId": 43,
+    "districtName": "สะพานสูง",
+    "year": 2556,
+    "value": 6.25
+  },
+  "maximumPoint": {
+    "districtId": 26,
+    "districtName": "บึงกุ่ม",
+    "year": 2559,
+    "value": 37.23
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "rankings": [],
+  "benchmarks": [
+    {
+      "zoneId": "all",
+      "areaName": "ทุกเขตในกรุงเทพมหานคร",
+      "value": null
+    },
+    {
+      "zoneId": "residence",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
+      "value": null
+    },
+    {
+      "zoneId": "suburban",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
+      "value": null
+    },
+    {
+      "zoneId": "tourism-and-cultural",
+      "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
+      "value": null
+    },
+    {
+      "zoneId": "business",
+      "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
+      "value": null
+    }
+  ]
+}

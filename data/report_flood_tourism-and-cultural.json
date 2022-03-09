@@ -1,0 +1,147 @@
+{
+  "value": 7,
+  "valuePerYear": {
+    "2555": 110,
+    "2556": 110,
+    "2557": 255,
+    "2558": 225,
+    "2559": 154,
+    "2560": 132,
+    "2561": 129,
+    "2562": 98,
+    "2563": 5,
+    "2564": 7
+  },
+  "minimumPoint": {
+    "districtId": 14,
+    "districtName": "บางกอกน้อย",
+    "year": 2564,
+    "value": 1
+  },
+  "maximumPoint": {
+    "districtId": 9,
+    "districtName": "ดุสิต",
+    "year": 2558,
+    "value": 138
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 2760642600,
+      "focused": 109930800
+    },
+    "2556": {
+      "all": 2765062200,
+      "focused": 137908700
+    },
+    "2557": {
+      "all": 2765062200,
+      "focused": 137908700
+    },
+    "2558": {
+      "all": 2772427700,
+      "focused": 113149100
+    },
+    "2559": {
+      "all": 3039934200,
+      "focused": 106837600
+    },
+    "2560": {
+      "all": 2892233200,
+      "focused": 124602700
+    },
+    "2561": {
+      "all": 2803053260,
+      "focused": 114219900
+    },
+    "2562": {
+      "all": 2799453900,
+      "focused": 140114000
+    },
+    "2563": {
+      "all": 3003276588,
+      "focused": 174845188
+    },
+    "2564": {
+      "all": 2912096890,
+      "focused": 149175490
+    }
+  },
+  "budgetOverall": {
+    "all": 28513242738,
+    "focused": 1308692178
+  },
+  "rankings": [
+    {
+      "ranked": 1,
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 6
+    },
+    {
+      "ranked": 2,
+      "districtId": 14,
+      "districtName": "บางกอกน้อย",
+      "value": 1
+    }
+  ],
+  "benchmarks": [
+    {
+      "zoneId": "all",
+      "areaName": "ทุกเขตในกรุงเทพมหานคร",
+      "value": 172
+    },
+    {
+      "zoneId": "residence",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
+      "value": 48
+    },
+    {
+      "zoneId": "suburban",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
+      "value": 12
+    },
+    {
+      "zoneId": "tourism-and-cultural",
+      "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
+      "value": 7
+    },
+    {
+      "zoneId": "business",
+      "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
+      "value": 105
+    }
+  ],
+  "floodHotspots": [
+    {
+      "name": "ถนนราชวิถี",
+      "description": "แยกการเรือน"
+    },
+    {
+      "name": "ถนนราชวิถี",
+      "description": "เชิงสะพานกรุงธน"
+    },
+    {
+      "name": "ถนนนครไชยศรี",
+      "description": "ตลาดศรีย่าน"
+    },
+    {
+      "name": "ถนนราชวิถี",
+      "description": "สะพานกรุงธนบุรี"
+    },
+    {
+      "name": "ถนนสามเสน",
+      "description": "หน้าอาคารรัฐสภา"
+    },
+    {
+      "name": "ถนนอิสรภาพ",
+      "description": "หน้าตลาดพรานนก"
+    }
+  ],
+  "meanFloodLevel": 15.36,
+  "meanFloodLevelMaximumPoint": {
+    "districtId": 9,
+    "districtName": "ดุสิต",
+    "year": 2558,
+    "value": 34.7
+  }
+}
