@@ -14,6 +14,8 @@ export default function BudgetPageTwo() {
       { year: 2560, value: 13676 },
       { year: 2561, value: 13829 },
       { year: 2562, value: 14119 },
+      { year: 2563, value: 15313 },
+      { year: 2564, value: 13658 },
     ];
 
     const parent_width = d3.select(".line-chart").node().clientWidth;
@@ -23,9 +25,9 @@ export default function BudgetPageTwo() {
 
     const margin = {
       top: 5,
-      right: isMobileOnly ? 40 : 25,
+      right: isMobileOnly ? 40 : 35,
       bottom: 5,
-      left: isMobileOnly ? 40 : 25,
+      left: isMobileOnly ? 40 : 30,
     };
 
     width = width - margin.left - margin.right;
@@ -100,7 +102,7 @@ export default function BudgetPageTwo() {
       .attr("y", (d) => y_scale(d.value))
       .attr("dy", "-28")
       .style("font-size", "16px")
-      .style("font-family", "TheMATTER")
+      .style("font-family", "KondolarThai")
       .style("fill", "#7AE2A6")
       .style("text-anchor", "middle")
       .style("opacity", "0")
@@ -155,22 +157,22 @@ export default function BudgetPageTwo() {
 
   return (
     <div
-      className="budget-page-two fixed inset-0 z-10 pointer-events-none bg-black-default flex items-center justify-center"
+      className="fixed inset-0 z-10 flex items-center justify-center pointer-events-none budget-page-two bg-black-default"
       style={{ top: "60px" }}
     >
       <div className="w-full">
         <div className="container mx-auto">
-          <h3 className="lg:w-9/12 d3 text-white-default mt-5 lg:mt-14 text-left md:text-center lg:text-left">
-            8 ปีที่ผ่านมา (2555-2562) กทม. ใช้งบประมาณ
+          <h3 className="mt-5 text-left lg:w-9/12 d3 text-white-default lg:mt-14 md:text-center lg:text-left">
+            10 ปีที่ผ่านมา (2555-2564) กทม. ใช้งบประมาณ
             ดูแลประชาชนต่อคนไม่เคยต่ำกว่า
           </h3>
 
-          <h2 className="d2 text-green-default mt-3 text-left md:text-center lg:text-left">
+          <h2 className="mt-3 text-left d2 text-green-default md:text-center lg:text-left">
             10,000 บาท/คน/ปี
           </h2>
         </div>
 
-        <div className="pb-5 overflow-x-auto pointer-events-auto lg:pointer-events-none mt-16 lg:mt-10 2xl:mt-20">
+        <div className="pb-5 mt-16 overflow-x-auto pointer-events-auto lg:pointer-events-none lg:mt-10 2xl:mt-20">
           <div
             className="relative mx-auto line-chart mt-14"
             style={{ width: isMobileOnly ? "200%" : "80%" }}

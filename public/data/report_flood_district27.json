@@ -1,5 +1,5 @@
 {
-  "value": 9,
+  "value": 2,
   "valuePerYear": {
     "2555": 9,
     "2556": 18,
@@ -8,7 +8,9 @@
     "2559": 7,
     "2560": 2,
     "2561": 54,
-    "2562": 9
+    "2562": 9,
+    "2563": null,
+    "2564": 2
   },
   "minimumPoint": {
     "value": 2,
@@ -54,13 +56,21 @@
     "2562": {
       "all": 336891000,
       "focused": 6867600
+    },
+    "2563": {
+      "all": 354141000,
+      "focused": 5831400
+    },
+    "2564": {
+      "all": 666259000,
+      "focused": 5890800
     }
   },
   "budgetOverall": {
-    "all": 2559742240,
-    "focused": 44340100
+    "all": 3580142240,
+    "focused": 56062300
   },
-  "ranked": 15,
+  "ranked": 21,
   "rankings": [
     {
       "ranked": 15,
@@ -101,9 +111,24 @@
       "ranked": 15,
       "year": 2562,
       "value": 9
+    },
+    {
+      "ranked": 21,
+      "year": 2564,
+      "value": 2
     }
   ],
-  "meanFloodLevel": 31.3,
+  "floodHotspots": [
+    {
+      "name": "ถนนพระราม 1",
+      "description": "สนามกีฬา-ห้างมาบุญครอง"
+    },
+    {
+      "name": "ถนนราชดำริ",
+      "description": "แยกราชประสงค์ แยกราชเทวี"
+    }
+  ],
+  "meanFloodLevel": 17.5,
   "meanFloodLevelMaximumPoint": {
     "value": 33,
     "year": 2559,

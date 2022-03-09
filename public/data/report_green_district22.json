@@ -1,5 +1,5 @@
 {
-  "value": 4.54,
+  "value": 10.04,
   "valuePerYear": {
     "2555": 2.67,
     "2556": 3,
@@ -8,7 +8,9 @@
     "2559": 4.07,
     "2560": 4.24,
     "2561": 4.53,
-    "2562": 4.54
+    "2562": 4.54,
+    "2563": 9.41,
+    "2564": 10.04
   },
   "minimumPoint": {
     "value": 2.67,
@@ -17,8 +19,8 @@
     "districtName": "บางนา"
   },
   "maximumPoint": {
-    "value": 4.54,
-    "year": 2562,
+    "value": 10.04,
+    "year": 2564,
     "districtId": 22,
     "districtName": "บางนา"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 306260000,
       "focused": 18850400
+    },
+    "2563": {
+      "all": 312974000,
+      "focused": 19600000
+    },
+    "2564": {
+      "all": 310271000,
+      "focused": 19772200
     }
   },
   "budgetOverall": {
-    "all": 2469750340,
-    "focused": 106044900
+    "all": 3092995340,
+    "focused": 145417100
   },
-  "ranked": 30,
+  "ranked": 26,
   "rankings": [
     {
       "ranked": 32,
@@ -101,7 +111,17 @@
       "ranked": 30,
       "year": 2562,
       "value": 4.54
+    },
+    {
+      "ranked": 27,
+      "year": 2563,
+      "value": 9.41
+    },
+    {
+      "ranked": 26,
+      "year": 2564,
+      "value": 10.04
     }
   ],
-  "publicGreenSpacePerCapita": 0.11
+  "publicGreenSpacePerCapita": null
 }

@@ -1,5 +1,5 @@
 {
-  "value": 4,
+  "value": null,
   "valuePerYear": {
     "2555": 3,
     "2556": 15,
@@ -8,7 +8,9 @@
     "2559": 13,
     "2560": 1,
     "2561": 1,
-    "2562": 4
+    "2562": 4,
+    "2563": null,
+    "2564": null
   },
   "minimumPoint": {
     "value": 1,
@@ -54,13 +56,21 @@
     "2562": {
       "all": 196045300,
       "focused": 5996800
+    },
+    "2563": {
+      "all": 208176600,
+      "focused": 5733600
+    },
+    "2564": {
+      "all": 199947000,
+      "focused": 5718900
     }
   },
   "budgetOverall": {
-    "all": 1618031440,
-    "focused": 39569600
+    "all": 2026155040,
+    "focused": 51022100
   },
-  "ranked": 23,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 21,
@@ -103,17 +113,7 @@
       "value": 4
     }
   ],
-  "floodHotspots": [
-    {
-      "name": "ถนนเจริญกรุง",
-      "description": "จากถนนแปลงนาม ถึงแยกหมอมี"
-    },
-    {
-      "name": "ถนนเยาวราชฝั่งเหนือ",
-      "description": "จากถนนทรงสวัสดิ์ถึงถนนราชวงศ์"
-    }
-  ],
-  "meanFloodLevel": 13.2,
+  "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "value": 28.8,
     "year": 2561,

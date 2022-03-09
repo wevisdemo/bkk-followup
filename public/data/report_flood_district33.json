@@ -8,7 +8,9 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": null,
+    "2564": null
   },
   "minimumPoint": {
     "districtId": 33,
@@ -50,20 +52,22 @@
     "2562": {
       "all": 378914000,
       "focused": 17014400
+    },
+    "2563": {
+      "all": 384617500,
+      "focused": 17859700
+    },
+    "2564": {
+      "all": 371497000,
+      "focused": 17431900
     }
   },
   "budgetOverall": {
-    "all": 2856722640,
-    "focused": 109547700
+    "all": 3612837140,
+    "focused": 144839300
   },
   "ranked": null,
   "rankings": [],
-  "floodHotspots": [
-    {
-      "name": "ถนนเพชรเกษม",
-      "description": "จากหน้าตลาดบางแค ถึงคลองบางหว้า"
-    }
-  ],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 33,

@@ -10,6 +10,7 @@
     "generate": "next build && next export -o out/bkk-election"
   },
   "dependencies": {
+    "@wevisdemo/ui": "^3.1.0",
     "autoprefixer": "^10.2.3",
     "d3": "^6.5.0",
     "lodash": "^4.17.20",

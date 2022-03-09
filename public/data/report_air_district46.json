@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 82,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 82,
+    "year": 2563,
     "districtId": 46,
     "districtName": "สายไหม"
   },
   "maximumPoint": {
+    "value": 82,
+    "year": 2563,
     "districtId": 46,
     "districtName": "สายไหม"
   },
@@ -24,6 +30,12 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 34,
+      "year": 2563,
+      "value": 82
+    }
+  ],
   "sampling": null
 }

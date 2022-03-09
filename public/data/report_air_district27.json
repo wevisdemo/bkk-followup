@@ -1,5 +1,5 @@
 {
-  "value": 92,
+  "value": 89,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -7,18 +7,20 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": 87,
-    "2562": 92
+    "2561": 23,
+    "2562": 88,
+    "2563": 96,
+    "2564": 89
   },
   "minimumPoint": {
-    "value": 87,
+    "value": 23,
     "year": 2561,
     "districtId": 27,
     "districtName": "ปทุมวัน"
   },
   "maximumPoint": {
-    "value": 92,
-    "year": 2562,
+    "value": 96,
+    "year": 2563,
     "districtId": 27,
     "districtName": "ปทุมวัน"
   },
@@ -27,21 +29,31 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 3,
+  "ranked": 4,
   "rankings": [
     {
-      "ranked": 7,
+      "ranked": 19,
       "year": 2561,
-      "value": 87
+      "value": 23
     },
     {
-      "ranked": 3,
+      "ranked": 20,
       "year": 2562,
-      "value": 92
+      "value": 88
+    },
+    {
+      "ranked": 17,
+      "year": 2563,
+      "value": 96
+    },
+    {
+      "ranked": 4,
+      "year": 2564,
+      "value": 89
     }
   ],
   "sampling": {
-    "count": 24,
-    "aboveThresholdCount": 21
+    "count": 47,
+    "aboveThresholdCount": 39
   }
 }

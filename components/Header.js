@@ -53,7 +53,7 @@ export default function Header() {
             BKK
             <span
               className="text-green-default"
-              style={{ fontFamily: "TheMATTER" }}
+              style={{ fontFamily: "KondolarThai" }}
             >
               FOLLOW-UP
             </span>
@@ -150,7 +150,7 @@ export default function Header() {
                 BKK
                 <span
                   className="text-green-default"
-                  style={{ fontFamily: "TheMATTER" }}
+                  style={{ fontFamily: "KondolarThai" }}
                 >
                   FOLLOW-UP
                 </span>
@@ -195,7 +195,7 @@ export default function Header() {
                       onClick={() => selectMenu(1)}
                     >
                       <h5 className="d5 text-white-default">
-                        สำรวจดูงบประมาณกทม. ย้อนหลัง 8 ปี
+                        สำรวจดูงบประมาณกทม. ย้อนหลัง 10 ปี
                       </h5>
 
                       <img
@@ -286,7 +286,7 @@ export default function Header() {
                           />
 
                           <h5 className="ml-2 underline">
-                            ห้าแสนล้านใน 8 ปี: ว่าด้วยงบประมาณ
+                            ห้าแสนล้านใน 10 ปี: ว่าด้วยงบประมาณ
                             การจัดความสำคัญถึงการจัดสรรงบที่บิดเบี้ยว ของ กทม.
                           </h5>
                         </a>

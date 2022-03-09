@@ -1,5 +1,5 @@
 {
-  "value": 51,
+  "value": 6,
   "valuePerYear": {
     "2555": 25,
     "2556": 66,
@@ -8,11 +8,13 @@
     "2559": 177,
     "2560": 376,
     "2561": 59,
-    "2562": 51
+    "2562": 51,
+    "2563": 3,
+    "2564": 6
   },
   "minimumPoint": {
-    "value": 22,
-    "year": 2558,
+    "value": 3,
+    "year": 2563,
     "districtId": 49,
     "districtName": "หลักสี่"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 338958000,
       "focused": 13383000
+    },
+    "2563": {
+      "all": 346889000,
+      "focused": 13930900
+    },
+    "2564": {
+      "all": 340812000,
+      "focused": 13447900
     }
   },
   "budgetOverall": {
-    "all": 2617915240,
-    "focused": 104453000
+    "all": 3305616240,
+    "focused": 131831800
   },
-  "ranked": 4,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 7,
@@ -101,19 +111,41 @@
       "ranked": 4,
       "year": 2562,
       "value": 51
+    },
+    {
+      "ranked": 16,
+      "year": 2563,
+      "value": 3
+    },
+    {
+      "ranked": 12,
+      "year": 2564,
+      "value": 6
     }
   ],
   "floodHotspots": [
     {
       "name": "ถนนแจ้งวัฒนะ",
-      "description": "ช่วงจากคลองประปา ถึงคลองเปรมประชากร"
+      "description": "ศาลปกครองกลาง"
     },
     {
-      "name": "ถนนงามวงศ์วาน",
-      "description": "ปากซอยชินเขต (บริเวณหน้าตลาดพงษ์เพชร)"
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "หน้ากรมทหาร"
+    },
+    {
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "มทบ.11"
+    },
+    {
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "หน้าห้างโลตัส"
+    },
+    {
+      "name": "ถนนงานวงศ์วาน",
+      "description": "หน้าตลาดพงษ์เพชร"
     }
   ],
-  "meanFloodLevel": 34.5,
+  "meanFloodLevel": 15.83,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2559,

@@ -1,5 +1,5 @@
 {
-  "value": 59,
+  "value": 77,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -7,17 +7,19 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": 0,
-    "2562": 59
+    "2561": 22,
+    "2562": 186,
+    "2563": 107,
+    "2564": 77
   },
   "minimumPoint": {
-    "value": 0,
+    "value": 22,
     "year": 2561,
     "districtId": 35,
     "districtName": "ยานนาวา"
   },
   "maximumPoint": {
-    "value": 59,
+    "value": 186,
     "year": 2562,
     "districtId": 35,
     "districtName": "ยานนาวา"
@@ -30,18 +32,28 @@
   "ranked": 8,
   "rankings": [
     {
-      "ranked": 9,
+      "ranked": 21,
       "year": 2561,
-      "value": 0
+      "value": 22
+    },
+    {
+      "ranked": 1,
+      "year": 2562,
+      "value": 186
     },
     {
       "ranked": 8,
-      "year": 2562,
-      "value": 59
+      "year": 2563,
+      "value": 107
+    },
+    {
+      "ranked": 8,
+      "year": 2564,
+      "value": 77
     }
   ],
   "sampling": {
-    "count": 5,
-    "aboveThresholdCount": 4
+    "count": 28,
+    "aboveThresholdCount": 20
   }
 }

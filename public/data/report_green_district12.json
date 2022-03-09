@@ -1,5 +1,5 @@
 {
-  "value": 5.25,
+  "value": 9.37,
   "valuePerYear": {
     "2555": 3.37,
     "2556": 3.55,
@@ -8,7 +8,9 @@
     "2559": 4.77,
     "2560": 4.8,
     "2561": 5.15,
-    "2562": 5.25
+    "2562": 5.25,
+    "2563": 9.21,
+    "2564": 9.37
   },
   "minimumPoint": {
     "value": 3.37,
@@ -17,8 +19,8 @@
     "districtName": "ทุ่งครุ"
   },
   "maximumPoint": {
-    "value": 5.25,
-    "year": 2562,
+    "value": 9.37,
+    "year": 2564,
     "districtId": 12,
     "districtName": "ทุ่งครุ"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 369575000,
       "focused": 15544700
+    },
+    "2563": {
+      "all": 420644000,
+      "focused": 16023300
+    },
+    "2564": {
+      "all": 398016000,
+      "focused": 15948200
     }
   },
   "budgetOverall": {
-    "all": 2651351240,
-    "focused": 92188700
+    "all": 3470011240,
+    "focused": 124160200
   },
-  "ranked": 25,
+  "ranked": 30,
   "rankings": [
     {
       "ranked": 27,
@@ -101,7 +111,17 @@
       "ranked": 25,
       "year": 2562,
       "value": 5.25
+    },
+    {
+      "ranked": 29,
+      "year": 2563,
+      "value": 9.21
+    },
+    {
+      "ranked": 30,
+      "year": 2564,
+      "value": 9.37
     }
   ],
-  "publicGreenSpacePerCapita": 0.82
+  "publicGreenSpacePerCapita": null
 }

@@ -1,5 +1,5 @@
 {
-  "value": 25.22,
+  "value": 55.15,
   "valuePerYear": {
     "2555": 9.39,
     "2556": 11.14,
@@ -8,7 +8,9 @@
     "2559": 22.64,
     "2560": 22.35,
     "2561": 24.95,
-    "2562": 25.22
+    "2562": 25.22,
+    "2563": 51.49,
+    "2564": 55.15
   },
   "minimumPoint": {
     "value": 9.39,
@@ -17,8 +19,8 @@
     "districtName": "คันนายาว"
   },
   "maximumPoint": {
-    "value": 25.22,
-    "year": 2562,
+    "value": 55.15,
+    "year": 2564,
     "districtId": 4,
     "districtName": "คันนายาว"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 280056500,
       "focused": 27797100
+    },
+    "2563": {
+      "all": 283530900,
+      "focused": 27699900
+    },
+    "2564": {
+      "all": 281746000,
+      "focused": 34469900
     }
   },
   "budgetOverall": {
-    "all": 2214831740,
-    "focused": 158643900
+    "all": 2780108640,
+    "focused": 220813700
   },
-  "ranked": 1,
+  "ranked": 2,
   "rankings": [
     {
       "ranked": 7,
@@ -101,7 +111,17 @@
       "ranked": 1,
       "year": 2562,
       "value": 25.22
+    },
+    {
+      "ranked": 2,
+      "year": 2563,
+      "value": 51.49
+    },
+    {
+      "ranked": 2,
+      "year": 2564,
+      "value": 55.15
     }
   ],
-  "publicGreenSpacePerCapita": 0
+  "publicGreenSpacePerCapita": null
 }

@@ -3,6 +3,7 @@ import Head from "next/head";
 import config from "jsconfig.json";
 import { useRouter } from "next/router";
 
+
 function MetaHead() {
   let og_image = config.og_main;
   const router = useRouter();
@@ -20,7 +21,6 @@ function MetaHead() {
   return (
     <Head>
       <title>{config.title}</title>
-
       <meta name="description" content={config.description}></meta>
       <link rel="icon" type="image/x-icon" href="/bkk-election/favicon.ico" />
       <meta property="og:title" content={config.title} />
@@ -42,6 +42,10 @@ function MetaHead() {
       <meta name="twitter:image:src" content={config.web_url + og_image} />
 
       <meta property="twitter:url" content={og_url} />
+      <link
+        rel="stylesheet"
+        href="https://design-systems.wevis.info/typography.css"
+      />
     </Head>
   );
 }

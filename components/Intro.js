@@ -21,9 +21,8 @@ export default function Intro() {
 
   return (
     <div
-      className={`intro-page fixed z-30 inset-0 bg-black-default flex items-center ${
-        hide_intro ? 'hide-intro' : ''
-      }`}
+      className={`intro-page fixed z-30 inset-0 bg-black-default flex items-center ${hide_intro ? 'hide-intro' : ''
+        }`}
       onClick={() => hideIntro(true)}
     >
       <img
@@ -33,47 +32,47 @@ export default function Intro() {
       />
 
       <div className="container relative z-10 mx-auto">
-        <div className="flex flex-col items-center justify-center text-center lg:flex-row text-white-default lg:text-left">
+        <div className="flex flex-col items-center justify-center text-center lg:flex-row text-green-default lg:text-left">
           <h1 className="mb-5 mr-0 leading-tight d1 lg:mr-20 lg:mb-0">
-            BANGKOK
+            OPEN
             <br />
             <span
-              className="text-green-default"
-              style={{ fontFamily: 'TheMATTER' }}
+              className=" text-white-default"
+              style={{ fontFamily: 'KondolarThai' }}
             >
-              FOLLOW-UP
+              BANGKOK
             </span>
           </h1>
 
-          <div className="right">
+          <div className="right text-white-default">
             <h3 className="leading-tight d3">
-              สำรวจย้อนหลัง 8 ปีกับ
+              สำรวจย้อนหลัง 10 ปีกับ
               <br />
               ปัญหาที่กวนใจชาวกทม.
             </h3>
 
-            <div className="flex items-center justify-center mt-8 lg:justify-start lg:mt-4 social-wrap">
-              <h4 className="d4">Share:</h4>
+            <div className="flex items-center justify-center mt-8 space-x-3 lg:justify-start lg:mt-4 social-wrap opacity-80">
+              <h4 className="p1">Share</h4>
 
               <FacebookShareButton
                 url={config.web_url}
-                className="ml-4 cursor-pointer social"
+                className="cursor-pointer social"
               >
-                <img width={40} src={fb_share} alt={fb_share} />
+                <img width={30} src={fb_share} alt={fb_share} />
               </FacebookShareButton>
 
               <TwitterShareButton
                 url={config.web_url}
-                className="ml-4 cursor-pointer social"
+                className="cursor-pointer social"
               >
-                <img width={40} src={twitter_share} alt={twitter_share} />
+                <img width={30} src={twitter_share} alt={twitter_share} />
               </TwitterShareButton>
 
               <LineShareButton
                 url={config.web_url}
-                className="ml-4 cursor-pointer social"
+                className="cursor-pointer social"
               >
-                <img width={40} src={line_share} alt={line_share} />
+                <img width={30} src={line_share} alt={line_share} />
               </LineShareButton>
             </div>
           </div>

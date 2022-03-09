@@ -31,7 +31,7 @@ const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK }) => {
     title = 'อันดับขยะมูลฝอยในกรุงเทพมหานคร';
     sub = 'ปริมาณขยะต่อคนต่อวัน (กก./คน/วัน)';
     standard = 1.8;
-    avg = 'ปริมาณขยะมูลฝอยต่อคนต่อวันโดยทั้งประเทศ ปี 2562 คือ 1.180 กก.';
+    avg = 'ปริมาณขยะมูลฝอยต่อคนต่อวันโดยทั้งประเทศ ปี 2564 คือ 1.180 กก.';
     unit = 'กก./คน/วัน';
     note = 'สํานักยุทธศาสตร์และประเมินผล และสำนักงบประมาณ กรุงเทพมหานคร ';
   } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
@@ -78,7 +78,7 @@ const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK }) => {
       >
         <p className="font-bold d4">{title}</p>
         <p className="my-2 font-bold h4 lg:my-0">
-          {isMobile ? 'ภาพรวมย้อนหลัง 8 ปี (2555-2562)' : 'ข้อมูลประจำปี 2562'}
+          {isMobile ? 'ภาพรวมย้อนหลัง 10 ปี (2555-2564)' : 'ข้อมูลประจำปี 2564'}
         </p>
         <span className="flex flex-col m-auto p1 md:flex-row">
           <p className="mb-2 lg:mb-0">{sub}</p>

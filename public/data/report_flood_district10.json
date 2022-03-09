@@ -8,7 +8,9 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": null,
+    "2564": null
   },
   "minimumPoint": {
     "districtId": 10,
@@ -50,24 +52,22 @@
     "2562": {
       "all": 349026000,
       "focused": 34917700
+    },
+    "2563": {
+      "all": 402209640,
+      "focused": 11723400
+    },
+    "2564": {
+      "all": 377889000,
+      "focused": 11308800
     }
   },
   "budgetOverall": {
-    "all": 2626062340,
-    "focused": 176824400
+    "all": 3406160980,
+    "focused": 199856600
   },
   "ranked": null,
   "rankings": [],
-  "floodHotspots": [
-    {
-      "name": "ถนนฉิมพลี",
-      "description": "จากอู่สง่า ถึงถนนบรมราชชนนี"
-    },
-    {
-      "name": "ถนนเลียบทางรถไฟสายใต้ฝั่งขาออก",
-      "description": "บริเวณวงเวียนชัยพฤกษ์"
-    }
-  ],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 10,

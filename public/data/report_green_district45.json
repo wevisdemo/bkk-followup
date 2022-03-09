@@ -1,5 +1,5 @@
 {
-  "value": 4.49,
+  "value": 8.76,
   "valuePerYear": {
     "2555": 3.81,
     "2556": 3.93,
@@ -8,7 +8,9 @@
     "2559": 3.94,
     "2560": 4,
     "2561": 4.33,
-    "2562": 4.49
+    "2562": 4.49,
+    "2563": 8.49,
+    "2564": 8.76
   },
   "minimumPoint": {
     "value": 3.81,
@@ -17,8 +19,8 @@
     "districtName": "สาทร"
   },
   "maximumPoint": {
-    "value": 4.49,
-    "year": 2562,
+    "value": 8.76,
+    "year": 2564,
     "districtId": 45,
     "districtName": "สาทร"
   },
@@ -54,11 +56,19 @@
     "2562": {
       "all": 280869000,
       "focused": 18790500
+    },
+    "2563": {
+      "all": 305809000,
+      "focused": 17551300
+    },
+    "2564": {
+      "all": 283010000,
+      "focused": 17591900
     }
   },
   "budgetOverall": {
-    "all": 2097487740,
-    "focused": 109687400
+    "all": 2686306740,
+    "focused": 144830600
   },
   "ranked": 31,
   "rankings": [
@@ -101,7 +111,17 @@
       "ranked": 31,
       "year": 2562,
       "value": 4.49
+    },
+    {
+      "ranked": 31,
+      "year": 2563,
+      "value": 8.49
+    },
+    {
+      "ranked": 31,
+      "year": 2564,
+      "value": 8.76
     }
   ],
-  "publicGreenSpacePerCapita": 0.84
+  "publicGreenSpacePerCapita": null
 }

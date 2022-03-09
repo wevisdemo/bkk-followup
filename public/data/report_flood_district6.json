@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 1,
   "valuePerYear": {
     "2555": null,
     "2556": 11,
@@ -8,11 +8,13 @@
     "2559": null,
     "2560": 2,
     "2561": 6,
-    "2562": null
+    "2562": null,
+    "2563": 1,
+    "2564": 1
   },
   "minimumPoint": {
-    "value": 2,
-    "year": 2560,
+    "value": 1,
+    "year": 2563,
     "districtId": 6,
     "districtName": "จอมทอง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 373745200,
       "focused": 22176100
+    },
+    "2563": {
+      "all": 396522000,
+      "focused": 20442600
+    },
+    "2564": {
+      "all": 403287000,
+      "focused": 13533400
     }
   },
   "budgetOverall": {
-    "all": 3359187140,
-    "focused": 198419500
+    "all": 4158996140,
+    "focused": 232395500
   },
-  "ranked": null,
+  "ranked": 22,
   "rankings": [
     {
       "ranked": 13,
@@ -76,15 +86,25 @@
       "ranked": 21,
       "year": 2561,
       "value": 6
+    },
+    {
+      "ranked": 22,
+      "year": 2563,
+      "value": 1
+    },
+    {
+      "ranked": 22,
+      "year": 2564,
+      "value": 1
     }
   ],
   "floodHotspots": [
     {
       "name": "ถนนจอมทอง",
-      "description": "บริเวณแยกวุฒากาศ"
+      "description": "แยกจอมทอง จอมทอง 17 ทั้งสองฝั่ง"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 7.5,
   "meanFloodLevelMaximumPoint": {
     "value": 30.5,
     "year": 2561,

@@ -1,5 +1,5 @@
 {
-  "value": 2,
+  "value": 1.654,
   "valuePerYear": {
     "2555": 1.822,
     "2556": 1.812,
@@ -8,19 +8,21 @@
     "2559": 1.899,
     "2560": 1.941,
     "2561": 1.941,
-    "2562": 2
+    "2562": 2,
+    "2563": 1.766,
+    "2564": 1.654
   },
   "minimumPoint": {
-    "districtId": 15,
-    "districtName": "บางกอกใหญ่",
-    "year": 2560,
-    "value": 1.116
+    "districtId": 44,
+    "districtName": "สัมพันธวงศ์",
+    "year": 2564,
+    "value": 0.38
   },
   "maximumPoint": {
-    "districtId": 32,
-    "districtName": "พระนคร",
-    "year": 2562,
-    "value": 4.057
+    "districtId": 13,
+    "districtName": "ธนบุรี",
+    "year": 2564,
+    "value": 6.219
   },
   "budgetPerYear": {
     "2555": {
@@ -54,93 +56,101 @@
     "2562": {
       "all": 2799453900,
       "focused": 1171965000
+    },
+    "2563": {
+      "all": 3003276588,
+      "focused": 1203183300
+    },
+    "2564": {
+      "all": 2912096890,
+      "focused": 1193762600
     }
   },
   "budgetOverall": {
-    "all": 22597869260,
-    "focused": 8541627400
+    "all": 28513242738,
+    "focused": 10938573300
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 32,
-      "districtName": "พระนคร",
-      "value": 4.057
+      "districtId": 13,
+      "districtName": "ธนบุรี",
+      "value": 6.219
     },
     {
       "ranked": 2,
-      "districtId": 44,
-      "districtName": "สัมพันธวงศ์",
-      "value": 2.442
+      "districtId": 14,
+      "districtName": "บางกอกน้อย",
+      "value": 2.196
     },
     {
       "ranked": 3,
-      "districtId": 9,
-      "districtName": "ดุสิต",
-      "value": 1.866
+      "districtId": 24,
+      "districtName": "บางพลัด",
+      "value": 1.612
     },
     {
       "ranked": 4,
-      "districtId": 2,
-      "districtName": "คลองสาน",
-      "value": 1.847
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 1.376
     },
     {
       "ranked": 5,
-      "districtId": 29,
-      "districtName": "ป้อมปราบศัตรูพ่าย",
-      "value": 1.827
+      "districtId": 2,
+      "districtName": "คลองสาน",
+      "value": 1.222
     },
     {
       "ranked": 6,
-      "districtId": 24,
-      "districtName": "บางพลัด",
-      "value": 1.709
+      "districtId": 15,
+      "districtName": "บางกอกใหญ่",
+      "value": 0.731
     },
     {
       "ranked": 7,
-      "districtId": 14,
-      "districtName": "บางกอกน้อย",
-      "value": 1.559
+      "districtId": 32,
+      "districtName": "พระนคร",
+      "value": 0.664
     },
     {
       "ranked": 8,
-      "districtId": 13,
-      "districtName": "ธนบุรี",
-      "value": 1.515
+      "districtId": 29,
+      "districtName": "ป้อมปราบศัตรูพ่าย",
+      "value": 0.489
     },
     {
       "ranked": 9,
-      "districtId": 15,
-      "districtName": "บางกอกใหญ่",
-      "value": 1.179
+      "districtId": 44,
+      "districtName": "สัมพันธวงศ์",
+      "value": 0.38
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 1.864
+      "value": 1.569
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 1.682
+      "value": 2.218
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 1.374
+      "value": 1.707
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 2
+      "value": 1.654
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 2.821
+      "value": 1.851
     }
   ]
 }

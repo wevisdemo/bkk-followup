@@ -8,7 +8,9 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": null,
+    "2564": null
   },
   "minimumPoint": {
     "districtId": 43,
@@ -50,20 +52,22 @@
     "2562": {
       "all": 316401000,
       "focused": 15761900
+    },
+    "2563": {
+      "all": 335301000,
+      "focused": 24229900
+    },
+    "2564": {
+      "all": 324124000,
+      "focused": 22989500
     }
   },
   "budgetOverall": {
-    "all": 2456411100,
-    "focused": 145842100
+    "all": 3115836100,
+    "focused": 193061500
   },
   "ranked": null,
   "rankings": [],
-  "floodHotspots": [
-    {
-      "name": "ถนนกรุงเทพกรีฑา",
-      "description": "จากถนนศรีนครินทร์ถึงคลองทับช้างล่าง"
-    }
-  ],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 43,

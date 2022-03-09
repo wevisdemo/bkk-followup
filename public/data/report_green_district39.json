@@ -1,5 +1,5 @@
 {
-  "value": 5.34,
+  "value": 10.88,
   "valuePerYear": {
     "2555": 4.87,
     "2556": 4.91,
@@ -8,7 +8,9 @@
     "2559": 5.51,
     "2560": 5.11,
     "2561": 5.28,
-    "2562": 5.34
+    "2562": 5.34,
+    "2563": 10.73,
+    "2564": 10.88
   },
   "minimumPoint": {
     "value": 4.87,
@@ -17,8 +19,8 @@
     "districtName": "ลาดพร้าว"
   },
   "maximumPoint": {
-    "value": 5.51,
-    "year": 2559,
+    "value": 10.88,
+    "year": 2564,
     "districtId": 39,
     "districtName": "ลาดพร้าว"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 375002000,
       "focused": 22712300
+    },
+    "2563": {
+      "all": 385094000,
+      "focused": 21658100
+    },
+    "2564": {
+      "all": 359752000,
+      "focused": 18130300
     }
   },
   "budgetOverall": {
-    "all": 2886271540,
-    "focused": 186628600
+    "all": 3631117540,
+    "focused": 226417000
   },
-  "ranked": 24,
+  "ranked": 22,
   "rankings": [
     {
       "ranked": 19,
@@ -101,7 +111,17 @@
       "ranked": 24,
       "year": 2562,
       "value": 5.34
+    },
+    {
+      "ranked": 22,
+      "year": 2563,
+      "value": 10.73
+    },
+    {
+      "ranked": 22,
+      "year": 2564,
+      "value": 10.88
     }
   ],
-  "publicGreenSpacePerCapita": 0.3
+  "publicGreenSpacePerCapita": null
 }

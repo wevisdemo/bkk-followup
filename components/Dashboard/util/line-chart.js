@@ -18,6 +18,8 @@ export default function DashboardLineChart({
         { year: '60', value: 22.53 },
         { year: '61', value: 22.53 },
         { year: '62', value: 22.53 },
+        { year: '63', value: 22.53 },
+        { year: '64', value: 22.53 },
       ];
     } else if (selected_theme.name === 'พื้นที่สีเขียว') {
       AVG = [
@@ -29,6 +31,8 @@ export default function DashboardLineChart({
         { year: '60', value: 9 },
         { year: '61', value: 9 },
         { year: '62', value: 9 },
+        { year: '63', value: 9 },
+        { year: '64', value: 9 },
       ];
     } else if (selected_theme.name === 'มลพิษในคลอง') {
       AVG = [
@@ -40,6 +44,8 @@ export default function DashboardLineChart({
         { year: '60', value: 15 },
         { year: '61', value: 15 },
         { year: '62', value: 15 },
+        { year: '63', value: 15 },
+        { year: '64', value: 15 },
       ];
     } else if (selected_theme.name === 'ขยะมูลฝอย') {
       AVG = [
@@ -51,6 +57,8 @@ export default function DashboardLineChart({
         { year: '60', value: 1.13 },
         { year: '61', value: 1.15 },
         { year: '62', value: 1.18 },
+        { year: '63', value: 1.18 },
+        { year: '64', value: 1.18 },
       ];
     } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
       AVG = [
@@ -62,6 +70,8 @@ export default function DashboardLineChart({
         { year: '60', value: 25 },
         { year: '61', value: 25 },
         { year: '62', value: 25 },
+        { year: '63', value: 25 },
+        { year: '64', value: 25 },
       ];
     }
 

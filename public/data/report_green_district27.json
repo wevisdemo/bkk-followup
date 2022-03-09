@@ -1,5 +1,5 @@
 {
-  "value": 19.21,
+  "value": 26.4,
   "valuePerYear": {
     "2555": 13,
     "2556": 13.59,
@@ -8,7 +8,9 @@
     "2559": 15.65,
     "2560": 16.06,
     "2561": 18.54,
-    "2562": 19.21
+    "2562": 19.21,
+    "2563": 23.96,
+    "2564": 26.4
   },
   "minimumPoint": {
     "value": 13,
@@ -17,8 +19,8 @@
     "districtName": "ปทุมวัน"
   },
   "maximumPoint": {
-    "value": 19.21,
-    "year": 2562,
+    "value": 26.4,
+    "year": 2564,
     "districtId": 27,
     "districtName": "ปทุมวัน"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 336891000,
       "focused": 19103600
+    },
+    "2563": {
+      "all": 354141000,
+      "focused": 19880700
+    },
+    "2564": {
+      "all": 666259000,
+      "focused": 19524500
     }
   },
   "budgetOverall": {
-    "all": 2559742240,
-    "focused": 86939500
+    "all": 3580142240,
+    "focused": 126344700
   },
-  "ranked": 3,
+  "ranked": 6,
   "rankings": [
     {
       "ranked": 4,
@@ -101,7 +111,17 @@
       "ranked": 3,
       "year": 2562,
       "value": 19.21
+    },
+    {
+      "ranked": 7,
+      "year": 2563,
+      "value": 23.96
+    },
+    {
+      "ranked": 6,
+      "year": 2564,
+      "value": 26.4
     }
   ],
-  "publicGreenSpacePerCapita": 11.82
+  "publicGreenSpacePerCapita": null
 }

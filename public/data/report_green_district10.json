@@ -1,5 +1,5 @@
 {
-  "value": 13.47,
+  "value": 27.29,
   "valuePerYear": {
     "2555": 7.03,
     "2556": 7.61,
@@ -8,7 +8,9 @@
     "2559": 10.87,
     "2560": 9.58,
     "2561": 13.44,
-    "2562": 13.47
+    "2562": 13.47,
+    "2563": 26.69,
+    "2564": 27.29
   },
   "minimumPoint": {
     "value": 7.03,
@@ -17,8 +19,8 @@
     "districtName": "ตลิ่งชัน"
   },
   "maximumPoint": {
-    "value": 13.47,
-    "year": 2562,
+    "value": 27.29,
+    "year": 2564,
     "districtId": 10,
     "districtName": "ตลิ่งชัน"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 349026000,
       "focused": 37518300
+    },
+    "2563": {
+      "all": 402209640,
+      "focused": 34335700
+    },
+    "2564": {
+      "all": 377889000,
+      "focused": 36893700
     }
   },
   "budgetOverall": {
-    "all": 2626062340,
-    "focused": 161098900
+    "all": 3406160980,
+    "focused": 232328300
   },
-  "ranked": 8,
+  "ranked": 5,
   "rankings": [
     {
       "ranked": 9,
@@ -101,7 +111,17 @@
       "ranked": 8,
       "year": 2562,
       "value": 13.47
+    },
+    {
+      "ranked": 5,
+      "year": 2563,
+      "value": 26.69
+    },
+    {
+      "ranked": 5,
+      "year": 2564,
+      "value": 27.29
     }
   ],
-  "publicGreenSpacePerCapita": 0.17
+  "publicGreenSpacePerCapita": null
 }

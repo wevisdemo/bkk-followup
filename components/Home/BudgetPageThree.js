@@ -302,6 +302,72 @@ export default function BudgetPageThree(props) {
         },
       ],
     },
+    {
+      year: 2563,
+      values: [
+        {
+          title: "การศึกษา",
+          value: 8053350000,
+        },
+        {
+          title: "สาธารณสุข",
+          value: 7051129006,
+        },
+        {
+          title: "การพัฒนาและบริการสังคม",
+          value: 4081458420,
+        },
+        {
+          title: "การระบายน้ำและกำจัดน้ำเสีย",
+          value: 9345353542,
+        },
+        {
+          title: "การโยธาและระบบจราจร",
+          value: 17436611780,
+        },
+        {
+          title: "การรักษาความสะอาดและความเป็นระเบียบเรียบร้อย",
+          value: 16633788400,
+        },
+        {
+          title: "การบริหารทั่วไป (สำหรับการจัดการภายในและการวางแผน)",
+          value: 22968370453,
+        },
+      ],
+    },
+    {
+      year: 2564,
+      values: [
+        {
+          title: "การศึกษา",
+          value: 7621625920,
+        },
+        {
+          title: "สาธารณสุข",
+          value: 6784159830,
+        },
+        {
+          title: "การพัฒนาและบริการสังคม",
+          value: 3483279660,
+        },
+        {
+          title: "การระบายน้ำและกำจัดน้ำเสีย",
+          value: 7039096530,
+        },
+        {
+          title: "การโยธาและระบบจราจร",
+          value: 12505475115,
+        },
+        {
+          title: "การรักษาความสะอาดและความเป็นระเบียบเรียบร้อย",
+          value: 16338304330,
+        },
+        {
+          title: "การบริหารทั่วไป (สำหรับการจัดการภายในและการวางแผน)",
+          value: 21728058615,
+        },
+      ],
+    },
   ];
   chart_data = _.map(chart_data, (d) => {
     const sum = _.sumBy(d.values, "value");
@@ -329,22 +395,22 @@ export default function BudgetPageThree(props) {
 
   return (
     <div
-      className="budget-page-three fixed inset-x-0 bottom-0 z-10 pointer-events-none bg-black-default text-white-default"
+      className="fixed inset-x-0 bottom-0 z-10 pointer-events-none budget-page-three bg-black-default text-white-default"
       style={{ top: "60px" }}
     >
-      <div className="container h-full mx-auto py-5">
+      <div className="container h-full py-5 mx-auto">
         <div className="grid h-full grid-cols-1 gap-5 lg:grid-cols-2">
           <div className="text-left left lg:w-4/5 md:text-center lg:text-left">
-            <h3 className="d3">8 ปีที่ผ่านมา กทม. ใช้งบประมาณไป</h3>
+            <h3 className="d3">10 ปีที่ผ่านมา กทม. ใช้งบประมาณไป</h3>
 
-            <h2 className="d2">581,112,916,500 บาท</h2>
+            <h2 className="d2">742,182,978,101 บาท</h2>
 
             <h4 className="hidden mt-6 d4 md:block">
               งบประมาณ กทม. ใช้ไปกับอะไรบ้าง?
             </h4>
 
             {(isMobileOnly && active_index === 5) ||
-            (!isMobile && show_legend) ? (
+              (!isMobile && show_legend) ? (
               <>
                 <h5 className="block d5 mt-7 lg:hidden">
                   งบประมาณ กทม. ใช้ไปกับอะไรบ้าง?
@@ -367,7 +433,7 @@ export default function BudgetPageThree(props) {
 
           {!isMobileOnly || active_index === 6 ? (
             <div className="flex items-center right">
-              <div className="grid w-full grid-cols-8 gap-2 text-center chart lg:gap-4 lg:w-auto">
+              <div className="grid w-full grid-cols-10 gap-2 text-center chart lg:gap-3 lg:w-auto">
                 {chart_data.map((d) => (
                   <div key={d.year} className="bar">
                     <div
@@ -376,8 +442,8 @@ export default function BudgetPageThree(props) {
                         height: isTablet
                           ? "calc(100vh - 500px)"
                           : isMobileOnly
-                          ? "calc(100vh - 455px)"
-                          : "560px",
+                            ? "calc(100vh - 455px)"
+                            : "560px",
                       }}
                     >
                       {d.values.map((v) => (

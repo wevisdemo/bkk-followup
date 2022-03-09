@@ -7,13 +7,13 @@ const listRanking = ({ selected_theme, data }) => {
     subtitle = 'เรียงลำดับจากมากไปน้อย';
     unit = 'ครั้ง';
   } else if (selected_theme.name === 'พื้นที่สีเขียว') {
-    title = 'ปริมาณพื้นที่สีเขียว ปี 2562';
+    title = 'ปริมาณพื้นที่สีเขียว ปี 2564';
     subtitle = 'เรียงลำดับจากมากไปน้อย';
     unit = 'ตร.ม./คน';
     standard = 9;
     std_text = 'ค่ามาตรฐานตาม WHO 9 ตร.ม./คน';
   } else if (selected_theme.name === 'มลพิษในคลอง') {
-    title = 'ค่า BOD ในน้ำคลอง ปี 2562';
+    title = 'ค่า BOD ในน้ำคลอง ปี 2564';
     subtitle = 'เรียงลำดับจากมากไปน้อย';
     unit = 'มก./ลิตร';
     standard = 15;
@@ -25,7 +25,7 @@ const listRanking = ({ selected_theme, data }) => {
     standard = 1.8;
     std_text = 'ค่าเฉลี่ย 1.80 kg';
   } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
-    title = 'ค่าสูงสุดของ PM2.5 ปี 2562';
+    title = 'ค่าสูงสุดของ PM2.5 ปี 2564';
     subtitle = 'เรียงลำดับจากมากไปน้อย';
     unit = 'มค.ก./ลบ.ม.';
     standard = 25;

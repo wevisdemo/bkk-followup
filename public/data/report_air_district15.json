@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 90,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 90,
+    "year": 2563,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   },
   "maximumPoint": {
+    "value": 90,
+    "year": 2563,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   },
@@ -24,6 +30,12 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 26,
+      "year": 2563,
+      "value": 90
+    }
+  ],
   "sampling": null
 }

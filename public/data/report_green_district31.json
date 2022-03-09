@@ -1,5 +1,5 @@
 {
-  "value": 3.28,
+  "value": 6.85,
   "valuePerYear": {
     "2555": 2.64,
     "2556": 2.78,
@@ -8,7 +8,9 @@
     "2559": 3.06,
     "2560": 3.13,
     "2561": 3.23,
-    "2562": 3.28
+    "2562": 3.28,
+    "2563": 6.54,
+    "2564": 6.85
   },
   "minimumPoint": {
     "value": 2.64,
@@ -17,8 +19,8 @@
     "districtName": "พระโขนง"
   },
   "maximumPoint": {
-    "value": 3.28,
-    "year": 2562,
+    "value": 6.85,
+    "year": 2564,
     "districtId": 31,
     "districtName": "พระโขนง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 277170000,
       "focused": 19378400
+    },
+    "2563": {
+      "all": 281172800,
+      "focused": 19442100
+    },
+    "2564": {
+      "all": 283091000,
+      "focused": 18900400
     }
   },
   "budgetOverall": {
-    "all": 2302718540,
-    "focused": 135808000
+    "all": 2866982340,
+    "focused": 174150500
   },
-  "ranked": 37,
+  "ranked": 36,
   "rankings": [
     {
       "ranked": 34,
@@ -101,7 +111,17 @@
       "ranked": 37,
       "year": 2562,
       "value": 3.28
+    },
+    {
+      "ranked": 36,
+      "year": 2563,
+      "value": 6.54
+    },
+    {
+      "ranked": 36,
+      "year": 2564,
+      "value": 6.85
     }
   ],
-  "publicGreenSpacePerCapita": 0.14
+  "publicGreenSpacePerCapita": null
 }

@@ -1,5 +1,5 @@
 {
-  "value": 104,
+  "value": 131,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -7,18 +7,20 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": 97,
-    "2562": 104
+    "2561": 21,
+    "2562": 94,
+    "2563": 114,
+    "2564": 131
   },
   "minimumPoint": {
-    "value": 97,
+    "value": 21,
     "year": 2561,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   },
   "maximumPoint": {
-    "value": 104,
-    "year": 2562,
+    "value": 131,
+    "year": 2564,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   },
@@ -30,18 +32,28 @@
   "ranked": 1,
   "rankings": [
     {
-      "ranked": 3,
+      "ranked": 22,
       "year": 2561,
-      "value": 97
+      "value": 21
+    },
+    {
+      "ranked": 11,
+      "year": 2562,
+      "value": 94
+    },
+    {
+      "ranked": 4,
+      "year": 2563,
+      "value": 114
     },
     {
       "ranked": 1,
-      "year": 2562,
-      "value": 104
+      "year": 2564,
+      "value": 131
     }
   ],
   "sampling": {
-    "count": 15,
-    "aboveThresholdCount": 15
+    "count": 38,
+    "aboveThresholdCount": 33
   }
 }

@@ -1,5 +1,5 @@
 {
-  "value": 3.03,
+  "value": 6.27,
   "valuePerYear": {
     "2555": 2.82,
     "2556": 2.89,
@@ -8,7 +8,9 @@
     "2559": 2.98,
     "2560": 2.93,
     "2561": 3.04,
-    "2562": 3.03
+    "2562": 3.03,
+    "2563": 6.11,
+    "2564": 6.27
   },
   "minimumPoint": {
     "value": 2.82,
@@ -17,8 +19,8 @@
     "districtName": "ภาษีเจริญ"
   },
   "maximumPoint": {
-    "value": 3.04,
-    "year": 2561,
+    "value": 6.27,
+    "year": 2564,
     "districtId": 33,
     "districtName": "ภาษีเจริญ"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 378914000,
       "focused": 17949900
+    },
+    "2563": {
+      "all": 384617500,
+      "focused": 18993700
+    },
+    "2564": {
+      "all": 371497000,
+      "focused": 18091500
     }
   },
   "budgetOverall": {
-    "all": 2856722640,
-    "focused": 128567900
+    "all": 3612837140,
+    "focused": 165653100
   },
-  "ranked": 41,
+  "ranked": 39,
   "rankings": [
     {
       "ranked": 31,
@@ -101,7 +111,17 @@
       "ranked": 41,
       "year": 2562,
       "value": 3.03
+    },
+    {
+      "ranked": 38,
+      "year": 2563,
+      "value": 6.11
+    },
+    {
+      "ranked": 39,
+      "year": 2564,
+      "value": 6.27
     }
   ],
-  "publicGreenSpacePerCapita": 0
+  "publicGreenSpacePerCapita": null
 }

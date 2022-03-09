@@ -1,5 +1,5 @@
 {
-  "value": 13.21,
+  "value": 19.47,
   "valuePerYear": {
     "2555": 3.36,
     "2556": 3.41,
@@ -8,7 +8,9 @@
     "2559": 3.67,
     "2560": 12.28,
     "2561": 12.5,
-    "2562": 13.21
+    "2562": 13.21,
+    "2563": 18.16,
+    "2564": 19.47
   },
   "minimumPoint": {
     "value": 3.36,
@@ -17,8 +19,8 @@
     "districtName": "ดุสิต"
   },
   "maximumPoint": {
-    "value": 13.21,
-    "year": 2562,
+    "value": 19.47,
+    "year": 2564,
     "districtId": 9,
     "districtName": "ดุสิต"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 368957000,
       "focused": 21428900
+    },
+    "2563": {
+      "all": 401245000,
+      "focused": 22129400
+    },
+    "2564": {
+      "all": 384486000,
+      "focused": 20551000
     }
   },
   "budgetOverall": {
-    "all": 2864337040,
-    "focused": 121016100
+    "all": 3650068040,
+    "focused": 163696500
   },
-  "ranked": 9,
+  "ranked": 11,
   "rankings": [
     {
       "ranked": 28,
@@ -101,7 +111,17 @@
       "ranked": 9,
       "year": 2562,
       "value": 13.21
+    },
+    {
+      "ranked": 13,
+      "year": 2563,
+      "value": 18.16
+    },
+    {
+      "ranked": 11,
+      "year": 2564,
+      "value": 19.47
     }
   ],
-  "publicGreenSpacePerCapita": 0.29
+  "publicGreenSpacePerCapita": null
 }

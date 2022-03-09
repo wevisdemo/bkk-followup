@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 2,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 2,
+    "2564": 2
   },
   "minimumPoint": {
+    "value": 2,
+    "year": 2563,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   },
   "maximumPoint": {
+    "value": 2,
+    "year": 2563,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   },
@@ -50,22 +56,47 @@
     "2562": {
       "all": 552423000,
       "focused": 19327600
+    },
+    "2563": {
+      "all": 626049000,
+      "focused": 24594700
+    },
+    "2564": {
+      "all": 550032000,
+      "focused": 20138500
     }
   },
   "budgetOverall": {
-    "all": 4234779840,
-    "focused": 146108500
+    "all": 5410860840,
+    "focused": 190841700
   },
-  "ranked": null,
-  "rankings": [],
-  "floodHotspots": [
+  "ranked": 19,
+  "rankings": [
     {
-      "name": "ถนนบางขุนเทียน ชายทะเล",
-      "description": "ช่วงจากถนนพระรามที่ 2 ถึงคลองสะแกงาม"
+      "ranked": 18,
+      "year": 2563,
+      "value": 2
+    },
+    {
+      "ranked": 19,
+      "year": 2564,
+      "value": 2
     }
   ],
-  "meanFloodLevel": null,
+  "floodHotspots": [
+    {
+      "name": "ถนนบางขุนเทียนชายทะเล",
+      "description": "ขาเข้าหน้าปั้มปตท. ถนนพระราม 2"
+    },
+    {
+      "name": "ถนนท่าข้าม",
+      "description": "ท่าข้าม ซ.6 ฝั่งตรงข้าม ซ.5"
+    }
+  ],
+  "meanFloodLevel": 15,
   "meanFloodLevelMaximumPoint": {
+    "value": 17.5,
+    "year": 2563,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   }

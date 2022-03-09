@@ -1,5 +1,5 @@
 {
-  "value": 20.2,
+  "value": 37.68,
   "valuePerYear": {
     "2555": 13.26,
     "2556": 13.99,
@@ -8,7 +8,9 @@
     "2559": 11.39,
     "2560": 15.51,
     "2561": 20.17,
-    "2562": 20.2
+    "2562": 20.2,
+    "2563": 37.45,
+    "2564": 37.68
   },
   "minimumPoint": {
     "value": 11.39,
@@ -17,8 +19,8 @@
     "districtName": "ทวีวัฒนา"
   },
   "maximumPoint": {
-    "value": 20.2,
-    "year": 2562,
+    "value": 37.68,
+    "year": 2564,
     "districtId": 11,
     "districtName": "ทวีวัฒนา"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 359861400,
       "focused": 35338100
+    },
+    "2563": {
+      "all": 376179600,
+      "focused": 41109600
+    },
+    "2564": {
+      "all": 369759000,
+      "focused": 43828800
     }
   },
   "budgetOverall": {
-    "all": 2568671140,
-    "focused": 160896500
+    "all": 3314609740,
+    "focused": 245834900
   },
-  "ranked": 2,
+  "ranked": 3,
   "rankings": [
     {
       "ranked": 3,
@@ -101,7 +111,17 @@
       "ranked": 2,
       "year": 2562,
       "value": 20.2
+    },
+    {
+      "ranked": 3,
+      "year": 2563,
+      "value": 37.45
+    },
+    {
+      "ranked": 3,
+      "year": 2564,
+      "value": 37.68
     }
   ],
-  "publicGreenSpacePerCapita": 0.03
+  "publicGreenSpacePerCapita": null
 }

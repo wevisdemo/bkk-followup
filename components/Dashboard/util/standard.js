@@ -62,7 +62,7 @@ const standard = ({ selected_theme }) => {
           </p>
           <span className="flex p1 ">
             <p className="font-bold">หมายเหตุ</p>
-            <p className="pl-2">ข้อมูลอัปเดท 2562</p>
+            <p className="pl-2">ข้อมูลอัปเดท 2564</p>
           </span>
           <p className="p3">ที่มา: ศูนย์ออกแบบและพัฒนาเมือง (UddC)</p>
         </div>

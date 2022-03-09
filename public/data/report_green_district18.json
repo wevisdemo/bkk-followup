@@ -1,5 +1,5 @@
 {
-  "value": 5.46,
+  "value": 13.44,
   "valuePerYear": {
     "2555": 2.55,
     "2556": 2.81,
@@ -8,7 +8,9 @@
     "2559": 4.27,
     "2560": 5.09,
     "2561": 5.4,
-    "2562": 5.46
+    "2562": 5.46,
+    "2563": 13.17,
+    "2564": 13.44
   },
   "minimumPoint": {
     "value": 2.55,
@@ -17,8 +19,8 @@
     "districtName": "บางเขน"
   },
   "maximumPoint": {
-    "value": 5.46,
-    "year": 2562,
+    "value": 13.44,
+    "year": 2564,
     "districtId": 18,
     "districtName": "บางเขน"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 390354000,
       "focused": 24112700
+    },
+    "2563": {
+      "all": 433887600,
+      "focused": 25472300
+    },
+    "2564": {
+      "all": 415122600,
+      "focused": 30025100
     }
   },
   "budgetOverall": {
-    "all": 3145904340,
-    "focused": 186241600
+    "all": 3994914540,
+    "focused": 241739000
   },
-  "ranked": 23,
+  "ranked": 18,
   "rankings": [
     {
       "ranked": 35,
@@ -101,7 +111,17 @@
       "ranked": 23,
       "year": 2562,
       "value": 5.46
+    },
+    {
+      "ranked": 17,
+      "year": 2563,
+      "value": 13.17
+    },
+    {
+      "ranked": 18,
+      "year": 2564,
+      "value": 13.44
     }
   ],
-  "publicGreenSpacePerCapita": 0.23
+  "publicGreenSpacePerCapita": null
 }

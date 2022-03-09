@@ -1,5 +1,5 @@
 {
-  "value": 2.73,
+  "value": 5.61,
   "valuePerYear": {
     "2555": 1.94,
     "2556": 2,
@@ -8,7 +8,9 @@
     "2559": 2.42,
     "2560": 2.65,
     "2561": 2.69,
-    "2562": 2.73
+    "2562": 2.73,
+    "2563": 5.31,
+    "2564": 5.61
   },
   "minimumPoint": {
     "value": 1.94,
@@ -17,8 +19,8 @@
     "districtName": "พญาไท"
   },
   "maximumPoint": {
-    "value": 2.73,
-    "year": 2562,
+    "value": 5.61,
+    "year": 2564,
     "districtId": 30,
     "districtName": "พญาไท"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 305422000,
       "focused": 21966700
+    },
+    "2563": {
+      "all": 335172500,
+      "focused": 22853500
+    },
+    "2564": {
+      "all": 296736500,
+      "focused": 21422300
     }
   },
   "budgetOverall": {
-    "all": 2400250040,
-    "focused": 142629300
+    "all": 3032159040,
+    "focused": 186905100
   },
-  "ranked": 44,
+  "ranked": 41,
   "rankings": [
     {
       "ranked": 39,
@@ -101,7 +111,17 @@
       "ranked": 44,
       "year": 2562,
       "value": 2.73
+    },
+    {
+      "ranked": 40,
+      "year": 2563,
+      "value": 5.31
+    },
+    {
+      "ranked": 41,
+      "year": 2564,
+      "value": 5.61
     }
   ],
-  "publicGreenSpacePerCapita": 0.34
+  "publicGreenSpacePerCapita": null
 }

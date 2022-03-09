@@ -7,14 +7,20 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": null,
-    "2562": null
+    "2561": 24,
+    "2562": 91,
+    "2563": 121,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 24,
+    "year": 2561,
     "districtId": 32,
     "districtName": "พระนคร"
   },
   "maximumPoint": {
+    "value": 121,
+    "year": 2563,
     "districtId": 32,
     "districtName": "พระนคร"
   },
@@ -24,6 +30,22 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 17,
+      "year": 2561,
+      "value": 24
+    },
+    {
+      "ranked": 16,
+      "year": 2562,
+      "value": 91
+    },
+    {
+      "ranked": 2,
+      "year": 2563,
+      "value": 121
+    }
+  ],
   "sampling": null
 }

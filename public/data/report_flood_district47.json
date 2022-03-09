@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 3,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 3,
+    "year": 2563,
     "districtId": 47,
     "districtName": "หนองแขม"
   },
   "maximumPoint": {
+    "value": 3,
+    "year": 2563,
     "districtId": 47,
     "districtName": "หนองแขม"
   },
@@ -50,16 +56,32 @@
     "2562": {
       "all": 395899000,
       "focused": 16696400
+    },
+    "2563": {
+      "all": 420905400,
+      "focused": 19077500
+    },
+    "2564": {
+      "all": 407831200,
+      "focused": 18004400
     }
   },
   "budgetOverall": {
-    "all": 3308329540,
-    "focused": 143789000
+    "all": 4137066140,
+    "focused": 180870900
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 15,
+      "year": 2563,
+      "value": 3
+    }
+  ],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
+    "value": 16.67,
+    "year": 2563,
     "districtId": 47,
     "districtName": "หนองแขม"
   }

@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 99,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 99,
+    "year": 2563,
     "districtId": 11,
     "districtName": "ทวีวัฒนา"
   },
   "maximumPoint": {
+    "value": 99,
+    "year": 2563,
     "districtId": 11,
     "districtName": "ทวีวัฒนา"
   },
@@ -24,6 +30,12 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 15,
+      "year": 2563,
+      "value": 99
+    }
+  ],
   "sampling": null
 }

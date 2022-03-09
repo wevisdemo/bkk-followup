@@ -1,5 +1,5 @@
 {
-  "value": 12,
+  "value": 1,
   "valuePerYear": {
     "2555": 6,
     "2556": 38,
@@ -8,11 +8,13 @@
     "2559": 2,
     "2560": 16,
     "2561": 2,
-    "2562": 12
+    "2562": 12,
+    "2563": 2,
+    "2564": 1
   },
   "minimumPoint": {
-    "value": 2,
-    "year": 2559,
+    "value": 1,
+    "year": 2564,
     "districtId": 14,
     "districtName": "บางกอกน้อย"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 371010000,
       "focused": 22684800
+    },
+    "2563": {
+      "all": 416491388,
+      "focused": 50636188
+    },
+    "2564": {
+      "all": 382589000,
+      "focused": 15074700
     }
   },
   "budgetOverall": {
-    "all": 3171615240,
-    "focused": 179112600
+    "all": 3970695628,
+    "focused": 244823488
   },
-  "ranked": 14,
+  "ranked": 23,
   "rankings": [
     {
       "ranked": 19,
@@ -101,15 +111,25 @@
       "ranked": 14,
       "year": 2562,
       "value": 12
+    },
+    {
+      "ranked": 17,
+      "year": 2563,
+      "value": 2
+    },
+    {
+      "ranked": 23,
+      "year": 2564,
+      "value": 1
     }
   ],
   "floodHotspots": [
     {
       "name": "ถนนอิสรภาพ",
-      "description": "จากตลาดพรานนก ถึงคลองมอญ"
+      "description": "หน้าตลาดพรานนก"
     }
   ],
-  "meanFloodLevel": 27.3,
+  "meanFloodLevel": 12.5,
   "meanFloodLevelMaximumPoint": {
     "value": 29.3,
     "year": 2556,

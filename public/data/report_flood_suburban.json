@@ -1,5 +1,5 @@
 {
-  "value": 13,
+  "value": 12,
   "valuePerYear": {
     "2555": 60,
     "2556": 17,
@@ -8,12 +8,14 @@
     "2559": 9,
     "2560": 50,
     "2561": 39,
-    "2562": 13
+    "2562": 13,
+    "2563": 27,
+    "2564": 12
   },
   "minimumPoint": {
-    "districtId": 20,
-    "districtName": "บางแค",
-    "year": 2558,
+    "districtId": 6,
+    "districtName": "จอมทอง",
+    "year": 2563,
     "value": 1
   },
   "maximumPoint": {
@@ -54,100 +56,126 @@
     "2562": {
       "all": 5980481300,
       "focused": 311059200
+    },
+    "2563": {
+      "all": 6443658340,
+      "focused": 310370800
+    },
+    "2564": {
+      "all": 6182171000,
+      "focused": 273551400
     }
   },
   "budgetOverall": {
-    "all": 45908858560,
-    "focused": 2087434700
+    "all": 58534687900,
+    "focused": 2671356900
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 23,
-      "districtName": "บางบอน",
-      "value": 7
+      "districtId": 34,
+      "districtName": "มีนบุรี",
+      "value": 4
     },
     {
       "ranked": 2,
       "districtId": 20,
       "districtName": "บางแค",
-      "value": 6
+      "value": 3
+    },
+    {
+      "ranked": 3,
+      "districtId": 17,
+      "districtName": "บางขุนเทียน",
+      "value": 2
+    },
+    {
+      "ranked": 4,
+      "districtId": 23,
+      "districtName": "บางบอน",
+      "value": 2
+    },
+    {
+      "ranked": 5,
+      "districtId": 6,
+      "districtName": "จอมทอง",
+      "value": 1
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 575
+      "value": 172
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 174
+      "value": 48
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 13
+      "value": 12
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 98
+      "value": 7
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 290
+      "value": 105
     }
   ],
   "floodHotspots": [
     {
       "name": "ถนนจอมทอง",
-      "description": "บริเวณแยกวุฒากาศ"
+      "description": "แยกจอมทอง จอมทอง 17 ทั้งสองฝั่ง"
     },
     {
-      "name": "ถนนฉิมพลี",
-      "description": "จากอู่สง่า ถึงถนนบรมราชชนนี"
+      "name": "ถนนบางขุนเทียนชายทะเล",
+      "description": "ขาเข้าหน้าปั้มปตท. ถนนพระราม 2"
     },
     {
-      "name": "ถนนเลียบทางรถไฟสายใต้ฝั่งขาออก",
-      "description": "บริเวณวงเวียนชัยพฤกษ์"
-    },
-    {
-      "name": "ถนนประชาอุทิศ",
-      "description": "จากคลองรางตรง ถึงคลองรางจาก"
-    },
-    {
-      "name": "ถนนบางขุนเทียน ชายทะเล",
-      "description": "ช่วงจากถนนพระรามที่ 2 ถึงคลองสะแกงาม"
-    },
-    {
-      "name": "ถนนเพชรเกษม",
-      "description": "ช่วงจากคลองทวีวัฒนา ถึงคลองราชมนตรี"
+      "name": "ถนนท่าข้าม",
+      "description": "ท่าข้าม ซ.6 ฝั่งตรงข้าม ซ.5"
     },
     {
       "name": "ถนนหมู่บ้านเศรษฐกิจ",
-      "description": "ช่วงจากถนนเพชรเกษม ถึงวงเวียนกาญจนาภิเษก"
-    },
-    {
-      "name": "ถนนเอกชัย",
-      "description": "บริเวณปากซอยเอกชัย 56 (หน้าบริษัทเครื่องดื่มกระทิงแดง)"
+      "description": "ซอย 3 วงเวียนกาญจนา"
     },
     {
       "name": "ถนนเพชรเกษม",
-      "description": "จากหน้าตลาดบางแค ถึงคลองบางหว้า"
+      "description": "วงเเหวนช่วงเดอะมอลล์บางเเค"
+    },
+    {
+      "name": "ถนนเพชรเกษม",
+      "description": "ซอยเพชรเกษม36 -ม.สยาม"
+    },
+    {
+      "name": "ถนนเอกชัย",
+      "description": "คลองราชมนตรี บริษัท กระทิงแดง"
+    },
+    {
+      "name": "ถนนเอกชัย",
+      "description": "หน้าห้างบิ๊กซี คลองราชมนตรี"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "แยกไปรษณีย์"
     },
     {
       "name": "ถนนสุวินทวงศ์",
-      "description": "จากหน้าการไฟฟ้ามีนบุรีถึงแยกราษฎร์อุทิศ"
+      "description": "หน้า บ.โตโยต้า"
     },
     {
       "name": "ถนนสุวินทวงศ์",
-      "description": "ช่วงจากคลองสามวา ถึงคลองแสนแสบ"
+      "description": "หน้าการไฟฟ้า"
     }
   ],
-  "meanFloodLevel": 34.3,
+  "meanFloodLevel": 15.21,
   "meanFloodLevelMaximumPoint": {
     "districtId": 20,
     "districtName": "บางแค",

@@ -1,5 +1,5 @@
 {
-  "value": 5,
+  "value": 16,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -8,11 +8,13 @@
     "2559": 10,
     "2560": 10,
     "2561": 6,
-    "2562": 5
+    "2562": 5,
+    "2563": 1,
+    "2564": 16
   },
   "minimumPoint": {
-    "value": 5,
-    "year": 2562,
+    "value": 1,
+    "year": 2563,
     "districtId": 16,
     "districtName": "บางกะปิ"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 495298000,
       "focused": 41230100
+    },
+    "2563": {
+      "all": 524131000,
+      "focused": 16877900
+    },
+    "2564": {
+      "all": 492131000,
+      "focused": 17033500
     }
   },
   "budgetOverall": {
-    "all": 3673096140,
-    "focused": 145347300
+    "all": 4689358140,
+    "focused": 179258700
   },
-  "ranked": 22,
+  "ranked": 3,
   "rankings": [
     {
       "ranked": 15,
@@ -91,19 +101,41 @@
       "ranked": 22,
       "year": 2562,
       "value": 5
+    },
+    {
+      "ranked": 23,
+      "year": 2563,
+      "value": 1
+    },
+    {
+      "ranked": 3,
+      "year": 2564,
+      "value": 16
     }
   ],
   "floodHotspots": [
     {
-      "name": "ถนนรามคำแหง",
-      "description": "ช่วงหน้ามหาวิทยาลัยรามคำแหง"
+      "name": "ถนนศรีนครินทร์",
+      "description": "หน้า บ.กรีนสปอร์ต (ขาเข้า)"
     },
     {
       "name": "ถนนศรีนครินทร์",
-      "description": "จากแยกลำสาลีถึงถนนกรุงเทพกรีฑา"
+      "description": "หน้า บ.กรีนสปอร์ต (ขาออก)"
+    },
+    {
+      "name": "ถนนศรีนครินทร์",
+      "description": "ฝั่งตรงข้าม บ.กรีนสปอร์ต"
+    },
+    {
+      "name": "ถนนรามคำแหง",
+      "description": "ซอย 39 65"
+    },
+    {
+      "name": "ถนนรามคำแหง",
+      "description": "ตรงข้ามซอย 39 65"
     }
   ],
-  "meanFloodLevel": 22.9,
+  "meanFloodLevel": 15,
   "meanFloodLevelMaximumPoint": {
     "value": 34.2,
     "year": 2558,

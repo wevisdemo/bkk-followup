@@ -54,12 +54,12 @@ export default function IntroDashboard() {
             ) : null}
 
             <div className="mt-5 d3">
-              ร่วมกันสำรวจสถานการณ์ ปัญหาด้านต่างๆ ของกรุงเทพฯ ในรอบ 8
+              ร่วมกันสำรวจสถานการณ์ ปัญหาด้านต่างๆ ของกรุงเทพฯ ในรอบ 10
               ปีที่ผ่านมา
             </div>
 
             {!isMobileOnly ? (
-              <h5 className="mt-4 text-lg">ข้อมูลย้อนหลัง พ.ศ. 2555-2562</h5>
+              <h5 className="mt-4 text-lg">ข้อมูลย้อนหลัง พ.ศ. 2555-2564</h5>
             ) : null}
 
             {isMobileOnly ? (
@@ -167,7 +167,7 @@ export default function IntroDashboard() {
         ) : null}
 
         {isMobile ? (
-          <p className="mt-2 h4">ข้อมูลย้อนหลัง พ.ศ. 2555-2562</p>
+          <p className="mt-2 h4">ข้อมูลย้อนหลัง พ.ศ. 2555-2564</p>
         ) : null}
       </div>
     </div>

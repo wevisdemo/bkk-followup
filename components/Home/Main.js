@@ -4,13 +4,13 @@ import twitter_share from "assets/images/twitter_share.svg";
 import line_share from "assets/images/line_share.svg";
 import arrow_right_white from "assets/images/arrow_right_white.svg";
 import arrow_down_black from "assets/images/arrow_down_black.svg";
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  LineShareButton,
-} from "react-share";
+import { FacebookShareButton, TwitterShareButton, LineShareButton } from "react-share";
 import config from "jsconfig.json";
 import { isMobileOnly } from "react-device-detect";
+
+
+
+//  import  WvButton from '@wevisdemo/ui/components/button'
 
 export default function Main(props) {
   const { swiper_ref } = props;
@@ -19,20 +19,20 @@ export default function Main(props) {
     <div className="flex items-center h-full pb-16 main-page bg-white-default">
       <div className="container mx-auto">
         <div className="hidden grid-cols-1 gap-5 text-center lg:grid-cols-2 md:grid lg:text-left">
-          <h1 className="leading-tight d1">
-            BANGKOK
+          {/* <WvButton>Hello</WvButton>; */}
+
+          <h1 className="leading-tight d1 ">
+            <span className="text-green-default">
+              OPEN
+            </span>
             <br />
-            <span
-              className="text-green-default"
-              style={{ fontFamily: "TheMATTER" }}
-            >
-              FOLLOW-UP
+            <span >
+              BANGKOK
             </span>
           </h1>
-
           <div className="right">
             <h3 className="leading-tight d3">
-              สำรวจย้อนหลัง 8 ปีกับ
+              สำรวจย้อนหลัง 10 ปีกับ
               <br />
               ปัญหาที่กวนใจชาวกทม.
             </h3>
@@ -40,29 +40,15 @@ export default function Main(props) {
             <div className="items-center hidden mt-4 lg:flex social-wrap">
               <h4 className="d4">Share:</h4>
 
-              <FacebookShareButton
-                url={config.web_url}
-                className="ml-4 cursor-pointer social"
-              >
+              <FacebookShareButton url={config.web_url} className="ml-4 cursor-pointer social">
                 <img width={40} height={40} src={fb_share} alt={fb_share} />
               </FacebookShareButton>
 
-              <TwitterShareButton
-                url={config.web_url}
-                className="ml-4 cursor-pointer social"
-              >
-                <img
-                  width={40}
-                  height={40}
-                  src={twitter_share}
-                  alt={twitter_share}
-                />
+              <TwitterShareButton url={config.web_url} className="ml-4 cursor-pointer social">
+                <img width={40} height={40} src={twitter_share} alt={twitter_share} />
               </TwitterShareButton>
 
-              <LineShareButton
-                url={config.web_url}
-                className="ml-4 cursor-pointer social"
-              >
+              <LineShareButton url={config.web_url} className="ml-4 cursor-pointer social">
                 <img width={40} height={40} src={line_share} alt={line_share} />
               </LineShareButton>
             </div>
@@ -86,11 +72,7 @@ export default function Main(props) {
               <h5 className="d5">สำรวจแผนที่ตามประเด็น</h5>
             </div>
 
-            <img
-              src={arrow_right_white}
-              alt={arrow_right_white}
-              className="w-16 lg:w-18 2xl:w-24"
-            />
+            <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
           </div>
 
           <div className="right">
@@ -98,15 +80,9 @@ export default function Main(props) {
               className="flex items-center justify-between p-3 rounded-md cursor-pointer lg:p-5 budget bg-green-default"
               onClick={() => swiper_ref.slideTo(1)}
             >
-              <h5 className="d5 text-white-default">
-                สำรวจดูงบประมาณกทม. ย้อนหลัง 8 ปี
-              </h5>
+              <h5 className="d5 text-white-default">สำรวจดูงบประมาณกทม. ย้อนหลัง 10 ปี</h5>
 
-              <img
-                src={arrow_right_white}
-                alt={arrow_right_white}
-                className="w-16 lg:w-18 2xl:w-24"
-              />
+              <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
             </div>
 
             <div
@@ -115,26 +91,16 @@ export default function Main(props) {
             >
               <h5 className="d5 text-white-default">กทม. มีหน้าที่ทำอะไร ?</h5>
 
-              <img
-                src={arrow_right_white}
-                alt={arrow_right_white}
-                className="w-16 lg:w-18 2xl:w-24"
-              />
+              <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
             </div>
 
             <div
               className="flex items-center justify-between p-3 mt-1 rounded-md cursor-pointer lg:p-5 lg:mt-3 budget bg-pink-default"
               onClick={() => swiper_ref.slideTo(isMobileOnly ? 15 : 10)}
             >
-              <h5 className="d5 text-white-default">
-                ชาวกทม. มีส่วนร่วม อย่างไรได้บ้าง
-              </h5>
+              <h5 className="d5 text-white-default">ชาวกทม. มีส่วนร่วม อย่างไรได้บ้าง</h5>
 
-              <img
-                src={arrow_right_white}
-                alt={arrow_right_white}
-                className="w-16 lg:w-18 2xl:w-24"
-              />
+              <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
             </div>
           </div>
         </div>
@@ -142,29 +108,15 @@ export default function Main(props) {
         <div className="items-center justify-center hidden mt-10 md:flex lg:hidden social-wrap">
           <h4 className="d4">Share:</h4>
 
-          <FacebookShareButton
-            url={config.web_url}
-            className="ml-4 cursor-pointer social"
-          >
+          <FacebookShareButton url={config.web_url} className="ml-4 cursor-pointer social">
             <img width={40} height={40} src={fb_share} alt={fb_share} />
           </FacebookShareButton>
 
-          <TwitterShareButton
-            url={config.web_url}
-            className="ml-4 cursor-pointer social"
-          >
-            <img
-              width={40}
-              height={40}
-              src={twitter_share}
-              alt={twitter_share}
-            />
+          <TwitterShareButton url={config.web_url} className="ml-4 cursor-pointer social">
+            <img width={40} height={40} src={twitter_share} alt={twitter_share} />
           </TwitterShareButton>
 
-          <LineShareButton
-            url={config.web_url}
-            className="ml-4 cursor-pointer social"
-          >
+          <LineShareButton url={config.web_url} className="ml-4 cursor-pointer social">
             <img width={40} height={40} src={line_share} alt={line_share} />
           </LineShareButton>
         </div>

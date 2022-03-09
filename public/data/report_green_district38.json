@@ -1,5 +1,5 @@
 {
-  "value": 2.83,
+  "value": 5.81,
   "valuePerYear": {
     "2555": 3.06,
     "2556": 3.03,
@@ -8,7 +8,9 @@
     "2559": 2.39,
     "2560": 2.27,
     "2561": 2.77,
-    "2562": 2.83
+    "2562": 2.83,
+    "2563": 5.3,
+    "2564": 5.81
   },
   "minimumPoint": {
     "value": 2.27,
@@ -17,8 +19,8 @@
     "districtName": "ลาดกระบัง"
   },
   "maximumPoint": {
-    "value": 3.06,
-    "year": 2555,
+    "value": 5.81,
+    "year": 2564,
     "districtId": 38,
     "districtName": "ลาดกระบัง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 571562000,
       "focused": 38751000
+    },
+    "2563": {
+      "all": 612104000,
+      "focused": 39381200
+    },
+    "2564": {
+      "all": 587544000,
+      "focused": 47383340
     }
   },
   "budgetOverall": {
-    "all": 4436359540,
-    "focused": 249390500
+    "all": 5636007540,
+    "focused": 336155040
   },
-  "ranked": 42,
+  "ranked": 40,
   "rankings": [
     {
       "ranked": 29,
@@ -101,7 +111,17 @@
       "ranked": 42,
       "year": 2562,
       "value": 2.83
+    },
+    {
+      "ranked": 41,
+      "year": 2563,
+      "value": 5.3
+    },
+    {
+      "ranked": 40,
+      "year": 2564,
+      "value": 5.81
     }
   ],
-  "publicGreenSpacePerCapita": 0.45
+  "publicGreenSpacePerCapita": null
 }

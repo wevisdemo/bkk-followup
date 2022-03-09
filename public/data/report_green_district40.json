@@ -1,5 +1,5 @@
 {
-  "value": 1.75,
+  "value": 3.81,
   "valuePerYear": {
     "2555": 1.06,
     "2556": 1.13,
@@ -8,7 +8,9 @@
     "2559": 1.53,
     "2560": 1.6,
     "2561": 1.73,
-    "2562": 1.75
+    "2562": 1.75,
+    "2563": 3.62,
+    "2564": 3.81
   },
   "minimumPoint": {
     "value": 1.06,
@@ -17,8 +19,8 @@
     "districtName": "วังทองหลาง"
   },
   "maximumPoint": {
-    "value": 1.75,
-    "year": 2562,
+    "value": 3.81,
+    "year": 2564,
     "districtId": 40,
     "districtName": "วังทองหลาง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 344320000,
       "focused": 20407500
+    },
+    "2563": {
+      "all": 328651000,
+      "focused": 19244200
+    },
+    "2564": {
+      "all": 306272000,
+      "focused": 19111500
     }
   },
   "budgetOverall": {
-    "all": 2841629440,
-    "focused": 131630900
+    "all": 3476552440,
+    "focused": 169986600
   },
-  "ranked": 49,
+  "ranked": 46,
   "rankings": [
     {
       "ranked": 48,
@@ -101,7 +111,17 @@
       "ranked": 49,
       "year": 2562,
       "value": 1.75
+    },
+    {
+      "ranked": 45,
+      "year": 2563,
+      "value": 3.62
+    },
+    {
+      "ranked": 46,
+      "year": 2564,
+      "value": 3.81
     }
   ],
-  "publicGreenSpacePerCapita": 0.01
+  "publicGreenSpacePerCapita": null
 }

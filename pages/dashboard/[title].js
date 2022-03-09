@@ -172,7 +172,7 @@ export default function Dashboard(props) {
   const [state_dropdown, SET_STATE_DROPDOWN] = useState(null);
   const [isRank, SET_IS_RANK] = useState(false);
   const [selected_index, SET_SELECTED_INDEX] = useState(0);
-  const years = [55, 56, 57, 58, 59, 60, 61, 62];
+  const years = [55, 56, 57, 58, 59, 60, 61, 62, 63, 64];
   let selected_theme = props.content;
   let selectedData, data;
   if (selected_theme != null) {
@@ -199,6 +199,7 @@ export default function Dashboard(props) {
       data = selectedData.report_suburban;
       format_type = "suburban";
     }
+    console.log(rankings);
     let note;
     if (selected_theme.name === "น้ำท่วมถนน") {
       note =
@@ -483,7 +484,7 @@ export default function Dashboard(props) {
                     )}
 
                     {isMobileOnly ? (
-                      <p className="h4">ภาพรวมย้อนหลัง 8 ปี (2555-2562)</p>
+                      <p className="h4">ภาพรวมย้อนหลัง 10 ปี (2555-2564)</p>
                     ) : (
                       ""
                     )}
@@ -493,7 +494,7 @@ export default function Dashboard(props) {
                   <div className="mt-3" id="flood-rating">
                     {Rating(
                       selected_theme,
-                      "ปี 2562 เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่",
+                      "ปี 2564 เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่",
                       district_data
                     )}
                   </div>
@@ -519,14 +520,14 @@ export default function Dashboard(props) {
                 )}
 
                 {selected_theme.name === "พื้นที่สีเขียว" &&
-                district != null ? (
+                  district != null ? (
                   <StandardGreen selected_theme={selected_theme} />
                 ) : (
                   ""
                 )}
 
                 {selected_theme.name === "พื้นที่สีเขียว" &&
-                district === null ? (
+                  district === null ? (
                   <Standard selected_theme={selected_theme} />
                 ) : (
                   ""
@@ -548,8 +549,8 @@ export default function Dashboard(props) {
                   ""
                 )}
                 {checked === "เขตพื้นที่ทั้งหมด" &&
-                district === null &&
-                selected_theme.name === "น้ำท่วมถนน" ? (
+                  district === null &&
+                  selected_theme.name === "น้ำท่วมถนน" ? (
                   <MaxMinFlood data={data} selected_theme={selected_theme} />
                 ) : (
                   ""

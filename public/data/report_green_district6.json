@@ -1,5 +1,5 @@
 {
-  "value": 3.15,
+  "value": 6.33,
   "valuePerYear": {
     "2555": 1.55,
     "2556": 1.73,
@@ -8,7 +8,9 @@
     "2559": 2.95,
     "2560": 2.93,
     "2561": 3.13,
-    "2562": 3.15
+    "2562": 3.15,
+    "2563": 6.25,
+    "2564": 6.33
   },
   "minimumPoint": {
     "value": 1.55,
@@ -17,8 +19,8 @@
     "districtName": "จอมทอง"
   },
   "maximumPoint": {
-    "value": 3.15,
-    "year": 2562,
+    "value": 6.33,
+    "year": 2564,
     "districtId": 6,
     "districtName": "จอมทอง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 373745200,
       "focused": 20653400
+    },
+    "2563": {
+      "all": 396522000,
+      "focused": 21374700
+    },
+    "2564": {
+      "all": 403287000,
+      "focused": 20928000
     }
   },
   "budgetOverall": {
-    "all": 3359187140,
-    "focused": 154376800
+    "all": 4158996140,
+    "focused": 196679500
   },
-  "ranked": 39,
+  "ranked": 38,
   "rankings": [
     {
       "ranked": 42,
@@ -101,7 +111,17 @@
       "ranked": 39,
       "year": 2562,
       "value": 3.15
+    },
+    {
+      "ranked": 37,
+      "year": 2563,
+      "value": 6.25
+    },
+    {
+      "ranked": 38,
+      "year": 2564,
+      "value": 6.33
     }
   ],
-  "publicGreenSpacePerCapita": 0.21
+  "publicGreenSpacePerCapita": null
 }

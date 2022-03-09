@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 97,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 97,
+    "year": 2563,
     "districtId": 20,
     "districtName": "บางแค"
   },
   "maximumPoint": {
+    "value": 97,
+    "year": 2563,
     "districtId": 20,
     "districtName": "บางแค"
   },
@@ -24,6 +30,12 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 16,
+      "year": 2563,
+      "value": 97
+    }
+  ],
   "sampling": null
 }

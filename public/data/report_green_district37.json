@@ -1,5 +1,5 @@
 {
-  "value": 5.66,
+  "value": 11.94,
   "valuePerYear": {
     "2555": 3.6,
     "2556": 3.94,
@@ -8,7 +8,9 @@
     "2559": 5.22,
     "2560": 5.25,
     "2561": 5.71,
-    "2562": 5.66
+    "2562": 5.66,
+    "2563": 11.5,
+    "2564": 11.94
   },
   "minimumPoint": {
     "value": 3.6,
@@ -17,8 +19,8 @@
     "districtName": "ราษฎร์บูรณะ"
   },
   "maximumPoint": {
-    "value": 5.71,
-    "year": 2561,
+    "value": 11.94,
+    "year": 2564,
     "districtId": 37,
     "districtName": "ราษฎร์บูรณะ"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 290051100,
       "focused": 21867300
+    },
+    "2563": {
+      "all": 298729000,
+      "focused": 20921000
+    },
+    "2564": {
+      "all": 302936000,
+      "focused": 21280800
     }
   },
   "budgetOverall": {
-    "all": 2407709740,
-    "focused": 141039600
+    "all": 3009374740,
+    "focused": 183241400
   },
-  "ranked": 19,
+  "ranked": 21,
   "rankings": [
     {
       "ranked": 25,
@@ -101,7 +111,17 @@
       "ranked": 19,
       "year": 2562,
       "value": 5.66
+    },
+    {
+      "ranked": 21,
+      "year": 2563,
+      "value": 11.5
+    },
+    {
+      "ranked": 21,
+      "year": 2564,
+      "value": 11.94
     }
   ],
-  "publicGreenSpacePerCapita": 0.31
+  "publicGreenSpacePerCapita": null
 }

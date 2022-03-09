@@ -1,5 +1,5 @@
 {
-  "value": 6.08,
+  "value": 12.99,
   "valuePerYear": {
     "2555": 1.39,
     "2556": 1.52,
@@ -8,7 +8,9 @@
     "2559": 5.49,
     "2560": 5.59,
     "2561": 5.78,
-    "2562": 6.08
+    "2562": 6.08,
+    "2563": 12.24,
+    "2564": 12.99
   },
   "minimumPoint": {
     "value": 1.39,
@@ -17,8 +19,8 @@
     "districtName": "สัมพันธวงศ์"
   },
   "maximumPoint": {
-    "value": 12.3,
-    "year": 2558,
+    "value": 12.99,
+    "year": 2564,
     "districtId": 44,
     "districtName": "สัมพันธวงศ์"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 196045300,
       "focused": 6599300
+    },
+    "2563": {
+      "all": 208176600,
+      "focused": 7788100
+    },
+    "2564": {
+      "all": 199947000,
+      "focused": 7609500
     }
   },
   "budgetOverall": {
-    "all": 1618031440,
-    "focused": 44794200
+    "all": 2026155040,
+    "focused": 60191800
   },
-  "ranked": 16,
+  "ranked": 19,
   "rankings": [
     {
       "ranked": 46,
@@ -101,7 +111,17 @@
       "ranked": 16,
       "year": 2562,
       "value": 6.08
+    },
+    {
+      "ranked": 19,
+      "year": 2563,
+      "value": 12.24
+    },
+    {
+      "ranked": 19,
+      "year": 2564,
+      "value": 12.99
     }
   ],
-  "publicGreenSpacePerCapita": 0
+  "publicGreenSpacePerCapita": null
 }

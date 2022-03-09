@@ -1,5 +1,5 @@
 {
-  "value": 5.17,
+  "value": 10.4,
   "valuePerYear": {
     "2555": 2.84,
     "2556": 2.93,
@@ -8,7 +8,9 @@
     "2559": 4.43,
     "2560": 4.48,
     "2561": 5.34,
-    "2562": 5.17
+    "2562": 5.17,
+    "2563": 10.31,
+    "2564": 10.4
   },
   "minimumPoint": {
     "value": 2.84,
@@ -17,8 +19,8 @@
     "districtName": "ห้วยขวาง"
   },
   "maximumPoint": {
-    "value": 5.34,
-    "year": 2561,
+    "value": 10.4,
+    "year": 2564,
     "districtId": 50,
     "districtName": "ห้วยขวาง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 344432000,
       "focused": 25269600
+    },
+    "2563": {
+      "all": 352262000,
+      "focused": 27137400
+    },
+    "2564": {
+      "all": 352488000,
+      "focused": 25831900
     }
   },
   "budgetOverall": {
-    "all": 2577035540,
-    "focused": 158524400
+    "all": 3281785540,
+    "focused": 211493700
   },
-  "ranked": 26,
+  "ranked": 24,
   "rankings": [
     {
       "ranked": 30,
@@ -101,7 +111,17 @@
       "ranked": 26,
       "year": 2562,
       "value": 5.17
+    },
+    {
+      "ranked": 24,
+      "year": 2563,
+      "value": 10.31
+    },
+    {
+      "ranked": 24,
+      "year": 2564,
+      "value": 10.4
     }
   ],
-  "publicGreenSpacePerCapita": 0.51
+  "publicGreenSpacePerCapita": null
 }

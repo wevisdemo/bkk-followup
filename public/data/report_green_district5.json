@@ -1,5 +1,5 @@
 {
-  "value": 13.5,
+  "value": 18.47,
   "valuePerYear": {
     "2555": 10.85,
     "2556": 10.98,
@@ -8,7 +8,9 @@
     "2559": 13.15,
     "2560": 13.38,
     "2561": 13.56,
-    "2562": 13.5
+    "2562": 13.5,
+    "2563": 18.27,
+    "2564": 18.47
   },
   "minimumPoint": {
     "value": 10.85,
@@ -17,8 +19,8 @@
     "districtName": "จตุจักร"
   },
   "maximumPoint": {
-    "value": 13.56,
-    "year": 2561,
+    "value": 18.47,
+    "year": 2564,
     "districtId": 5,
     "districtName": "จตุจักร"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 540198000,
       "focused": 30581700
+    },
+    "2563": {
+      "all": 534717800,
+      "focused": 30886500
+    },
+    "2564": {
+      "all": 539155000,
+      "focused": 29775800
     }
   },
   "budgetOverall": {
-    "all": 4159479740,
-    "focused": 181998000
+    "all": 5233352540,
+    "focused": 242660300
   },
-  "ranked": 7,
+  "ranked": 13,
   "rankings": [
     {
       "ranked": 5,
@@ -101,7 +111,17 @@
       "ranked": 7,
       "year": 2562,
       "value": 13.5
+    },
+    {
+      "ranked": 11,
+      "year": 2563,
+      "value": 18.27
+    },
+    {
+      "ranked": 13,
+      "year": 2564,
+      "value": 18.47
     }
   ],
-  "publicGreenSpacePerCapita": 7.67
+  "publicGreenSpacePerCapita": null
 }

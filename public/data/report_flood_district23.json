@@ -1,5 +1,5 @@
 {
-  "value": 7,
+  "value": 2,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -8,11 +8,13 @@
     "2559": null,
     "2560": 14,
     "2561": 9,
-    "2562": 7
+    "2562": 7,
+    "2563": 2,
+    "2564": 2
   },
   "minimumPoint": {
-    "value": 7,
-    "year": 2558,
+    "value": 2,
+    "year": 2563,
     "districtId": 23,
     "districtName": "บางบอน"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 357892000,
       "focused": 14980000
+    },
+    "2563": {
+      "all": 355441000,
+      "focused": 15107200
+    },
+    "2564": {
+      "all": 384587000,
+      "focused": 25842600
     }
   },
   "budgetOverall": {
-    "all": 2825030340,
-    "focused": 111947100
+    "all": 3565058340,
+    "focused": 152896900
   },
-  "ranked": 19,
+  "ranked": 20,
   "rankings": [
     {
       "ranked": 21,
@@ -81,15 +91,29 @@
       "ranked": 19,
       "year": 2562,
       "value": 7
+    },
+    {
+      "ranked": 19,
+      "year": 2563,
+      "value": 2
+    },
+    {
+      "ranked": 20,
+      "year": 2564,
+      "value": 2
     }
   ],
   "floodHotspots": [
     {
       "name": "ถนนเอกชัย",
-      "description": "บริเวณปากซอยเอกชัย 56 (หน้าบริษัทเครื่องดื่มกระทิงแดง)"
+      "description": "คลองราชมนตรี บริษัท กระทิงแดง"
+    },
+    {
+      "name": "ถนนเอกชัย",
+      "description": "หน้าห้างบิ๊กซี คลองราชมนตรี"
     }
   ],
-  "meanFloodLevel": 29.5,
+  "meanFloodLevel": 17.5,
   "meanFloodLevelMaximumPoint": {
     "value": 29.5,
     "year": 2562,

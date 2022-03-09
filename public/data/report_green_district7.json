@@ -1,5 +1,5 @@
 {
-  "value": 3.93,
+  "value": 8.2,
   "valuePerYear": {
     "2555": 3.95,
     "2556": 3.98,
@@ -8,7 +8,9 @@
     "2559": 3.32,
     "2560": 3.72,
     "2561": 3.94,
-    "2562": 3.93
+    "2562": 3.93,
+    "2563": 7.56,
+    "2564": 8.2
   },
   "minimumPoint": {
     "value": 3.32,
@@ -17,8 +19,8 @@
     "districtName": "ดอนเมือง"
   },
   "maximumPoint": {
-    "value": 3.98,
-    "year": 2556,
+    "value": 8.2,
+    "year": 2564,
     "districtId": 7,
     "districtName": "ดอนเมือง"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 389048000,
       "focused": 25541400
+    },
+    "2563": {
+      "all": 422753800,
+      "focused": 27481900
+    },
+    "2564": {
+      "all": 406591000,
+      "focused": 26531500
     }
   },
   "budgetOverall": {
-    "all": 3108751040,
-    "focused": 159999500
+    "all": 3938095840,
+    "focused": 214012900
   },
-  "ranked": 35,
+  "ranked": 33,
   "rankings": [
     {
       "ranked": 22,
@@ -101,7 +111,17 @@
       "ranked": 35,
       "year": 2562,
       "value": 3.93
+    },
+    {
+      "ranked": 33,
+      "year": 2563,
+      "value": 7.56
+    },
+    {
+      "ranked": 33,
+      "year": 2564,
+      "value": 8.2
     }
   ],
-  "publicGreenSpacePerCapita": 0.16
+  "publicGreenSpacePerCapita": null
 }

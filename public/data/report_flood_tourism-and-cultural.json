@@ -1,5 +1,5 @@
 {
-  "value": 98,
+  "value": 7,
   "valuePerYear": {
     "2555": 110,
     "2556": 110,
@@ -8,12 +8,14 @@
     "2559": 154,
     "2560": 132,
     "2561": 129,
-    "2562": 98
+    "2562": 98,
+    "2563": 5,
+    "2564": 7
   },
   "minimumPoint": {
-    "districtId": 29,
-    "districtName": "ป้อมปราบศัตรูพ่าย",
-    "year": 2559,
+    "districtId": 14,
+    "districtName": "บางกอกน้อย",
+    "year": 2564,
     "value": 1
   },
   "maximumPoint": {
@@ -54,47 +56,31 @@
     "2562": {
       "all": 2799453900,
       "focused": 140114000
+    },
+    "2563": {
+      "all": 3003276588,
+      "focused": 174845188
+    },
+    "2564": {
+      "all": 2912096890,
+      "focused": 149175490
     }
   },
   "budgetOverall": {
-    "all": 22597869260,
-    "focused": 984671500
+    "all": 28513242738,
+    "focused": 1308692178
   },
   "rankings": [
     {
       "ranked": 1,
       "districtId": 9,
       "districtName": "ดุสิต",
-      "value": 62
+      "value": 6
     },
     {
       "ranked": 2,
-      "districtId": 29,
-      "districtName": "ป้อมปราบศัตรูพ่าย",
-      "value": 17
-    },
-    {
-      "ranked": 3,
       "districtId": 14,
       "districtName": "บางกอกน้อย",
-      "value": 12
-    },
-    {
-      "ranked": 4,
-      "districtId": 44,
-      "districtName": "สัมพันธวงศ์",
-      "value": 4
-    },
-    {
-      "ranked": 5,
-      "districtId": 2,
-      "districtName": "คลองสาน",
-      "value": 2
-    },
-    {
-      "ranked": 6,
-      "districtId": 32,
-      "districtName": "พระนคร",
       "value": 1
     }
   ],
@@ -102,64 +88,56 @@
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 575
+      "value": 172
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 174
+      "value": 48
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 13
+      "value": 12
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 98
+      "value": 7
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 290
+      "value": 105
     }
   ],
   "floodHotspots": [
     {
-      "name": "ถนนลาดหญ้า",
-      "description": "จากวงเวียนใหญ่ถึงหน้าโรบินสัน"
-    },
-    {
-      "name": "ถนนนครไชยศรี",
-      "description": "บริเวณหน้าตลาดศรีย่าน"
-    },
-    {
-      "name": "ถนนศรีอยุธยา",
-      "description": "บริเวณหน้าพระราชวังดุสิต"
+      "name": "ถนนราชวิถี",
+      "description": "แยกการเรือน"
     },
     {
       "name": "ถนนราชวิถี",
-      "description": "บริเวณหน้าราชภัฎสวนดุสิตและเชิงสะพานกรุงธน"
+      "description": "เชิงสะพานกรุงธน"
+    },
+    {
+      "name": "ถนนนครไชยศรี",
+      "description": "ตลาดศรีย่าน"
+    },
+    {
+      "name": "ถนนราชวิถี",
+      "description": "สะพานกรุงธนบุรี"
+    },
+    {
+      "name": "ถนนสามเสน",
+      "description": "หน้าอาคารรัฐสภา"
     },
     {
       "name": "ถนนอิสรภาพ",
-      "description": "จากตลาดพรานนก ถึงคลองมอญ"
-    },
-    {
-      "name": "ถนนสนามไชย",
-      "description": "จากซอยเศรษฐการ ถึงถนนท้ายวังและรอบสนามหลวง"
-    },
-    {
-      "name": "ถนนเจริญกรุง",
-      "description": "จากถนนแปลงนาม ถึงแยกหมอมี"
-    },
-    {
-      "name": "ถนนเยาวราชฝั่งเหนือ",
-      "description": "จากถนนทรงสวัสดิ์ถึงถนนราชวงศ์"
+      "description": "หน้าตลาดพรานนก"
     }
   ],
-  "meanFloodLevel": 29.6,
+  "meanFloodLevel": 15.36,
   "meanFloodLevelMaximumPoint": {
     "districtId": 9,
     "districtName": "ดุสิต",

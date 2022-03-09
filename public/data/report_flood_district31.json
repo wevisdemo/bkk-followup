@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 1,
   "valuePerYear": {
     "2555": 15,
     "2556": null,
@@ -8,7 +8,9 @@
     "2559": null,
     "2560": 2,
     "2561": 1,
-    "2562": null
+    "2562": null,
+    "2563": 1,
+    "2564": 1
   },
   "minimumPoint": {
     "value": 1,
@@ -54,13 +56,21 @@
     "2562": {
       "all": 277170000,
       "focused": 14418900
+    },
+    "2563": {
+      "all": 281172800,
+      "focused": 36949300
+    },
+    "2564": {
+      "all": 283091000,
+      "focused": 28745400
     }
   },
   "budgetOverall": {
-    "all": 2302718540,
-    "focused": 139474600
+    "all": 2866982340,
+    "focused": 205169300
   },
-  "ranked": null,
+  "ranked": 27,
   "rankings": [
     {
       "ranked": 9,
@@ -80,6 +90,16 @@
     {
       "ranked": 28,
       "year": 2561,
+      "value": 1
+    },
+    {
+      "ranked": 25,
+      "year": 2563,
+      "value": 1
+    },
+    {
+      "ranked": 27,
+      "year": 2564,
       "value": 1
     }
   ],

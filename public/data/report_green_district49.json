@@ -1,5 +1,5 @@
 {
-  "value": 17.55,
+  "value": 35.34,
   "valuePerYear": {
     "2555": 16.58,
     "2556": 16.7,
@@ -8,7 +8,9 @@
     "2559": 17.34,
     "2560": 17.15,
     "2561": 17.5,
-    "2562": 17.55
+    "2562": 17.55,
+    "2563": 34.77,
+    "2564": 35.34
   },
   "minimumPoint": {
     "value": 16.58,
@@ -17,8 +19,8 @@
     "districtName": "หลักสี่"
   },
   "maximumPoint": {
-    "value": 17.55,
-    "year": 2562,
+    "value": 35.34,
+    "year": 2564,
     "districtId": 49,
     "districtName": "หลักสี่"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 338958000,
       "focused": 21319900
+    },
+    "2563": {
+      "all": 346889000,
+      "focused": 22011200
+    },
+    "2564": {
+      "all": 340812000,
+      "focused": 23676800
     }
   },
   "budgetOverall": {
-    "all": 2617915240,
-    "focused": 133555800
+    "all": 3305616240,
+    "focused": 179243800
   },
-  "ranked": 5,
+  "ranked": 4,
   "rankings": [
     {
       "ranked": 1,
@@ -101,7 +111,17 @@
       "ranked": 5,
       "year": 2562,
       "value": 17.55
+    },
+    {
+      "ranked": 4,
+      "year": 2563,
+      "value": 34.77
+    },
+    {
+      "ranked": 4,
+      "year": 2564,
+      "value": 35.34
     }
   ],
-  "publicGreenSpacePerCapita": 0.12
+  "publicGreenSpacePerCapita": null
 }

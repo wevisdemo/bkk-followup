@@ -1,5 +1,5 @@
 {
-  "value": 9.39,
+  "value": 19.23,
   "valuePerYear": {
     "2555": 6.26,
     "2556": 6.24,
@@ -8,7 +8,9 @@
     "2559": 9.36,
     "2560": 9.08,
     "2561": 9.47,
-    "2562": 9.39
+    "2562": 9.39,
+    "2563": 18.27,
+    "2564": 19.23
   },
   "minimumPoint": {
     "value": 6.24,
@@ -17,8 +19,8 @@
     "districtName": "ราชเทวี"
   },
   "maximumPoint": {
-    "value": 9.47,
-    "year": 2561,
+    "value": 19.23,
+    "year": 2564,
     "districtId": 36,
     "districtName": "ราชเทวี"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 358945000,
       "focused": 36259400
+    },
+    "2563": {
+      "all": 369857500,
+      "focused": 32427400
+    },
+    "2564": {
+      "all": 345262200,
+      "focused": 24936800
     }
   },
   "budgetOverall": {
-    "all": 2590561940,
-    "focused": 150918000
+    "all": 3305681640,
+    "focused": 208282200
   },
-  "ranked": 11,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 13,
@@ -101,7 +111,17 @@
       "ranked": 11,
       "year": 2562,
       "value": 9.39
+    },
+    {
+      "ranked": 12,
+      "year": 2563,
+      "value": 18.27
+    },
+    {
+      "ranked": 12,
+      "year": 2564,
+      "value": 19.23
     }
   ],
-  "publicGreenSpacePerCapita": 0.6
+  "publicGreenSpacePerCapita": null
 }

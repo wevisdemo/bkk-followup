@@ -1,5 +1,5 @@
 {
-  "value": 16.76,
+  "value": 22.99,
   "valuePerYear": {
     "2555": 15.41,
     "2556": 17.14,
@@ -8,7 +8,9 @@
     "2559": 16.98,
     "2560": 17.03,
     "2561": 16.99,
-    "2562": 16.76
+    "2562": 16.76,
+    "2563": 23.03,
+    "2564": 22.99
   },
   "minimumPoint": {
     "value": 15.41,
@@ -17,8 +19,8 @@
     "districtName": "ประเวศ"
   },
   "maximumPoint": {
-    "value": 17.14,
-    "year": 2556,
+    "value": 23.03,
+    "year": 2563,
     "districtId": 28,
     "districtName": "ประเวศ"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 467180000,
       "focused": 29575800
+    },
+    "2563": {
+      "all": 584808000,
+      "focused": 30043400
+    },
+    "2564": {
+      "all": 514572000,
+      "focused": 31220600
     }
   },
   "budgetOverall": {
-    "all": 3592148680,
-    "focused": 196405400
+    "all": 4691528680,
+    "focused": 257669400
   },
-  "ranked": 6,
+  "ranked": 8,
   "rankings": [
     {
       "ranked": 2,
@@ -101,7 +111,17 @@
       "ranked": 6,
       "year": 2562,
       "value": 16.76
+    },
+    {
+      "ranked": 8,
+      "year": 2563,
+      "value": 23.03
+    },
+    {
+      "ranked": 8,
+      "year": 2564,
+      "value": 22.99
     }
   ],
-  "publicGreenSpacePerCapita": 5.04
+  "publicGreenSpacePerCapita": null
 }

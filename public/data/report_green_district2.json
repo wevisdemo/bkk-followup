@@ -1,5 +1,5 @@
 {
-  "value": 3.37,
+  "value": 6.46,
   "valuePerYear": {
     "2555": 2.66,
     "2556": 2.74,
@@ -8,7 +8,9 @@
     "2559": 3.06,
     "2560": 3.08,
     "2561": 3.32,
-    "2562": 3.37
+    "2562": 3.37,
+    "2563": 6.05,
+    "2564": 6.46
   },
   "minimumPoint": {
     "value": 2.66,
@@ -17,8 +19,8 @@
     "districtName": "คลองสาน"
   },
   "maximumPoint": {
-    "value": 3.37,
-    "year": 2562,
+    "value": 6.46,
+    "year": 2564,
     "districtId": 2,
     "districtName": "คลองสาน"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 305188000,
       "focused": 20144400
+    },
+    "2563": {
+      "all": 309402000,
+      "focused": 20835500
+    },
+    "2564": {
+      "all": 312803500,
+      "focused": 26953400
     }
   },
   "budgetOverall": {
-    "all": 2397379940,
-    "focused": 111382700
+    "all": 3019585440,
+    "focused": 159171600
   },
-  "ranked": 36,
+  "ranked": 37,
   "rankings": [
     {
       "ranked": 33,
@@ -101,7 +111,17 @@
       "ranked": 36,
       "year": 2562,
       "value": 3.37
+    },
+    {
+      "ranked": 39,
+      "year": 2563,
+      "value": 6.05
+    },
+    {
+      "ranked": 37,
+      "year": 2564,
+      "value": 6.46
     }
   ],
-  "publicGreenSpacePerCapita": 0.7
+  "publicGreenSpacePerCapita": null
 }

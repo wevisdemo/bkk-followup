@@ -1,5 +1,5 @@
 {
-  "value": 2,
+  "value": null,
   "valuePerYear": {
     "2555": 5,
     "2556": 4,
@@ -8,7 +8,9 @@
     "2559": null,
     "2560": null,
     "2561": 3,
-    "2562": 2
+    "2562": 2,
+    "2563": null,
+    "2564": null
   },
   "minimumPoint": {
     "value": 2,
@@ -54,13 +56,21 @@
     "2562": {
       "all": 305188000,
       "focused": 12221800
+    },
+    "2563": {
+      "all": 309402000,
+      "focused": 9481400
+    },
+    "2564": {
+      "all": 312803500,
+      "focused": 9238200
     }
   },
   "budgetOverall": {
-    "all": 2397379940,
-    "focused": 76374600
+    "all": 3019585440,
+    "focused": 95094200
   },
-  "ranked": 24,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 20,
@@ -83,13 +93,7 @@
       "value": 2
     }
   ],
-  "floodHotspots": [
-    {
-      "name": "ถนนลาดหญ้า",
-      "description": "จากวงเวียนใหญ่ถึงหน้าโรบินสัน"
-    }
-  ],
-  "meanFloodLevel": 8.9,
+  "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "value": 33.5,
     "year": 2556,

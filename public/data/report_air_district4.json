@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 70,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 70,
+    "year": 2563,
     "districtId": 4,
     "districtName": "คันนายาว"
   },
   "maximumPoint": {
+    "value": 70,
+    "year": 2563,
     "districtId": 4,
     "districtName": "คันนายาว"
   },
@@ -24,6 +30,12 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 42,
+      "year": 2563,
+      "value": 70
+    }
+  ],
   "sampling": null
 }

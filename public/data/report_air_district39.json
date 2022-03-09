@@ -8,13 +8,19 @@
     "2559": null,
     "2560": null,
     "2561": null,
-    "2562": null
+    "2562": null,
+    "2563": 104,
+    "2564": null
   },
   "minimumPoint": {
+    "value": 104,
+    "year": 2563,
     "districtId": 39,
     "districtName": "ลาดพร้าว"
   },
   "maximumPoint": {
+    "value": 104,
+    "year": 2563,
     "districtId": 39,
     "districtName": "ลาดพร้าว"
   },
@@ -24,6 +30,12 @@
     "focused": 0
   },
   "ranked": null,
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 10,
+      "year": 2563,
+      "value": 104
+    }
+  ],
   "sampling": null
 }

@@ -1,5 +1,5 @@
 {
-  "value": 52,
+  "value": 3,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -8,11 +8,13 @@
     "2559": 79,
     "2560": 293,
     "2561": 90,
-    "2562": 52
+    "2562": 52,
+    "2563": 7,
+    "2564": 3
   },
   "minimumPoint": {
-    "value": 13,
-    "year": 2557,
+    "value": 3,
+    "year": 2564,
     "districtId": 22,
     "districtName": "บางนา"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 306260000,
       "focused": 8255400
+    },
+    "2563": {
+      "all": 312974000,
+      "focused": 8188200
+    },
+    "2564": {
+      "all": 310271000,
+      "focused": 7867700
     }
   },
   "budgetOverall": {
-    "all": 2469750340,
-    "focused": 60888600
+    "all": 3092995340,
+    "focused": 76944500
   },
-  "ranked": 3,
+  "ranked": 17,
   "rankings": [
     {
       "ranked": 18,
@@ -91,19 +101,33 @@
       "ranked": 3,
       "year": 2562,
       "value": 52
+    },
+    {
+      "ranked": 9,
+      "year": 2563,
+      "value": 7
+    },
+    {
+      "ranked": 17,
+      "year": 2564,
+      "value": 3
     }
   ],
   "floodHotspots": [
     {
-      "name": "ถนนศรีนครินทร์",
-      "description": "บริเวณหน้าวัดศรีเอี่ยม"
+      "name": "ถนนสุขุมวิท",
+      "description": "แยกบางนา ไบเทค"
     },
     {
-      "name": "ถนนสุขุมวิท",
-      "description": "จากแยกบางนา ถึงสุดเขต กทม."
+      "name": "ถนนศรีนครินทร์",
+      "description": "วัดศรีเอี่ยม ขาออก"
+    },
+    {
+      "name": "ถนนศรีนครินทร์",
+      "description": "วัดศรีเอี่ยม ขาเข้า"
     }
   ],
-  "meanFloodLevel": 33.6,
+  "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2560,

@@ -8,93 +8,93 @@ export default function BudgetPageOne(props) {
 
   return (
     <div
-      className="budget-page-one fixed inset-0 z-10 flex items-center pointer-events-none bg-green-default"
+      className="fixed inset-0 z-10 flex items-center pointer-events-none budget-page-one bg-green-default"
       style={{ top: "60px" }}
     >
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
           {!isMobile || active_index === 1 ? (
             <div className="left">
-              <h2 className="leading-tight d2 hidden lg:block">
+              <h2 className="hidden leading-tight d2 lg:block">
                 <span className="d2 text-white-default">
-                  สิ้นปี 2562
+                  สิ้นปี 2564
                   <br />
                   กรุงเทพมีประชากร
                 </span>
                 <br />
-                5,666,264 คน
+                5,527,994 คน
               </h2>
 
-              <h3 className="leading-tight d3 block lg:hidden text-center">
+              <h3 className="block leading-tight text-center d3 lg:hidden">
                 <span className="d3 text-white-default">
-                  สิ้นปี 2562
+                  สิ้นปี 2564
                   <br />
                   กรุงเทพมีประชากร
                 </span>
                 <br />
-                5,666,264 คน
+                5,527,994 คน
               </h3>
 
-              <h2 className="leading-tight d2 mt-14 hidden lg:block">
+              <h2 className="hidden leading-tight d2 mt-14 lg:block">
                 <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
-                80,000 ล้านบาท
+                75,500 ล้านบาท
               </h2>
 
-              <h3 className="leading-tight d3 mt-8 block lg:hidden text-center">
+              <h3 className="block mt-8 leading-tight text-center d3 lg:hidden">
                 <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
-                80,000 ล้านบาท
+                75,500 ล้านบาท
               </h3>
 
-              <h3 className="mt-8 text-4xl hidden lg:block">
+              <h3 className="hidden mt-8 text-4xl lg:block">
                 แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำๆ และยังไม่ถูกแก้
               </h3>
 
-              <h3 className="mt-8 text-2xl block lg:hidden text-center">
+              <h3 className="block mt-8 text-2xl text-center lg:hidden">
                 แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำๆ และยังไม่ถูกแก้
               </h3>
             </div>
           ) : null}
 
           {!isMobile || active_index > 1 ? (
-            <div className="right relative">
+            <div className="relative right">
               <img
                 src={children}
                 alt={children}
-                className="children-image w-3/4 lg:w-2/4 absolute top-2/4 transform -translate-y-2/4 left-2/4 -translate-x-2/4"
+                className="absolute w-3/4 transform children-image lg:w-2/4 top-2/4 -translate-y-2/4 left-2/4 -translate-x-2/4"
               />
 
               {(!isMobileOnly && active_index > 1) ||
-              (isMobileOnly && active_index > 2) ? (
-                <div className="relative h-full flex flex-col lg:flex-row items-center justify-center text-center">
+                (isMobileOnly && active_index > 2) ? (
+                <div className="relative flex flex-col items-center justify-center h-full text-center lg:flex-row">
                   <div
-                    className="p-5 bg-opacity-90 rounded-md shadow-xl content bg-white-default"
+                    className="p-5 rounded-md shadow-xl bg-opacity-90 content bg-white-default"
                     style={{
                       minWidth: isMobile ? "100%" : "387px",
                     }}
                   >
                     <h5 className="text-lg">
-                      ในปี 2562 กทม. ใช้เงินดูแลประชาชนเฉลี่ย
+                      ในปี 2564 กทม. ใช้เงินดูแลประชาชนเฉลี่ย
                     </h5>
 
                     <div className="px-4 py-2 my-2 rounded-md budget bg-green-light">
-                      <h4 className="d4">14,118.65 บาท / คน / ปี</h4>
+                      <h4 className="d4">13,657.75 บาท / คน / ปี</h4>
                     </div>
 
-                    <h5>เป็นการใช้งบประมาณ สูงสุดในรอบ 8 ปี</h5>
+                    <h5>เป็นการใช้งบประมาณ สูงสุดในรอบ 10 ปี</h5>
                   </div>
 
-                  <a
+                  {/* <a
                     href="https://elect.in.th/bkk-budget/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative lg:absolute inset-x-0 bottom-0 flex items-center justify-center p-2 mx-auto rounded-md shadow-xl pointer-events-auto content bg-white-default w-full md:w-max mt-3 md:mt-10"
+                    className="relative inset-x-0 bottom-0 flex items-center justify-center w-full p-2 mx-auto mt-3 rounded-md shadow-xl pointer-events-auto lg:absolute content bg-white-default md:w-max md:mt-10"
                   >
                     <img width={30} src={p_icon} alt={p_icon} />
 
                     <h3 className="ml-2">อ่านบทความเกี่ยวกับงบกทม.</h3>
-                  </a>
+                  </a> */}
                 </div>
               ) : null}
             </div>

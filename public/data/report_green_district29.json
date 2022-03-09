@@ -1,5 +1,5 @@
 {
-  "value": 5.91,
+  "value": 12.24,
   "valuePerYear": {
     "2555": 5.18,
     "2556": 5.27,
@@ -8,7 +8,9 @@
     "2559": 5.4,
     "2560": 5.51,
     "2561": 5.62,
-    "2562": 5.91
+    "2562": 5.91,
+    "2563": 11.69,
+    "2564": 12.24
   },
   "minimumPoint": {
     "value": 5.18,
@@ -17,8 +19,8 @@
     "districtName": "ป้อมปราบศัตรูพ่าย"
   },
   "maximumPoint": {
-    "value": 5.91,
-    "year": 2562,
+    "value": 12.24,
+    "year": 2564,
     "districtId": 29,
     "districtName": "ป้อมปราบศัตรูพ่าย"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 235993800,
       "focused": 14911300
+    },
+    "2563": {
+      "all": 252196000,
+      "focused": 14131200
+    },
+    "2564": {
+      "all": 249314200,
+      "focused": 14635200
     }
   },
   "budgetOverall": {
-    "all": 1938186240,
-    "focused": 76943500
+    "all": 2439696440,
+    "focused": 105709900
   },
-  "ranked": 17,
+  "ranked": 20,
   "rankings": [
     {
       "ranked": 16,
@@ -101,7 +111,17 @@
       "ranked": 17,
       "year": 2562,
       "value": 5.91
+    },
+    {
+      "ranked": 20,
+      "year": 2563,
+      "value": 11.69
+    },
+    {
+      "ranked": 20,
+      "year": 2564,
+      "value": 12.24
     }
   ],
-  "publicGreenSpacePerCapita": 0
+  "publicGreenSpacePerCapita": null
 }

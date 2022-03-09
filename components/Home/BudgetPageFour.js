@@ -10,26 +10,27 @@ export default function BudgetPageFour(props) {
     {
       title: "บริหารทั่วไป (สำหรับการจัดการภายในและการวางแผน)",
       color: "#00C853",
-      value: 172034132397,
-      percent: 29.6,
+      value: '216,730',
+      percent: 29.20,
+    },
+    {
+
+      title: "งานรักษาความสะอาด",
+      color: "#CCF4DD",
+      value: '135,054',
+      percent: 18.20,
     },
     {
       title: "งานก่อสร้างโครงสร้างพื้นฐานและวิศวกรรมจราจร",
-      color: "#CCF4DD",
-      value: 104449979000,
-      percent: 18.0,
-    },
-    {
-      title: "งานรักษาความสะอาด",
       color: "#DAE1E8",
-      value: 94887660735,
-      percent: 16.3,
+      value: '134,392',
+      percent: 18.11,
     },
     {
       title: "อื่นๆ",
       color: "black",
-      value: 412040688835,
-      percent: 70.9,
+      value: '256,005',
+      percent: 34.49,
     },
   ];
   let chart_data = [
@@ -201,6 +202,48 @@ export default function BudgetPageFour(props) {
         },
       ],
     },
+    {
+      year: 2563,
+      values: [
+        {
+          title: "อื่นๆ",
+          value: 59430194045,
+        },
+        {
+          title: "งานก่อสร้างโครงสร้างพื้นฐานและวิศวกรรมจราจร",
+          value: 15774401980,
+        },
+        {
+          title: "งานรักษาความสะอาด",
+          value: 11728236652,
+        },
+        {
+          title: "บริหารทั่วไป (สำหรับการจัดการภายในและการวางแผน)",
+          value: 27737945719,
+        },
+      ],
+    },
+    {
+      year: 2564,
+      values: [
+        {
+          title: "อื่นๆ",
+          value: 59430194045,
+        },
+        {
+          title: "งานก่อสร้างโครงสร้างพื้นฐานและวิศวกรรมจราจร",
+          value: 15774401980,
+        },
+        {
+          title: "งานรักษาความสะอาด",
+          value: 11728236652,
+        },
+        {
+          title: "บริหารทั่วไป (สำหรับการจัดการภายในและการวางแผน)",
+          value: 27737945719,
+        },
+      ],
+    },
   ];
   chart_data = _.map(chart_data, (d) => {
     const sum = _.sumBy(d.values, "value");
@@ -252,7 +295,7 @@ export default function BudgetPageFour(props) {
                     <div className="flex-1 title d5">{l.title}</div>
 
                     <h3 className="flex-none ml-3 text-right value">
-                      {numeral(l.value / 1e7).format("0,0")} ล้านบาท
+                      {l.value} ล้านบาท
                       <br />({l.percent}%)
                     </h3>
                   </li>
@@ -264,7 +307,7 @@ export default function BudgetPageFour(props) {
           {!isMobileOnly || active_index === 8 ? (
             <>
               <div className="flex items-center right">
-                <div className="grid w-full grid-cols-8 gap-2 text-center chart lg:gap-4 lg:w-auto">
+                <div className="grid w-full grid-cols-10 gap-2 text-center chart lg:gap-3 lg:w-auto">
                   {chart_data.map((d) => (
                     <div key={d.year} className="bar">
                       <div

@@ -1,5 +1,5 @@
 {
-  "value": 2.32,
+  "value": 4.84,
   "valuePerYear": {
     "2555": 1.41,
     "2556": 1.49,
@@ -8,7 +8,9 @@
     "2559": 2.06,
     "2560": 2.14,
     "2561": 2.28,
-    "2562": 2.32
+    "2562": 2.32,
+    "2563": 4.68,
+    "2564": 4.84
   },
   "minimumPoint": {
     "value": 1.41,
@@ -17,8 +19,8 @@
     "districtName": "ธนบุรี"
   },
   "maximumPoint": {
-    "value": 2.32,
-    "year": 2562,
+    "value": 4.84,
+    "year": 2564,
     "districtId": 13,
     "districtName": "ธนบุรี"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 368952100,
       "focused": 19841000
+    },
+    "2563": {
+      "all": 397104900,
+      "focused": 21314800
+    },
+    "2564": {
+      "all": 385577190,
+      "focused": 21244100
     }
   },
   "budgetOverall": {
-    "all": 3041967640,
-    "focused": 120834400
+    "all": 3824649730,
+    "focused": 163393300
   },
-  "ranked": 46,
+  "ranked": 43,
   "rankings": [
     {
       "ranked": 44,
@@ -101,7 +111,17 @@
       "ranked": 46,
       "year": 2562,
       "value": 2.32
+    },
+    {
+      "ranked": 43,
+      "year": 2563,
+      "value": 4.68
+    },
+    {
+      "ranked": 43,
+      "year": 2564,
+      "value": 4.84
     }
   ],
-  "publicGreenSpacePerCapita": 0
+  "publicGreenSpacePerCapita": null
 }

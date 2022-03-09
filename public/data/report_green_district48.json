@@ -1,5 +1,5 @@
 {
-  "value": 8.08,
+  "value": 15.95,
   "valuePerYear": {
     "2555": 8.07,
     "2556": 8.31,
@@ -8,7 +8,9 @@
     "2559": 8.2,
     "2560": 8.12,
     "2561": 8.23,
-    "2562": 8.08
+    "2562": 8.08,
+    "2563": 16.03,
+    "2564": 15.95
   },
   "minimumPoint": {
     "value": 8.04,
@@ -17,8 +19,8 @@
     "districtName": "หนองจอก"
   },
   "maximumPoint": {
-    "value": 8.31,
-    "year": 2556,
+    "value": 16.03,
+    "year": 2563,
     "districtId": 48,
     "districtName": "หนองจอก"
   },
@@ -54,13 +56,21 @@
     "2562": {
       "all": 563080000,
       "focused": 35591100
+    },
+    "2563": {
+      "all": 612502200,
+      "focused": 36934800
+    },
+    "2564": {
+      "all": 600324000,
+      "focused": 35262700
     }
   },
   "budgetOverall": {
-    "all": 4138014840,
-    "focused": 187119400
+    "all": 5350841040,
+    "focused": 259316900
   },
-  "ranked": 13,
+  "ranked": 15,
   "rankings": [
     {
       "ranked": 8,
@@ -101,7 +111,17 @@
       "ranked": 13,
       "year": 2562,
       "value": 8.08
+    },
+    {
+      "ranked": 15,
+      "year": 2563,
+      "value": 16.03
+    },
+    {
+      "ranked": 15,
+      "year": 2564,
+      "value": 15.95
     }
   ],
-  "publicGreenSpacePerCapita": 0.39
+  "publicGreenSpacePerCapita": null
 }

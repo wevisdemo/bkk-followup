@@ -1,5 +1,5 @@
 {
-  "value": 70,
+  "value": 79,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -7,18 +7,20 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": 97,
-    "2562": 70
+    "2561": 23,
+    "2562": 80,
+    "2563": 95,
+    "2564": 79
   },
   "minimumPoint": {
-    "value": 70,
-    "year": 2562,
+    "value": 23,
+    "year": 2561,
     "districtId": 30,
     "districtName": "พญาไท"
   },
   "maximumPoint": {
-    "value": 97,
-    "year": 2561,
+    "value": 95,
+    "year": 2563,
     "districtId": 30,
     "districtName": "พญาไท"
   },
@@ -30,18 +32,28 @@
   "ranked": 7,
   "rankings": [
     {
-      "ranked": 4,
+      "ranked": 20,
       "year": 2561,
-      "value": 97
+      "value": 23
+    },
+    {
+      "ranked": 22,
+      "year": 2562,
+      "value": 80
+    },
+    {
+      "ranked": 21,
+      "year": 2563,
+      "value": 95
     },
     {
       "ranked": 7,
-      "year": 2562,
-      "value": 70
+      "year": 2564,
+      "value": 79
     }
   ],
   "sampling": {
-    "count": 23,
-    "aboveThresholdCount": 16
+    "count": 46,
+    "aboveThresholdCount": 28
   }
 }
