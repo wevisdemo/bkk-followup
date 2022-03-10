@@ -1,0 +1,163 @@
+{
+  "value": 10,
+  "valuePerYear": {
+    "2555": 16,
+    "2556": 81,
+    "2557": 5,
+    "2558": 11,
+    "2559": 4,
+    "2560": 1,
+    "2561": 15,
+    "2562": 1,
+    "2563": 9,
+    "2564": 10
+  },
+  "minimumPoint": {
+    "value": 1,
+    "year": 2560,
+    "districtId": 41,
+    "districtName": "วัฒนา"
+  },
+  "maximumPoint": {
+    "value": 81,
+    "year": 2556,
+    "districtId": 41,
+    "districtName": "วัฒนา"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 294702500,
+      "focused": 7376400
+    },
+    "2556": {
+      "all": 304874600,
+      "focused": 8528100
+    },
+    "2557": {
+      "all": 304874600,
+      "focused": 8528100
+    },
+    "2558": {
+      "all": 289145900,
+      "focused": 10678200
+    },
+    "2559": {
+      "all": 315368500,
+      "focused": 8612400
+    },
+    "2560": {
+      "all": 327999800,
+      "focused": 8979800
+    },
+    "2561": {
+      "all": 339603840,
+      "focused": 9312100
+    },
+    "2562": {
+      "all": 331243700,
+      "focused": 9698800
+    },
+    "2563": {
+      "all": 341754000,
+      "focused": 10265700
+    },
+    "2564": {
+      "all": 349351000,
+      "focused": 9693000
+    }
+  },
+  "budgetOverall": {
+    "all": 3198918440,
+    "focused": 91672600
+  },
+  "ranked": 7,
+  "rankings": [
+    {
+      "ranked": 8,
+      "year": 2555,
+      "value": 16
+    },
+    {
+      "ranked": 2,
+      "year": 2556,
+      "value": 81
+    },
+    {
+      "ranked": 21,
+      "year": 2557,
+      "value": 5
+    },
+    {
+      "ranked": 17,
+      "year": 2558,
+      "value": 11
+    },
+    {
+      "ranked": 18,
+      "year": 2559,
+      "value": 4
+    },
+    {
+      "ranked": 28,
+      "year": 2560,
+      "value": 1
+    },
+    {
+      "ranked": 12,
+      "year": 2561,
+      "value": 15
+    },
+    {
+      "ranked": 27,
+      "year": 2562,
+      "value": 1
+    },
+    {
+      "ranked": 8,
+      "year": 2563,
+      "value": 9
+    },
+    {
+      "ranked": 7,
+      "year": 2564,
+      "value": 10
+    }
+  ],
+  "floodHotspots": [
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "สุขุมวิท 39"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "สุขุมวิท 49"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "มศว.-สุขุมวิท 31"
+    },
+    {
+      "name": "ถนนอโศกมนตรี",
+      "description": "ปากซอย 39 แยกถนนพร้อมศรี"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "ซอยสุขุมวิท 39"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "ปากซอยสุขุมวิท ถนนปรีดีพนมยงค์ 18"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "ปากซอยสุขุมวิท 39 แยกถนนพร้อมศรี"
+    }
+  ],
+  "meanFloodLevel": null,
+  "meanFloodLevelMaximumPoint": {
+    "value": 33.9,
+    "year": 2558,
+    "districtId": 41,
+    "districtName": "วัฒนา"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "value": 3,
+  "valuePerYear": {
+    "2555": 60,
+    "2556": 6,
+    "2557": 28,
+    "2558": 1,
+    "2559": 9,
+    "2560": 34,
+    "2561": 24,
+    "2562": 6,
+    "2563": 13,
+    "2564": 3
+  },
+  "minimumPoint": {
+    "value": 1,
+    "year": 2558,
+    "districtId": 20,
+    "districtName": "บางแค"
+  },
+  "maximumPoint": {
+    "value": 60,
+    "year": 2555,
+    "districtId": 20,
+    "districtName": "บางแค"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 380585800,
+      "focused": 14537800
+    },
+    "2556": {
+      "all": 435414600,
+      "focused": 10607200
+    },
+    "2557": {
+      "all": 435414600,
+      "focused": 10607200
+    },
+    "2558": {
+      "all": 464471200,
+      "focused": 19227800
+    },
+    "2559": {
+      "all": 438940500,
+      "focused": 14236100
+    },
+    "2560": {
+      "all": 494555700,
+      "focused": 15057900
+    },
+    "2561": {
+      "all": 448589840,
+      "focused": 21709400
+    },
+    "2562": {
+      "all": 453852000,
+      "focused": 35134500
+    },
+    "2563": {
+      "all": 504093900,
+      "focused": 58810100
+    },
+    "2564": {
+      "all": 464744800,
+      "focused": 18553600
+    }
+  },
+  "budgetOverall": {
+    "all": 4520662940,
+    "focused": 218481600
+  },
+  "ranked": 16,
+  "rankings": [
+    {
+      "ranked": 4,
+      "year": 2555,
+      "value": 60
+    },
+    {
+      "ranked": 19,
+      "year": 2556,
+      "value": 6
+    },
+    {
+      "ranked": 11,
+      "year": 2557,
+      "value": 28
+    },
+    {
+      "ranked": 26,
+      "year": 2558,
+      "value": 1
+    },
+    {
+      "ranked": 15,
+      "year": 2559,
+      "value": 9
+    },
+    {
+      "ranked": 9,
+      "year": 2560,
+      "value": 34
+    },
+    {
+      "ranked": 9,
+      "year": 2561,
+      "value": 24
+    },
+    {
+      "ranked": 20,
+      "year": 2562,
+      "value": 6
+    },
+    {
+      "ranked": 4,
+      "year": 2563,
+      "value": 13
+    },
+    {
+      "ranked": 16,
+      "year": 2564,
+      "value": 3
+    }
+  ],
+  "floodHotspots": [
+    {
+      "name": "ถนนหมู่บ้านเศรษฐกิจ",
+      "description": "ซอย 3 วงเวียนกาญจนา"
+    },
+    {
+      "name": "ถนนเพชรเกษม",
+      "description": "วงเเหวนช่วงเดอะมอลล์บางเเค"
+    },
+    {
+      "name": "ถนนเพชรเกษม",
+      "description": "ซอยเพชรเกษม36 -ม.สยาม"
+    }
+  ],
+  "meanFloodLevel": 14.17,
+  "meanFloodLevelMaximumPoint": {
+    "value": 34.4,
+    "year": 2559,
+    "districtId": 20,
+    "districtName": "บางแค"
+  }
+}

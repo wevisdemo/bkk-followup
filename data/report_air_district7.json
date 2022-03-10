@@ -1,0 +1,41 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": null,
+    "2562": null,
+    "2563": 79,
+    "2564": null
+  },
+  "minimumPoint": {
+    "value": 79,
+    "year": 2563,
+    "districtId": 7,
+    "districtName": "ดอนเมือง"
+  },
+  "maximumPoint": {
+    "value": 79,
+    "year": 2563,
+    "districtId": 7,
+    "districtName": "ดอนเมือง"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": null,
+  "rankings": [
+    {
+      "ranked": 36,
+      "year": 2563,
+      "value": 79
+    }
+  ],
+  "sampling": null
+}

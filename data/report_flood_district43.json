@@ -1,0 +1,76 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": null,
+    "2562": null,
+    "2563": null,
+    "2564": null
+  },
+  "minimumPoint": {
+    "districtId": 43,
+    "districtName": "สะพานสูง"
+  },
+  "maximumPoint": {
+    "districtId": 43,
+    "districtName": "สะพานสูง"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 308790100,
+      "focused": 10925100
+    },
+    "2556": {
+      "all": 292846900,
+      "focused": 15402500
+    },
+    "2557": {
+      "all": 292846900,
+      "focused": 15402500
+    },
+    "2558": {
+      "all": 327210760,
+      "focused": 27312700
+    },
+    "2559": {
+      "all": 289570600,
+      "focused": 20007300
+    },
+    "2560": {
+      "all": 316165000,
+      "focused": 13715500
+    },
+    "2561": {
+      "all": 312579840,
+      "focused": 27314600
+    },
+    "2562": {
+      "all": 316401000,
+      "focused": 15761900
+    },
+    "2563": {
+      "all": 335301000,
+      "focused": 24229900
+    },
+    "2564": {
+      "all": 324124000,
+      "focused": 22989500
+    }
+  },
+  "budgetOverall": {
+    "all": 3115836100,
+    "focused": 193061500
+  },
+  "ranked": null,
+  "rankings": [],
+  "meanFloodLevel": null,
+  "meanFloodLevelMaximumPoint": {
+    "districtId": 43,
+    "districtName": "สะพานสูง"
+  }
+}

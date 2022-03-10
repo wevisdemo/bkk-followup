@@ -1,0 +1,98 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": 48,
+    "2558": 32,
+    "2559": null,
+    "2560": 2,
+    "2561": null,
+    "2562": null,
+    "2563": null,
+    "2564": null
+  },
+  "minimumPoint": {
+    "value": 2,
+    "year": 2560,
+    "districtId": 18,
+    "districtName": "บางเขน"
+  },
+  "maximumPoint": {
+    "value": 48,
+    "year": 2557,
+    "districtId": 18,
+    "districtName": "บางเขน"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 395964000,
+      "focused": 10977900
+    },
+    "2556": {
+      "all": 407495300,
+      "focused": 13176300
+    },
+    "2557": {
+      "all": 407495300,
+      "focused": 13176300
+    },
+    "2558": {
+      "all": 354659400,
+      "focused": 33224700
+    },
+    "2559": {
+      "all": 395721600,
+      "focused": 16815100
+    },
+    "2560": {
+      "all": 400654500,
+      "focused": 35087800
+    },
+    "2561": {
+      "all": 393560240,
+      "focused": 30078300
+    },
+    "2562": {
+      "all": 390354000,
+      "focused": 23779600
+    },
+    "2563": {
+      "all": 433887600,
+      "focused": 25472300
+    },
+    "2564": {
+      "all": 415122600,
+      "focused": 33213400
+    }
+  },
+  "budgetOverall": {
+    "all": 3994914540,
+    "focused": 235001700
+  },
+  "ranked": null,
+  "rankings": [
+    {
+      "ranked": 7,
+      "year": 2557,
+      "value": 48
+    },
+    {
+      "ranked": 9,
+      "year": 2558,
+      "value": 32
+    },
+    {
+      "ranked": 25,
+      "year": 2560,
+      "value": 2
+    }
+  ],
+  "meanFloodLevel": null,
+  "meanFloodLevelMaximumPoint": {
+    "value": 27.3,
+    "year": 2557,
+    "districtId": 18,
+    "districtName": "บางเขน"
+  }
+}

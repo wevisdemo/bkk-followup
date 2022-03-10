@@ -1,0 +1,127 @@
+{
+  "value": 10.04,
+  "valuePerYear": {
+    "2555": 2.67,
+    "2556": 3,
+    "2557": 3,
+    "2558": 3.5,
+    "2559": 4.07,
+    "2560": 4.24,
+    "2561": 4.53,
+    "2562": 4.54,
+    "2563": 9.41,
+    "2564": 10.04
+  },
+  "minimumPoint": {
+    "value": 2.67,
+    "year": 2555,
+    "districtId": 22,
+    "districtName": "บางนา"
+  },
+  "maximumPoint": {
+    "value": 10.04,
+    "year": 2564,
+    "districtId": 22,
+    "districtName": "บางนา"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 347345600,
+      "focused": 14690900
+    },
+    "2556": {
+      "all": 313274000,
+      "focused": 15924700
+    },
+    "2557": {
+      "all": 313274000,
+      "focused": 15924700
+    },
+    "2558": {
+      "all": 283943900,
+      "focused": 16398300
+    },
+    "2559": {
+      "all": 301135500,
+      "focused": 8624100
+    },
+    "2560": {
+      "all": 303022500,
+      "focused": 8056000
+    },
+    "2561": {
+      "all": 301494840,
+      "focused": 7575800
+    },
+    "2562": {
+      "all": 306260000,
+      "focused": 18850400
+    },
+    "2563": {
+      "all": 312974000,
+      "focused": 19600000
+    },
+    "2564": {
+      "all": 310271000,
+      "focused": 19772200
+    }
+  },
+  "budgetOverall": {
+    "all": 3092995340,
+    "focused": 145417100
+  },
+  "ranked": 26,
+  "rankings": [
+    {
+      "ranked": 32,
+      "year": 2555,
+      "value": 2.67
+    },
+    {
+      "ranked": 30,
+      "year": 2556,
+      "value": 3
+    },
+    {
+      "ranked": 30,
+      "year": 2557,
+      "value": 3
+    },
+    {
+      "ranked": 31,
+      "year": 2558,
+      "value": 3.5
+    },
+    {
+      "ranked": 27,
+      "year": 2559,
+      "value": 4.07
+    },
+    {
+      "ranked": 28,
+      "year": 2560,
+      "value": 4.24
+    },
+    {
+      "ranked": 28,
+      "year": 2561,
+      "value": 4.53
+    },
+    {
+      "ranked": 30,
+      "year": 2562,
+      "value": 4.54
+    },
+    {
+      "ranked": 27,
+      "year": 2563,
+      "value": 9.41
+    },
+    {
+      "ranked": 26,
+      "year": 2564,
+      "value": 10.04
+    }
+  ],
+  "publicGreenSpacePerCapita": null
+}

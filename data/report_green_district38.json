@@ -1,0 +1,127 @@
+{
+  "value": 5.81,
+  "valuePerYear": {
+    "2555": 3.06,
+    "2556": 3.03,
+    "2557": 3.03,
+    "2558": 2.56,
+    "2559": 2.39,
+    "2560": 2.27,
+    "2561": 2.77,
+    "2562": 2.83,
+    "2563": 5.3,
+    "2564": 5.81
+  },
+  "minimumPoint": {
+    "value": 2.27,
+    "year": 2560,
+    "districtId": 38,
+    "districtName": "ลาดกระบัง"
+  },
+  "maximumPoint": {
+    "value": 5.81,
+    "year": 2564,
+    "districtId": 38,
+    "districtName": "ลาดกระบัง"
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 456215400,
+      "focused": 33246300
+    },
+    "2556": {
+      "all": 547592700,
+      "focused": 36213600
+    },
+    "2557": {
+      "all": 547592700,
+      "focused": 36213600
+    },
+    "2558": {
+      "all": 574783800,
+      "focused": 39745300
+    },
+    "2559": {
+      "all": 573081100,
+      "focused": 22062200
+    },
+    "2560": {
+      "all": 603230000,
+      "focused": 20422900
+    },
+    "2561": {
+      "all": 562301840,
+      "focused": 22735600
+    },
+    "2562": {
+      "all": 571562000,
+      "focused": 38751000
+    },
+    "2563": {
+      "all": 612104000,
+      "focused": 39381200
+    },
+    "2564": {
+      "all": 587544000,
+      "focused": 47383340
+    }
+  },
+  "budgetOverall": {
+    "all": 5636007540,
+    "focused": 336155040
+  },
+  "ranked": 40,
+  "rankings": [
+    {
+      "ranked": 29,
+      "year": 2555,
+      "value": 3.06
+    },
+    {
+      "ranked": 29,
+      "year": 2556,
+      "value": 3.03
+    },
+    {
+      "ranked": 29,
+      "year": 2557,
+      "value": 3.03
+    },
+    {
+      "ranked": 40,
+      "year": 2558,
+      "value": 2.56
+    },
+    {
+      "ranked": 43,
+      "year": 2559,
+      "value": 2.39
+    },
+    {
+      "ranked": 43,
+      "year": 2560,
+      "value": 2.27
+    },
+    {
+      "ranked": 42,
+      "year": 2561,
+      "value": 2.77
+    },
+    {
+      "ranked": 42,
+      "year": 2562,
+      "value": 2.83
+    },
+    {
+      "ranked": 41,
+      "year": 2563,
+      "value": 5.3
+    },
+    {
+      "ranked": 40,
+      "year": 2564,
+      "value": 5.81
+    }
+  ],
+  "publicGreenSpacePerCapita": null
+}

@@ -1,0 +1,185 @@
+{
+  "value": 12,
+  "valuePerYear": {
+    "2555": 60,
+    "2556": 17,
+    "2557": 28,
+    "2558": 8,
+    "2559": 9,
+    "2560": 50,
+    "2561": 39,
+    "2562": 13,
+    "2563": 27,
+    "2564": 12
+  },
+  "minimumPoint": {
+    "districtId": 6,
+    "districtName": "จอมทอง",
+    "year": 2563,
+    "value": 1
+  },
+  "maximumPoint": {
+    "districtId": 20,
+    "districtName": "บางแค",
+    "year": 2555,
+    "value": 60
+  },
+  "budgetPerYear": {
+    "2555": {
+      "all": 5341762100,
+      "focused": 230035600
+    },
+    "2556": {
+      "all": 5628543100,
+      "focused": 297183900
+    },
+    "2557": {
+      "all": 5628543100,
+      "focused": 297183900
+    },
+    "2558": {
+      "all": 5795749100,
+      "focused": 249186200
+    },
+    "2559": {
+      "all": 5715356700,
+      "focused": 226019100
+    },
+    "2560": {
+      "all": 5977032600,
+      "focused": 235871300
+    },
+    "2561": {
+      "all": 5841390560,
+      "focused": 240895500
+    },
+    "2562": {
+      "all": 5980481300,
+      "focused": 311059200
+    },
+    "2563": {
+      "all": 6443658340,
+      "focused": 310370800
+    },
+    "2564": {
+      "all": 6182171000,
+      "focused": 273551400
+    }
+  },
+  "budgetOverall": {
+    "all": 58534687900,
+    "focused": 2671356900
+  },
+  "rankings": [
+    {
+      "ranked": 1,
+      "districtId": 34,
+      "districtName": "มีนบุรี",
+      "value": 4
+    },
+    {
+      "ranked": 2,
+      "districtId": 20,
+      "districtName": "บางแค",
+      "value": 3
+    },
+    {
+      "ranked": 3,
+      "districtId": 17,
+      "districtName": "บางขุนเทียน",
+      "value": 2
+    },
+    {
+      "ranked": 4,
+      "districtId": 23,
+      "districtName": "บางบอน",
+      "value": 2
+    },
+    {
+      "ranked": 5,
+      "districtId": 6,
+      "districtName": "จอมทอง",
+      "value": 1
+    }
+  ],
+  "benchmarks": [
+    {
+      "zoneId": "all",
+      "areaName": "ทุกเขตในกรุงเทพมหานคร",
+      "value": 172
+    },
+    {
+      "zoneId": "residence",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
+      "value": 48
+    },
+    {
+      "zoneId": "suburban",
+      "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
+      "value": 12
+    },
+    {
+      "zoneId": "tourism-and-cultural",
+      "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
+      "value": 7
+    },
+    {
+      "zoneId": "business",
+      "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
+      "value": 105
+    }
+  ],
+  "floodHotspots": [
+    {
+      "name": "ถนนจอมทอง",
+      "description": "แยกจอมทอง จอมทอง 17 ทั้งสองฝั่ง"
+    },
+    {
+      "name": "ถนนบางขุนเทียนชายทะเล",
+      "description": "ขาเข้าหน้าปั้มปตท. ถนนพระราม 2"
+    },
+    {
+      "name": "ถนนท่าข้าม",
+      "description": "ท่าข้าม ซ.6 ฝั่งตรงข้าม ซ.5"
+    },
+    {
+      "name": "ถนนหมู่บ้านเศรษฐกิจ",
+      "description": "ซอย 3 วงเวียนกาญจนา"
+    },
+    {
+      "name": "ถนนเพชรเกษม",
+      "description": "วงเเหวนช่วงเดอะมอลล์บางเเค"
+    },
+    {
+      "name": "ถนนเพชรเกษม",
+      "description": "ซอยเพชรเกษม36 -ม.สยาม"
+    },
+    {
+      "name": "ถนนเอกชัย",
+      "description": "คลองราชมนตรี บริษัท กระทิงแดง"
+    },
+    {
+      "name": "ถนนเอกชัย",
+      "description": "หน้าห้างบิ๊กซี คลองราชมนตรี"
+    },
+    {
+      "name": "ถนนสุขุมวิท",
+      "description": "แยกไปรษณีย์"
+    },
+    {
+      "name": "ถนนสุวินทวงศ์",
+      "description": "หน้า บ.โตโยต้า"
+    },
+    {
+      "name": "ถนนสุวินทวงศ์",
+      "description": "หน้าการไฟฟ้า"
+    }
+  ],
+  "meanFloodLevel": 15.21,
+  "meanFloodLevelMaximumPoint": {
+    "districtId": 20,
+    "districtName": "บางแค",
+    "year": 2559,
+    "value": 34.4
+  }
+}

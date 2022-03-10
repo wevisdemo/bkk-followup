@@ -1,0 +1,51 @@
+{
+  "value": null,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": 35,
+    "2562": 105,
+    "2563": 84,
+    "2564": null
+  },
+  "minimumPoint": {
+    "value": 35,
+    "year": 2561,
+    "districtId": 18,
+    "districtName": "บางเขน"
+  },
+  "maximumPoint": {
+    "value": 105,
+    "year": 2562,
+    "districtId": 18,
+    "districtName": "บางเขน"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": null,
+  "rankings": [
+    {
+      "ranked": 6,
+      "year": 2561,
+      "value": 35
+    },
+    {
+      "ranked": 3,
+      "year": 2562,
+      "value": 105
+    },
+    {
+      "ranked": 31,
+      "year": 2563,
+      "value": 84
+    }
+  ],
+  "sampling": null
+}
