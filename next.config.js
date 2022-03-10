@@ -9,8 +9,8 @@ module.exports = withImages({
   //     },
   //   ];
   // // },
-  basePath: "/bkk-followup",
-  assetPrefix: '/bkk-followup/',
+  // basePath: "/bkk-followup",
+  // assetPrefix: '/bkk-followup/',
   webpack(config, options) {
     return config;
   },
