@@ -9,8 +9,8 @@ module.exports = withImages({
   //     },
   //   ];
   // // },
-  basePath: "/bkk-election",
-  assetPrefix: '/bkk-election/',
+  basePath: "/bkk-followup",
+  assetPrefix: '/bkk-followup/',
   webpack(config, options) {
     return config;
   },
