@@ -10,6 +10,7 @@ module.exports = withImages({
   //   ];
   // // },
   basePath: "/bkk-election",
+  assetPrefix: '/bkk-election/',
   webpack(config, options) {
     return config;
   },
