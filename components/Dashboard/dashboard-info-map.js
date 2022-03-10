@@ -40,7 +40,7 @@ const info_map = ({ selected_theme }) => {
   } else if (selected_theme.name === 'มลพิษในคลอง') {
     infos = [
       { id: 1, des: 'BOD ในน้ำคลองโดยเฉลี่ย\nเกินมาตรฐาน' },
-      { id: 2, des: 'ค่่า BOD มาตรฐาน\n(ไม่เกิน 15 มก./ลิตร)' },
+      { id: 2, des: 'ค่่า BOD มาตรฐาน\n(ไม่เกิน 4 มก./ลิตร)' },
       { id: 3, des: 'BOD ในน้ำคลองโดยเฉลี่ย\nต่ำกว่ามาตรฐาน' },
     ];
   } else if (selected_theme.name === 'ขยะมูลฝอย') {

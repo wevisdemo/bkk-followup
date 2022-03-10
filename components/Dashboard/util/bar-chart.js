@@ -30,7 +30,7 @@ const bar_chart = ({ data, selected_theme }) => {
       {budgetPerYear.map((d, index) => (
         <div
           id="bar"
-          className="relative flex justify-center mx-1 cursor-pointer"
+          className="relative flex justify-center mx-0.5 cursor-pointer"
           onMouseOver={() => mouseOver(_, d.year)}
           onMouseOut={() => mouseOut(_, d.year)}
           key={index}

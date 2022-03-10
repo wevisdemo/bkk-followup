@@ -25,7 +25,7 @@ const BOD = ({ selected_theme }) => {
           style={{ color: selected_theme.text_color }}
           className="flex flex-row font-bold h4"
         >
-          <p className="pr-2">15</p>
+          <p className="pr-2">4</p>
           <p>มิลลิกรัมต่อลิตร</p>
         </span>
         <div className="p1">มาตรฐานตามที่กรมควบคุมมลพิษกำหนด</div>

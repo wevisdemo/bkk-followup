@@ -61,7 +61,7 @@ const AVG = ({
     unit_filter = 'มก./ลิตร';
     AVG_max = 'ค่า BOD ในน้ำคลองโดยเฉลี่ยสูงที่สุด';
     AVG_min = 'ค่า BOD ในน้ำคลองโดยเฉลี่ยต่ำที่สุด';
-    AVG = (sum(data.valuePerYear) / year_length).toFixed(2);
+    AVG = (sum(data.valuePerYear) / year_length - 1).toFixed(2);
     compare_title = 'เปรียบเทียบค่า BOD ในน้ำคลองแต่ละกลุ่มเขต';
     rank_text = 'ปี 2564 เขตนี้มีค่า BOD มากที่สุดเป็นอันดับที่';
     img_top = smile;
@@ -84,12 +84,13 @@ const AVG = ({
     unit_filter = 'มค.ก./ลบ.ม.';
     AVG_max = 'เขตที่มีค่าสูงสุดของ PM2.5 มากที่สุด';
     AVG_min = 'เขตที่มีค่าสูงสุดของ PM2.5 น้อยที่สุด';
-    AVG = '39%';
+    AVG = '74%';
     compare_title = 'เปรียบเทียบปัญหาฝุ่นควันสูงแต่ละกลุ่มเขต';
     rank_text = 'ปี 2564 เขตนี้มีค่าสูงสุดของ PM2.5 มากที่สุดเป็นอันดับที่';
     img_top = smile;
     img_bot = exclamation;
   }
+
 
   const box_compare = (data, unit, color) => {
     return (
@@ -252,7 +253,7 @@ const AVG = ({
               style={{ color: selected_theme.text_color }}
               className="mr-32 font-bold p1"
             >
-              หรือ 86 ครั้ง จากทั้งหมด 216 ครั้งที่ตรวจวัด
+              หรือ 345 ครั้ง จากทั้งหมด 469 ครั้งที่ตรวจวัด
             </p>
           ) : (
             <p

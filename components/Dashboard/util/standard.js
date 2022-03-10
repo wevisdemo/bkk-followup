@@ -52,7 +52,7 @@ const standard = ({ selected_theme }) => {
             style={{ color: selected_theme.text_color }}
             className="font-bold h3"
           >
-            0.79
+            1.22
           </p>
           <p
             style={{ color: selected_theme.text_color }}

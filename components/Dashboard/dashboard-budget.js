@@ -59,7 +59,7 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
           <DonutChart selected_theme={selected_theme} percent={percent * 100} />
         </div>
         <p className="px-4 mt-3 font-bold text-center p1">{sub}</p>
-        <div className="flex justify-center py-10 ">
+        <div className="flex justify-center py-10 mx-1 ">
           <BarChart selected_theme={selected_theme} data={data} />
         </div>
         <a

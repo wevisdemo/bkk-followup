@@ -36,16 +36,16 @@ export default function DashboardLineChart({
       ];
     } else if (selected_theme.name === 'มลพิษในคลอง') {
       AVG = [
-        { year: '55', value: 15 },
-        { year: '56', value: 15 },
-        { year: '57', value: 15 },
-        { year: '58', value: 15 },
-        { year: '59', value: 15 },
-        { year: '60', value: 15 },
-        { year: '61', value: 15 },
-        { year: '62', value: 15 },
-        { year: '63', value: 15 },
-        { year: '64', value: 15 },
+        { year: '55', value: 4 },
+        { year: '56', value: 4 },
+        { year: '57', value: 4 },
+        { year: '58', value: 4 },
+        { year: '59', value: 4 },
+        { year: '60', value: 4 },
+        { year: '61', value: 4 },
+        { year: '62', value: 4 },
+        { year: '63', value: 4 },
+        { year: '64', value: 4 },
       ];
     } else if (selected_theme.name === 'ขยะมูลฝอย') {
       AVG = [
@@ -57,8 +57,8 @@ export default function DashboardLineChart({
         { year: '60', value: 1.13 },
         { year: '61', value: 1.15 },
         { year: '62', value: 1.18 },
-        { year: '63', value: 1.18 },
-        { year: '64', value: 1.18 },
+        { year: '63', value: 1.05 },
+        { year: '64', value: 1.05 },
       ];
     } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
       AVG = [
