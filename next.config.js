@@ -9,7 +9,7 @@ module.exports = withImages({
   //     },
   //   ];
   // // },
-  // basePath: "/bkk-followup",
+  basePath: "/bkk-followup",
   // assetPrefix: '/bkk-followup/',
   webpack(config, options) {
     return config;
