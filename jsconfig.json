@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "."
   },
-  "title": "BKK Follow-Up สำรวจปัญหากวนใจชาว กทม.",
+  "title": "OPEN BANGKOK สำรวจปัญหากวนใจชาว กทม.",
   "description": "เปิดข้อมูลย้อนหลัง ฝุ่น น้ำท่วม ขยะ มลพิษ และสิ่งที่ติดค้างใจคน กทม.",
   "web_url": "https://wevisdemo.github.io/bkk-followup/",
   "og_main": "og_main.jpg",

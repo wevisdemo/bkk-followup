@@ -10,7 +10,7 @@ import { isMobileOnly } from "react-device-detect";
 
 
 
-//  import  WvButton from '@wevisdemo/ui/components/button'
+// import WvButton from '@wevisdemo/ui/components/button'
 
 export default function Main(props) {
   const { swiper_ref } = props;
