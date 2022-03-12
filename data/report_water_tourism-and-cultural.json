@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 12.51,
   "valuePerYear": {
     "2555": 8.19,
     "2556": 7.15,
@@ -9,8 +9,7 @@
     "2560": 10.92,
     "2561": 10.92,
     "2562": 10.68,
-    "2563": 12.51,
-    "2564": null
+    "2563": 12.51
   },
   "minimumPoint": {
     "districtId": 15,
@@ -29,32 +28,87 @@
     "all": 0,
     "focused": 0
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 1,
+      "districtId": 13,
+      "districtName": "ธนบุรี",
+      "value": 21.96
+    },
+    {
+      "ranked": 2,
+      "districtId": 2,
+      "districtName": "คลองสาน",
+      "value": 17.78
+    },
+    {
+      "ranked": 3,
+      "districtId": 24,
+      "districtName": "บางพลัด",
+      "value": 13.78
+    },
+    {
+      "ranked": 4,
+      "districtId": 14,
+      "districtName": "บางกอกน้อย",
+      "value": 10.2
+    },
+    {
+      "ranked": 5,
+      "districtId": 29,
+      "districtName": "ป้อมปราบศัตรูพ่าย",
+      "value": 9.17
+    },
+    {
+      "ranked": 6,
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 8.25
+    },
+    {
+      "ranked": 7,
+      "districtId": 44,
+      "districtName": "สัมพันธวงศ์",
+      "value": 7.3
+    },
+    {
+      "ranked": 8,
+      "districtId": 32,
+      "districtName": "พระนคร",
+      "value": 7.22
+    },
+    {
+      "ranked": 9,
+      "districtId": 15,
+      "districtName": "บางกอกใหญ่",
+      "value": 5.97
+    }
+  ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": null
+      "value": 13.67
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 15.83
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 10.15
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 12.51
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 16.95
     }
   ]
 }
