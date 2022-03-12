@@ -45,7 +45,7 @@ export default function DashboardLineChart({
         { year: '61', value: 4 },
         { year: '62', value: 4 },
         { year: '63', value: 4 },
-        { year: '64', value: 4 },
+
       ];
     } else if (selected_theme.name === 'ขยะมูลฝอย') {
       AVG = [

@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 8.25,
   "valuePerYear": {
     "2555": 10.95,
     "2556": 7.22,
@@ -9,8 +9,7 @@
     "2560": 6.53,
     "2561": 6.45,
     "2562": 7,
-    "2563": 8.25,
-    "2564": null
+    "2563": 8.25
   },
   "minimumPoint": {
     "value": 6.45,
@@ -29,7 +28,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": null,
+  "ranked": 43,
   "rankings": [
     {
       "ranked": 22,
