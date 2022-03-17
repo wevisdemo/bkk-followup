@@ -63,15 +63,17 @@ export default function Header() {
       <div className='w-full mx-2 md:w-max'>
         <WvNavDropdown label="สำรวจแผนที่ตามประเด็น">
           {dashboardData.map((dashboard, index) =>
-            <WvNavDropdownItem key={index} >
-              <div onClick={() => selectDashboard(dashboard.name)} className='flex items-center WvNavDropdownItem' >
-                <div style={{ width: '15px', height: '15px', background: dashboard.color }} className='mr-2 rounded-full ' />
-                {dashboard.name}
-              </div>
-            </WvNavDropdownItem>
+            <a href={'/bkk-followup/dashboard/' + dashboard.name} key={index}>
+              < WvNavDropdownItem>
+                <div className='flex items-center ' >
+                  <div style={{ width: '15px', height: '15px', background: dashboard.color }} className='mr-2 rounded-full ' />
+                  {dashboard.name}
+                </div>
+              </WvNavDropdownItem>
+            </a>
           )}
         </WvNavDropdown>
-      </div>
+      </div >
       <div className='flex items-center flex-1'>
         <div className="mr-4 md:hidden p3 lg:block whitespace-nowrap" >
           In collaboration with
@@ -95,7 +97,7 @@ export default function Header() {
           <img src={cu_thai_logo} alt={cu_thai_logo} />
         </a>
       </div>
-    </div>
+    </div >
   )
 
 
