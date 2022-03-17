@@ -107,7 +107,7 @@ export default function Header() {
       <div style={{ height: "60px" }} className="sticky z-20 flex items-center justify-between px-3 shadow-xl bg-white-default lg:px-5 ">
         <div className="flex items-center left">
           <a
-            href="https://wevisdemo.github.io/"
+            href="https://wevis.info/"
             target="_blank"
             rel="noopener noreferrer"
             className="mr-4"
