@@ -1,22 +1,22 @@
 {
-  "value": 106,
+  "value": 0,
   "valuePerYear": {
     "2555": null,
     "2556": null,
     "2557": 0,
     "2558": null,
     "2559": null,
-    "2560": 68,
+    "2560": 0,
     "2561": 96,
     "2562": 186,
     "2563": 129,
-    "2564": 106
+    "2564": 0
   },
   "minimumPoint": {
-    "districtId": 44,
-    "districtName": "สัมพันธวงศ์",
+    "districtId": 3,
+    "districtName": "คลองสามวา",
     "year": 2561,
-    "value": 19
+    "value": 0
   },
   "maximumPoint": {
     "districtId": 35,
@@ -70,87 +70,32 @@
     "all": 742182978101,
     "focused": 3259518548
   },
-  "rankings": [
-    {
-      "ranked": 1,
-      "districtId": 17,
-      "districtName": "บางขุนเทียน",
-      "value": 131
-    },
-    {
-      "ranked": 2,
-      "districtId": 8,
-      "districtName": "ดินแดง",
-      "value": 106
-    },
-    {
-      "ranked": 3,
-      "districtId": 13,
-      "districtName": "ธนบุรี",
-      "value": 102
-    },
-    {
-      "ranked": 4,
-      "districtId": 27,
-      "districtName": "ปทุมวัน",
-      "value": 89
-    },
-    {
-      "ranked": 5,
-      "districtId": 22,
-      "districtName": "บางนา",
-      "value": 88
-    },
-    {
-      "ranked": 6,
-      "districtId": 40,
-      "districtName": "วังทองหลาง",
-      "value": 85
-    },
-    {
-      "ranked": 7,
-      "districtId": 30,
-      "districtName": "พญาไท",
-      "value": 79
-    },
-    {
-      "ranked": 8,
-      "districtId": 35,
-      "districtName": "ยานนาวา",
-      "value": 77
-    },
-    {
-      "ranked": 9,
-      "districtId": 16,
-      "districtName": "บางกะปิ",
-      "value": 70
-    }
-  ],
+  "rankings": [],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 106
+      "value": 0
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 88
+      "value": null
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 131
+      "value": null
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 102
+      "value": null
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 106
+      "value": null
     }
   ],
   "sampling": null

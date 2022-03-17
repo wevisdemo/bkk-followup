@@ -11,7 +11,7 @@ export default function Layout(props) {
     <div>
       <Header />
 
-      {show_intro ? <Intro /> : null}
+      {show_intro && <Intro />}
 
       <div
         id="main"

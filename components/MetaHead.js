@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 function MetaHead() {
   let og_image = config.og_main;
   const router = useRouter();
-  const og_url = `${config.web_url}${router.query.title ? `dashboard/${router.query.title}` : ""
+  const og_url = `${config.web_url}${router.query.title ? `/dashboard/${router.query.title}` : ""
     }`;
 
   if (router.query.title === "น้ำท่วมถนน") og_image = config.og_flood;

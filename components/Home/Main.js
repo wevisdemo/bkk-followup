@@ -1,26 +1,22 @@
 import React from "react";
-import fb_share from "assets/images/fb_share.svg";
-import twitter_share from "assets/images/twitter_share.svg";
-import line_share from "assets/images/line_share.svg";
 import arrow_right_white from "assets/images/arrow_right_white.svg";
 import arrow_down_black from "assets/images/arrow_down_black.svg";
-import { FacebookShareButton, TwitterShareButton, LineShareButton } from "react-share";
 import config from "jsconfig.json";
 import { isMobileOnly } from "react-device-detect";
+import WvSharer from '@wevisdemo/ui/components/sharer';
 
-
-
-// import WvButton from '@wevisdemo/ui/components/button'
 
 export default function Main(props) {
   const { swiper_ref } = props;
+
+  const toDashboard = () => {
+    swiper_ref.slideTo(isMobileOnly ? 16 : 11)
+  }
 
   return (
     <div className="flex items-center h-full pb-16 main-page bg-white-default">
       <div className="container mx-auto">
         <div className="hidden grid-cols-1 gap-5 text-center lg:grid-cols-2 md:grid lg:text-left">
-          {/* <WvButton>Hello</WvButton>; */}
-
           <h1 className="leading-tight d1 ">
             <span className="text-green-default">
               OPEN
@@ -39,18 +35,7 @@ export default function Main(props) {
 
             <div className="items-center hidden mt-4 lg:flex social-wrap">
               <h4 className="d4">Share:</h4>
-
-              <FacebookShareButton url={config.web_url} className="ml-4 cursor-pointer social">
-                <img width={40} height={40} src={fb_share} alt={fb_share} />
-              </FacebookShareButton>
-
-              <TwitterShareButton url={config.web_url} className="ml-4 cursor-pointer social">
-                <img width={40} height={40} src={twitter_share} alt={twitter_share} />
-              </TwitterShareButton>
-
-              <LineShareButton url={config.web_url} className="ml-4 cursor-pointer social">
-                <img width={40} height={40} src={line_share} alt={line_share} />
-              </LineShareButton>
+              <WvSharer url={config.web_url} label=" " />
             </div>
           </div>
         </div>
@@ -58,7 +43,7 @@ export default function Main(props) {
         <div className="grid grid-cols-1 gap-1 mt-0 lg:grid-cols-2 lg:gap-3 md:mt-10 2xl:mt-16">
           <div
             className="flex items-center justify-between p-3 rounded-md cursor-pointer explore-map bg-black-default lg:p-10 2xl:p-14"
-            onClick={() => swiper_ref.slideTo(isMobileOnly ? 16 : 11)}
+            onClick={() => toDashboard()}
           >
             <div className="hidden text-white-default lg:block">
               <h3 className="d3">EXPLORE MAP</h3>
@@ -107,18 +92,7 @@ export default function Main(props) {
 
         <div className="items-center justify-center hidden mt-10 md:flex lg:hidden social-wrap">
           <h4 className="d4">Share:</h4>
-
-          <FacebookShareButton url={config.web_url} className="ml-4 cursor-pointer social">
-            <img width={40} height={40} src={fb_share} alt={fb_share} />
-          </FacebookShareButton>
-
-          <TwitterShareButton url={config.web_url} className="ml-4 cursor-pointer social">
-            <img width={40} height={40} src={twitter_share} alt={twitter_share} />
-          </TwitterShareButton>
-
-          <LineShareButton url={config.web_url} className="ml-4 cursor-pointer social">
-            <img width={40} height={40} src={line_share} alt={line_share} />
-          </LineShareButton>
+          <WvSharer url={config.web_url} label=" " />
         </div>
 
         <div className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 lg:p-3 scroll-down bg-green-default d5">

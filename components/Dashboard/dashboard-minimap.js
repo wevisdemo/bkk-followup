@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
-import topo_district from "public/data/district.topojson.json";
+import topo_district from "public/district.topojson.json";
 
 const mini_map = ({ selected_theme }) => {
   const height = 147;

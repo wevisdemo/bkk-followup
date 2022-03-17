@@ -33,6 +33,7 @@ import StandardGreen from "components/Dashboard/util/standard_green";
 import { isMobile, isMobileOnly } from "react-device-detect";
 import _ from "lodash";
 import * as d3 from "d3";
+import Header from "components/Header";
 
 export async function getStaticPaths() {
   return {

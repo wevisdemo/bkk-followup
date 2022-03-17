@@ -42,6 +42,8 @@ export default function Home() {
     initSlideTo(swiper_ref);
   }, [router.query.slide]);
 
+
+
   const initSlideTo = (swiper) => {
     if (swiper.slideTo && router.query.slide) {
       swiper.slideTo(router.query.slide);
