@@ -7,14 +7,14 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": null,
-    "2562": null,
+    "2561": 0,
+    "2562": 0,
     "2563": 68,
     "2564": null
   },
   "minimumPoint": {
-    "value": 68,
-    "year": 2563,
+    "value": 0,
+    "year": 2561,
     "districtId": 43,
     "districtName": "สะพานสูง"
   },
@@ -31,6 +31,16 @@
   },
   "ranked": null,
   "rankings": [
+    {
+      "ranked": 46,
+      "year": 2561,
+      "value": 0
+    },
+    {
+      "ranked": 46,
+      "year": 2562,
+      "value": 0
+    },
     {
       "ranked": 47,
       "year": 2563,

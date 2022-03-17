@@ -1,5 +1,5 @@
 {
-  "value": 131,
+  "value": null,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,58 +10,51 @@
     "2561": 29,
     "2562": 101,
     "2563": 129,
-    "2564": 131
+    "2564": null
   },
   "minimumPoint": {
-    "districtId": 17,
-    "districtName": "บางขุนเทียน",
+    "districtId": 3,
+    "districtName": "คลองสามวา",
     "year": 2561,
-    "value": 21
+    "value": 0
   },
   "maximumPoint": {
-    "districtId": 17,
-    "districtName": "บางขุนเทียน",
-    "year": 2564,
-    "value": 131
+    "districtId": 33,
+    "districtName": "ภาษีเจริญ",
+    "year": 2563,
+    "value": 129
   },
   "budgetPerYear": {},
   "budgetOverall": {
     "all": 0,
     "focused": 0
   },
-  "rankings": [
-    {
-      "ranked": 1,
-      "districtId": 17,
-      "districtName": "บางขุนเทียน",
-      "value": 131
-    }
-  ],
+  "rankings": [],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 106
+      "value": 0
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 88
+      "value": null
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 131
+      "value": null
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 102
+      "value": null
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 106
+      "value": null
     }
   ],
   "sampling": {
