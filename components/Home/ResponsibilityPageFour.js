@@ -40,11 +40,9 @@ export default function ResponsibilityPageFour(props) {
       style={{ top: "60px" }}
     >
       <div className="container max-w-4xl mx-auto">
-        <h2 className="hidden leading-tight text-center d2 lg:block">
-          บทบาทและอำนาจหน้าที่ของ กทม.
-        </h2>
 
-        <h3 className="leading-tight text-center d3">
+
+        <h3 className="leading-tight text-center d2">
           บทบาทและอำนาจหน้าที่ของ กทม.
         </h3>
 

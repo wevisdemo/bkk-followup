@@ -55,6 +55,8 @@ export default function Header() {
     router.push('/dashboard/' + name, undefined, { shallow: false });
   }
 
+
+
   const insideMenu = () => (
     <div className="relative z-10 flex flex-col items-center space-y-3 right md:flex-row md:space-y-0">
       <div className='w-full mx-2 md:w-max'>
@@ -63,14 +65,12 @@ export default function Header() {
       <div className='w-full mx-2 md:w-max'>
         <WvNavDropdown label="สำรวจแผนที่ตามประเด็น">
           {dashboardData.map((dashboard, index) =>
-            <a href={'/bkk-followup/dashboard/' + dashboard.name} key={index}>
-              < WvNavDropdownItem>
-                <div className='flex items-center ' >
-                  <div style={{ width: '15px', height: '15px', background: dashboard.color }} className='mr-2 rounded-full ' />
-                  {dashboard.name}
-                </div>
-              </WvNavDropdownItem>
-            </a>
+            < WvNavDropdownItem key={index}>
+              <div className='flex items-center WvNavDropdownItem ' onClick={() => selectDashboard(dashboard.name)} >
+                <div style={{ width: '15px', height: '15px', background: dashboard.color }} className='mr-2 rounded-full ' />
+                {dashboard.name}
+              </div>
+            </WvNavDropdownItem>
           )}
         </WvNavDropdown>
       </div >
@@ -125,13 +125,13 @@ export default function Header() {
             <img src={map_logo} alt={map_logo} />
 
             <h5 className="ml-2 d5">
-              BKK
               <span
                 className="text-green-default"
                 style={{ fontFamily: "KondolarThai" }}
               >
-                FOLLOW-UP
+                OPEN
               </span>
+              BANGKOK
             </h5>
           </div>
         </div>

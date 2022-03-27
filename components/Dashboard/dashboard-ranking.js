@@ -26,7 +26,7 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
     last3 = '3 เขตขยะน้อยที่สุด';
     unit = 'กก./คน/วัน';
   } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
-    title = 'เรียงตามเขตที่มีค่าสูงสุดของ PM2.5 จากมากไปน้อย ปี 2564';
+    title = 'เรียงตามเขตที่มีค่าสูงสุดของ PM2.5 จากมากไปน้อย ปี 2563';
     top3 = '3 เขตที่ค่าสูงสุด PM2.5 มากที่สุด';
     last3 = '3 เขตที่ค่าสูงสุด PM2.5 น้อยที่สุด';
     unit = 'มค.ก./ลบ.ม.';
@@ -37,7 +37,7 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
       <div className="flex-1 px-2">
         <div className="flex items-center pb-2 font-bold p1 text-white-default">
           {top3}
-          <img src={exclamation} alt="exclamation" className="ml-3" />
+          <img src={selected_theme.name === 'พื้นที่สีเขียว' ? smile : exclamation} alt="exclamation" className="ml-3" />
         </div>
         <div id="ranking-wrapper-body" className="flex flex-col">
           {rankings.map((rank, index) => {
@@ -74,7 +74,7 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
     return (
       <div className="flex-1 px-2">
         <div className="flex items-center pb-2 font-bold p1 text-white-default">
-          {last3} <img src={smile} alt="smile" className="ml-3" />
+          {last3} <img src={selected_theme.name === 'พื้นที่สีเขียว' ? exclamation : smile} alt="smile" className="ml-3" />
         </div>
         <div id="ranking-wrapper-body" className="flex flex-col-reverse">
           {rankings.map((rank, index) => {

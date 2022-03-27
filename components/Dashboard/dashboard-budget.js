@@ -62,7 +62,7 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
         <div className="flex justify-center py-10 mx-1 ">
           <BarChart selected_theme={selected_theme} data={data} />
         </div>
-        <a
+        {/* <a
           className="flex justify-center w-full py-2 mt-3 font-bold rounded-b cursor-pointer text-white-default bg-black-default p1"
           href="https://elect.in.th/bkk-budget/"
           target="_blank"
@@ -74,7 +74,7 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
             className="mr-2 pointer-events-none"
           />
           เกี่ยวกับงบประมาณกทม
-        </a>
+        </a> */}
       </div>
     );
   }

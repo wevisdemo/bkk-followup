@@ -40,7 +40,7 @@ const info_map = ({ selected_theme }) => {
   } else if (selected_theme.name === 'มลพิษในคลอง') {
     infos = [
       { id: 1, des: 'BOD ในน้ำคลองโดยเฉลี่ย\nเกินมาตรฐาน' },
-      { id: 2, des: 'ค่่า BOD มาตรฐาน\n(ไม่เกิน 4 มก./ลิตร)' },
+      { id: 2, des: 'ค่า BOD มาตรฐาน\n(ไม่เกิน 4 มก./ลิตร)' },
       { id: 3, des: 'BOD ในน้ำคลองโดยเฉลี่ย\nต่ำกว่ามาตรฐาน' },
     ];
   } else if (selected_theme.name === 'ขยะมูลฝอย') {
@@ -112,14 +112,26 @@ const info_map = ({ selected_theme }) => {
       id="info-map-wrpper"
     >
       {selected_theme.name != 'น้ำท่วมถนน' ? (
-        infos.map((info, index) => (
-          <div id="wrapper" key={index} className="flex items-center">
-            <div id="circle-wrpper" style={{ width: '40px', height: '40px' }}>
-              <svg className={`circle circle${index}`} />
+        <>
+          {infos.map((info, index) => (
+            <div id="wrapper" key={index} className="flex items-center">
+              <div id="circle-wrpper" style={{ width: '40px', height: '40px' }}>
+                <svg className={`circle circle${index}`} />
+              </div>
+              <p className="pl-3 mt-1 leading-4 p2">{new_line(info.des)}</p>
             </div>
-            <p className="pl-3 mt-1 leading-4 p2">{new_line(info.des)}</p>
+          ))}
+          <div className="items-center hidden lg:flex" >
+            <div id="circle-wrpper" className='flex items-center justify-center' style={{ width: '40px', height: '40px' }}>
+              <img src={noData} alt="noData" />
+            </div>
+            <p
+              className="pl-3 mt-1 leading-4 p2"
+            >
+              ไม่มีข้อมูล
+            </p>
           </div>
-        ))
+        </>
       ) : !isMobile ? (
         <div id="flood-wrapper" className="flex w-full">
           <div className="flex flex-col items-center flex-1" id="dot1">

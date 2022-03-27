@@ -16,8 +16,8 @@ const listRanking = ({ selected_theme, data }) => {
     title = 'ค่า BOD ในน้ำคลอง ปี 2564';
     subtitle = 'เรียงลำดับจากมากไปน้อย';
     unit = 'มก./ลิตร';
-    standard = 15;
-    std_text = 'ค่ามาตรฐานกรมควบคุมมลพิษกำหนด 15 มก./ลิตร';
+    standard = 4;
+    std_text = 'ค่ามาตรฐานกรมควบคุมมลพิษกำหนด 4 มก./ลิตร';
   } else if (selected_theme.name === 'ขยะมูลฝอย') {
     title = 'เปรียบเทียบสัดส่วนขยะมูลฝอย';
     subtitle = 'ต่อประชากร 1 คนต่อวันแต่ละกลุ่มเขต';

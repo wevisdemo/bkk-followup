@@ -94,7 +94,7 @@ const map = ({
       unit = 'มก./ลิตร';
       tool_top = 'ปริมาณ';
       tool_bot = 'มลพิษในคลอง';
-      avg = '15';
+      avg = '4';
     } else if (selected_theme.name === 'ขยะมูลฝอย') {
       unit = 'กก./คน/วัน';
       tool_top = 'ปริมาณ';
@@ -161,6 +161,7 @@ const map = ({
           .attr('r', r_scale(ref))
           .style('fill', 'none')
           .style('stroke-width', (d) =>
+
             selected_theme.name === 'น้ำท่วมถนน' && d.value > 0 ? 0 : 1
           )
           .style('stroke', 'white')
@@ -294,7 +295,7 @@ const map = ({
       if (selected_theme.name === 'พื้นที่สีเขียว') {
         unit = 9;
       } else if (selected_theme.name === 'มลพิษในคลอง') {
-        unit = 15;
+        unit = 4;
       } else if (selected_theme.name === 'ขยะมูลฝอย') {
         unit = 1.8;
       } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {

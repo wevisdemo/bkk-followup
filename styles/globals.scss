@@ -185,3 +185,13 @@ h5 {
   right: -976px;
   transition: 0.4s;
 }
+.wv_nav-dropdown-list .wv_nav-dropdown-item {
+  padding: 0 !important;
+}
+.WvNavDropdownItem {
+  padding: 8px 12px;
+}
+
+::-webkit-scrollbar {
+  background: unset;
+}

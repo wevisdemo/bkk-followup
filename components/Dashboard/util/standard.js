@@ -64,7 +64,7 @@ const standard = ({ selected_theme }) => {
             <p className="font-bold">หมายเหตุ</p>
             <p className="pl-2">ข้อมูลอัปเดท 2564</p>
           </span>
-          <p className="p3">ที่มา: ศูนย์ออกแบบและพัฒนาเมือง (UddC)</p>
+          <p className="p3">ที่มา: สำนักสิ่งแวดล้อม กรุงเทพมหานคร</p>
         </div>
       </div>
     </div>
