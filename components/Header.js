@@ -54,7 +54,9 @@ export default function Header() {
   const selectDashboard = (name) => {
     router.push('/dashboard/' + name, undefined, { shallow: false });
   }
-
+  const selectAbout = (name) => {
+    router.push('/about', undefined, { shallow: false });
+  }
 
 
   const insideMenu = () => (
@@ -74,6 +76,9 @@ export default function Header() {
           )}
         </WvNavDropdown>
       </div >
+      <div className='w-full mx-1 md:w-max'>
+        <WvNavButton onClick={() => selectAbout()} active={router.pathname === '/about'}>About</WvNavButton>
+      </div>
       <div className='flex items-center flex-1'>
         <div className="mr-4 md:hidden p3 lg:block whitespace-nowrap" >
           In collaboration with
