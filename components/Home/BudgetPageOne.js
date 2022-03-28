@@ -47,7 +47,7 @@ export default function BudgetPageOne(props) {
                 75,500 ล้านบาท
               </h3>
 
-              <h3 className="mt-8  h2">
+              <h3 className="mt-8 text-center h2 md:text-left">
                 แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำๆ และยังไม่ถูกแก้
               </h3>
             </div>
@@ -61,8 +61,7 @@ export default function BudgetPageOne(props) {
                 className="absolute w-3/4 transform children-image lg:w-2/4 top-2/4 -translate-y-2/4 left-2/4 -translate-x-2/4"
               />
 
-              {(!isMobileOnly && active_index > 1) ||
-                (isMobileOnly && active_index > 2) ? (
+              {(!isMobileOnly && active_index > 1) || (isMobileOnly && active_index > 2) ? (
                 <div className="relative flex flex-col items-center justify-center h-full text-center lg:flex-row">
                   <div
                     className="p-5 rounded-md shadow-xl bg-opacity-90 content bg-white-default"
@@ -70,9 +69,7 @@ export default function BudgetPageOne(props) {
                       minWidth: isMobile ? "100%" : "387px",
                     }}
                   >
-                    <h5 className="text-lg">
-                      ในปี 2564 กทม. ใช้เงินดูแลประชาชนเฉลี่ย
-                    </h5>
+                    <h5 className="text-lg">ในปี 2564 กทม. ใช้เงินดูแลประชาชนเฉลี่ย</h5>
 
                     <div className="px-4 py-2 my-2 rounded-md budget bg-green-light">
                       <h4 className="d4">13,657.75 บาท / คน / ปี</h4>

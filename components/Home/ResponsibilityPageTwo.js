@@ -7,17 +7,14 @@ export default function ResponsibilityPageTwo(props) {
   const cards = [
     {
       title: "ด้านการคมนาคมและการขนส่ง",
-      list: [
-        "การดูแลรักษาทางบกทางน้ำ",
-        "การขนส่ง",
-        "การจัดการและวิศวกรรมจราจร",
-      ],
+      list: ["การดูแลรักษาทางบกทางน้ำ", "การขนส่ง", "การจัดการและวิศวกรรมจราจร"],
     },
     {
       title: "ด้านการจัดบริการสาธารณะ",
       list: [
         "การจัดหาสถานที่พักผ่อน",
         "การจัดหาสาธารณูปโภค",
+        "การจัดการสาธารณสุข",
         "การควบคุมฌาปณสถาน",
         "การควบคุมการเลี้ยงสัตว์",
         "การจัดให้มีและควบคุมการฆ่าสัตว์",
@@ -27,21 +24,28 @@ export default function ResponsibilityPageTwo(props) {
     },
     {
       title: "ด้านการพัฒนาสังคม",
-      list: [
-        "การบำรุงรักษาศิลปะและประเพณี",
-        "การสังคมสงเคราะห์",
-        "การส่งเสริมการกีฬา",
-        "การส่งเสริมการประกอบอาชีพ",
-      ],
+      list: ["การบำรุงรักษาศิลปะและประเพณี", "การสังคมสงเคราะห์", "การส่งเสริมการกีฬา", "การส่งเสริมการประกอบอาชีพ"],
     },
     {
       title: "ด้านการโยธาและผังเมือง",
+      list: ["การผังเมือง", "การจัดพื้นที่ค้าขายและเดินทาง", "การควบคุมอาคาร", "การปรับปรุงชุมชนแออัด"],
+    },
+    {
+      title: "ด้านการรักษาความสงบเรียบร้อย",
       list: [
-        "การผังเมือง",
-        "การจัดพื้นที่ค้าขายและเดินทาง",
-        "การควบคุมอาคาร",
-        "การปรับปรุงชุมชนแออัด",
+        "การรักษาความสงบเรียบร้อย",
+        "การส่งเสริมสนับสนุนงานตำรวจ",
+        "การป้องกันสาธารณภัย",
+        "การควบคุมความปลอดภัยสาธารณะ",
       ],
+    },
+    {
+      title: "ด้านการรักษาสิ่งแวดล้อม",
+      list: ["การรักษาความสะอาด", "การดูแลรักษาที่สาธารณะ", "การอนุรักษ์สิ่งแวดล้อม"],
+    },
+    {
+      title: "ด้านอื่นๆ",
+      list: ["การทะเบียน", "การพาณิชย์ของกรุงเทพมหานคร"],
     },
   ];
 
@@ -61,45 +65,39 @@ export default function ResponsibilityPageTwo(props) {
               </h4>
 
               <p className="mt-4 text-xl md:mt-6 lg:mt-4 lg:text-2xl">
-                กทม. มีกฎหมายการบริหารเป็นของตนเอง ซึ่งจังหวัดอื่นไม่มี
-                (พรบ.ระเบียบริหาราชการกรุงเทพมหานคร พ.ศ. 2528)
+                กทม. มีกฎหมายการบริหารเป็นของตนเอง ซึ่งจังหวัดอื่นไม่มี (พรบ.ระเบียบริหาราชการกรุงเทพมหานคร พ.ศ. 2528)
                 และตามกฎหมายนี้ระบุไว้ว่า กทม.&nbsp;
-                <b>
-                  มีหน้าที่ 28 ประการ
-                  ซึ่งอาจแบ่งเป็นประเภทของหน้าที่พอสังเขปได้ดังนี้
-                </b>
+                <b>มีหน้าที่ 28 ประการ ซึ่งอาจแบ่งเป็นประเภทของหน้าที่พอสังเขปได้ดังนี้</b>
               </p>
             </>
           ) : null}
         </div>
 
         {!isMobileOnly || active_index === 11 ? (
-          <div className="container w-screen pb-5 mx-auto mt-4 overflow-x-auto pointer-events-auto lg:pointer-events-none md:mt-6 lg:mt-4 2xl:mt-14">
-            <div className="inline-flex grid-cols-4 lg:grid">
-              {cards.map((c, c_index) => (
-                <div
-                  key={c_index}
-                  className="flex-none p-4 mr-3 text-left rounded-md box bg-blue-lightest text-black-default w-72 lg:w-auto"
-                >
-                  <h5 className="d5">{c.title}</h5>
+          <div
+            className="container flex px-4 pb-5 mx-auto mt-10 overflow-x-auto pointer-events-auto lg:mt-20 scroll-list"
+            style={{ scrollBehavior: "smooth" }}
+          >
+            {cards.map((c, c_index) => (
+              <div
+                key={c_index}
+                className="flex-none p-4 mr-3 text-left rounded-md box bg-blue-lightest text-black-default w-72 lg:w-auto"
+              >
+                <h5 className="d5">{c.title}</h5>
 
-                  <hr className="my-4" />
+                <hr className="my-4" />
 
-                  <ul className="list">
-                    {c.list.map((l, l_index) => (
-                      <li
-                        key={l_index}
-                        className="flex items-center mt-2 2xl:mt-3"
-                      >
-                        <img width={25} src={check} alt={check} />
+                <ul className="list">
+                  {c.list.map((l, l_index) => (
+                    <li key={l_index} className="flex items-center mt-2 2xl:mt-3">
+                      <img width={25} src={check} alt={check} />
 
-                        <h4 className="flex-1 ml-3 text-lg">{l}</h4>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
+                      <h4 className="flex-1 ml-3 text-lg">{l}</h4>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         ) : null}
       </div>
