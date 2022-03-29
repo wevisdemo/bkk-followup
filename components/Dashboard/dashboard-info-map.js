@@ -193,24 +193,24 @@ const info_map = ({ selected_theme }) => {
           <span
             className="mx-1 rounded-full dot"
             style={{
-              height: isMobileOnly ? "10px" : "15px",
-              width: isMobileOnly ? "10px" : "15px",
+              height: isMobileOnly ? "15px" : "19px",
+              width: isMobileOnly ? "15px" : "19px",
               backgroundColor: "#ABCCFF",
             }}
           />
           <span
             className="mx-1 rounded-full dot"
             style={{
-              height: isMobileOnly ? "20px" : "25px",
-              width: isMobileOnly ? "20px" : "25px",
+              height: isMobileOnly ? "15px" : "19px",
+              width: isMobileOnly ? "15px" : "19px",
               backgroundColor: "#609EFF",
             }}
           />
           <span
             className="mx-1 rounded-full dot"
             style={{
-              height: isMobileOnly ? "30px" : "40px",
-              width: isMobileOnly ? "30px" : "40px",
+              height: isMobileOnly ? "15px" : "19px",
+              width: isMobileOnly ? "15px" : "19px",
               backgroundColor: "#1570FF",
             }}
           />
