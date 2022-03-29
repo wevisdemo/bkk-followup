@@ -1,5 +1,5 @@
 {
-  "value": 0,
+  "value": 129,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,8 +9,7 @@
     "2560": 0,
     "2561": 96,
     "2562": 186,
-    "2563": 129,
-    "2564": 0
+    "2563": 129
   },
   "minimumPoint": {
     "districtId": 3,
@@ -60,42 +59,339 @@
     "2563": {
       "all": 85570061601,
       "focused": 1392081700
-    },
-    "2564": {
-      "all": 75500000000,
-      "focused": 1411049300
     }
   },
   "budgetOverall": {
-    "all": 742182978101,
-    "focused": 3259518548
+    "all": 666682978101,
+    "focused": 1848469248
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 1,
+      "districtId": 33,
+      "districtName": "ภาษีเจริญ",
+      "value": 129
+    },
+    {
+      "ranked": 2,
+      "districtId": 32,
+      "districtName": "พระนคร",
+      "value": 121
+    },
+    {
+      "ranked": 3,
+      "districtId": 14,
+      "districtName": "บางกอกน้อย",
+      "value": 115
+    },
+    {
+      "ranked": 4,
+      "districtId": 17,
+      "districtName": "บางขุนเทียน",
+      "value": 114
+    },
+    {
+      "ranked": 5,
+      "districtId": 19,
+      "districtName": "บางคอแหลม",
+      "value": 114
+    },
+    {
+      "ranked": 6,
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 111
+    },
+    {
+      "ranked": 7,
+      "districtId": 2,
+      "districtName": "คลองสาน",
+      "value": 107
+    },
+    {
+      "ranked": 8,
+      "districtId": 35,
+      "districtName": "ยานนาวา",
+      "value": 107
+    },
+    {
+      "ranked": 9,
+      "districtId": 13,
+      "districtName": "ธนบุรี",
+      "value": 104
+    },
+    {
+      "ranked": 10,
+      "districtId": 39,
+      "districtName": "ลาดพร้าว",
+      "value": 104
+    },
+    {
+      "ranked": 11,
+      "districtId": 1,
+      "districtName": "คลองเตย",
+      "value": 103
+    },
+    {
+      "ranked": 12,
+      "districtId": 24,
+      "districtName": "บางพลัด",
+      "value": 103
+    },
+    {
+      "ranked": 13,
+      "districtId": 26,
+      "districtName": "บึงกุ่ม",
+      "value": 103
+    },
+    {
+      "ranked": 14,
+      "districtId": 44,
+      "districtName": "สัมพันธวงศ์",
+      "value": 100
+    },
+    {
+      "ranked": 15,
+      "districtId": 11,
+      "districtName": "ทวีวัฒนา",
+      "value": 99
+    },
+    {
+      "ranked": 16,
+      "districtId": 20,
+      "districtName": "บางแค",
+      "value": 97
+    },
+    {
+      "ranked": 17,
+      "districtId": 27,
+      "districtName": "ปทุมวัน",
+      "value": 96
+    },
+    {
+      "ranked": 18,
+      "districtId": 31,
+      "districtName": "พระโขนง",
+      "value": 96
+    },
+    {
+      "ranked": 19,
+      "districtId": 16,
+      "districtName": "บางกะปิ",
+      "value": 95
+    },
+    {
+      "ranked": 20,
+      "districtId": 21,
+      "districtName": "บางซื่อ",
+      "value": 95
+    },
+    {
+      "ranked": 21,
+      "districtId": 30,
+      "districtName": "พญาไท",
+      "value": 95
+    },
+    {
+      "ranked": 22,
+      "districtId": 38,
+      "districtName": "ลาดกระบัง",
+      "value": 93
+    },
+    {
+      "ranked": 23,
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 93
+    },
+    {
+      "ranked": 24,
+      "districtId": 25,
+      "districtName": "บางรัก",
+      "value": 92
+    },
+    {
+      "ranked": 25,
+      "districtId": 28,
+      "districtName": "ประเวศ",
+      "value": 91
+    },
+    {
+      "ranked": 26,
+      "districtId": 15,
+      "districtName": "บางกอกใหญ่",
+      "value": 90
+    },
+    {
+      "ranked": 27,
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 88
+    },
+    {
+      "ranked": 28,
+      "districtId": 6,
+      "districtName": "จอมทอง",
+      "value": 85
+    },
+    {
+      "ranked": 29,
+      "districtId": 3,
+      "districtName": "คลองสามวา",
+      "value": 84
+    },
+    {
+      "ranked": 30,
+      "districtId": 10,
+      "districtName": "ตลิ่งชัน",
+      "value": 84
+    },
+    {
+      "ranked": 31,
+      "districtId": 18,
+      "districtName": "บางเขน",
+      "value": 84
+    },
+    {
+      "ranked": 32,
+      "districtId": 23,
+      "districtName": "บางบอน",
+      "value": 84
+    },
+    {
+      "ranked": 33,
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 82
+    },
+    {
+      "ranked": 34,
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 82
+    },
+    {
+      "ranked": 35,
+      "districtId": 22,
+      "districtName": "บางนา",
+      "value": 81
+    },
+    {
+      "ranked": 36,
+      "districtId": 7,
+      "districtName": "ดอนเมือง",
+      "value": 79
+    },
+    {
+      "ranked": 37,
+      "districtId": 5,
+      "districtName": "จตุจักร",
+      "value": 76
+    },
+    {
+      "ranked": 38,
+      "districtId": 42,
+      "districtName": "สวนหลวง",
+      "value": 75
+    },
+    {
+      "ranked": 39,
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 75
+    },
+    {
+      "ranked": 40,
+      "districtId": 36,
+      "districtName": "ราชเทวี",
+      "value": 72
+    },
+    {
+      "ranked": 41,
+      "districtId": 37,
+      "districtName": "ราษฎร์บูรณะ",
+      "value": 71
+    },
+    {
+      "ranked": 42,
+      "districtId": 4,
+      "districtName": "คันนายาว",
+      "value": 70
+    },
+    {
+      "ranked": 43,
+      "districtId": 12,
+      "districtName": "ทุ่งครุ",
+      "value": 70
+    },
+    {
+      "ranked": 44,
+      "districtId": 29,
+      "districtName": "ป้อมปราบศัตรูพ่าย",
+      "value": 69
+    },
+    {
+      "ranked": 45,
+      "districtId": 8,
+      "districtName": "ดินแดง",
+      "value": 68
+    },
+    {
+      "ranked": 46,
+      "districtId": 41,
+      "districtName": "วัฒนา",
+      "value": 68
+    },
+    {
+      "ranked": 47,
+      "districtId": 43,
+      "districtName": "สะพานสูง",
+      "value": 68
+    },
+    {
+      "ranked": 48,
+      "districtId": 34,
+      "districtName": "มีนบุรี",
+      "value": 65
+    },
+    {
+      "ranked": 49,
+      "districtId": 48,
+      "districtName": "หนองจอก",
+      "value": 55
+    },
+    {
+      "ranked": 50,
+      "districtId": 45,
+      "districtName": "สาทร",
+      "value": 44
+    }
+  ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 0
+      "value": 129
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 104
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 129
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 121
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 114
     }
   ],
   "sampling": null

@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 129,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,8 +9,7 @@
     "2560": null,
     "2561": 29,
     "2562": 101,
-    "2563": 129,
-    "2564": null
+    "2563": 129
   },
   "minimumPoint": {
     "districtId": 3,
@@ -29,32 +28,117 @@
     "all": 0,
     "focused": 0
   },
-  "rankings": [],
+  "rankings": [
+    {
+      "ranked": 1,
+      "districtId": 33,
+      "districtName": "ภาษีเจริญ",
+      "value": 129
+    },
+    {
+      "ranked": 2,
+      "districtId": 17,
+      "districtName": "บางขุนเทียน",
+      "value": 114
+    },
+    {
+      "ranked": 3,
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 111
+    },
+    {
+      "ranked": 4,
+      "districtId": 11,
+      "districtName": "ทวีวัฒนา",
+      "value": 99
+    },
+    {
+      "ranked": 5,
+      "districtId": 20,
+      "districtName": "บางแค",
+      "value": 97
+    },
+    {
+      "ranked": 6,
+      "districtId": 38,
+      "districtName": "ลาดกระบัง",
+      "value": 93
+    },
+    {
+      "ranked": 7,
+      "districtId": 6,
+      "districtName": "จอมทอง",
+      "value": 85
+    },
+    {
+      "ranked": 8,
+      "districtId": 3,
+      "districtName": "คลองสามวา",
+      "value": 84
+    },
+    {
+      "ranked": 9,
+      "districtId": 10,
+      "districtName": "ตลิ่งชัน",
+      "value": 84
+    },
+    {
+      "ranked": 10,
+      "districtId": 23,
+      "districtName": "บางบอน",
+      "value": 84
+    },
+    {
+      "ranked": 11,
+      "districtId": 37,
+      "districtName": "ราษฎร์บูรณะ",
+      "value": 71
+    },
+    {
+      "ranked": 12,
+      "districtId": 12,
+      "districtName": "ทุ่งครุ",
+      "value": 70
+    },
+    {
+      "ranked": 13,
+      "districtId": 34,
+      "districtName": "มีนบุรี",
+      "value": 65
+    },
+    {
+      "ranked": 14,
+      "districtId": 48,
+      "districtName": "หนองจอก",
+      "value": 55
+    }
+  ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 0
+      "value": 129
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 104
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 129
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 121
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 114
     }
   ],
   "sampling": {
