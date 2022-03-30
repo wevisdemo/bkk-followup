@@ -16,6 +16,7 @@
     "lodash": "^4.17.20",
     "next": "^10.0.5",
     "next-images": "^1.7.0",
+    "next-plausible": "^2.2.0",
     "next-transpile-modules": "^7.0.0",
     "numeral": "^2.0.6",
     "postcss": "^8.2.4",

@@ -1,10 +1,10 @@
-import React from 'react';
-import * as d3 from 'd3';
-import numeral from 'numeral';
+import React from "react";
+import * as d3 from "d3";
+import numeral from "numeral";
 
 const bar_chart = ({ data, selected_theme }) => {
   let budgetPerYear = [];
-  let million = 100000;
+  let million = 1000000;
 
   _.forIn(data.budgetPerYear, (data, key) => {
     budgetPerYear.push({
@@ -13,20 +13,17 @@ const bar_chart = ({ data, selected_theme }) => {
       focused: data.focused,
     });
   });
-  let maxBudget = _.maxBy(budgetPerYear, 'all');
+  let maxBudget = _.maxBy(budgetPerYear, "all");
 
   const mouseOver = (_, year) => {
-    d3.select(`#tooltip-budget${year}`).style('visibility', 'visible');
+    d3.select(`#tooltip-budget${year}`).style("visibility", "visible");
   };
   const mouseOut = (_, year) => {
-    d3.select(`#tooltip-budget${year}`).style('visibility', 'hidden');
+    d3.select(`#tooltip-budget${year}`).style("visibility", "hidden");
   };
 
   return (
-    <div
-      className="flex items-end justify-center w-full"
-      style={{ height: '70px' }}
-    >
+    <div className="flex items-end justify-center w-full" style={{ height: "70px" }}>
       {budgetPerYear.map((d, index) => (
         <div
           id="bar"
@@ -35,9 +32,9 @@ const bar_chart = ({ data, selected_theme }) => {
           onMouseOut={() => mouseOut(_, d.year)}
           key={index}
           style={{
-            background: 'rgba(0, 0, 0, 0.2)',
-            borderRadius: '3px',
-            width: '30px',
+            background: "rgba(0, 0, 0, 0.2)",
+            borderRadius: "3px",
+            width: "30px",
             height: `${(d.all / maxBudget.all) * 100}%`,
           }}
         >
@@ -46,25 +43,21 @@ const bar_chart = ({ data, selected_theme }) => {
             className="absolute bottom-0 pointer-events-none"
             style={{
               backgroundColor: selected_theme.color,
-              borderRadius: '3px',
-              width: '30px',
+              borderRadius: "3px",
+              width: "30px",
               height: `${(d.focused / d.all) * 100}%`,
             }}
           ></div>
-          <div
-            id="text-in-bar"
-            className="absolute pointer-events-none p2"
-            style={{ bottom: '-25px' }}
-          >
+          <div id="text-in-bar" className="absolute pointer-events-none p2" style={{ bottom: "-25px" }}>
             {d.year}
           </div>
           <div
             id={`tooltip-budget${d.year}`}
             className="absolute invisible font-bold "
             style={{
-              bottom: '90%',
-              left: '70%',
-              width: '160px',
+              bottom: "90%",
+              left: "70%",
+              width: "160px",
             }}
           >
             <div
@@ -90,7 +83,7 @@ const bar_chart = ({ data, selected_theme }) => {
                     color: selected_theme.text_color,
                   }}
                 >
-                  {numeral(d.all / million).format('0,0')} ล้านบาท
+                  {numeral(d.all / million).format("0,0")} ล้านบาท
                 </p>
               </span>
               <span>
@@ -100,10 +93,7 @@ const bar_chart = ({ data, selected_theme }) => {
                     color: selected_theme.text_color,
                   }}
                 >
-                  {d.year / million >= 0
-                    ? d.year / million
-                    : numeral(d.year / million).format('0,0')}{' '}
-                  ล้านบาท
+                  {d.year / million >= 0 ? d.year / million : numeral(d.year / million).format("0,0")} ล้านบาท
                 </p>
               </span>
             </div>
