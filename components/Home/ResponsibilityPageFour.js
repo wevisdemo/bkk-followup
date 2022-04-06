@@ -21,7 +21,7 @@ export default function ResponsibilityPageFour(props) {
       bg_color: "#0F52BB",
       list: [
         "เสนอและให้ความเห็นชอบในการตราข้อบัญญัติ กทม.",
-        "ให้ความเห็นชอบร่างข้อบัญญัติงบประมาณรายจ่ายตามที่ผู้ว่าฯ เสนอ",
+        "ให้ความเห็นชอบร่างข้อบัญญัติงบประมาณ<span class=' whitespace-nowrap'>รายจ่าย</span>ตามที่ผู้ว่าฯ เสนอ",
         "ควบคุมการบริหารงานของฝ่ายบริหาร",
       ],
     },
@@ -40,19 +40,11 @@ export default function ResponsibilityPageFour(props) {
       style={{ top: "60px" }}
     >
       <div className="container max-w-4xl mx-auto">
-
-
-        <h3 className="leading-tight text-center d2">
-          บทบาทและอำนาจหน้าที่ของ กทม.
-        </h3>
+        <h3 className="leading-tight text-center d2">บทบาทและอำนาจหน้าที่ของ กทม.</h3>
 
         <div className="grid grid-cols-1 gap-5 mt-4 md:grid-cols-2 md:mt-10 lg:mt-4 2xl:mt-14">
           {cards.map((d, d_index) => (
-            <div
-              key={d_index}
-              className="p-4 rounded-md box"
-              style={{ background: d.bg_color }}
-            >
+            <div key={d_index} className="p-4 rounded-md box" style={{ background: d.bg_color }}>
               <h3 className="d3">{d.title}</h3>
 
               <ul className="mt-5 list">
@@ -63,7 +55,7 @@ export default function ResponsibilityPageFour(props) {
                   >
                     <img width={25} height={25} src={check} alt={check} />
 
-                    <h4 className="flex-1 ml-3 text-lg leading-6">{l}</h4>
+                    <h4 className="flex-1 ml-3 text-lg leading-6" dangerouslySetInnerHTML={{ __html: l }}></h4>
                   </li>
                 ))}
               </ul>
@@ -73,9 +65,8 @@ export default function ResponsibilityPageFour(props) {
 
         <p className="hidden mt-4 text-xl text-center md:mt-10 lg:mt-4 2xl:mt-20 md:block">
           <b>
-            ที่มา: • อรทัย ก๊กผล. (2547). สารานุกรมการปกครองท้องถิ่นไทย หมวดที่
-            3 พัฒนาการและรูปแบบการปกครองท้องถิ่นไทย ลำดับที่ 5 เรื่อง
-            กรุงเทพมหานคร. สถาบันพระปกเกล้า.
+            ที่มา: • อรทัย ก๊กผล. (2547). สารานุกรมการปกครองท้องถิ่นไทย หมวดที่ 3 พัฒนาการและรูปแบบการปกครองท้องถิ่นไทย
+            ลำดับที่ 5 เรื่อง กรุงเทพมหานคร. สถาบันพระปกเกล้า.
           </b>
         </p>
       </div>

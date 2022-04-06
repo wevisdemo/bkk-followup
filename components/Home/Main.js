@@ -3,28 +3,23 @@ import arrow_right_white from "assets/images/arrow_right_white.svg";
 import arrow_down_black from "assets/images/arrow_down_black.svg";
 import config from "jsconfig.json";
 import { isMobileOnly } from "react-device-detect";
-import WvSharer from '@wevisdemo/ui/components/sharer';
-
+import WvSharer from "@wevisdemo/ui/components/sharer";
 
 export default function Main(props) {
   const { swiper_ref } = props;
 
   const toDashboard = () => {
-    swiper_ref.slideTo(isMobileOnly ? 16 : 11)
-  }
+    swiper_ref.slideTo(isMobileOnly ? 16 : 11);
+  };
 
   return (
     <div className="flex items-center h-full pb-16 main-page bg-white-default">
       <div className="container mx-auto">
         <div className="hidden grid-cols-1 gap-5 text-center lg:grid-cols-2 md:grid lg:text-left">
           <h1 className="leading-tight d1 ">
-            <span className="text-green-default">
-              OPEN
-            </span>
+            <span className="text-green-default">BKK </span>
             <br />
-            <span >
-              BANGKOK
-            </span>
+            <span>Follow Up</span>
           </h1>
           <div className="right">
             <h3 className="leading-tight d3">

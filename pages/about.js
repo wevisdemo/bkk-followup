@@ -22,7 +22,7 @@ const about = () => {
       <div className="h-full overflow-y-auto bg-white-default">
         <WvContainer>
           <div className="flex flex-col items-center font-bold ">
-            <p className="h1">Open Bangkok</p>
+            <p className="h1">BKK Follow Up</p>
             <p className="h3">สำรวจย้อนหลัง 10 ปีกับปัญหาที่กวนใจชาวกทม.</p>
           </div>
           <WvParagraphGroup heading="เกี่ยวกับโปรเจกต์นี้">
@@ -160,7 +160,7 @@ const about = () => {
                 >
                   WeVis
                 </a>
-                Open Bangkok สำรวจย้อนหลัง 10 ปีกับปัญหาที่กวนใจชาวกทม.
+                BKK Follow Up สำรวจย้อนหลัง 10 ปีกับปัญหาที่กวนใจชาวกทม.
               </div>
             </WvParagraphGroup>
           </WvParagraphGroup>
