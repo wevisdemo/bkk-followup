@@ -93,7 +93,7 @@ const bar_chart = ({ data, selected_theme }) => {
                     color: selected_theme.text_color,
                   }}
                 >
-                  {d.year / million >= 0 ? d.year / million : numeral(d.year / million).format("0,0")} ล้านบาท
+                  {numeral(d.focused / million).format("0,0")} ล้านบาท
                 </p>
               </span>
             </div>

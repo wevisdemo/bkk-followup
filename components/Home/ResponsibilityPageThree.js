@@ -127,9 +127,8 @@ export default function ResponsibilityPageThree() {
             กทม. มีทั้ง
             <span className="text-blue-default">ผู้ว่าราชการกรุงเทพมหานคร</span>
             เป็นผู้บริหาร และ
-            <span className="text-blue-default">สภากรุงเทพมหานคร</span>
-            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที
-            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
+            <span className="text-blue-default whitespace-nowrap">สภากรุงเทพมหานคร</span>
+            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
           </h2>
 
           <h4 className="block leading-snug d4 lg:hidden">
@@ -137,8 +136,7 @@ export default function ResponsibilityPageThree() {
             <span className="text-blue-default">ผู้ว่าราชการกรุงเทพมหานคร</span>
             เป็นผู้บริหาร และ
             <span className="text-blue-default">สภากรุงเทพมหานคร</span>
-            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที
-            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
+            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
           </h4>
         </div>
 
@@ -150,26 +148,15 @@ export default function ResponsibilityPageThree() {
                   className="overflow-hidden rounded-full bg-blue-default"
                   style={{ height: "120px", width: "120px" }}
                 >
-                  <img
-                    className="object-cover w-full h-full"
-                    src={d.image}
-                    alt={d.image}
-                  />
+                  <img className="object-cover w-full h-full" src={d.image} alt={d.image} />
                 </div>
               ) : (
                 <div
                   className="flex items-center justify-center overflow-hidden image-placeholder"
                   style={{ height: "120px", width: "120px" }}
                 >
-                  <div
-                    className="rounded-full bg-white-default"
-                    style={{ height: "42px", width: "42px" }}
-                  >
-                    <img
-                      className="object-cover w-full h-full"
-                      src={image_placeholder}
-                      alt={image_placeholder}
-                    />
+                  <div className="rounded-full bg-white-default" style={{ height: "42px", width: "42px" }}>
+                    <img className="object-cover w-full h-full" src={image_placeholder} alt={image_placeholder} />
                   </div>
                 </div>
               )}
