@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const location_water = ({ selected_theme, data }) => {
   if (data) {
@@ -6,11 +6,11 @@ const location_water = ({ selected_theme, data }) => {
       <div
         id="good-to-know"
         className="flex flex-col justify-center mt-3 text-center card_cat_detail"
-        style={{ maxHeight: '10%' }}
+        style={{ maxHeight: "10%" }}
       >
         <div
           id="gtk-header"
-          className="py-1 rounded-t text-white-default p2"
+          className="py-2 rounded-t text-white-default p2"
           style={{ backgroundColor: selected_theme.color }}
         >
           บริเวณที่มักมีน้ำท่วมขัง
@@ -26,7 +26,7 @@ const location_water = ({ selected_theme, data }) => {
       </div>
     );
   } else {
-    return '';
+    return "";
   }
 };
 

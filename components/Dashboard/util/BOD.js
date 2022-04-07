@@ -1,14 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const BOD = ({ selected_theme }) => {
   return (
-    <div
-      id="BOD"
-      className="flex flex-col justify-center mt-3 text-center card_cat_detail"
-    >
+    <div id="BOD" className="flex flex-col justify-center mt-3 text-center card_cat_detail">
       <div
         id="BOD-header"
-        className="py-1 rounded-t text-white-default p2"
+        className="py-2 rounded-t text-white-default p2"
         style={{ backgroundColor: selected_theme.color }}
       >
         ค่ามาตรฐานกำกับ
@@ -18,13 +15,8 @@ const BOD = ({ selected_theme }) => {
         className="flex flex-col items-center py-3"
         style={{ backgroundColor: selected_theme.color50 }}
       >
-        <div className="font-bold p1">
-          ค่า BOD (Biological Oxygen Demand, BOD)
-        </div>
-        <span
-          style={{ color: selected_theme.text_color }}
-          className="flex flex-row font-bold h4"
-        >
+        <div className="font-bold p1">ค่า BOD (Biological Oxygen Demand, BOD)</div>
+        <span style={{ color: selected_theme.text_color }} className="flex flex-row font-bold h4">
           <p className="pr-2">4</p>
           <p>มิลลิกรัมต่อลิตร</p>
         </span>

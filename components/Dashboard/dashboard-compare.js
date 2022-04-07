@@ -44,7 +44,7 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
   return (
     <div className="flex-1 mt-3 card_cat_detail md:mt-0" style={{ height: "fit-content" }}>
       <div
-        className="flex justify-center px-5 py-1 font-bold text-center rounded-t text-white-default p2"
+        className="flex justify-center px-5 py-2 font-bold text-center rounded-t text-white-default p2"
         style={{ backgroundColor: selected_theme.color }}
       >
         {title}

@@ -202,11 +202,9 @@ export default function Dashboard(props) {
     }
     let note;
     if (selected_theme.name === "น้ำท่วมถนน") {
-      note =
-        "ที่มาข้อมูล: สำนักการระบายน้ำ กรุงเทพมหานคร สํานักยุทธศาสตร์และประเมินผล และสำนักงบประมาณ กรุงเทพมหานคร";
+      note = "ที่มาข้อมูล: สำนักการระบายน้ำ กรุงเทพมหานคร สํานักยุทธศาสตร์และประเมินผล และสำนักงบประมาณ กรุงเทพมหานคร";
     } else if (selected_theme.name === "พื้นที่สีเขียว") {
-      note =
-        "ที่มาข้อมูล: สํานักยุทธศาสตร์และประเมินผล สำนักงบประมาณ และสำนักสิ่งแวดล้อม กรุงเทพมหานคร ";
+      note = "ที่มาข้อมูล: สํานักยุทธศาสตร์และประเมินผล สำนักงบประมาณ และสำนักสิ่งแวดล้อม กรุงเทพมหานคร ";
     } else if (selected_theme.name === "มลพิษในคลอง") {
       note = "ที่มาข้อมูล: สำนักการระบายน้ำ สำนักยุทธศาสตร์และประเมินผล และสำนักงบประมาณ กรุงเทพมหานคร";
     } else if (selected_theme.name === "ขยะมูลฝอย") {
@@ -254,10 +252,7 @@ export default function Dashboard(props) {
           className="absolute top-0 bottom-0 left-0 right-0 flex flex-col overflow-x-hidden xl:overflow-hidden xl:flex-row"
         >
           {/* md:flex-col md:overflow-auto */}
-          <div
-            className="relative flex-col flex-1 lg:flex bg-black-default"
-            id="dashboard-left"
-          >
+          <div className="relative flex-col flex-1 lg:flex bg-black-default" id="dashboard-left">
             {/* group-dropdown */}
 
             <div
@@ -280,9 +275,7 @@ export default function Dashboard(props) {
                     SET_DISTRICT={SET_DISTRICT}
                   />
                 ) : (
-                  <div className="py-2 font-bold text-white-default h4 ">
-                    สำรวจตาม
-                  </div>
+                  <div className="py-2 font-bold text-white-default h4 ">สำรวจตาม</div>
                 )}
                 <div className="flex w-full px-3 md:contents">
                   <DropDown
@@ -342,9 +335,7 @@ export default function Dashboard(props) {
                     SET_DISTRICT={SET_DISTRICT}
                   />
                 ) : (
-                  <div className="py-2 font-bold text-white-default h4 ">
-                    สำรวจตาม
-                  </div>
+                  <div className="py-2 font-bold text-white-default h4 ">สำรวจตาม</div>
                 )}
                 <div className="flex w-full px-3 md:contents">
                   <DropDown
@@ -413,28 +404,15 @@ export default function Dashboard(props) {
                     selected_theme={selected_theme.color}
                   />
 
-                  <div
-                    id="btn-isRank"
-                    className="absolute right-5 bottom-10 p1"
-                  >
+                  <div id="btn-isRank" className="absolute right-5 bottom-10 p1">
                     {isRank ? (
-                      <button
-                        className="flex flex-row items-center justify-center font-bold isRank"
-                        onClick={is_show}
-                      >
+                      <button className="flex flex-row items-center justify-center font-bold isRank" onClick={is_show}>
                         <img src={allImg} alt="allImg" className="mr-3" />
                         <p>ดูภาพรวม</p>
                       </button>
                     ) : (
-                      <button
-                        className="flex flex-row items-center justify-center font-bold isRank"
-                        onClick={is_show}
-                      >
-                        <img
-                          src={rankingImg}
-                          alt="rankingImg"
-                          className="mr-3"
-                        />
+                      <button className="flex flex-row items-center justify-center font-bold isRank" onClick={is_show}>
+                        <img src={rankingImg} alt="rankingImg" className="mr-3" />
                         <p>ดูการจัดอันดับ</p>
                       </button>
                     )}
@@ -476,39 +454,24 @@ export default function Dashboard(props) {
                     {district != null ? (
                       <p className="h3">{district}</p>
                     ) : (
-                      <p className="h3">
-                        {checked === "เขตพื้นที่ทั้งหมด"
-                          ? "กรุงเทพมหานคร"
-                          : checked}
-                      </p>
+                      <p className="h3">{checked === "เขตพื้นที่ทั้งหมด" ? "กรุงเทพมหานคร" : checked}</p>
                     )}
 
-                    {isMobileOnly ? (
-                      <p className="h4">ภาพรวมย้อนหลัง 10 ปี (2555-2564)</p>
-                    ) : (
-                      ""
-                    )}
+                    {isMobileOnly ? <p className="h4">ภาพรวมย้อนหลัง 10 ปี (2555-2564)</p> : ""}
                   </span>
                 </div>
                 {district && selected_theme.name === "น้ำท่วมถนน" ? (
                   <div className="mt-3" id="flood-rating">
-                    {Rating(
-                      selected_theme,
-                      "ปี 2564 เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่",
-                      district_data
-                    )}
+                    {Rating(selected_theme, "ปี 2564 เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่", district_data)}
                   </div>
                 ) : (
                   ""
                 )}
                 {checked === "เขตพื้นที่ทั้งหมด" && district === null ? (
-                  <div
-                    id="good-to-know"
-                    className="flex flex-col justify-center mt-3 text-center card_cat_detail"
-                  >
+                  <div id="good-to-know" className="flex flex-col justify-center mt-3 text-center card_cat_detail">
                     <div
                       id="gtk-header"
-                      className="py-1 rounded-t text-white-default p2"
+                      className="py-2 rounded-t text-white-default p2"
                       style={{ backgroundColor: selected_theme.color }}
                     >
                       ข้อควรรู้
@@ -519,24 +482,18 @@ export default function Dashboard(props) {
                   ""
                 )}
 
-                {selected_theme.name === "พื้นที่สีเขียว" &&
-                  district != null ? (
+                {selected_theme.name === "พื้นที่สีเขียว" && district != null ? (
                   <StandardGreen selected_theme={selected_theme} />
                 ) : (
                   ""
                 )}
 
-                {selected_theme.name === "พื้นที่สีเขียว" &&
-                  district === null ? (
+                {selected_theme.name === "พื้นที่สีเขียว" && district === null ? (
                   <Standard selected_theme={selected_theme} />
                 ) : (
                   ""
                 )}
-                {selected_theme.name === "มลพิษในคลอง" ? (
-                  <BOD selected_theme={selected_theme} />
-                ) : (
-                  ""
-                )}
+                {selected_theme.name === "มลพิษในคลอง" ? <BOD selected_theme={selected_theme} /> : ""}
                 {selected_theme.name != "น้ำท่วมถนน" ? (
                   <AVG
                     selected_theme={selected_theme}
@@ -548,38 +505,27 @@ export default function Dashboard(props) {
                 ) : (
                   ""
                 )}
-                {checked === "เขตพื้นที่ทั้งหมด" &&
-                  district === null &&
-                  selected_theme.name === "น้ำท่วมถนน" ? (
+                {checked === "เขตพื้นที่ทั้งหมด" && district === null && selected_theme.name === "น้ำท่วมถนน" ? (
                   <MaxMinFlood data={data} selected_theme={selected_theme} />
                 ) : (
                   ""
                 )}
                 {district && selected_theme.name != "น้ำท่วมถนน" ? (
-                  <MaxMinPerDistrict
-                    selected_theme={selected_theme}
-                    district_data={district_data}
-                  />
+                  <MaxMinPerDistrict selected_theme={selected_theme} district_data={district_data} />
                 ) : (
                   ""
                 )}
                 {selected_theme.name === "น้ำท่วมถนน" ? (
                   <LocationFlood
                     selected_theme={selected_theme}
-                    data={
-                      district
-                        ? district_data.floodHotspots
-                        : data.floodHotspots
-                    }
+                    data={district ? district_data.floodHotspots : data.floodHotspots}
                   />
                 ) : (
                   ""
                 )}
                 <LineChart
                   selected_theme={selected_theme}
-                  data={
-                    district ? district_data.valuePerYear : data.valuePerYear
-                  }
+                  data={district ? district_data.valuePerYear : data.valuePerYear}
                 />
                 {checked === "เขตพื้นที่ทั้งหมด" ? (
                   <Ranking
@@ -592,10 +538,7 @@ export default function Dashboard(props) {
                 ) : (
                   ""
                 )}
-                <div
-                  id="budget compare"
-                  className="flex flex-col mt-3 md:flex-row "
-                >
+                <div id="budget compare" className="flex flex-col mt-3 md:flex-row ">
                   <Budget
                     id="budget"
                     selected_theme={selected_theme}
@@ -619,11 +562,7 @@ export default function Dashboard(props) {
                       district_data={district_data.rankings}
                     />
                   ) : (
-                    <ListRanking
-                      id="list-ranking"
-                      selected_theme={selected_theme}
-                      data={data.rankings}
-                    />
+                    <ListRanking id="list-ranking" selected_theme={selected_theme} data={data.rankings} />
                   )}
                 </div>
                 <div id="note" className="px-2 py-3 mt-3 card_cat_detail">

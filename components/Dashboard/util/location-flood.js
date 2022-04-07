@@ -1,5 +1,5 @@
-import React from 'react';
-import { isMobile, isMobileOnly, isTablet } from 'react-device-detect';
+import React from "react";
+import { isMobile, isMobileOnly, isTablet } from "react-device-detect";
 
 const location_water = ({ selected_theme, data }) => {
   if (data) {
@@ -7,11 +7,11 @@ const location_water = ({ selected_theme, data }) => {
       <div
         id="good-to-know"
         className="flex flex-col justify-center mt-3 text-center card_cat_detail"
-        style={{ maxHeight: isMobile ? '300px' : '50%' }}
+        style={{ maxHeight: isMobile ? "300px" : "50%" }}
       >
         <div
           id="gtk-header"
-          className="py-1 rounded-t text-white-default p2"
+          className="py-2 rounded-t text-white-default p2"
           style={{ backgroundColor: selected_theme.color }}
         >
           บริเวณที่มักมีน้ำท่วมขัง
@@ -22,10 +22,7 @@ const location_water = ({ selected_theme, data }) => {
           style={{ backgroundColor: selected_theme.color50 }}
         >
           {data.map((lo, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-start justify-start py-1 md:flex-row"
-            >
+            <div key={index} className="flex flex-col items-start justify-start py-1 md:flex-row">
               <p className="font-bold">•{lo.name}</p>
               <p className="pl-1">{lo.description}</p>
             </div>
@@ -34,7 +31,7 @@ const location_water = ({ selected_theme, data }) => {
       </div>
     );
   } else {
-    return '';
+    return "";
   }
 };
 

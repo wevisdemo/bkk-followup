@@ -115,7 +115,7 @@ const AVG = ({ selected_theme, data, checked, state_dropdown, district_data }) =
       <div className="flex flex-col flex-1 mt-3 md:mt-0 " id="AVG-right">
         <div className="flex-1 card_cat_detail">
           <div
-            className="flex justify-center py-1 rounded-t text-white-default p2"
+            className="flex justify-center py-2 rounded-t text-white-default p2"
             style={{ backgroundColor: selected_theme.color }}
           >
             <img src={img_top} alt={`${img_top}`} className="mr-3" style={{ width: "20px" }} />
@@ -133,7 +133,7 @@ const AVG = ({ selected_theme, data, checked, state_dropdown, district_data }) =
         </div>
         <div className="flex-1 mt-3 card_cat_detail">
           <div
-            className="flex justify-center py-1 rounded-t text-white-default p2"
+            className="flex justify-center py-2 rounded-t text-white-default p2"
             style={{ backgroundColor: selected_theme.color }}
           >
             <img src={img_bot} alt={`${img_bot}`} className="mr-3" style={{ width: "20px" }} />
@@ -198,7 +198,7 @@ const AVG = ({ selected_theme, data, checked, state_dropdown, district_data }) =
         }}
       >
         <div
-          className="flex justify-center py-1 rounded-t text-white-default p2"
+          className="flex justify-center py-2 rounded-t text-white-default p2"
           style={{ backgroundColor: selected_theme.color }}
         >
           {selected_theme.name === "ฝุ่นควันเกินมาตรฐาน" ? "จำนวนครั้งที่ค่าฝุ่นเกินกำหนด" : "ค่าเฉลี่ย"}

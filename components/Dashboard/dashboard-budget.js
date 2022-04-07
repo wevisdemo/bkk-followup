@@ -1,49 +1,44 @@
-import React from 'react';
-import numeral from 'numeral';
-import DonutChart from 'components/Dashboard/util/donut-chart';
-import BarChart from 'components/Dashboard/util/bar-chart';
-import ElectLink from 'assets/images/link_elect.svg';
+import React from "react";
+import numeral from "numeral";
+import DonutChart from "components/Dashboard/util/donut-chart";
+import BarChart from "components/Dashboard/util/bar-chart";
+import ElectLink from "assets/images/link_elect.svg";
 
 const budget = ({ selected_theme, data, checked, state_dropdown }) => {
   let focused = data.budgetOverall.focused / 1000000;
   let percent = data.budgetOverall.focused / data.budgetOverall.all;
   let title, sub;
-  if (selected_theme.name === 'น้ำท่วมถนน') {
-    title = 'ในการจัดการระบายน้ำและแก้ไขน้ำท่วม';
-    sub = 'งบประมาณใช้ไปเพื่อจัดการระบายน้ำและแก้ไขน้ำท่วมในแต่ละปี';
-  } else if (selected_theme.name === 'พื้นที่สีเขียว') {
-    title = 'ในการพัฒนาสภาวะสิ่งแวดล้อม';
-    sub = 'งบประมาณใช้ไปเพื่อพัฒนาสภาวะสิ่งแวดล้อมในแต่ละปี';
-  } else if (selected_theme.name === 'มลพิษในคลอง') {
-    title = 'ในการจัดการคุณภาพน้ำ';
-    sub = 'งบประมาณใช้ไปเพื่อจัดการคุณภาพน้ำในแต่ละปี';
-  } else if (selected_theme.name === 'ขยะมูลฝอย') {
-    title = 'ในการรักษาความสะอาดและจัดการขยะมูลฝอย';
-    sub = 'งบประมาณใช้ไปเพื่อจัดการขยะมูลฝอยและรักษาความสะอาดในแต่ละปี';
-  } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
-    title = 'ในการจัดการคุณภาพอากาศและเสียง';
-    sub = 'งบประมาณใช้ไปเพื่อจัดการคุณภาพอากาศและเสียงในแต่ละปี';
+  if (selected_theme.name === "น้ำท่วมถนน") {
+    title = "ในการจัดการระบายน้ำและแก้ไขน้ำท่วม";
+    sub = "งบประมาณใช้ไปเพื่อจัดการระบายน้ำและแก้ไขน้ำท่วมในแต่ละปี";
+  } else if (selected_theme.name === "พื้นที่สีเขียว") {
+    title = "ในการพัฒนาสภาวะสิ่งแวดล้อม";
+    sub = "งบประมาณใช้ไปเพื่อพัฒนาสภาวะสิ่งแวดล้อมในแต่ละปี";
+  } else if (selected_theme.name === "มลพิษในคลอง") {
+    title = "ในการจัดการคุณภาพน้ำ";
+    sub = "งบประมาณใช้ไปเพื่อจัดการคุณภาพน้ำในแต่ละปี";
+  } else if (selected_theme.name === "ขยะมูลฝอย") {
+    title = "ในการรักษาความสะอาดและจัดการขยะมูลฝอย";
+    sub = "งบประมาณใช้ไปเพื่อจัดการขยะมูลฝอยและรักษาความสะอาดในแต่ละปี";
+  } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
+    title = "ในการจัดการคุณภาพอากาศและเสียง";
+    sub = "งบประมาณใช้ไปเพื่อจัดการคุณภาพอากาศและเสียงในแต่ละปี";
   }
   if (
-    (checked != 'เขตพื้นที่ทั้งหมด' && selected_theme.name === 'มลพิษในคลอง') ||
-    (selected_theme.name === 'มลพิษในคลอง' && state_dropdown === 'zone')
+    (checked != "เขตพื้นที่ทั้งหมด" && selected_theme.name === "มลพิษในคลอง") ||
+    (selected_theme.name === "มลพิษในคลอง" && state_dropdown === "zone")
   ) {
-    return '';
+    return "";
   } else if (
-    (checked != 'เขตพื้นที่ทั้งหมด' &&
-      selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') ||
-    (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน' && state_dropdown === 'zone')
+    (checked != "เขตพื้นที่ทั้งหมด" && selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") ||
+    (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน" && state_dropdown === "zone")
   ) {
-    return '';
+    return "";
   } else {
     return (
-      <div
-        id="budget"
-        className="relative flex-1 md:mr-3 card_cat_detail"
-        style={{ height: 'fit-content' }}
-      >
+      <div id="budget" className="relative flex-1 md:mr-3 card_cat_detail" style={{ height: "fit-content" }}>
         <div
-          className="flex justify-center py-1 rounded-t text-white-default p2"
+          className="flex justify-center py-2 rounded-t text-white-default p2"
           style={{ backgroundColor: selected_theme.color }}
         >
           งบประมาณที่ใช้ไปในพื้นที่นี้
@@ -51,7 +46,7 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
         <span className="flex flex-col items-center py-3 font-bold leading-snug">
           <p className="p2">ในปี 2555-2564 กทม. ใช้เงินงบประมาณ</p>
           <p className="h2" style={{ color: selected_theme.text_color }}>
-            {numeral(focused).format('0,0')} ล้านบาท
+            {numeral(focused).format("0,0")} ล้านบาท
           </p>
           <p className="p2">{title}</p>
         </span>
