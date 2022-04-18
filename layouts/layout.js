@@ -8,7 +8,7 @@ setTimeout(() => {
 
 export default function Layout(props) {
   return (
-    <PlausibleProvider domain="openbangkok.wevis.info" customDomain="https://analytics.punchup.world" selfHosted={true}>
+    <PlausibleProvider domain="bkkfollowup.wevis.info" customDomain="https://analytics.punchup.world" selfHosted={true}>
       <Header />
       {show_intro && <Intro />}
 
