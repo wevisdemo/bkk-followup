@@ -47,7 +47,7 @@ export default function BudgetPageOne(props) {
                 75,500 ล้านบาท
               </h3>
 
-              <h3 className="mt-8 text-center h2 md:text-left">
+              <h3 className="mt-8 text-center h2 lg:text-left">
                 แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำๆ และยังไม่ถูกแก้
               </h3>
             </div>

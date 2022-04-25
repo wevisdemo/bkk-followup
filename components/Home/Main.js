@@ -4,6 +4,8 @@ import arrow_down_black from "assets/images/arrow_down_black.svg";
 import config from "jsconfig.json";
 import { isMobileOnly } from "react-device-detect";
 import WvSharer from "@wevisdemo/ui/components/sharer";
+import stb_logo from "assets/images/stb_logo.svg";
+import cu_thai_logo from "assets/images/cu_thai_logo.svg";
 
 export default function Main(props) {
   const { swiper_ref } = props;
@@ -24,7 +26,7 @@ export default function Main(props) {
           <div className="right">
             <h3 className="leading-tight d3">
               สำรวจย้อนหลัง 10 ปีกับ
-              <br />
+              <br className=" md:hidden lg:block" />
               ปัญหาที่กวนใจชาวกทม.
             </h3>
 
@@ -85,7 +87,18 @@ export default function Main(props) {
           </div>
         </div>
 
-        <div className="items-center justify-center hidden mt-10 md:flex lg:hidden social-wrap">
+        <div className="flex items-center justify-center flex-1 mt-5 lg:hidden">
+          <div className="mr-4 p3 whitespace-nowrap">In collaboration with</div>
+
+          <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-3 ">
+            <img src={stb_logo} alt={stb_logo} />
+          </a>
+
+          <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-8 ">
+            <img src={cu_thai_logo} alt={cu_thai_logo} />
+          </a>
+        </div>
+        <div className="flex items-center justify-center mt-5 md:mt-10 lg:hidden social-wrap">
           <h4 className="d4">Share:</h4>
           <WvSharer url={config.web_url} label=" " />
         </div>
