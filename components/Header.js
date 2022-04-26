@@ -129,6 +129,15 @@ export default function Header() {
             </h5>
           </div>
         </div>
+        <div className="flex items-center justify-center flex-1 mx-2 lg:hidden">
+          <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer">
+            <img src={stb_logo} alt={stb_logo} />
+          </a>
+
+          <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer">
+            <img src={cu_thai_logo} alt={cu_thai_logo} />
+          </a>
+        </div>
         <div className=" md:hidden">
           {isOpen ? (
             <img src={close} onClick={() => setIsOpen(false)} width={20} />
