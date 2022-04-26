@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import wevis_logo from "assets/images/wevis_logo.svg";
 import map_logo from "assets/images/map_logo.svg";
-import stb_logo from "assets/images/stb_logo.svg";
-import cu_thai_logo from "assets/images/cu_thai_logo.svg";
+import stb_logo from "assets/images/stb_logo.png";
+import cu_thai_logo from "assets/images/cu_thai_logo.png";
 import { isMobile, isMobileOnly } from "react-device-detect";
 import WvNavButton from "@wevisdemo/ui/components/nav-button";
 import WvNavDropdown from "@wevisdemo/ui/components/nav-dropdown";
@@ -85,20 +85,14 @@ export default function Header() {
           About
         </WvNavButton>
       </div>
-      <div className="flex items-center flex-1">
-        <div className="mr-4 md:hidden p3 lg:block whitespace-nowrap">In collaboration with</div>
-
-        <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-3 md:hidden lg:block">
-          <img src={stb_logo} alt={stb_logo} />
+      <div className="flex items-center flex-1 md:hidden lg:flex">
+        <div className="mr-4 p3 whitespace-nowrap">In collaboration with</div>
+        <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-3 ">
+          <img src={stb_logo} alt={stb_logo} style={{ height: "50px" }} />
         </a>
 
-        <a
-          href="https://www.polsci.chula.ac.th/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mr-8 md:hidden lg:block"
-        >
-          <img src={cu_thai_logo} alt={cu_thai_logo} />
+        <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-8 ">
+          <img src={cu_thai_logo} alt={cu_thai_logo} style={{ height: "45px" }} />
         </a>
       </div>
     </div>
@@ -127,13 +121,13 @@ export default function Header() {
             </h5>
           </div>
         </div>
-        <div className="flex flex-1 mx-2 lg:hidden">
+        <div className="flex items-center flex-1 mx-2 lg:hidden">
           <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer">
-            <img src={stb_logo} alt={stb_logo} />
+            <img src={stb_logo} alt={stb_logo} style={{ height: "50px" }} />
           </a>
 
           <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer">
-            <img src={cu_thai_logo} alt={cu_thai_logo} />
+            <img src={cu_thai_logo} alt={cu_thai_logo} style={{ height: "45px" }} />
           </a>
         </div>
         <div className=" md:hidden">
