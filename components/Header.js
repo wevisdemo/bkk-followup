@@ -60,12 +60,12 @@ export default function Header() {
 
   const insideMenu = () => (
     <div className="relative z-10 flex flex-col items-center space-y-3 right md:flex-row md:space-y-0">
-      <div className="w-full mx-2 md:w-max">
+      <div className="w-full md:w-max">
         <WvNavButton onClick={() => selectMenu(1)} active={router.pathname === "/"}>
           สรุปงบประมาณกทม.
         </WvNavButton>
       </div>
-      <div className="w-full mx-2 md:w-max">
+      <div className="w-full md:w-max">
         <WvNavDropdown label="สำรวจแผนที่ตามประเด็น">
           {dashboardData.map((dashboard, index) => (
             <WvNavDropdownItem key={index}>
@@ -80,7 +80,7 @@ export default function Header() {
           ))}
         </WvNavDropdown>
       </div>
-      <div className="w-full mx-1 md:w-max">
+      <div className="w-full md:w-max">
         <WvNavButton onClick={() => selectAbout()} active={router.pathname === "/about"}>
           About
         </WvNavButton>
@@ -112,7 +112,7 @@ export default function Header() {
       >
         <div className="flex items-center left">
           <a href="https://wevis.info/" target="_blank" rel="noopener noreferrer" className="mr-4">
-            <img width={isMobileOnly ? 75 : 110} src={wevis_logo} />
+            <img width={isMobileOnly ? 60 : 100} src={wevis_logo} />
           </a>
 
           <div
@@ -122,20 +122,18 @@ export default function Header() {
             <img src={map_logo} alt={map_logo} />
 
             <h5 className="ml-2 d5">
-              <span className="text-green-default" style={{ fontFamily: "KondolarThai" }}>
-                BKK
-              </span>
+              <span className="text-green-default">BKK</span>
               Follow Up
             </h5>
           </div>
         </div>
-        <div className="flex items-center justify-center flex-1 mx-2 lg:hidden">
-          <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer" className="w-full ">
-            <img src={stb_logo} alt={stb_logo} className="mx-auto" />
+        <div className="flex flex-1 mx-2 lg:hidden">
+          <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer">
+            <img src={stb_logo} alt={stb_logo} />
           </a>
 
-          <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer" className="w-full ">
-            <img src={cu_thai_logo} alt={cu_thai_logo} className="mx-auto " />
+          <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer">
+            <img src={cu_thai_logo} alt={cu_thai_logo} />
           </a>
         </div>
         <div className=" md:hidden">
