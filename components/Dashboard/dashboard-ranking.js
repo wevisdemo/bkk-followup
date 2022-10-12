@@ -1,35 +1,35 @@
-import React from 'react';
-import rankingImg from 'assets/images/rankingImg_w.svg';
-import exclamation from 'assets/images/exclamation.svg';
-import smile from 'assets/images/smile.svg';
-import { isMobileOnly } from 'react-device-detect';
+import React from "react";
+import rankingImg from "assets/images/rankingImg_w.svg";
+import exclamation from "assets/images/exclamation.svg";
+import smile from "assets/images/smile.svg";
+import { isMobileOnly } from "react-device-detect";
 const ranking = ({ selected_theme, checked, rankings, is_show }) => {
   let title, unit, top3, last3;
 
-  if (selected_theme.name === 'น้ำท่วมถนน') {
-    title = 'เรียงตามเขตที่มีจำนวนบ่อยที่สุด ปี 2564';
-    top3 = '3 เขตที่น้ำท่วมบ่อยสุด';
-    unit = 'ครั้ง';
-  } else if (selected_theme.name === 'พื้นที่สีเขียว') {
-    title = 'เรียงตามเขตที่มีพื้นที่สีเขียวมากที่สุด-น้อยที่สุด ปี 2564';
-    top3 = '3 เขตที่มีพื้นที่สีเขียวมากที่สุด';
-    last3 = '3 เขตที่มีพื้นที่สีเขียวน้อยที่สุด';
-    unit = 'ตร.ม./คน';
-  } else if (selected_theme.name === 'มลพิษในคลอง') {
-    title = 'เรียงตามเขตที่มีค่า BOD น้อยที่สุด-มากที่สุด ปี 2563';
-    top3 = '3 เขตที่มีค่า BOD มากที่สุด';
-    last3 = '3 เขตที่มีค่า BOD น้อยที่สุด';
-    unit = 'มก./ลิตร';
-  } else if (selected_theme.name === 'ขยะมูลฝอย') {
-    title = 'เรียงตามเขตที่มีขยะมูลฝอยมากที่สุด-น้อยที่สุด';
-    top3 = '3 เขตขยะมากที่สุด';
-    last3 = '3 เขตขยะน้อยที่สุด';
-    unit = 'กก./คน/วัน';
-  } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
-    title = 'เรียงตามเขตที่มีค่าสูงสุดของ PM2.5 จากมากไปน้อย ปี 2563';
-    top3 = '3 เขตที่ค่าสูงสุด PM2.5 มากที่สุด';
-    last3 = '3 เขตที่ค่าสูงสุด PM2.5 น้อยที่สุด';
-    unit = 'มค.ก./ลบ.ม.';
+  if (selected_theme.name === "น้ำท่วมถนน") {
+    title = "เรียงตามเขตที่มีจำนวนบ่อยที่สุด ปี 2564";
+    top3 = "3 เขตที่น้ำท่วมบ่อยสุด";
+    unit = "ครั้ง";
+  } else if (selected_theme.name === "พื้นที่สีเขียว") {
+    title = "เรียงตามเขตที่มีพื้นที่สีเขียวมากที่สุด-น้อยที่สุด ปี 2564";
+    top3 = "3 เขตที่มีพื้นที่สีเขียวมากที่สุด";
+    last3 = "3 เขตที่มีพื้นที่สีเขียวน้อยที่สุด";
+    unit = "ตร.ม./คน";
+  } else if (selected_theme.name === "มลพิษในคลอง") {
+    title = "เรียงตามเขตที่มีค่า BOD น้อยที่สุด-มากที่สุด ปี 2564";
+    top3 = "3 เขตที่มีค่า BOD มากที่สุด";
+    last3 = "3 เขตที่มีค่า BOD น้อยที่สุด";
+    unit = "มก./ลิตร";
+  } else if (selected_theme.name === "ขยะมูลฝอย") {
+    title = "เรียงตามเขตที่มีขยะมูลฝอยมากที่สุด-น้อยที่สุด";
+    top3 = "3 เขตขยะมากที่สุด";
+    last3 = "3 เขตขยะน้อยที่สุด";
+    unit = "กก./คน/วัน";
+  } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
+    title = "เรียงตามเขตที่มีค่าสูงสุดของ PM2.5 จากมากไปน้อย ปี 2564";
+    top3 = "3 เขตที่ค่าสูงสุด PM2.5 มากที่สุด";
+    last3 = "3 เขตที่ค่าสูงสุด PM2.5 น้อยที่สุด";
+    unit = "มค.ก./ลบ.ม.";
   }
 
   const list_top3 = () => {
@@ -37,21 +37,20 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
       <div className="flex-1 px-2">
         <div className="flex items-center pb-2 font-bold p1 text-white-default">
           {top3}
-          <img src={selected_theme.name === 'พื้นที่สีเขียว' ? smile : exclamation} alt="exclamation" className="ml-3" />
+          <img
+            src={selected_theme.name === "พื้นที่สีเขียว" ? smile : exclamation}
+            alt="exclamation"
+            className="ml-3"
+          />
         </div>
         <div id="ranking-wrapper-body" className="flex flex-col">
           {rankings.map((rank, index) => {
             if (index < 3)
               return (
-                <div
-                  key={index}
-                  className="flex px-3 py-3 my-1 font-bold rounded bg-white-default p2"
-                >
+                <div key={index} className="flex px-3 py-3 my-1 font-bold rounded bg-white-default p2">
                   <div className="flex flex-row items-center flex-1">
                     <div className="mr-2 circle_wrapper">
-                      {selected_theme.name === 'มลพิษในคลอง'
-                        ? rankings.length - index
-                        : index + 1}
+                      {selected_theme.name === "มลพิษในคลอง" ? rankings.length - index : index + 1}
                     </div>
                     <p>{rank.districtName}</p>
                   </div>
@@ -74,21 +73,17 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
     return (
       <div className="flex-1 px-2">
         <div className="flex items-center pb-2 font-bold p1 text-white-default">
-          {last3} <img src={selected_theme.name === 'พื้นที่สีเขียว' ? exclamation : smile} alt="smile" className="ml-3" />
+          {last3}{" "}
+          <img src={selected_theme.name === "พื้นที่สีเขียว" ? exclamation : smile} alt="smile" className="ml-3" />
         </div>
         <div id="ranking-wrapper-body" className="flex flex-col-reverse">
           {rankings.map((rank, index) => {
             if (index > rankings.length - 4)
               return (
-                <div
-                  key={index}
-                  className="flex px-3 py-3 my-1 font-bold rounded bg-white-default p2"
-                >
+                <div key={index} className="flex px-3 py-3 my-1 font-bold rounded bg-white-default p2">
                   <div className="flex flex-row items-center flex-1">
                     <div className="mr-2 circle_wrapper">
-                      {selected_theme.name === 'มลพิษในคลอง'
-                        ? rankings.length - index
-                        : index + 1}
+                      {selected_theme.name === "มลพิษในคลอง" ? rankings.length - index : index + 1}
                     </div>
                     <p>{rank.districtName}</p>
                   </div>
@@ -108,30 +103,27 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
   };
 
   const list_ranking = () => {
-    if (selected_theme.name === 'น้ำท่วมถนน') {
+    if (selected_theme.name === "น้ำท่วมถนน") {
       return (
         <div id="less-most" className="flex flex-col mt-5 md:flex-row">
           {list_top3()}
         </div>
       );
-    } else if (
-      selected_theme.name === 'พื้นที่สีเขียว' ||
-      selected_theme.name === 'ขยะมูลฝอย'
-    ) {
-      return (
-        <div id="less-most" className="flex flex-col mt-5 md:flex-row">
-          {list_top3()}
-          {list_last3()}
-        </div>
-      );
-    } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
+    } else if (selected_theme.name === "พื้นที่สีเขียว" || selected_theme.name === "ขยะมูลฝอย") {
       return (
         <div id="less-most" className="flex flex-col mt-5 md:flex-row">
           {list_top3()}
           {list_last3()}
         </div>
       );
-    } else if (selected_theme.name === 'มลพิษในคลอง') {
+    } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
+      return (
+        <div id="less-most" className="flex flex-col mt-5 md:flex-row">
+          {list_top3()}
+          {list_last3()}
+        </div>
+      );
+    } else if (selected_theme.name === "มลพิษในคลอง") {
       return (
         <div id="less-most" className="flex flex-col mt-5 md:flex-row">
           {list_last3()}
@@ -145,24 +137,14 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
     <div
       id="ranking_wrapper"
       className={
-        checked === 'เขตพื้นที่ทั้งหมด'
-          ? 'card_cat_detail pt-3 mt-3'
-          : 'flex-1 card_cat_ranking card_cat_detail pt-3'
+        checked === "เขตพื้นที่ทั้งหมด" ? "card_cat_detail pt-3 mt-3" : "flex-1 card_cat_ranking card_cat_detail pt-3"
       }
       style={{ backgroundColor: selected_theme.color }}
     >
-      {checked === 'เขตพื้นที่ทั้งหมด' ? (
+      {checked === "เขตพื้นที่ทั้งหมด" ? (
         <div id="ranking_default">
-          <div className="flex justify-center rounded-t text-white-default p2">
-            การจัดอันดับแต่ละเขต
-          </div>
-          {isMobileOnly ? (
-            ''
-          ) : (
-            <div className="flex justify-center mt-3 text-white-default h4">
-              {title}
-            </div>
-          )}
+          <div className="flex justify-center rounded-t text-white-default p2">การจัดอันดับแต่ละเขต</div>
+          {isMobileOnly ? "" : <div className="flex justify-center mt-3 text-white-default h4">{title}</div>}
 
           {list_ranking()}
           <div
@@ -175,9 +157,7 @@ const ranking = ({ selected_theme, checked, rankings, is_show }) => {
         </div>
       ) : (
         <div id="ranking_filter">
-          <div className="flex justify-center rounded-t text-white-default p2">
-            การจัดอันดับแต่ละเขต
-          </div>
+          <div className="flex justify-center rounded-t text-white-default p2">การจัดอันดับแต่ละเขต</div>
           <div className="flex justify-center mt-3 text-center text-white-default p1">
             ปริมาณขยะมูลฝอย
             <br />

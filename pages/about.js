@@ -167,7 +167,7 @@ const about = () => {
 
           <WvButtonGroup center>
             <a
-              href="https://docs.google.com/spreadsheets/d/1L6rVuwhfpyhx2eK0reUx-hTJd4vMv8aelgJrGPoYS2s/edit#gid=0"
+              href="https://docs.google.com/spreadsheets/d/1L6rVuwhfpyhx2eK0reUx-hTJd4vMv8aelgJrGPoYS2s/edit#gid=1906545002"
               target="_blank"
               rel="noopener noreferrer"
             >

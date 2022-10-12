@@ -69,11 +69,7 @@ const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK }) => {
     >
       <div id="rank62-header" className="flex flex-col justify-center mt-3 text-center text-white-default">
         <p className="font-bold d4">{title}</p>
-        <p className="my-2 font-bold h4 lg:my-0">
-          {selected_theme.name === "มลพิษในคลอง" || selected_theme.name === "ฝุ่นควันเกินมาตรฐาน"
-            ? "ข้อมูลประจำปี 2563"
-            : "ข้อมูลประจำปี 2564"}
-        </p>
+        <p className="my-2 font-bold h4 lg:my-0">"ข้อมูลประจำปี 2564"</p>
         <span className="flex flex-col m-auto p1 md:flex-row">
           <p className="mb-2 lg:mb-0">{sub}</p>
           <p className="mb-1 font-bold underline md:ml-1 lg:mb:0">เรียงลำดับมากไปน้อย</p>

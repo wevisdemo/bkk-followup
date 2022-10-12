@@ -78,7 +78,7 @@ const AVG = ({ selected_theme, data, checked, state_dropdown, district_data }) =
     unit_filter = "มค.ก./ลบ.ม.";
     AVG_max = "เขตที่มีค่าสูงสุดของ PM2.5 มากที่สุด";
     AVG_min = "เขตที่มีค่าสูงสุดของ PM2.5 น้อยที่สุด";
-    AVG = "92.66%";
+    AVG = "94.50%";
     compare_title = "เปรียบเทียบปัญหาฝุ่นควันสูงแต่ละกลุ่มเขต";
     rank_text = "ปี 2564 เขตนี้มีค่าสูงสุดของ PM2.5 มากที่สุดเป็นอันดับที่";
     img_top = smile;
@@ -210,7 +210,7 @@ const AVG = ({ selected_theme, data, checked, state_dropdown, district_data }) =
           </p>
           {selected_theme.name === "ฝุ่นควันเกินมาตรฐาน" ? (
             <p style={{ color: selected_theme.text_color }} className="mr-32 font-bold p1">
-              หรือ 139 ครั้ง จากทั้งหมด 150 ครั้งจากที่ตรวจวัด
+              หรือ 189 ครั้ง จากทั้งหมด 200 ครั้งจากที่ตรวจวัด
             </p>
           ) : (
             <p style={{ color: selected_theme.text_color }} className="mr-32 font-bold p1">
