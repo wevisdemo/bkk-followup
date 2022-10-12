@@ -107,6 +107,11 @@ export default function ResponsibilityPageThree() {
       appoint: true,
       image: require("assets/images/อัศวิน.png"),
     },
+    {
+      year: 2565,
+      name: "รศ.ชัชชาติ สิทธิพันธุ์",
+      image: require("assets/images/ชัชชาติ.png"),
+    },
   ];
 
   useEffect(() => {
