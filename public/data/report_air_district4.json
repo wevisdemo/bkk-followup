@@ -1,5 +1,5 @@
 {
-  "value": 70,
+  "value": 88,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 70
+    "2563": 70,
+    "2564": 88
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "คันนายาว"
   },
   "maximumPoint": {
-    "value": 70,
-    "year": 2563,
+    "value": 88,
+    "year": 2564,
     "districtId": 4,
     "districtName": "คันนายาว"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 42,
+  "ranked": 29,
   "rankings": [
     {
       "ranked": 26,
@@ -44,6 +45,11 @@
       "ranked": 42,
       "year": 2563,
       "value": 70
+    },
+    {
+      "ranked": 29,
+      "year": 2564,
+      "value": 88
     }
   ],
   "sampling": null

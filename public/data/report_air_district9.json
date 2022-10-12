@@ -1,5 +1,5 @@
 {
-  "value": 82,
+  "value": 86,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 82
+    "2563": 82,
+    "2564": 86
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "ดุสิต"
   },
   "maximumPoint": {
-    "value": 82,
-    "year": 2563,
+    "value": 86,
+    "year": 2564,
     "districtId": 9,
     "districtName": "ดุสิต"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 33,
+  "ranked": 35,
   "rankings": [
     {
       "ranked": 30,
@@ -44,6 +45,11 @@
       "ranked": 33,
       "year": 2563,
       "value": 82
+    },
+    {
+      "ranked": 35,
+      "year": 2564,
+      "value": 86
     }
   ],
   "sampling": null

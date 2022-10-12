@@ -1,5 +1,5 @@
 {
-  "value": 12.51,
+  "value": 11.45,
   "valuePerYear": {
     "2555": 8.19,
     "2556": 7.15,
@@ -9,7 +9,8 @@
     "2560": 10.92,
     "2561": 10.92,
     "2562": 10.7,
-    "2563": 12.51
+    "2563": 12.51,
+    "2564": 11.45
   },
   "minimumPoint": {
     "districtId": 15,
@@ -33,82 +34,82 @@
       "ranked": 1,
       "districtId": 13,
       "districtName": "ธนบุรี",
-      "value": 21.96
+      "value": 19.6
     },
     {
       "ranked": 2,
       "districtId": 2,
       "districtName": "คลองสาน",
-      "value": 17.78
+      "value": 16.61
     },
     {
       "ranked": 3,
       "districtId": 24,
       "districtName": "บางพลัด",
-      "value": 13.78
+      "value": 11.72
     },
     {
       "ranked": 4,
-      "districtId": 14,
-      "districtName": "บางกอกน้อย",
-      "value": 10.2
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 9.31
     },
     {
       "ranked": 5,
       "districtId": 29,
       "districtName": "ป้อมปราบศัตรูพ่าย",
-      "value": 9.17
+      "value": 7.64
     },
     {
       "ranked": 6,
-      "districtId": 9,
-      "districtName": "ดุสิต",
-      "value": 8.25
+      "districtId": 44,
+      "districtName": "สัมพันธวงศ์",
+      "value": 7.12
     },
     {
       "ranked": 7,
-      "districtId": 44,
-      "districtName": "สัมพันธวงศ์",
-      "value": 7.3
+      "districtId": 14,
+      "districtName": "บางกอกน้อย",
+      "value": 7.01
     },
     {
       "ranked": 8,
       "districtId": 32,
       "districtName": "พระนคร",
-      "value": 7.22
+      "value": 6.96
     },
     {
       "ranked": 9,
       "districtId": 15,
       "districtName": "บางกอกใหญ่",
-      "value": 5.97
+      "value": 6.51
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 13.67
+      "value": 742.67
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 15.83
+      "value": 17.61
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 10.15
+      "value": 11.96
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 12.51
+      "value": 11.45
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 16.95
+      "value": 17.85
     }
   ]
 }

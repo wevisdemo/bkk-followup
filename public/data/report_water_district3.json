@@ -1,5 +1,5 @@
 {
-  "value": 7.47,
+  "value": 9.18,
   "valuePerYear": {
     "2555": 2.92,
     "2556": 3.58,
@@ -9,7 +9,8 @@
     "2560": 5.81,
     "2561": 4.67,
     "2562": 5.33,
-    "2563": 7.47
+    "2563": 7.47,
+    "2564": 9.18
   },
   "minimumPoint": {
     "value": 2.92,
@@ -18,8 +19,8 @@
     "districtName": "คลองสามวา"
   },
   "maximumPoint": {
-    "value": 7.67,
-    "year": 2559,
+    "value": 9.18,
+    "year": 2564,
     "districtId": 3,
     "districtName": "คลองสามวา"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 44,
+  "ranked": 41,
   "rankings": [
     {
       "ranked": 48,
@@ -74,6 +75,11 @@
       "ranked": 44,
       "year": 2563,
       "value": 7.47
+    },
+    {
+      "ranked": 41,
+      "year": 2564,
+      "value": 9.18
     }
   ]
 }
