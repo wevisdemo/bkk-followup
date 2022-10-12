@@ -1,5 +1,5 @@
 {
-  "value": 100,
+  "value": 93,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 19,
     "2562": 88,
-    "2563": 100
+    "2563": 100,
+    "2564": 93
   },
   "minimumPoint": {
     "value": 19,
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 14,
+  "ranked": 26,
   "rankings": [
     {
       "ranked": 24,
@@ -44,6 +45,11 @@
       "ranked": 14,
       "year": 2563,
       "value": 100
+    },
+    {
+      "ranked": 26,
+      "year": 2564,
+      "value": 93
     }
   ],
   "sampling": null

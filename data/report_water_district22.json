@@ -1,5 +1,5 @@
 {
-  "value": 20.3,
+  "value": 20.46,
   "valuePerYear": {
     "2555": 16.63,
     "2556": 14.08,
@@ -9,7 +9,8 @@
     "2560": 15.25,
     "2561": 15,
     "2562": 19.1,
-    "2563": 20.3
+    "2563": 20.3,
+    "2564": 20.46
   },
   "minimumPoint": {
     "value": 14.08,
@@ -18,8 +19,8 @@
     "districtName": "บางนา"
   },
   "maximumPoint": {
-    "value": 20.3,
-    "year": 2563,
+    "value": 20.46,
+    "year": 2564,
     "districtId": 22,
     "districtName": "บางนา"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 9,
+  "ranked": 8,
   "rankings": [
     {
       "ranked": 12,
@@ -74,6 +75,11 @@
       "ranked": 9,
       "year": 2563,
       "value": 20.3
+    },
+    {
+      "ranked": 8,
+      "year": 2564,
+      "value": 20.46
     }
   ]
 }

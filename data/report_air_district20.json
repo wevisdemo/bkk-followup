@@ -1,5 +1,5 @@
 {
-  "value": 97,
+  "value": 105,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 97
+    "2563": 97,
+    "2564": 105
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "บางแค"
   },
   "maximumPoint": {
-    "value": 97,
-    "year": 2563,
+    "value": 105,
+    "year": 2564,
     "districtId": 20,
     "districtName": "บางแค"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 16,
+  "ranked": 9,
   "rankings": [
     {
       "ranked": 35,
@@ -44,6 +45,11 @@
       "ranked": 16,
       "year": 2563,
       "value": 97
+    },
+    {
+      "ranked": 9,
+      "year": 2564,
+      "value": 105
     }
   ],
   "sampling": null

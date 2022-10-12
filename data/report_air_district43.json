@@ -1,5 +1,5 @@
 {
-  "value": 68,
+  "value": 82,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 68
+    "2563": 68,
+    "2564": 82
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "สะพานสูง"
   },
   "maximumPoint": {
-    "value": 68,
-    "year": 2563,
+    "value": 82,
+    "year": 2564,
     "districtId": 43,
     "districtName": "สะพานสูง"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 47,
+  "ranked": 43,
   "rankings": [
     {
       "ranked": 46,
@@ -44,6 +45,11 @@
       "ranked": 47,
       "year": 2563,
       "value": 68
+    },
+    {
+      "ranked": 43,
+      "year": 2564,
+      "value": 82
     }
   ],
   "sampling": null

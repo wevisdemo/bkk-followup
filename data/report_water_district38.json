@@ -1,5 +1,5 @@
 {
-  "value": 13.43,
+  "value": 17.81,
   "valuePerYear": {
     "2555": 6.38,
     "2556": 8.29,
@@ -9,7 +9,8 @@
     "2560": 11.45,
     "2561": 9.13,
     "2562": 13.18,
-    "2563": 13.43
+    "2563": 13.43,
+    "2564": 17.81
   },
   "minimumPoint": {
     "value": 6.38,
@@ -18,8 +19,8 @@
     "districtName": "ลาดกระบัง"
   },
   "maximumPoint": {
-    "value": 15.06,
-    "year": 2559,
+    "value": 17.81,
+    "year": 2564,
     "districtId": 38,
     "districtName": "ลาดกระบัง"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 26,
+  "ranked": 15,
   "rankings": [
     {
       "ranked": 38,
@@ -74,6 +75,11 @@
       "ranked": 26,
       "year": 2563,
       "value": 13.43
+    },
+    {
+      "ranked": 15,
+      "year": 2564,
+      "value": 17.81
     }
   ]
 }

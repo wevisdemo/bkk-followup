@@ -1,5 +1,5 @@
 {
-  "value": 75,
+  "value": 80,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 75
+    "2563": 75,
+    "2564": 80
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "ห้วยขวาง"
   },
   "maximumPoint": {
-    "value": 75,
-    "year": 2563,
+    "value": 80,
+    "year": 2564,
     "districtId": 50,
     "districtName": "ห้วยขวาง"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 39,
+  "ranked": 47,
   "rankings": [
     {
       "ranked": 50,
@@ -44,6 +45,11 @@
       "ranked": 39,
       "year": 2563,
       "value": 75
+    },
+    {
+      "ranked": 47,
+      "year": 2564,
+      "value": 80
     }
   ],
   "sampling": null

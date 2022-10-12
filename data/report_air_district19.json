@@ -1,5 +1,5 @@
 {
-  "value": 114,
+  "value": 95,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,11 +9,12 @@
     "2560": null,
     "2561": 96,
     "2562": 104,
-    "2563": 114
+    "2563": 114,
+    "2564": 95
   },
   "minimumPoint": {
-    "value": 96,
-    "year": 2561,
+    "value": 95,
+    "year": 2564,
     "districtId": 19,
     "districtName": "บางคอแหลม"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 5,
+  "ranked": 21,
   "rankings": [
     {
       "ranked": 1,
@@ -44,6 +45,11 @@
       "ranked": 5,
       "year": 2563,
       "value": 114
+    },
+    {
+      "ranked": 21,
+      "year": 2564,
+      "value": 95
     }
   ],
   "sampling": null

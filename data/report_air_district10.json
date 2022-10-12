@@ -1,5 +1,5 @@
 {
-  "value": 84,
+  "value": 94,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 84
+    "2563": 84,
+    "2564": 94
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "ตลิ่งชัน"
   },
   "maximumPoint": {
-    "value": 84,
-    "year": 2563,
+    "value": 94,
+    "year": 2564,
     "districtId": 10,
     "districtName": "ตลิ่งชัน"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 30,
+  "ranked": 23,
   "rankings": [
     {
       "ranked": 31,
@@ -44,6 +45,11 @@
       "ranked": 30,
       "year": 2563,
       "value": 84
+    },
+    {
+      "ranked": 23,
+      "year": 2564,
+      "value": 94
     }
   ],
   "sampling": null

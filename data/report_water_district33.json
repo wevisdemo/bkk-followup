@@ -1,5 +1,5 @@
 {
-  "value": 6.67,
+  "value": 9.04,
   "valuePerYear": {
     "2555": 5.71,
     "2556": 4.99,
@@ -9,7 +9,8 @@
     "2560": 5.33,
     "2561": 5,
     "2562": 5.2,
-    "2563": 6.67
+    "2563": 6.67,
+    "2564": 9.04
   },
   "minimumPoint": {
     "value": 4.99,
@@ -18,8 +19,8 @@
     "districtName": "ภาษีเจริญ"
   },
   "maximumPoint": {
-    "value": 7.85,
-    "year": 2559,
+    "value": 9.04,
+    "year": 2564,
     "districtId": 33,
     "districtName": "ภาษีเจริญ"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 47,
+  "ranked": 42,
   "rankings": [
     {
       "ranked": 42,
@@ -74,6 +75,11 @@
       "ranked": 47,
       "year": 2563,
       "value": 6.67
+    },
+    {
+      "ranked": 42,
+      "year": 2564,
+      "value": 9.04
     }
   ]
 }

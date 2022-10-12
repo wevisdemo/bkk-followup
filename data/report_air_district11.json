@@ -1,5 +1,5 @@
 {
-  "value": 99,
+  "value": 104,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -9,7 +9,8 @@
     "2560": null,
     "2561": 0,
     "2562": 0,
-    "2563": 99
+    "2563": 99,
+    "2564": 104
   },
   "minimumPoint": {
     "value": 0,
@@ -18,8 +19,8 @@
     "districtName": "ทวีวัฒนา"
   },
   "maximumPoint": {
-    "value": 99,
-    "year": 2563,
+    "value": 104,
+    "year": 2564,
     "districtId": 11,
     "districtName": "ทวีวัฒนา"
   },
@@ -28,7 +29,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 15,
+  "ranked": 10,
   "rankings": [
     {
       "ranked": 32,
@@ -44,6 +45,11 @@
       "ranked": 15,
       "year": 2563,
       "value": 99
+    },
+    {
+      "ranked": 10,
+      "year": 2564,
+      "value": 104
     }
   ],
   "sampling": null
