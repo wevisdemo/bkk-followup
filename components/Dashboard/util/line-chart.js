@@ -1,77 +1,74 @@
-import React, { useEffect } from 'react';
-import { isMobileOnly } from 'react-device-detect';
-import * as d3 from 'd3';
+import React, { useEffect } from "react";
+import { isMobileOnly } from "react-device-detect";
+import * as d3 from "d3";
 
-export default function DashboardLineChart({
-  selected_theme,
-  data_line_chart,
-}) {
+export default function DashboardLineChart({ selected_theme, data_line_chart }) {
   const createChart = () => {
     let AVG;
-    if (selected_theme.name === 'น้ำท่วมถนน') {
+    if (selected_theme.name === "น้ำท่วมถนน") {
       AVG = [
-        { year: '55', value: 22.53 },
-        { year: '56', value: 22.53 },
-        { year: '57', value: 22.53 },
-        { year: '58', value: 22.53 },
-        { year: '59', value: 22.53 },
-        { year: '60', value: 22.53 },
-        { year: '61', value: 22.53 },
-        { year: '62', value: 22.53 },
-        { year: '63', value: 22.53 },
-        { year: '64', value: 22.53 },
+        { year: "55", value: 22.53 },
+        { year: "56", value: 22.53 },
+        { year: "57", value: 22.53 },
+        { year: "58", value: 22.53 },
+        { year: "59", value: 22.53 },
+        { year: "60", value: 22.53 },
+        { year: "61", value: 22.53 },
+        { year: "62", value: 22.53 },
+        { year: "63", value: 22.53 },
+        { year: "64", value: 22.53 },
       ];
-    } else if (selected_theme.name === 'พื้นที่สีเขียว') {
+    } else if (selected_theme.name === "พื้นที่สีเขียว") {
       AVG = [
-        { year: '55', value: 9 },
-        { year: '56', value: 9 },
-        { year: '57', value: 9 },
-        { year: '58', value: 9 },
-        { year: '59', value: 9 },
-        { year: '60', value: 9 },
-        { year: '61', value: 9 },
-        { year: '62', value: 9 },
-        { year: '63', value: 9 },
-        { year: '64', value: 9 },
+        { year: "55", value: 9 },
+        { year: "56", value: 9 },
+        { year: "57", value: 9 },
+        { year: "58", value: 9 },
+        { year: "59", value: 9 },
+        { year: "60", value: 9 },
+        { year: "61", value: 9 },
+        { year: "62", value: 9 },
+        { year: "63", value: 9 },
+        { year: "64", value: 9 },
       ];
-    } else if (selected_theme.name === 'มลพิษในคลอง') {
+    } else if (selected_theme.name === "มลพิษในคลอง") {
       AVG = [
-        { year: '55', value: 4 },
-        { year: '56', value: 4 },
-        { year: '57', value: 4 },
-        { year: '58', value: 4 },
-        { year: '59', value: 4 },
-        { year: '60', value: 4 },
-        { year: '61', value: 4 },
-        { year: '62', value: 4 },
-        { year: '63', value: 4 },
-
+        { year: "55", value: 4 },
+        { year: "56", value: 4 },
+        { year: "57", value: 4 },
+        { year: "58", value: 4 },
+        { year: "59", value: 4 },
+        { year: "60", value: 4 },
+        { year: "61", value: 4 },
+        { year: "62", value: 4 },
+        { year: "63", value: 4 },
+        { year: "64", value: 4 },
       ];
-    } else if (selected_theme.name === 'ขยะมูลฝอย') {
+    } else if (selected_theme.name === "ขยะมูลฝอย") {
       AVG = [
-        { year: '55', value: 1.05 },
-        { year: '56', value: 1.15 },
-        { year: '57', value: 1.11 },
-        { year: '58', value: 1.13 },
-        { year: '59', value: 1.14 },
-        { year: '60', value: 1.13 },
-        { year: '61', value: 1.15 },
-        { year: '62', value: 1.18 },
-        { year: '63', value: 1.05 },
-        { year: '64', value: 1.05 },
+        { year: "55", value: 1.05 },
+        { year: "56", value: 1.15 },
+        { year: "57", value: 1.11 },
+        { year: "58", value: 1.13 },
+        { year: "59", value: 1.14 },
+        { year: "60", value: 1.13 },
+        { year: "61", value: 1.15 },
+        { year: "62", value: 1.18 },
+        { year: "63", value: 1.05 },
+        { year: "64", value: 1.05 },
       ];
-    } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
+    } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
       AVG = [
-        { year: '55', value: 25 },
-        { year: '56', value: 25 },
-        { year: '57', value: 25 },
-        { year: '58', value: 25 },
-        { year: '59', value: 25 },
-        { year: '60', value: 25 },
-        { year: '61', value: 25 },
-        { year: '62', value: 25 },
-        { year: '63', value: 25 },
-        { year: '64', value: 25 },
+        { year: "55", value: 25 },
+        { year: "56", value: 25 },
+        { year: "57", value: 25 },
+        { year: "58", value: 25 },
+        { year: "59", value: 25 },
+        { year: "60", value: 25 },
+        { year: "61", value: 25 },
+        { year: "62", value: 25 },
+        { year: "63", value: 25 },
+        { year: "64", value: 25 },
       ];
     }
 
@@ -128,135 +125,130 @@ export default function DashboardLineChart({
       .axisBottom(x_scale)
       .ticks(6)
       .tickSize(0)
-      .tickFormat(d3.format('.0f'))
+      .tickFormat(d3.format(".0f"))
       .tickValues(data.map((d) => d.year));
 
     const chart = d3
-      .select('.line-chart')
-      .append('svg')
-      .attr('class', 'svg-line-chart')
-      .attr('width', width + margin.left + margin.right)
-      .attr('height', height + margin.top + margin.bottom)
-      .append('g')
-      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+      .select(".line-chart")
+      .append("svg")
+      .attr("class", "svg-line-chart")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     chart
-      .append('g')
-      .attr('class', 'x-axis')
-      .attr('transform', 'translate(0,' + height + ')')
+      .append("g")
+      .attr("class", "x-axis")
+      .attr("transform", "translate(0," + height + ")")
       .call(x_axis);
 
     chart
-      .append('path')
+      .append("path")
       .data([data])
-      .attr('class', 'bg-line')
-      .attr('d', lineBgArea)
-      .style('fill', selected_theme.color50);
+      .attr("class", "bg-line")
+      .attr("d", lineBgArea)
+      .style("fill", selected_theme.color50);
 
     chart
       .selectAll()
       .data(data)
       .enter()
-      .append('rect')
-      .attr('class', 'value-line')
-      .attr('x', function (d) {
+      .append("rect")
+      .attr("class", "value-line")
+      .attr("x", function (d) {
         return x_scale(d.year);
       })
-      .attr('y', function (d) {
+      .attr("y", function (d) {
         return y_scale(d.value);
       })
-      .attr('height', function (d) {
+      .attr("height", function (d) {
         return height - y_scale(d.value);
       })
-      .attr('width', 1)
-      .style('fill', selected_theme.color);
+      .attr("width", 1)
+      .style("fill", selected_theme.color);
 
     chart
-      .append('path')
+      .append("path")
       .data([data])
-      .attr('class', 'line')
-      .attr('d', valueLine)
-      .style('fill', 'none')
-      .style('stroke', selected_theme.color)
-      .style('stroke-width', 2);
+      .attr("class", "line")
+      .attr("d", valueLine)
+      .style("fill", "none")
+      .style("stroke", selected_theme.color)
+      .style("stroke-width", 2);
 
-    if (selected_theme.name != 'น้ำท่วมถนน') {
+    if (selected_theme.name != "น้ำท่วมถนน") {
       chart
-        .append('path')
+        .append("path")
         .data([AVG])
-        .attr('class', 'dash-line')
-        .attr('d', valueLine)
-        .style('fill', 'none')
-        .style('stroke', 'black')
-        .style('stroke-width', 1)
-        .style('stroke-dasharray', 5);
+        .attr("class", "dash-line")
+        .attr("d", valueLine)
+        .style("fill", "none")
+        .style("stroke", "black")
+        .style("stroke-width", 1)
+        .style("stroke-dasharray", 5);
     }
 
     chart
       .selectAll()
       .data(data)
       .enter()
-      .append('circle')
-      .attr('class', 'dot')
-      .attr('cx', function (d) {
+      .append("circle")
+      .attr("class", "dot")
+      .attr("cx", function (d) {
         return x_scale(d.year);
       })
-      .attr('cy', function (d) {
+      .attr("cy", function (d) {
         return y_scale(d.value);
       })
-      .attr('r', 3)
-      .style('fill', selected_theme.color);
+      .attr("r", 3)
+      .style("fill", selected_theme.color);
 
     chart
       .selectAll()
       .data(data)
       .enter()
-      .append('rect')
-      .attr('class', 'bg-label')
-      .attr('width', function (d) {
+      .append("rect")
+      .attr("class", "bg-label")
+      .attr("width", function (d) {
         return 36;
       })
-      .attr('height', function (d) {
+      .attr("height", function (d) {
         return 17;
       })
-      .attr('x', function (d) {
+      .attr("x", function (d) {
         return x_scale(d.year) - 18;
       })
-      .attr('y', function (d) {
+      .attr("y", function (d) {
         return y_scale(d.value) - 23;
       })
-      .attr('rx', 3)
-      .style('fill', 'white')
-      .style('opacity', 0.8);
+      .attr("rx", 3)
+      .style("fill", "white")
+      .style("opacity", 0.8);
 
     chart
       .selectAll()
       .data(data)
       .enter()
-      .append('text')
-      .attr('class', 'label')
-      .attr('x', function (d) {
+      .append("text")
+      .attr("class", "label")
+      .attr("x", function (d) {
         return x_scale(d.year);
       })
-      .attr('y', function (d) {
+      .attr("y", function (d) {
         return y_scale(d.value);
       })
-      .attr('dy', '-10')
-      .style('font-size', '12px')
-      .style('text-anchor', 'middle')
+      .attr("dy", "-10")
+      .style("font-size", "12px")
+      .style("text-anchor", "middle")
       .text(function (d) {
         return d.value ? d.value : 0;
       });
 
-    chart
-      .selectAll('g.tick')
-      .select('text')
-      .attr('y', 12)
-      .style('font-size', '14px')
-      .style('font-weight', 'bold');
+    chart.selectAll("g.tick").select("text").attr("y", 12).style("font-size", "14px").style("font-weight", "bold");
   };
 
-  d3.select('.svg-line-chart').remove();
+  d3.select(".svg-line-chart").remove();
   createChart();
 
   useEffect(() => {
