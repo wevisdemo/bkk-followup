@@ -253,8 +253,8 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
     let unit;
     let data_per_year = data.byYear;
     let merge_data = [];
-    d3.csv("/map_info.csv").then((map) => {
-      // d3.csv("/bkk-followup/map_info.csv").then((map) => {
+    // d3.csv("/map_info.csv").then((map) => {
+    d3.csv("/bkk-followup/map_info.csv").then((map) => {
       let selected_data = data_per_year[`25${selected_year}`];
       _.forIn(selected_data, (data) => {
         const d = map.find((m) => m.districtName === data.districtName);

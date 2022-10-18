@@ -20,8 +20,8 @@ function MetaHead() {
     <Head>
       <title>{config.title}</title>
       <meta name="description" content={config.description}></meta>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-      {/* <link rel="icon" type="image/x-icon" href="/bkk-followup/favicon.ico" /> */}
+      {/* <link rel="icon" type="image/x-icon" href="/favicon.ico" /> */}
+      <link rel="icon" type="image/x-icon" href="/bkk-followup/favicon.ico" />
       <meta property="og:title" content={config.title} />
 
       <meta property="og:description" content={config.description} />
