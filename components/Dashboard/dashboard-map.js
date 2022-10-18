@@ -29,8 +29,8 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
         if (!_.some(raw_data.rankings, { districtName: d.districtName })) {
           d3.select(`.rect${d.districtName}`).style("stroke", "none");
           d3.select(`.minimap${d.districtName}`).style("fill", "black");
-          d3.select(`.tooltip${d.districtName}`).style("visibility", "hidden");
         }
+        d3.select(`.tooltip${d.districtName}`).style("visibility", "hidden");
       } else {
         if (district != d.districtName) {
           d3.select(`.rect${d.districtName}`).style("stroke", "none");
@@ -123,7 +123,7 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
           .attr("y", -box_width / 2)
           .style("cursor", (d) => (d.value > 0 ? "pointer" : ""))
           .on("mouseover", (e, d) => (d.value ? mouseover(e, d) : ""))
-          .on("mouseout", (_, d) => mouseout(d))
+          .on("mouseout", (_, d) => (d.value ? mouseout(d) : ""))
           .on("click", (_, d) => (d.value > 0 ? actived_tool_tip(d.districtName) : ""));
 
         group
@@ -253,8 +253,8 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
     let unit;
     let data_per_year = data.byYear;
     let merge_data = [];
-    // d3.csv("/map_info.csv").then((map) => {
-    d3.csv("/bkk-followup/map_info.csv").then((map) => {
+    d3.csv("/map_info.csv").then((map) => {
+      // d3.csv("/bkk-followup/map_info.csv").then((map) => {
       let selected_data = data_per_year[`25${selected_year}`];
       _.forIn(selected_data, (data) => {
         const d = map.find((m) => m.districtName === data.districtName);
