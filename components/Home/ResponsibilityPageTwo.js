@@ -1,7 +1,7 @@
 import React from "react";
 import check from "assets/images/check.svg";
 import { isMobileOnly } from "react-device-detect";
-
+import { Swiper, SwiperSlide } from "swiper/react";
 export default function ResponsibilityPageTwo(props) {
   const { active_index } = props;
   const cards = [
@@ -48,7 +48,11 @@ export default function ResponsibilityPageTwo(props) {
       list: ["การทะเบียน", "การพาณิชย์ของกรุงเทพมหานคร"],
     },
   ];
-
+  const swiper_options = {
+    mousewheel: true,
+    slidesPerView: "auto",
+    spaceBetween: 10,
+  };
   return (
     <div
       className="fixed inset-0 z-10 flex py-4 text-center pointer-events-none responsibility-page-two md:items-center text-white-default"
@@ -78,26 +82,28 @@ export default function ResponsibilityPageTwo(props) {
             className="container flex px-4 pb-5 mx-auto mt-10 overflow-x-auto pointer-events-auto lg:mt-20 scroll-list"
             style={{ scrollBehavior: "smooth" }}
           >
-            {cards.map((c, c_index) => (
-              <div
-                key={c_index}
-                className="flex-none p-4 mr-3 text-left rounded-md box bg-blue-lightest text-black-default w-72 lg:w-auto"
-              >
-                <h5 className="d5">{c.title}</h5>
+            <Swiper {...swiper_options}>
+              {cards.map((c, c_index) => (
+                <SwiperSlide
+                  key={c_index}
+                  className="p-4 text-left rounded-md cursor-pointer box bg-blue-lightest text-black-default responsiveSlide"
+                >
+                  <h5 className="d5">{c.title}</h5>
 
-                <hr className="my-4" />
+                  <hr className="my-4" />
 
-                <ul className="list">
-                  {c.list.map((l, l_index) => (
-                    <li key={l_index} className="flex items-center mt-2 2xl:mt-3">
-                      <img width={25} src={check} alt={check} />
+                  <ul className="list">
+                    {c.list.map((l, l_index) => (
+                      <li key={l_index} className="flex items-center mt-2 2xl:mt-3">
+                        <img width={25} src={check} alt={check} />
 
-                      <h4 className="flex-1 ml-3 text-lg">{l}</h4>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+                        <h4 className="flex-1 ml-3 text-lg">{l}</h4>
+                      </li>
+                    ))}
+                  </ul>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         ) : null}
       </div>
