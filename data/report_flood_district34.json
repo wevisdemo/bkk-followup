@@ -1,5 +1,5 @@
 {
-  "value": 4,
+  "value": null,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": null,
     "2562": null,
     "2563": 20,
-    "2564": 4
+    "2564": 4,
+    "2565": null,
+    "2566": null
   },
   "minimumPoint": {
     "value": 4,
@@ -64,13 +66,21 @@
     "2564": {
       "all": 485821000,
       "focused": 38727900
+    },
+    "2565": {
+      "all": 403942740,
+      "focused": 22370500
+    },
+    "2566": {
+      "all": 513366911,
+      "focused": 20188600
     }
   },
   "budgetOverall": {
-    "all": 4545117540,
-    "focused": 251624400
+    "all": 5462427191,
+    "focused": 294183500
   },
-  "ranked": 14,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 1,
@@ -97,10 +107,10 @@
       "description": "หน้าการไฟฟ้า"
     }
   ],
-  "meanFloodLevel": 16.88,
+  "meanFloodLevel": 40.7,
   "meanFloodLevelMaximumPoint": {
-    "value": 16.88,
-    "year": 2564,
+    "value": 40.7,
+    "year": 2566,
     "districtId": 34,
     "districtName": "มีนบุรี"
   }

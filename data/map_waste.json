@@ -2019,6 +2019,410 @@
         "districtName": "ห้วยขวาง",
         "value": 1.791
       }
+    },
+    "2565": {
+      "1": {
+        "districtName": "คลองเตย",
+        "value": 2.713
+      },
+      "2": {
+        "districtName": "คลองสาน",
+        "value": 1.553
+      },
+      "3": {
+        "districtName": "คลองสามวา",
+        "value": 1.008
+      },
+      "4": {
+        "districtName": "คันนายาว",
+        "value": 1.378
+      },
+      "5": {
+        "districtName": "จตุจักร",
+        "value": 1.993
+      },
+      "6": {
+        "districtName": "จอมทอง",
+        "value": 1.277
+      },
+      "7": {
+        "districtName": "ดอนเมือง",
+        "value": 0.985
+      },
+      "8": {
+        "districtName": "ดินแดง",
+        "value": 1.936
+      },
+      "9": {
+        "districtName": "ดุสิต",
+        "value": 1.488
+      },
+      "10": {
+        "districtName": "ตลิ่งชัน",
+        "value": 1.381
+      },
+      "11": {
+        "districtName": "ทวีวัฒนา",
+        "value": 1.509
+      },
+      "12": {
+        "districtName": "ทุ่งครุ",
+        "value": 1.097
+      },
+      "13": {
+        "districtName": "ธนบุรี",
+        "value": 1.298
+      },
+      "14": {
+        "districtName": "บางกอกน้อย",
+        "value": 1.476
+      },
+      "15": {
+        "districtName": "บางกอกใหญ่",
+        "value": 1.17
+      },
+      "16": {
+        "districtName": "บางกะปิ",
+        "value": 2.087
+      },
+      "17": {
+        "districtName": "บางขุนเทียน",
+        "value": 1.645
+      },
+      "18": {
+        "districtName": "บางเขน",
+        "value": 1.324
+      },
+      "19": {
+        "districtName": "บางคอแหลม",
+        "value": 1.374
+      },
+      "20": {
+        "districtName": "บางแค",
+        "value": 1.358
+      },
+      "21": {
+        "districtName": "บางซื่อ",
+        "value": 1.192
+      },
+      "22": {
+        "districtName": "บางนา",
+        "value": 2.197
+      },
+      "23": {
+        "districtName": "บางบอน",
+        "value": 1.953
+      },
+      "24": {
+        "districtName": "บางพลัด",
+        "value": 1.409
+      },
+      "25": {
+        "districtName": "บางรัก",
+        "value": 2.331
+      },
+      "26": {
+        "districtName": "บึงกุ่ม",
+        "value": 1.316
+      },
+      "27": {
+        "districtName": "ปทุมวัน",
+        "value": 5.068
+      },
+      "28": {
+        "districtName": "ประเวศ",
+        "value": 1.636
+      },
+      "29": {
+        "districtName": "ป้อมปราบศัตรูพ่าย",
+        "value": 1.481
+      },
+      "30": {
+        "districtName": "พญาไท",
+        "value": 2.133
+      },
+      "31": {
+        "districtName": "พระโขนง",
+        "value": 1.531
+      },
+      "32": {
+        "districtName": "พระนคร",
+        "value": 2.991
+      },
+      "33": {
+        "districtName": "ภาษีเจริญ",
+        "value": 1.271
+      },
+      "34": {
+        "districtName": "มีนบุรี",
+        "value": 1.316
+      },
+      "35": {
+        "districtName": "ยานนาวา",
+        "value": 2.04
+      },
+      "36": {
+        "districtName": "ราชเทวี",
+        "value": 2.073
+      },
+      "37": {
+        "districtName": "ราษฎร์บูรณะ",
+        "value": 1.254
+      },
+      "38": {
+        "districtName": "ลาดกระบัง",
+        "value": 1.623
+      },
+      "39": {
+        "districtName": "ลาดพร้าว",
+        "value": 1.645
+      },
+      "40": {
+        "districtName": "วังทองหลาง",
+        "value": 1.88
+      },
+      "41": {
+        "districtName": "วัฒนา",
+        "value": 2.975
+      },
+      "42": {
+        "districtName": "สวนหลวง",
+        "value": 1.82
+      },
+      "43": {
+        "districtName": "สะพานสูง",
+        "value": 1.327
+      },
+      "44": {
+        "districtName": "สัมพันธวงศ์",
+        "value": 1.863
+      },
+      "45": {
+        "districtName": "สาทร",
+        "value": 1.7
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 1.004
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 1.12
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 0.835
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 1.425
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 2.389
+      }
+    },
+    "2566": {
+      "1": {
+        "districtName": "คลองเตย",
+        "value": 2.916
+      },
+      "2": {
+        "districtName": "คลองสาน",
+        "value": 1.642
+      },
+      "3": {
+        "districtName": "คลองสามวา",
+        "value": 1.004
+      },
+      "4": {
+        "districtName": "คันนายาว",
+        "value": 1.345
+      },
+      "5": {
+        "districtName": "จตุจักร",
+        "value": 2.084
+      },
+      "6": {
+        "districtName": "จอมทอง",
+        "value": 1.156
+      },
+      "7": {
+        "districtName": "ดอนเมือง",
+        "value": 0.995
+      },
+      "8": {
+        "districtName": "ดินแดง",
+        "value": 1.862
+      },
+      "9": {
+        "districtName": "ดุสิต",
+        "value": 1.434
+      },
+      "10": {
+        "districtName": "ตลิ่งชัน",
+        "value": 1.391
+      },
+      "11": {
+        "districtName": "ทวีวัฒนา",
+        "value": 1.485
+      },
+      "12": {
+        "districtName": "ทุ่งครุ",
+        "value": 1.046
+      },
+      "13": {
+        "districtName": "ธนบุรี",
+        "value": 1.267
+      },
+      "14": {
+        "districtName": "บางกอกน้อย",
+        "value": 1.471
+      },
+      "15": {
+        "districtName": "บางกอกใหญ่",
+        "value": 1.094
+      },
+      "16": {
+        "districtName": "บางกะปิ",
+        "value": 1.891
+      },
+      "17": {
+        "districtName": "บางขุนเทียน",
+        "value": 1.578
+      },
+      "18": {
+        "districtName": "บางเขน",
+        "value": 1.317
+      },
+      "19": {
+        "districtName": "บางคอแหลม",
+        "value": 1.407
+      },
+      "20": {
+        "districtName": "บางแค",
+        "value": 1.311
+      },
+      "21": {
+        "districtName": "บางซื่อ",
+        "value": 1.17
+      },
+      "22": {
+        "districtName": "บางนา",
+        "value": 2.005
+      },
+      "23": {
+        "districtName": "บางบอน",
+        "value": 1.855
+      },
+      "24": {
+        "districtName": "บางพลัด",
+        "value": 1.373
+      },
+      "25": {
+        "districtName": "บางรัก",
+        "value": 2.788
+      },
+      "26": {
+        "districtName": "บึงกุ่ม",
+        "value": 1.243
+      },
+      "27": {
+        "districtName": "ปทุมวัน",
+        "value": 5.503
+      },
+      "28": {
+        "districtName": "ประเวศ",
+        "value": 1.583
+      },
+      "29": {
+        "districtName": "ป้อมปราบศัตรูพ่าย",
+        "value": 1.538
+      },
+      "30": {
+        "districtName": "พญาไท",
+        "value": 2.106
+      },
+      "31": {
+        "districtName": "พระโขนง",
+        "value": 1.494
+      },
+      "32": {
+        "districtName": "พระนคร",
+        "value": 3.175
+      },
+      "33": {
+        "districtName": "ภาษีเจริญ",
+        "value": 1.23
+      },
+      "34": {
+        "districtName": "มีนบุรี",
+        "value": 1.183
+      },
+      "35": {
+        "districtName": "ยานนาวา",
+        "value": 1.976
+      },
+      "36": {
+        "districtName": "ราชเทวี",
+        "value": 2.363
+      },
+      "37": {
+        "districtName": "ราษฎร์บูรณะ",
+        "value": 1.192
+      },
+      "38": {
+        "districtName": "ลาดกระบัง",
+        "value": 1.54
+      },
+      "39": {
+        "districtName": "ลาดพร้าว",
+        "value": 1.613
+      },
+      "40": {
+        "districtName": "วังทองหลาง",
+        "value": 2.494
+      },
+      "41": {
+        "districtName": "วัฒนา",
+        "value": 2.708
+      },
+      "42": {
+        "districtName": "สวนหลวง",
+        "value": 0.943
+      },
+      "43": {
+        "districtName": "สะพานสูง",
+        "value": 0.438
+      },
+      "44": {
+        "districtName": "สัมพันธวงศ์",
+        "value": 6.496
+      },
+      "45": {
+        "districtName": "สาทร",
+        "value": 2.782
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 0.774
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 0.861
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 0.777
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 1.99
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 4.117
+      }
     }
   }
 }

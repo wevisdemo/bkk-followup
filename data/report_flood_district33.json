@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 1,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,13 +10,19 @@
     "2561": null,
     "2562": null,
     "2563": null,
-    "2564": null
+    "2564": null,
+    "2565": 2,
+    "2566": 1
   },
   "minimumPoint": {
+    "value": 1,
+    "year": 2566,
     "districtId": 33,
     "districtName": "ภาษีเจริญ"
   },
   "maximumPoint": {
+    "value": 2,
+    "year": 2565,
     "districtId": 33,
     "districtName": "ภาษีเจริญ"
   },
@@ -60,14 +66,33 @@
     "2564": {
       "all": 371497000,
       "focused": 17431900
+    },
+    "2565": {
+      "all": 324164100,
+      "focused": 11758400
+    },
+    "2566": {
+      "all": 379670450,
+      "focused": 12002400
     }
   },
   "budgetOverall": {
-    "all": 3612837140,
-    "focused": 144839300
+    "all": 4316671690,
+    "focused": 168600100
   },
-  "ranked": null,
-  "rankings": [],
+  "ranked": 33,
+  "rankings": [
+    {
+      "ranked": 21,
+      "year": 2565,
+      "value": 2
+    },
+    {
+      "ranked": 33,
+      "year": 2566,
+      "value": 1
+    }
+  ],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 33,

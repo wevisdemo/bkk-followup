@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 0,
   "valuePerYear": {
     "2555": 3,
     "2556": 15,
@@ -10,11 +10,13 @@
     "2561": 1,
     "2562": 4,
     "2563": null,
-    "2564": null
+    "2564": null,
+    "2565": 1,
+    "2566": 0
   },
   "minimumPoint": {
-    "value": 1,
-    "year": 2557,
+    "value": 0,
+    "year": 2566,
     "districtId": 44,
     "districtName": "สัมพันธวงศ์"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 199947000,
       "focused": 5718900
+    },
+    "2565": {
+      "all": 185456260,
+      "focused": 5373800
+    },
+    "2566": {
+      "all": 217589474,
+      "focused": 1378000
     }
   },
   "budgetOverall": {
-    "all": 2026155040,
-    "focused": 51022100
+    "all": 2429200774,
+    "focused": 57773900
   },
-  "ranked": null,
+  "ranked": 37,
   "rankings": [
     {
       "ranked": 21,
@@ -111,9 +121,19 @@
       "ranked": 23,
       "year": 2562,
       "value": 4
+    },
+    {
+      "ranked": 30,
+      "year": 2565,
+      "value": 1
+    },
+    {
+      "ranked": 37,
+      "year": 2566,
+      "value": 0
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 17,
   "meanFloodLevelMaximumPoint": {
     "value": 28.8,
     "year": 2561,

@@ -10,11 +10,13 @@
     "2561": 54,
     "2562": 9,
     "2563": null,
-    "2564": 2
+    "2564": 2,
+    "2565": 1,
+    "2566": 2
   },
   "minimumPoint": {
-    "value": 2,
-    "year": 2560,
+    "value": 1,
+    "year": 2565,
     "districtId": 27,
     "districtName": "ปทุมวัน"
   },
@@ -64,11 +66,19 @@
     "2564": {
       "all": 666259000,
       "focused": 5890800
+    },
+    "2565": {
+      "all": 337632120,
+      "focused": 6153900
+    },
+    "2566": {
+      "all": 379336670,
+      "focused": 1086600
     }
   },
   "budgetOverall": {
-    "all": 3580142240,
-    "focused": 56062300
+    "all": 4297111030,
+    "focused": 63302800
   },
   "ranked": 21,
   "rankings": [
@@ -116,6 +126,16 @@
       "ranked": 21,
       "year": 2564,
       "value": 2
+    },
+    {
+      "ranked": 27,
+      "year": 2565,
+      "value": 1
+    },
+    {
+      "ranked": 21,
+      "year": 2566,
+      "value": 2
     }
   ],
   "floodHotspots": [
@@ -128,7 +148,7 @@
       "description": "แยกราชประสงค์ แยกราชเทวี"
     }
   ],
-  "meanFloodLevel": 17.5,
+  "meanFloodLevel": 30.5,
   "meanFloodLevelMaximumPoint": {
     "value": 33,
     "year": 2559,

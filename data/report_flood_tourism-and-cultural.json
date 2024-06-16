@@ -1,5 +1,5 @@
 {
-  "value": 7,
+  "value": 8,
   "valuePerYear": {
     "2555": 110,
     "2556": 110,
@@ -10,13 +10,15 @@
     "2561": 129,
     "2562": 98,
     "2563": 5,
-    "2564": 7
+    "2564": 7,
+    "2565": 7,
+    "2566": 8
   },
   "minimumPoint": {
-    "districtId": 14,
-    "districtName": "บางกอกน้อย",
-    "year": 2564,
-    "value": 1
+    "districtId": 2,
+    "districtName": "คลองสาน",
+    "year": 2565,
+    "value": 0
   },
   "maximumPoint": {
     "districtId": 9,
@@ -64,51 +66,89 @@
     "2564": {
       "all": 2912096890,
       "focused": 149175490
+    },
+    "2565": {
+      "all": 2626408680,
+      "focused": 89542500
+    },
+    "2566": {
+      "all": 2984639454,
+      "focused": 65463000
     }
   },
   "budgetOverall": {
-    "all": 28513242738,
-    "focused": 1308692178
+    "all": 34124290872,
+    "focused": 1463697678
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 9,
-      "districtName": "ดุสิต",
-      "value": 6
+      "districtId": 2,
+      "districtName": "คลองสาน",
+      "value": 3
     },
     {
       "ranked": 2,
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 1
+    },
+    {
+      "ranked": 3,
       "districtId": 14,
       "districtName": "บางกอกน้อย",
       "value": 1
+    },
+    {
+      "ranked": 4,
+      "districtId": 24,
+      "districtName": "บางพลัด",
+      "value": 1
+    },
+    {
+      "ranked": 5,
+      "districtId": 29,
+      "districtName": "ป้อมปราบศัตรูพ่าย",
+      "value": 1
+    },
+    {
+      "ranked": 6,
+      "districtId": 32,
+      "districtName": "พระนคร",
+      "value": 1
+    },
+    {
+      "ranked": 7,
+      "districtId": 44,
+      "districtName": "สัมพันธวงศ์",
+      "value": 0
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 172
+      "value": 116
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 48
+      "value": 37
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 12
+      "value": 14
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 7
+      "value": 8
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 105
+      "value": 57
     }
   ],
   "floodHotspots": [
@@ -137,7 +177,7 @@
       "description": "หน้าตลาดพรานนก"
     }
   ],
-  "meanFloodLevel": 15.36,
+  "meanFloodLevel": 16.5,
   "meanFloodLevelMaximumPoint": {
     "districtId": 9,
     "districtName": "ดุสิต",

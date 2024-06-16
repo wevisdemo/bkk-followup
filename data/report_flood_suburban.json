@@ -1,5 +1,5 @@
 {
-  "value": 12,
+  "value": 14,
   "valuePerYear": {
     "2555": 60,
     "2556": 17,
@@ -10,13 +10,15 @@
     "2561": 39,
     "2562": 13,
     "2563": 27,
-    "2564": 12
+    "2564": 12,
+    "2565": 13,
+    "2566": 14
   },
   "minimumPoint": {
-    "districtId": 6,
-    "districtName": "จอมทอง",
-    "year": 2563,
-    "value": 1
+    "districtId": 10,
+    "districtName": "ตลิ่งชัน",
+    "year": 2565,
+    "value": 0
   },
   "maximumPoint": {
     "districtId": 20,
@@ -64,35 +66,43 @@
     "2564": {
       "all": 6182171000,
       "focused": 273551400
+    },
+    "2565": {
+      "all": 5291407258,
+      "focused": 230570720
+    },
+    "2566": {
+      "all": 6071269991,
+      "focused": 162385400
     }
   },
   "budgetOverall": {
-    "all": 58534687900,
-    "focused": 2671356900
+    "all": 69897365149,
+    "focused": 3064313020
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 34,
-      "districtName": "มีนบุรี",
+      "districtId": 20,
+      "districtName": "บางแค",
       "value": 4
     },
     {
       "ranked": 2,
-      "districtId": 20,
-      "districtName": "บางแค",
+      "districtId": 10,
+      "districtName": "ตลิ่งชัน",
       "value": 3
     },
     {
       "ranked": 3,
-      "districtId": 17,
-      "districtName": "บางขุนเทียน",
+      "districtId": 23,
+      "districtName": "บางบอน",
       "value": 2
     },
     {
       "ranked": 4,
-      "districtId": 23,
-      "districtName": "บางบอน",
+      "districtId": 38,
+      "districtName": "ลาดกระบัง",
       "value": 2
     },
     {
@@ -100,33 +110,51 @@
       "districtId": 6,
       "districtName": "จอมทอง",
       "value": 1
+    },
+    {
+      "ranked": 6,
+      "districtId": 17,
+      "districtName": "บางขุนเทียน",
+      "value": 1
+    },
+    {
+      "ranked": 7,
+      "districtId": 33,
+      "districtName": "ภาษีเจริญ",
+      "value": 1
+    },
+    {
+      "ranked": 8,
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 0
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 172
+      "value": 116
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 48
+      "value": 37
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 12
+      "value": 14
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 7
+      "value": 8
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 105
+      "value": 57
     }
   ],
   "floodHotspots": [
@@ -175,11 +203,11 @@
       "description": "หน้าการไฟฟ้า"
     }
   ],
-  "meanFloodLevel": 15.21,
+  "meanFloodLevel": 18.15,
   "meanFloodLevelMaximumPoint": {
-    "districtId": 20,
-    "districtName": "บางแค",
-    "year": 2559,
-    "value": 34.4
+    "districtId": 34,
+    "districtName": "มีนบุรี",
+    "year": 2566,
+    "value": 40.7
   }
 }

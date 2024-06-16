@@ -1,5 +1,5 @@
 {
-  "value": 2.22,
+  "value": 3.67,
   "valuePerYear": {
     "2555": 0.88,
     "2556": 0.92,
@@ -10,7 +10,9 @@
     "2561": 3.01,
     "2562": 3.06,
     "2563": 2.17,
-    "2564": 2.22
+    "2564": 2.22,
+    "2565": 3.56,
+    "2566": 3.67
   },
   "minimumPoint": {
     "value": 0.88,
@@ -19,8 +21,8 @@
     "districtName": "บางกอกใหญ่"
   },
   "maximumPoint": {
-    "value": 3.06,
-    "year": 2562,
+    "value": 3.67,
+    "year": 2566,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 263098000,
       "focused": 12963800
+    },
+    "2565": {
+      "all": 225696400,
+      "focused": 13160200
+    },
+    "2566": {
+      "all": 250120150,
+      "focused": 5042300
     }
   },
   "budgetOverall": {
-    "all": 2487490040,
-    "focused": 156618600
+    "all": 2963306590,
+    "focused": 174821100
   },
-  "ranked": 50,
+  "ranked": 40,
   "rankings": [
     {
       "ranked": 50,
@@ -121,6 +131,16 @@
       "ranked": 50,
       "year": 2564,
       "value": 2.22
+    },
+    {
+      "ranked": 40,
+      "year": 2565,
+      "value": 3.56
+    },
+    {
+      "ranked": 40,
+      "year": 2566,
+      "value": 3.67
     }
   ],
   "publicGreenSpacePerCapita": null

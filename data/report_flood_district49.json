@@ -1,5 +1,5 @@
 {
-  "value": 6,
+  "value": 9,
   "valuePerYear": {
     "2555": 25,
     "2556": 66,
@@ -10,7 +10,9 @@
     "2561": 59,
     "2562": 51,
     "2563": 3,
-    "2564": 6
+    "2564": 6,
+    "2565": 8,
+    "2566": 9
   },
   "minimumPoint": {
     "value": 3,
@@ -64,13 +66,21 @@
     "2564": {
       "all": 340812000,
       "focused": 13447900
+    },
+    "2565": {
+      "all": 298740040,
+      "focused": 14092500
+    },
+    "2566": {
+      "all": 346193550,
+      "focused": 6228300
     }
   },
   "budgetOverall": {
-    "all": 3305616240,
-    "focused": 131831800
+    "all": 3950549830,
+    "focused": 152152600
   },
-  "ranked": 12,
+  "ranked": 2,
   "rankings": [
     {
       "ranked": 7,
@@ -121,6 +131,16 @@
       "ranked": 12,
       "year": 2564,
       "value": 6
+    },
+    {
+      "ranked": 8,
+      "year": 2565,
+      "value": 8
+    },
+    {
+      "ranked": 2,
+      "year": 2566,
+      "value": 9
     }
   ],
   "floodHotspots": [
@@ -145,10 +165,10 @@
       "description": "หน้าตลาดพงษ์เพชร"
     }
   ],
-  "meanFloodLevel": 15.83,
+  "meanFloodLevel": 25.4,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.7,
-    "year": 2559,
+    "value": 36.1,
+    "year": 2565,
     "districtId": 49,
     "districtName": "หลักสี่"
   }

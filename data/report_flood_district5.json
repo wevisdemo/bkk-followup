@@ -1,5 +1,5 @@
 {
-  "value": 11,
+  "value": 5,
   "valuePerYear": {
     "2555": 68,
     "2556": 88,
@@ -10,11 +10,13 @@
     "2561": 54,
     "2562": 139,
     "2563": 10,
-    "2564": 11
+    "2564": 11,
+    "2565": 6,
+    "2566": 5
   },
   "minimumPoint": {
-    "value": 10,
-    "year": 2563,
+    "value": 5,
+    "year": 2566,
     "districtId": 5,
     "districtName": "จตุจักร"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 539155000,
       "focused": 20479700
+    },
+    "2565": {
+      "all": 485626190,
+      "focused": 19398000
+    },
+    "2566": {
+      "all": 511457900,
+      "focused": 9525800
     }
   },
   "budgetOverall": {
-    "all": 5233352540,
-    "focused": 167157300
+    "all": 6230436630,
+    "focused": 196081100
   },
-  "ranked": 5,
+  "ranked": 7,
   "rankings": [
     {
       "ranked": 3,
@@ -121,6 +131,16 @@
       "ranked": 5,
       "year": 2564,
       "value": 11
+    },
+    {
+      "ranked": 10,
+      "year": 2565,
+      "value": 6
+    },
+    {
+      "ranked": 7,
+      "year": 2566,
+      "value": 5
     }
   ],
   "floodHotspots": [
@@ -165,10 +185,10 @@
       "description": "ปากซอยเสนานิคม 1-คลองลาดพร้าว"
     }
   ],
-  "meanFloodLevel": 16.36,
+  "meanFloodLevel": 49.2,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.7,
-    "year": 2560,
+    "value": 51.4,
+    "year": 2565,
     "districtId": 5,
     "districtName": "จตุจักร"
   }

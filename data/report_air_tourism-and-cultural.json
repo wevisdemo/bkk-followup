@@ -1,5 +1,5 @@
 {
-  "value": 105,
+  "value": 111,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 63,
     "2562": 97,
     "2563": 121,
-    "2564": 105
+    "2564": 105,
+    "2565": 93,
+    "2566": 111
   },
   "minimumPoint": {
     "districtId": 9,
@@ -32,84 +34,84 @@
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 15,
-      "districtName": "บางกอกใหญ่",
-      "value": 105
+      "districtId": 13,
+      "districtName": "ธนบุรี",
+      "value": 111
     },
     {
       "ranked": 2,
-      "districtId": 14,
-      "districtName": "บางกอกน้อย",
-      "value": 101
+      "districtId": 15,
+      "districtName": "บางกอกใหญ่",
+      "value": 109
     },
     {
       "ranked": 3,
       "districtId": 44,
       "districtName": "สัมพันธวงศ์",
-      "value": 93
+      "value": 102
     },
     {
       "ranked": 4,
-      "districtId": 29,
-      "districtName": "ป้อมปราบศัตรูพ่าย",
-      "value": 91
+      "districtId": 14,
+      "districtName": "บางกอกน้อย",
+      "value": 101
     },
     {
       "ranked": 5,
-      "districtId": 13,
-      "districtName": "ธนบุรี",
-      "value": 88
+      "districtId": 24,
+      "districtName": "บางพลัด",
+      "value": 94
     },
     {
       "ranked": 6,
-      "districtId": 9,
-      "districtName": "ดุสิต",
-      "value": 86
+      "districtId": 32,
+      "districtName": "พระนคร",
+      "value": 89
     },
     {
       "ranked": 7,
-      "districtId": 32,
-      "districtName": "พระนคร",
-      "value": 86
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 85
     },
     {
       "ranked": 8,
-      "districtId": 2,
-      "districtName": "คลองสาน",
-      "value": 80
+      "districtId": 29,
+      "districtName": "ป้อมปราบศัตรูพ่าย",
+      "value": 85
     },
     {
       "ranked": 9,
-      "districtId": 24,
-      "districtName": "บางพลัด",
-      "value": 80
+      "districtId": 2,
+      "districtName": "คลองสาน",
+      "value": 77
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 118
+      "value": 134
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 109
+      "value": 130
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 118
+      "value": 134
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 105
+      "value": 111
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 109
+      "value": 117
     }
   ],
   "sampling": {

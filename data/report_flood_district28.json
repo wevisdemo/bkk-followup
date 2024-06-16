@@ -1,5 +1,5 @@
 {
-  "value": 5,
+  "value": 1,
   "valuePerYear": {
     "2555": 8,
     "2556": null,
@@ -10,11 +10,13 @@
     "2561": 13,
     "2562": 15,
     "2563": 3,
-    "2564": 5
+    "2564": 5,
+    "2565": 3,
+    "2566": 1
   },
   "minimumPoint": {
-    "value": 3,
-    "year": 2557,
+    "value": 1,
+    "year": 2566,
     "districtId": 28,
     "districtName": "ประเวศ"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 514572000,
       "focused": 22419800
+    },
+    "2565": {
+      "all": 413713630,
+      "focused": 22068400
+    },
+    "2566": {
+      "all": 460315500,
+      "focused": 5814500
     }
   },
   "budgetOverall": {
-    "all": 4691528680,
-    "focused": 253087100
+    "all": 5565557810,
+    "focused": 280970000
   },
-  "ranked": 13,
+  "ranked": 30,
   "rankings": [
     {
       "ranked": 16,
@@ -116,6 +126,16 @@
       "ranked": 13,
       "year": 2564,
       "value": 5
+    },
+    {
+      "ranked": 17,
+      "year": 2565,
+      "value": 3
+    },
+    {
+      "ranked": 30,
+      "year": 2566,
+      "value": 1
     }
   ],
   "floodHotspots": [
@@ -124,10 +144,10 @@
       "description": "แยกศรีอุดม"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 23.7,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.7,
-    "year": 2562,
+    "value": 41,
+    "year": 2565,
     "districtId": 28,
     "districtName": "ประเวศ"
   }

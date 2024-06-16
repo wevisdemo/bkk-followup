@@ -1,5 +1,5 @@
 {
-  "value": 109,
+  "value": 117,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 26,
     "2562": 90,
     "2563": 44,
-    "2564": 109
+    "2564": 109,
+    "2565": 76,
+    "2566": 117
   },
   "minimumPoint": {
     "value": 26,
@@ -19,8 +21,8 @@
     "districtName": "สาทร"
   },
   "maximumPoint": {
-    "value": 109,
-    "year": 2564,
+    "value": 117,
+    "year": 2566,
     "districtId": 45,
     "districtName": "สาทร"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 6,
+  "ranked": 7,
   "rankings": [
     {
       "ranked": 13,
@@ -50,6 +52,16 @@
       "ranked": 6,
       "year": 2564,
       "value": 109
+    },
+    {
+      "ranked": 33,
+      "year": 2565,
+      "value": 76
+    },
+    {
+      "ranked": 7,
+      "year": 2566,
+      "value": 117
     }
   ],
   "sampling": null

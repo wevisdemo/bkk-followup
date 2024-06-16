@@ -10,7 +10,9 @@
     "2561": null,
     "2562": null,
     "2563": null,
-    "2564": null
+    "2564": null,
+    "2565": null,
+    "2566": null
   },
   "minimumPoint": {
     "districtId": 12,
@@ -60,11 +62,19 @@
     "2564": {
       "all": 398016000,
       "focused": 12935400
+    },
+    "2565": {
+      "all": 310491120,
+      "focused": 12249600
+    },
+    "2566": {
+      "all": 351198080,
+      "focused": 13387000
     }
   },
   "budgetOverall": {
-    "all": 3470011240,
-    "focused": 134898600
+    "all": 4131700440,
+    "focused": 160535200
   },
   "ranked": null,
   "rankings": [],

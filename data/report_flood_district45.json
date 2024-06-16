@@ -1,5 +1,5 @@
 {
-  "value": 18,
+  "value": 4,
   "valuePerYear": {
     "2555": 11,
     "2556": 10,
@@ -10,11 +10,13 @@
     "2561": 12,
     "2562": 20,
     "2563": 18,
-    "2564": 18
+    "2564": 18,
+    "2565": 8,
+    "2566": 4
   },
   "minimumPoint": {
-    "value": 6,
-    "year": 2559,
+    "value": 4,
+    "year": 2566,
     "districtId": 45,
     "districtName": "สาทร"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 283010000,
       "focused": 12833500
+    },
+    "2565": {
+      "all": 236444200,
+      "focused": 9386300
+    },
+    "2566": {
+      "all": 270154200,
+      "focused": 11039000
     }
   },
   "budgetOverall": {
-    "all": 2686306740,
-    "focused": 104779100
+    "all": 3192905140,
+    "focused": 125204400
   },
-  "ranked": 2,
+  "ranked": 13,
   "rankings": [
     {
       "ranked": 13,
@@ -121,6 +131,16 @@
       "ranked": 2,
       "year": 2564,
       "value": 18
+    },
+    {
+      "ranked": 7,
+      "year": 2565,
+      "value": 8
+    },
+    {
+      "ranked": 13,
+      "year": 2566,
+      "value": 4
     }
   ],
   "floodHotspots": [
@@ -197,10 +217,10 @@
       "description": "แยกสาธุประดิษฐ์-หน้าตลาด"
     }
   ],
-  "meanFloodLevel": 31.5,
+  "meanFloodLevel": 27.4,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.4,
-    "year": 2558,
+    "value": 40.4,
+    "year": 2565,
     "districtId": 45,
     "districtName": "สาทร"
   }

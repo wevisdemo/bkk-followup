@@ -1,5 +1,5 @@
 {
-  "value": 104,
+  "value": 125,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 29,
     "2562": 101,
     "2563": 93,
-    "2564": 104
+    "2564": 104,
+    "2565": 84,
+    "2566": 125
   },
   "minimumPoint": {
     "value": 29,
@@ -19,8 +21,8 @@
     "districtName": "ลาดกระบัง"
   },
   "maximumPoint": {
-    "value": 104,
-    "year": 2564,
+    "value": 125,
+    "year": 2566,
     "districtId": 38,
     "districtName": "ลาดกระบัง"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 11,
+  "ranked": 4,
   "rankings": [
     {
       "ranked": 9,
@@ -50,6 +52,16 @@
       "ranked": 11,
       "year": 2564,
       "value": 104
+    },
+    {
+      "ranked": 13,
+      "year": 2565,
+      "value": 84
+    },
+    {
+      "ranked": 4,
+      "year": 2566,
+      "value": 125
     }
   ],
   "sampling": null

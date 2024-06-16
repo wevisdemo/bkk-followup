@@ -1,5 +1,5 @@
 {
-  "value": 97,
+  "value": 109,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 0,
     "2562": 0,
     "2563": 55,
-    "2564": 97
+    "2564": 97,
+    "2565": 78,
+    "2566": 109
   },
   "minimumPoint": {
     "value": 0,
@@ -19,8 +21,8 @@
     "districtName": "หนองจอก"
   },
   "maximumPoint": {
-    "value": 97,
-    "year": 2564,
+    "value": 109,
+    "year": 2566,
     "districtId": 48,
     "districtName": "หนองจอก"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 19,
+  "ranked": 13,
   "rankings": [
     {
       "ranked": 49,
@@ -50,6 +52,16 @@
       "ranked": 19,
       "year": 2564,
       "value": 97
+    },
+    {
+      "ranked": 27,
+      "year": 2565,
+      "value": 78
+    },
+    {
+      "ranked": 13,
+      "year": 2566,
+      "value": 109
     }
   ],
   "sampling": null
