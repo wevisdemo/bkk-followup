@@ -1,5 +1,5 @@
 {
-  "value": 1.851,
+  "value": 2.599,
   "valuePerYear": {
     "2555": 2.559,
     "2556": 2.65,
@@ -10,7 +10,9 @@
     "2561": 2.829,
     "2562": 2.821,
     "2563": 2.504,
-    "2564": 1.851
+    "2564": 1.851,
+    "2565": 2.301,
+    "2566": 2.599
   },
   "minimumPoint": {
     "districtId": 36,
@@ -64,117 +66,125 @@
     "2564": {
       "all": 4725704700,
       "focused": 1812095680
+    },
+    "2565": {
+      "all": 3944054490,
+      "focused": 744121195
+    },
+    "2566": {
+      "all": 4398523678,
+      "focused": 234667300
     }
   },
   "budgetOverall": {
-    "all": 42919373334,
-    "focused": 17278360760
+    "all": 51261951502,
+    "focused": 18257149255
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 1,
-      "districtName": "คลองเตย",
-      "value": 5.25
+      "districtId": 27,
+      "districtName": "ปทุมวัน",
+      "value": 5.503
     },
     {
       "ranked": 2,
-      "districtId": 8,
-      "districtName": "ดินแดง",
-      "value": 5.216
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 4.117
     },
     {
       "ranked": 3,
-      "districtId": 41,
-      "districtName": "วัฒนา",
-      "value": 2.159
+      "districtId": 1,
+      "districtName": "คลองเตย",
+      "value": 2.916
     },
     {
       "ranked": 4,
-      "districtId": 50,
-      "districtName": "ห้วยขวาง",
-      "value": 1.791
+      "districtId": 25,
+      "districtName": "บางรัก",
+      "value": 2.788
     },
     {
       "ranked": 5,
-      "districtId": 5,
-      "districtName": "จตุจักร",
-      "value": 1.618
+      "districtId": 45,
+      "districtName": "สาทร",
+      "value": 2.782
     },
     {
       "ranked": 6,
-      "districtId": 27,
-      "districtName": "ปทุมวัน",
-      "value": 1.232
+      "districtId": 41,
+      "districtName": "วัฒนา",
+      "value": 2.708
     },
     {
       "ranked": 7,
-      "districtId": 45,
-      "districtName": "สาทร",
-      "value": 1.209
+      "districtId": 36,
+      "districtName": "ราชเทวี",
+      "value": 2.363
     },
     {
       "ranked": 8,
-      "districtId": 19,
-      "districtName": "บางคอแหลม",
-      "value": 1.101
+      "districtId": 30,
+      "districtName": "พญาไท",
+      "value": 2.106
     },
     {
       "ranked": 9,
-      "districtId": 25,
-      "districtName": "บางรัก",
-      "value": 1.098
+      "districtId": 5,
+      "districtName": "จตุจักร",
+      "value": 2.084
     },
     {
       "ranked": 10,
       "districtId": 35,
       "districtName": "ยานนาวา",
-      "value": 1.037
+      "value": 1.976
     },
     {
       "ranked": 11,
-      "districtId": 30,
-      "districtName": "พญาไท",
-      "value": 0.854
+      "districtId": 8,
+      "districtName": "ดินแดง",
+      "value": 1.862
     },
     {
       "ranked": 12,
-      "districtId": 21,
-      "districtName": "บางซื่อ",
-      "value": 0.778
+      "districtId": 19,
+      "districtName": "บางคอแหลม",
+      "value": 1.407
     },
     {
       "ranked": 13,
-      "districtId": 36,
-      "districtName": "ราชเทวี",
-      "value": 0.716
+      "districtId": 21,
+      "districtName": "บางซื่อ",
+      "value": 1.17
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 1.569
+      "value": 1.82
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 2.218
+      "value": 1.437
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 1.707
+      "value": 1.258
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 1.654
+      "value": 2.166
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 1.851
+      "value": 2.599
     }
   ]
 }

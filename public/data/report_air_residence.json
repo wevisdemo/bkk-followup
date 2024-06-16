@@ -1,5 +1,5 @@
 {
-  "value": 109,
+  "value": 130,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 46,
     "2562": 105,
     "2563": 104,
-    "2564": 109
+    "2564": 109,
+    "2565": 88,
+    "2566": 130
   },
   "minimumPoint": {
     "districtId": 4,
@@ -21,8 +23,8 @@
   "maximumPoint": {
     "districtId": 28,
     "districtName": "ประเวศ",
-    "year": 2564,
-    "value": 109
+    "year": 2566,
+    "value": 130
   },
   "budgetPerYear": {},
   "budgetOverall": {
@@ -34,112 +36,112 @@
       "ranked": 1,
       "districtId": 28,
       "districtName": "ประเวศ",
-      "value": 109
+      "value": 130
     },
     {
       "ranked": 2,
-      "districtId": 22,
-      "districtName": "บางนา",
-      "value": 106
+      "districtId": 26,
+      "districtName": "บึงกุ่ม",
+      "value": 121
     },
     {
       "ranked": 3,
-      "districtId": 26,
-      "districtName": "บึงกุ่ม",
-      "value": 98
+      "districtId": 22,
+      "districtName": "บางนา",
+      "value": 116
     },
     {
       "ranked": 4,
-      "districtId": 31,
-      "districtName": "พระโขนง",
-      "value": 96
+      "districtId": 4,
+      "districtName": "คันนายาว",
+      "value": 103
     },
     {
       "ranked": 5,
-      "districtId": 46,
-      "districtName": "สายไหม",
-      "value": 95
+      "districtId": 42,
+      "districtName": "สวนหลวง",
+      "value": 101
     },
     {
       "ranked": 6,
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 101
+    },
+    {
+      "ranked": 7,
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 100
+    },
+    {
+      "ranked": 8,
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 99
+    },
+    {
+      "ranked": 9,
+      "districtId": 7,
+      "districtName": "ดอนเมือง",
+      "value": 97
+    },
+    {
+      "ranked": 10,
+      "districtId": 18,
+      "districtName": "บางเขน",
+      "value": 97
+    },
+    {
+      "ranked": 11,
       "districtId": 16,
       "districtName": "บางกะปิ",
       "value": 93
     },
     {
-      "ranked": 7,
-      "districtId": 42,
-      "districtName": "สวนหลวง",
-      "value": 90
-    },
-    {
-      "ranked": 8,
-      "districtId": 4,
-      "districtName": "คันนายาว",
-      "value": 88
-    },
-    {
-      "ranked": 9,
-      "districtId": 18,
-      "districtName": "บางเขน",
-      "value": 88
-    },
-    {
-      "ranked": 10,
-      "districtId": 7,
-      "districtName": "ดอนเมือง",
-      "value": 87
-    },
-    {
-      "ranked": 11,
-      "districtId": 39,
-      "districtName": "ลาดพร้าว",
-      "value": 86
-    },
-    {
       "ranked": 12,
-      "districtId": 40,
-      "districtName": "วังทองหลาง",
-      "value": 86
+      "districtId": 31,
+      "districtName": "พระโขนง",
+      "value": 93
     },
     {
       "ranked": 13,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 83
+      "districtId": 39,
+      "districtName": "ลาดพร้าว",
+      "value": 84
     },
     {
       "ranked": 14,
       "districtId": 43,
       "districtName": "สะพานสูง",
-      "value": 82
+      "value": 81
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 118
+      "value": 134
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 109
+      "value": 130
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 118
+      "value": 134
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 105
+      "value": 111
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 109
+      "value": 117
     }
   ],
   "sampling": {

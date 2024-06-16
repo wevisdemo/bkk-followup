@@ -10,7 +10,9 @@
     "2561": 9,
     "2562": 7,
     "2563": 2,
-    "2564": 2
+    "2564": 2,
+    "2565": 4,
+    "2566": 2
   },
   "minimumPoint": {
     "value": 2,
@@ -64,13 +66,21 @@
     "2564": {
       "all": 384587000,
       "focused": 25842600
+    },
+    "2565": {
+      "all": 309221410,
+      "focused": 13478400
+    },
+    "2566": {
+      "all": 344511510,
+      "focused": 19854400
     }
   },
   "budgetOverall": {
-    "all": 3565058340,
-    "focused": 152896900
+    "all": 4218791260,
+    "focused": 186229700
   },
-  "ranked": 20,
+  "ranked": 19,
   "rankings": [
     {
       "ranked": 21,
@@ -101,6 +111,16 @@
       "ranked": 20,
       "year": 2564,
       "value": 2
+    },
+    {
+      "ranked": 13,
+      "year": 2565,
+      "value": 4
+    },
+    {
+      "ranked": 19,
+      "year": 2566,
+      "value": 2
     }
   ],
   "floodHotspots": [
@@ -113,7 +133,7 @@
       "description": "หน้าห้างบิ๊กซี คลองราชมนตรี"
     }
   ],
-  "meanFloodLevel": 17.5,
+  "meanFloodLevel": 17,
   "meanFloodLevelMaximumPoint": {
     "value": 29.5,
     "year": 2562,

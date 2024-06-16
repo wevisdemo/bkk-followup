@@ -1,5 +1,5 @@
 {
-  "value": 105,
+  "value": 57,
   "valuePerYear": {
     "2555": 321,
     "2556": 337,
@@ -10,13 +10,15 @@
     "2561": 255,
     "2562": 290,
     "2563": 91,
-    "2564": 105
+    "2564": 105,
+    "2565": 85,
+    "2566": 57
   },
   "minimumPoint": {
-    "districtId": 19,
-    "districtName": "บางคอแหลม",
-    "year": 2559,
-    "value": 1
+    "districtId": 35,
+    "districtName": "ยานนาวา",
+    "year": 2566,
+    "value": 0
   },
   "maximumPoint": {
     "districtId": 5,
@@ -64,111 +66,119 @@
     "2564": {
       "all": 4725704700,
       "focused": 190190100
+    },
+    "2565": {
+      "all": 3944054490,
+      "focused": 139438300
+    },
+    "2566": {
+      "all": 4398523678,
+      "focused": 70421398
     }
   },
   "budgetOverall": {
-    "all": 42919373334,
-    "focused": 1707905754
+    "all": 51261951502,
+    "focused": 1917765452
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 8,
-      "districtName": "ดินแดง",
-      "value": 23
+      "districtId": 1,
+      "districtName": "คลองเตย",
+      "value": 9
     },
     {
       "ranked": 2,
-      "districtId": 45,
-      "districtName": "สาทร",
-      "value": 18
+      "districtId": 8,
+      "districtName": "ดินแดง",
+      "value": 8
     },
     {
       "ranked": 3,
       "districtId": 36,
       "districtName": "ราชเทวี",
-      "value": 15
-    },
-    {
-      "ranked": 4,
-      "districtId": 5,
-      "districtName": "จตุจักร",
-      "value": 11
-    },
-    {
-      "ranked": 5,
-      "districtId": 30,
-      "districtName": "พญาไท",
-      "value": 11
-    },
-    {
-      "ranked": 6,
-      "districtId": 41,
-      "districtName": "วัฒนา",
-      "value": 10
-    },
-    {
-      "ranked": 7,
-      "districtId": 1,
-      "districtName": "คลองเตย",
       "value": 8
     },
     {
+      "ranked": 4,
+      "districtId": 41,
+      "districtName": "วัฒนา",
+      "value": 7
+    },
+    {
+      "ranked": 5,
+      "districtId": 5,
+      "districtName": "จตุจักร",
+      "value": 5
+    },
+    {
+      "ranked": 6,
+      "districtId": 30,
+      "districtName": "พญาไท",
+      "value": 5
+    },
+    {
+      "ranked": 7,
+      "districtId": 25,
+      "districtName": "บางรัก",
+      "value": 4
+    },
+    {
       "ranked": 8,
-      "districtId": 50,
-      "districtName": "ห้วยขวาง",
+      "districtId": 45,
+      "districtName": "สาทร",
       "value": 4
     },
     {
       "ranked": 9,
+      "districtId": 21,
+      "districtName": "บางซื่อ",
+      "value": 3
+    },
+    {
+      "ranked": 10,
       "districtId": 27,
       "districtName": "ปทุมวัน",
       "value": 2
     },
     {
-      "ranked": 10,
-      "districtId": 19,
-      "districtName": "บางคอแหลม",
-      "value": 1
-    },
-    {
       "ranked": 11,
-      "districtId": 21,
-      "districtName": "บางซื่อ",
-      "value": 1
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 2
     },
     {
       "ranked": 12,
-      "districtId": 25,
-      "districtName": "บางรัก",
-      "value": 1
+      "districtId": 35,
+      "districtName": "ยานนาวา",
+      "value": 0
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 172
+      "value": 116
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 48
+      "value": 37
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 12
+      "value": 14
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 7
+      "value": 8
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 105
+      "value": 57
     }
   ],
   "floodHotspots": [
@@ -521,11 +531,11 @@
       "description": "แยกศรีวรา คลองเจ้าคุณสิงห์"
     }
   ],
-  "meanFloodLevel": 17.21,
+  "meanFloodLevel": 31.04,
   "meanFloodLevelMaximumPoint": {
-    "districtId": 1,
-    "districtName": "คลองเตย",
-    "year": 2557,
-    "value": 34.7
+    "districtId": 5,
+    "districtName": "จตุจักร",
+    "year": 2565,
+    "value": 51.4
   }
 }

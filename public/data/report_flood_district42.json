@@ -10,7 +10,9 @@
     "2561": 36,
     "2562": 35,
     "2563": 14,
-    "2564": 6
+    "2564": 6,
+    "2565": 8,
+    "2566": 6
   },
   "minimumPoint": {
     "value": 1,
@@ -64,13 +66,21 @@
     "2564": {
       "all": 391872000,
       "focused": 18615100
+    },
+    "2565": {
+      "all": 344120100,
+      "focused": 19126800
+    },
+    "2566": {
+      "all": 406998060,
+      "focused": 12892100
     }
   },
   "budgetOverall": {
-    "all": 3731707840,
-    "focused": 184713800
+    "all": 4482826000,
+    "focused": 216732700
   },
-  "ranked": 11,
+  "ranked": 6,
   "rankings": [
     {
       "ranked": 18,
@@ -116,6 +126,16 @@
       "ranked": 11,
       "year": 2564,
       "value": 6
+    },
+    {
+      "ranked": 6,
+      "year": 2565,
+      "value": 8
+    },
+    {
+      "ranked": 6,
+      "year": 2566,
+      "value": 6
     }
   ],
   "floodHotspots": [
@@ -140,10 +160,10 @@
       "description": "ซอยรามคำเเหง 1 ซอยรามคำเเหง 5"
     }
   ],
-  "meanFloodLevel": 13.75,
+  "meanFloodLevel": 40.3,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.6,
-    "year": 2562,
+    "value": 40.3,
+    "year": 2566,
     "districtId": 42,
     "districtName": "สวนหลวง"
   }

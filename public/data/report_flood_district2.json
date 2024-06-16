@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 3,
   "valuePerYear": {
     "2555": 5,
     "2556": 4,
@@ -10,11 +10,13 @@
     "2561": 3,
     "2562": 2,
     "2563": null,
-    "2564": null
+    "2564": null,
+    "2565": 0,
+    "2566": 3
   },
   "minimumPoint": {
-    "value": 2,
-    "year": 2562,
+    "value": 0,
+    "year": 2565,
     "districtId": 2,
     "districtName": "คลองสาน"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 312803500,
       "focused": 9238200
+    },
+    "2565": {
+      "all": 282966300,
+      "focused": 9817700
+    },
+    "2566": {
+      "all": 310569600,
+      "focused": 6474900
     }
   },
   "budgetOverall": {
-    "all": 3019585440,
-    "focused": 95094200
+    "all": 3613121340,
+    "focused": 111386800
   },
-  "ranked": null,
+  "ranked": 14,
   "rankings": [
     {
       "ranked": 20,
@@ -91,9 +101,19 @@
       "ranked": 24,
       "year": 2562,
       "value": 2
+    },
+    {
+      "ranked": 32,
+      "year": 2565,
+      "value": 0
+    },
+    {
+      "ranked": 14,
+      "year": 2566,
+      "value": 3
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 7.2,
   "meanFloodLevelMaximumPoint": {
     "value": 33.5,
     "year": 2556,

@@ -1,5 +1,5 @@
 {
-  "value": 23,
+  "value": 8,
   "valuePerYear": {
     "2555": 27,
     "2556": 29,
@@ -10,11 +10,13 @@
     "2561": 48,
     "2562": 16,
     "2563": 10,
-    "2564": 23
+    "2564": 23,
+    "2565": 15,
+    "2566": 8
   },
   "minimumPoint": {
-    "value": 10,
-    "year": 2563,
+    "value": 8,
+    "year": 2566,
     "districtId": 8,
     "districtName": "ดินแดง"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 340825000,
       "focused": 11752400
+    },
+    "2565": {
+      "all": 321907010,
+      "focused": 11166400
+    },
+    "2566": {
+      "all": 379471200,
+      "focused": 3721700
     }
   },
   "budgetOverall": {
-    "all": 3351003640,
-    "focused": 102441300
+    "all": 4052381850,
+    "focused": 117329400
   },
-  "ranked": 1,
+  "ranked": 3,
   "rankings": [
     {
       "ranked": 6,
@@ -121,6 +131,16 @@
       "ranked": 1,
       "year": 2564,
       "value": 23
+    },
+    {
+      "ranked": 2,
+      "year": 2565,
+      "value": 15
+    },
+    {
+      "ranked": 3,
+      "year": 2566,
+      "value": 8
     }
   ],
   "floodHotspots": [
@@ -181,10 +201,10 @@
       "description": "อุโมงค์ทางลอดดินแดง"
     }
   ],
-  "meanFloodLevel": 16.63,
+  "meanFloodLevel": 36.9,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.6,
-    "year": 2560,
+    "value": 46.1,
+    "year": 2565,
     "districtId": 8,
     "districtName": "ดินแดง"
   }

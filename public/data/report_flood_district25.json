@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": 4,
   "valuePerYear": {
     "2555": 14,
     "2556": 3,
@@ -10,7 +10,9 @@
     "2561": 16,
     "2562": 8,
     "2563": null,
-    "2564": 1
+    "2564": 1,
+    "2565": 1,
+    "2566": 4
   },
   "minimumPoint": {
     "value": 1,
@@ -64,13 +66,21 @@
     "2564": {
       "all": 231951000,
       "focused": 5791000
+    },
+    "2565": {
+      "all": 214208120,
+      "focused": 5778700
+    },
+    "2566": {
+      "all": 237815460,
+      "focused": 3441300
     }
   },
   "budgetOverall": {
-    "all": 2336293240,
-    "focused": 56609500
+    "all": 2788316820,
+    "focused": 65829500
   },
-  "ranked": 26,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 10,
@@ -101,6 +111,16 @@
       "ranked": 26,
       "year": 2564,
       "value": 1
+    },
+    {
+      "ranked": 26,
+      "year": 2565,
+      "value": 1
+    },
+    {
+      "ranked": 12,
+      "year": 2566,
+      "value": 4
     }
   ],
   "floodHotspots": [
@@ -109,10 +129,10 @@
       "description": "ถนนสุรวงศ์ ถนนเจริญกรุง"
     }
   ],
-  "meanFloodLevel": 17.5,
+  "meanFloodLevel": 33.2,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.7,
-    "year": 2561,
+    "value": 40.7,
+    "year": 2565,
     "districtId": 25,
     "districtName": "บางรัก"
   }

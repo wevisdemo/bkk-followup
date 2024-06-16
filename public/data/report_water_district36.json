@@ -1,5 +1,5 @@
 {
-  "value": 11.27,
+  "value": 16.3,
   "valuePerYear": {
     "2555": 13.5,
     "2556": 6.5,
@@ -10,7 +10,9 @@
     "2561": 6,
     "2562": 9.6,
     "2563": 8.9,
-    "2564": 11.27
+    "2564": 11.27,
+    "2565": 10.8,
+    "2566": 16.3
   },
   "minimumPoint": {
     "value": 6,
@@ -19,8 +21,8 @@
     "districtName": "ราชเทวี"
   },
   "maximumPoint": {
-    "value": 14.7,
-    "year": 2559,
+    "value": 16.3,
+    "year": 2566,
     "districtId": 36,
     "districtName": "ราชเทวี"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 37,
+  "ranked": 11,
   "rankings": [
     {
       "ranked": 17,
@@ -80,6 +82,16 @@
       "ranked": 37,
       "year": 2564,
       "value": 11.27
+    },
+    {
+      "ranked": 24,
+      "year": 2565,
+      "value": 10.8
+    },
+    {
+      "ranked": 11,
+      "year": 2566,
+      "value": 16.3
     }
   ]
 }

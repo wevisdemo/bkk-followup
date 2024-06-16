@@ -1,5 +1,5 @@
 {
-  "value": 6,
+  "value": 1,
   "valuePerYear": {
     "2555": 83,
     "2556": 45,
@@ -10,11 +10,13 @@
     "2561": 107,
     "2562": 62,
     "2563": 3,
-    "2564": 6
+    "2564": 6,
+    "2565": 1,
+    "2566": 1
   },
   "minimumPoint": {
-    "value": 3,
-    "year": 2563,
+    "value": 1,
+    "year": 2565,
     "districtId": 9,
     "districtName": "ดุสิต"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 384486000,
       "focused": 9467700
+    },
+    "2565": {
+      "all": 353623590,
+      "focused": 9363700
+    },
+    "2566": {
+      "all": 375819300,
+      "focused": 3568700
     }
   },
   "budgetOverall": {
-    "all": 3650068040,
-    "focused": 100618800
+    "all": 4379510930,
+    "focused": 113551200
   },
-  "ranked": 10,
+  "ranked": 26,
   "rankings": [
     {
       "ranked": 2,
@@ -121,6 +131,16 @@
       "ranked": 10,
       "year": 2564,
       "value": 6
+    },
+    {
+      "ranked": 25,
+      "year": 2565,
+      "value": 1
+    },
+    {
+      "ranked": 26,
+      "year": 2566,
+      "value": 1
     }
   ],
   "floodHotspots": [
@@ -145,7 +165,7 @@
       "description": "หน้าอาคารรัฐสภา"
     }
   ],
-  "meanFloodLevel": 15.83,
+  "meanFloodLevel": 18.1,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2558,

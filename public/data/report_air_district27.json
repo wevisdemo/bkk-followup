@@ -1,5 +1,5 @@
 {
-  "value": 79,
+  "value": 101,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 23,
     "2562": 88,
     "2563": 96,
-    "2564": 79
+    "2564": 79,
+    "2565": 80,
+    "2566": 101
   },
   "minimumPoint": {
     "value": 23,
@@ -19,8 +21,8 @@
     "districtName": "ปทุมวัน"
   },
   "maximumPoint": {
-    "value": 96,
-    "year": 2563,
+    "value": 101,
+    "year": 2566,
     "districtId": 27,
     "districtName": "ปทุมวัน"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 49,
+  "ranked": 26,
   "rankings": [
     {
       "ranked": 19,
@@ -50,6 +52,16 @@
       "ranked": 49,
       "year": 2564,
       "value": 79
+    },
+    {
+      "ranked": 18,
+      "year": 2565,
+      "value": 80
+    },
+    {
+      "ranked": 26,
+      "year": 2566,
+      "value": 101
     }
   ],
   "sampling": {

@@ -1,5 +1,5 @@
 {
-  "value": 2.8,
+  "value": 3.24,
   "valuePerYear": {
     "2555": 2.3,
     "2556": 2.42,
@@ -10,7 +10,9 @@
     "2561": 2.72,
     "2562": 2.8,
     "2563": 2.74,
-    "2564": 2.8
+    "2564": 2.8,
+    "2565": 3.12,
+    "2566": 3.24
   },
   "minimumPoint": {
     "value": 2.3,
@@ -19,8 +21,8 @@
     "districtName": "บางกอกน้อย"
   },
   "maximumPoint": {
-    "value": 2.8,
-    "year": 2562,
+    "value": 3.24,
+    "year": 2566,
     "districtId": 14,
     "districtName": "บางกอกน้อย"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 382589000,
       "focused": 12565280
+    },
+    "2565": {
+      "all": 347739420,
+      "focused": 15077400
+    },
+    "2566": {
+      "all": 384357630,
+      "focused": 6361800
     }
   },
   "budgetOverall": {
-    "all": 3970695628,
-    "focused": 133701580
+    "all": 4702792678,
+    "focused": 155140780
   },
-  "ranked": 49,
+  "ranked": 43,
   "rankings": [
     {
       "ranked": 37,
@@ -121,6 +131,16 @@
       "ranked": 49,
       "year": 2564,
       "value": 2.8
+    },
+    {
+      "ranked": 43,
+      "year": 2565,
+      "value": 3.12
+    },
+    {
+      "ranked": 43,
+      "year": 2566,
+      "value": 3.24
     }
   ],
   "publicGreenSpacePerCapita": null

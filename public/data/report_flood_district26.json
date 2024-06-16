@@ -1,5 +1,5 @@
 {
-  "value": 7,
+  "value": 2,
   "valuePerYear": {
     "2555": 1,
     "2556": 9,
@@ -10,7 +10,9 @@
     "2561": 47,
     "2562": 6,
     "2563": null,
-    "2564": 7
+    "2564": 7,
+    "2565": 4,
+    "2566": 2
   },
   "minimumPoint": {
     "value": 1,
@@ -64,13 +66,21 @@
     "2564": {
       "all": 375746000,
       "focused": 17038900
+    },
+    "2565": {
+      "all": 312540757,
+      "focused": 18518500
+    },
+    "2566": {
+      "all": 369918300,
+      "focused": 7802700
     }
   },
   "budgetOverall": {
-    "all": 3807228640,
-    "focused": 571875000
+    "all": 4489687697,
+    "focused": 598196200
   },
-  "ranked": 9,
+  "ranked": 20,
   "rankings": [
     {
       "ranked": 22,
@@ -116,6 +126,16 @@
       "ranked": 9,
       "year": 2564,
       "value": 7
+    },
+    {
+      "ranked": 14,
+      "year": 2565,
+      "value": 4
+    },
+    {
+      "ranked": 20,
+      "year": 2566,
+      "value": 2
     }
   ],
   "floodHotspots": [
@@ -148,10 +168,10 @@
       "description": "หน้าปากซอยนวมินทร์ 79"
     }
   ],
-  "meanFloodLevel": 12.5,
+  "meanFloodLevel": 39.4,
   "meanFloodLevelMaximumPoint": {
-    "value": 33.2,
-    "year": 2562,
+    "value": 39.4,
+    "year": 2566,
     "districtId": 26,
     "districtName": "บึงกุ่ม"
   }

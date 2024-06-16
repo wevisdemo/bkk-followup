@@ -10,7 +10,9 @@
     "2561": 90,
     "2562": 52,
     "2563": 7,
-    "2564": 3
+    "2564": 3,
+    "2565": 5,
+    "2566": 3
   },
   "minimumPoint": {
     "value": 3,
@@ -64,11 +66,19 @@
     "2564": {
       "all": 310271000,
       "focused": 7867700
+    },
+    "2565": {
+      "all": 273872800,
+      "focused": 8695800
+    },
+    "2566": {
+      "all": 290762550,
+      "focused": 3260000
     }
   },
   "budgetOverall": {
-    "all": 3092995340,
-    "focused": 76944500
+    "all": 3657630690,
+    "focused": 88900300
   },
   "ranked": 17,
   "rankings": [
@@ -111,6 +121,16 @@
       "ranked": 17,
       "year": 2564,
       "value": 3
+    },
+    {
+      "ranked": 11,
+      "year": 2565,
+      "value": 5
+    },
+    {
+      "ranked": 17,
+      "year": 2566,
+      "value": 3
     }
   ],
   "floodHotspots": [
@@ -127,10 +147,10 @@
       "description": "วัดศรีเอี่ยม ขาเข้า"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 33.1,
   "meanFloodLevelMaximumPoint": {
-    "value": 34.7,
-    "year": 2560,
+    "value": 50.9,
+    "year": 2565,
     "districtId": 22,
     "districtName": "บางนา"
   }

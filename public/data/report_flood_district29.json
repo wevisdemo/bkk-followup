@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 1,
   "valuePerYear": {
     "2555": 13,
     "2556": 8,
@@ -10,11 +10,13 @@
     "2561": 15,
     "2562": 17,
     "2563": null,
-    "2564": null
+    "2564": null,
+    "2565": 0,
+    "2566": 1
   },
   "minimumPoint": {
-    "value": 1,
-    "year": 2559,
+    "value": 0,
+    "year": 2565,
     "districtId": 29,
     "districtName": "ป้อมปราบศัตรูพ่าย"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 249314200,
       "focused": 5379100
+    },
+    "2565": {
+      "all": 233101640,
+      "focused": 5370100
+    },
+    "2566": {
+      "all": 250794800,
+      "focused": 1301800
     }
   },
   "budgetOverall": {
-    "all": 2439696440,
-    "focused": 51506000
+    "all": 2923592880,
+    "focused": 58177900
   },
-  "ranked": null,
+  "ranked": 31,
   "rankings": [
     {
       "ranked": 12,
@@ -111,9 +121,19 @@
       "ranked": 10,
       "year": 2562,
       "value": 17
+    },
+    {
+      "ranked": 35,
+      "year": 2565,
+      "value": 0
+    },
+    {
+      "ranked": 31,
+      "year": 2566,
+      "value": 1
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 27.8,
   "meanFloodLevelMaximumPoint": {
     "value": 29.6,
     "year": 2561,

@@ -1,5 +1,5 @@
 {
-  "value": 16,
+  "value": 0,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,11 +10,13 @@
     "2561": 6,
     "2562": 5,
     "2563": 1,
-    "2564": 16
+    "2564": 16,
+    "2565": 2,
+    "2566": 0
   },
   "minimumPoint": {
-    "value": 1,
-    "year": 2563,
+    "value": 0,
+    "year": 2566,
     "districtId": 16,
     "districtName": "บางกะปิ"
   },
@@ -64,13 +66,21 @@
     "2564": {
       "all": 492131000,
       "focused": 17033500
+    },
+    "2565": {
+      "all": 426476800,
+      "focused": 16502900
+    },
+    "2566": {
+      "all": 488296900,
+      "focused": 4931900
     }
   },
   "budgetOverall": {
-    "all": 4689358140,
-    "focused": 179258700
+    "all": 5604131840,
+    "focused": 200693500
   },
-  "ranked": 3,
+  "ranked": 35,
   "rankings": [
     {
       "ranked": 15,
@@ -111,6 +121,16 @@
       "ranked": 3,
       "year": 2564,
       "value": 16
+    },
+    {
+      "ranked": 18,
+      "year": 2565,
+      "value": 2
+    },
+    {
+      "ranked": 35,
+      "year": 2566,
+      "value": 0
     }
   ],
   "floodHotspots": [
@@ -135,7 +155,7 @@
       "description": "ตรงข้ามซอย 39 65"
     }
   ],
-  "meanFloodLevel": 15,
+  "meanFloodLevel": 24.3,
   "meanFloodLevelMaximumPoint": {
     "value": 34.2,
     "year": 2558,

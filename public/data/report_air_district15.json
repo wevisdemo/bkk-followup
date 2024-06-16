@@ -1,5 +1,5 @@
 {
-  "value": 105,
+  "value": 109,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 0,
     "2562": 0,
     "2563": 90,
-    "2564": 105
+    "2564": 105,
+    "2565": 91,
+    "2566": 109
   },
   "minimumPoint": {
     "value": 0,
@@ -19,8 +21,8 @@
     "districtName": "บางกอกใหญ่"
   },
   "maximumPoint": {
-    "value": 105,
-    "year": 2564,
+    "value": 109,
+    "year": 2566,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 8,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 34,
@@ -50,6 +52,16 @@
       "ranked": 8,
       "year": 2564,
       "value": 105
+    },
+    {
+      "ranked": 9,
+      "year": 2565,
+      "value": 91
+    },
+    {
+      "ranked": 12,
+      "year": 2566,
+      "value": 109
     }
   ],
   "sampling": null

@@ -1,5 +1,5 @@
 {
-  "value": 95,
+  "value": 101,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 0,
     "2562": 0,
     "2563": 82,
-    "2564": 95
+    "2564": 95,
+    "2565": 75,
+    "2566": 101
   },
   "minimumPoint": {
     "value": 0,
@@ -19,8 +21,8 @@
     "districtName": "สายไหม"
   },
   "maximumPoint": {
-    "value": 95,
-    "year": 2564,
+    "value": 101,
+    "year": 2566,
     "districtId": 46,
     "districtName": "สายไหม"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 22,
+  "ranked": 28,
   "rankings": [
     {
       "ranked": 47,
@@ -50,6 +52,16 @@
       "ranked": 22,
       "year": 2564,
       "value": 95
+    },
+    {
+      "ranked": 36,
+      "year": 2565,
+      "value": 75
+    },
+    {
+      "ranked": 28,
+      "year": 2566,
+      "value": 101
     }
   ],
   "sampling": null

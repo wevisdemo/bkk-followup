@@ -1,5 +1,5 @@
 {
-  "value": 111,
+  "value": 134,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,7 +10,9 @@
     "2561": 0,
     "2562": 0,
     "2563": 111,
-    "2564": 111
+    "2564": 111,
+    "2565": 112,
+    "2566": 134
   },
   "minimumPoint": {
     "value": 0,
@@ -19,8 +21,8 @@
     "districtName": "หนองแขม"
   },
   "maximumPoint": {
-    "value": 111,
-    "year": 2563,
+    "value": 134,
+    "year": 2566,
     "districtId": 47,
     "districtName": "หนองแขม"
   },
@@ -29,7 +31,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 2,
+  "ranked": 1,
   "rankings": [
     {
       "ranked": 48,
@@ -50,6 +52,16 @@
       "ranked": 2,
       "year": 2564,
       "value": 111
+    },
+    {
+      "ranked": 2,
+      "year": 2565,
+      "value": 112
+    },
+    {
+      "ranked": 1,
+      "year": 2566,
+      "value": 134
     }
   ],
   "sampling": null

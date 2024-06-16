@@ -1,5 +1,5 @@
 {
-  "value": 48,
+  "value": 37,
   "valuePerYear": {
     "2555": 64,
     "2556": 89,
@@ -10,13 +10,15 @@
     "2561": 265,
     "2562": 174,
     "2563": 31,
-    "2564": 48
+    "2564": 48,
+    "2565": 44,
+    "2566": 37
   },
   "minimumPoint": {
     "districtId": 16,
     "districtName": "บางกะปิ",
-    "year": 2563,
-    "value": 1
+    "year": 2566,
+    "value": 0
   },
   "maximumPoint": {
     "districtId": 49,
@@ -64,93 +66,113 @@
     "2564": {
       "all": 5226776600,
       "focused": 264402000
+    },
+    "2565": {
+      "all": 4484091439,
+      "focused": 258404480
+    },
+    "2566": {
+      "all": 5046553208,
+      "focused": 109040700
     }
   },
   "budgetOverall": {
-    "all": 51551733360,
-    "focused": 3015704100
+    "all": 61082378007,
+    "focused": 3383149280
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 16,
-      "districtName": "บางกะปิ",
-      "value": 16
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 9
     },
     {
       "ranked": 2,
-      "districtId": 26,
-      "districtName": "บึงกุ่ม",
-      "value": 7
-    },
-    {
-      "ranked": 3,
       "districtId": 42,
       "districtName": "สวนหลวง",
       "value": 6
     },
     {
-      "ranked": 4,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 6
-    },
-    {
-      "ranked": 5,
-      "districtId": 28,
-      "districtName": "ประเวศ",
+      "ranked": 3,
+      "districtId": 18,
+      "districtName": "บางเขน",
       "value": 5
     },
     {
-      "ranked": 6,
+      "ranked": 4,
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 5
+    },
+    {
+      "ranked": 5,
       "districtId": 22,
       "districtName": "บางนา",
       "value": 3
     },
     {
-      "ranked": 7,
-      "districtId": 40,
-      "districtName": "วังทองหลาง",
+      "ranked": 6,
+      "districtId": 46,
+      "districtName": "สายไหม",
       "value": 3
+    },
+    {
+      "ranked": 7,
+      "districtId": 26,
+      "districtName": "บึงกุ่ม",
+      "value": 2
     },
     {
       "ranked": 8,
       "districtId": 31,
       "districtName": "พระโขนง",
-      "value": 1
+      "value": 2
     },
     {
       "ranked": 9,
+      "districtId": 28,
+      "districtName": "ประเวศ",
+      "value": 1
+    },
+    {
+      "ranked": 10,
       "districtId": 39,
       "districtName": "ลาดพร้าว",
       "value": 1
+    },
+    {
+      "ranked": 11,
+      "districtId": 16,
+      "districtName": "บางกะปิ",
+      "value": 0
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 172
+      "value": 116
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 48
+      "value": 37
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 12
+      "value": 14
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 7
+      "value": 8
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 105
+      "value": 57
     }
   ],
   "floodHotspots": [
@@ -267,11 +289,11 @@
       "description": "หน้าตลาดพงษ์เพชร"
     }
   ],
-  "meanFloodLevel": 15.73,
+  "meanFloodLevel": 29.28,
   "meanFloodLevelMaximumPoint": {
     "districtId": 22,
     "districtName": "บางนา",
-    "year": 2560,
-    "value": 34.7
+    "year": 2565,
+    "value": 50.9
   }
 }

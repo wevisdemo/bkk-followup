@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 3,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -10,13 +10,19 @@
     "2561": null,
     "2562": null,
     "2563": null,
-    "2564": null
+    "2564": null,
+    "2565": 0,
+    "2566": 3
   },
   "minimumPoint": {
+    "value": 0,
+    "year": 2565,
     "districtId": 10,
     "districtName": "ตลิ่งชัน"
   },
   "maximumPoint": {
+    "value": 3,
+    "year": 2566,
     "districtId": 10,
     "districtName": "ตลิ่งชัน"
   },
@@ -60,14 +66,33 @@
     "2564": {
       "all": 377889000,
       "focused": 11308800
+    },
+    "2565": {
+      "all": 314136340,
+      "focused": 15133900
+    },
+    "2566": {
+      "all": 346185350,
+      "focused": 3773400
     }
   },
   "budgetOverall": {
-    "all": 3406160980,
-    "focused": 199856600
+    "all": 4066482670,
+    "focused": 218763900
   },
-  "ranked": null,
-  "rankings": [],
+  "ranked": 15,
+  "rankings": [
+    {
+      "ranked": 33,
+      "year": 2565,
+      "value": 0
+    },
+    {
+      "ranked": 15,
+      "year": 2566,
+      "value": 3
+    }
+  ],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 10,
