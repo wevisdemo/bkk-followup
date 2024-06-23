@@ -30,13 +30,18 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
   ) {
     return "";
   } else if (
-    (checked != "เขตพื้นที่ทั้งหมด" && selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") ||
+    (checked != "เขตพื้นที่ทั้งหมด" &&
+      selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") ||
     (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน" && state_dropdown === "zone")
   ) {
     return "";
   } else {
     return (
-      <div id="budget" className="relative flex-1 md:mr-3 card_cat_detail" style={{ height: "fit-content" }}>
+      <div
+        id="budget"
+        className="relative flex-1 md:mr-3 card_cat_detail"
+        style={{ height: "fit-content" }}
+      >
         <div
           className="flex justify-center py-2 rounded-t text-white-default p2"
           style={{ backgroundColor: selected_theme.color }}
@@ -44,7 +49,7 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
           งบประมาณที่ใช้ไปในพื้นที่นี้
         </div>
         <span className="flex flex-col items-center py-3 font-bold leading-snug">
-          <p className="p2">ในปี 2555-2564 กทม. ใช้เงินงบประมาณ</p>
+          <p className="p2">ในปี 2555-2566 กทม. ใช้เงินงบประมาณ</p>
           <p className="h2" style={{ color: selected_theme.text_color }}>
             {numeral(focused).format("0,0")} ล้านบาท
           </p>

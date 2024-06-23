@@ -17,34 +17,34 @@ export default function BudgetPageOne(props) {
             <div className="left">
               <h2 className="hidden leading-tight d2 lg:block">
                 <span className="d2 text-white-default">
-                  สิ้นปี 2564
+                  สิ้นปี 2566
                   <br />
                   กรุงเทพมีประชากร
                 </span>
                 <br />
-                5,527,994 คน
+                5,471,588 คน
               </h2>
 
               <h3 className="block leading-tight text-center d3 lg:hidden">
                 <span className="d3 text-white-default">
-                  สิ้นปี 2564
+                  สิ้นปี 2566
                   <br />
                   กรุงเทพมีประชากร
                 </span>
                 <br />
-                5,527,994 คน
+                5,471,588 คน
               </h3>
 
               <h2 className="hidden leading-tight d2 mt-14 lg:block">
                 <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
-                75,500 ล้านบาท
+                79,000 ล้านบาท
               </h2>
 
               <h3 className="block mt-8 leading-tight text-center d3 lg:hidden">
                 <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
-                75,500 ล้านบาท
+                79,000 ล้านบาท
               </h3>
 
               <h3 className="mt-8 text-center h2 lg:text-left">
@@ -61,7 +61,8 @@ export default function BudgetPageOne(props) {
                 className="absolute w-3/4 transform children-image lg:w-2/4 top-2/4 -translate-y-2/4 left-2/4 -translate-x-2/4"
               />
 
-              {(!isMobileOnly && active_index > 1) || (isMobileOnly && active_index > 2) ? (
+              {(!isMobileOnly && active_index > 1) ||
+              (isMobileOnly && active_index > 2) ? (
                 <div className="relative flex flex-col items-center justify-center h-full text-center lg:flex-row">
                   <div
                     className="p-5 rounded-md shadow-xl bg-opacity-90 content bg-white-default"
@@ -69,13 +70,15 @@ export default function BudgetPageOne(props) {
                       minWidth: isMobile ? "100%" : "387px",
                     }}
                   >
-                    <h5 className="text-lg">ในปี 2564 กทม. ใช้เงินดูแลประชาชนเฉลี่ย</h5>
+                    <h5 className="text-lg">
+                      ในปี 2566 กทม. ได้รับเงินดูแลเฉลี่ย
+                    </h5>
 
                     <div className="px-4 py-2 my-2 rounded-md budget bg-green-light">
-                      <h4 className="d4">13,657.75 บาท / คน / ปี</h4>
+                      <h4 className="d4">14,438.22 บาท / คน / ปี</h4>
                     </div>
 
-                    <h5>เป็นการใช้งบประมาณ สูงสุดในรอบ 10 ปี</h5>
+                    <h5>เป็นการใช้งบประมาณ สูงสุดในรอบ 12 ปี</h5>
                   </div>
 
                   {/* <a

@@ -1,6 +1,6 @@
-import React from 'react';
-import p_icon from 'assets/images/p_icon.svg';
-import bkk_follow_up2 from 'assets/images/bkk_follow_up2.gif';
+import React from "react";
+import p_icon from "assets/images/p_icon.svg";
+import bkk_follow_up2 from "assets/images/bkk_follow_up2.gif";
 
 export default function ResponsibilityPageOne() {
   return (
@@ -8,7 +8,7 @@ export default function ResponsibilityPageOne() {
       <img
         src={bkk_follow_up2}
         alt={bkk_follow_up2}
-        style={{ filter: 'brightness(0.3)' }}
+        style={{ filter: "brightness(0.3)" }}
         className="absolute inset-0 object-cover w-full h-full opacity-90"
       />
 
@@ -16,16 +16,16 @@ export default function ResponsibilityPageOne() {
         <h2 className="d2">เข้าใจเพื่อมีส่วนร่วม</h2>
 
         <p className="mt-6 text-xl leading-6 md:mt-10 lg:text-2xl lg:w-4/5 lg:mx-auto">
-          การบริหารงานเพื่อให้ตอบสนองต่อความต้องการของ
-          ประชาชนจึงถือเป็นโจทย์สำคัญสำหรับว่าที่ผู้ว่าฯ และสภา กทม.
-          ชุดถัดไปที่ควรจะมีการเลือกตั้งเกิดขึ้นในเร็ววัน
+          การบริหารงานเพื่อให้ตอบสนองต่อความต้องการของประชาชน
+          จึงถือเป็นโจทย์สำคัญสำหรับว่าที่ผู้ว่าฯ และสภากทม.
+          ผู้มีบทบาทในการบริหารกรุงเทพมหานคร
         </p>
 
         <p className="mt-4 text-xl leading-6 md:mt-10 lg:text-2xl lg:w-4/5 lg:mx-auto">
-          เราเลยอยากชวนประชาชน ว่าที่ผู้ว่าฯ และสภา กทม.
+          เราเลยอยากชวนประชาชน ว่าที่ผู้ว่าฯ และสภากทม.
           มาร่วมทำความเข้าใจอำนาจหน้าที่ การบริหารงบประมาณ
-          และสถานการณ์ปัญหาด้านต่างๆ ผ่านชุดข้อมูลย้อนหลัง (พ.ศ. 2555-2564)
-          เพื่อช่วยกันสร้างกรุงเทพฯ และชีวิตดีๆ แบบที่เราฝันอยากให้เป็นร่วมกัน
+          และสถานการณ์ปัญหาด้านต่าง ๆ ผ่านชุดข้อมูลย้อนหลัง (พ.ศ. 2555-2566)
+          เพื่อช่วยกันสร้างกรุงเทพฯ และชีวิตดี ๆ แบบที่เราฝันอยากให้เป็นร่วมกัน
         </p>
 
         {/* <a

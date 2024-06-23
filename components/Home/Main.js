@@ -23,7 +23,7 @@ export default function Main(props) {
           </h1>
           <div className="right">
             <h3 className="leading-tight d3">
-              สำรวจย้อนหลัง 10 ปีกับ
+              สำรวจย้อนหลัง 12 ปีกับ
               <br className=" md:hidden lg:block" />
               ปัญหาที่กวนใจชาวกทม.
             </h3>
@@ -52,7 +52,11 @@ export default function Main(props) {
               <h5 className="d5">สำรวจแผนที่ตามประเด็น</h5>
             </div>
 
-            <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
+            <img
+              src={arrow_right_white}
+              alt={arrow_right_white}
+              className="w-16 lg:w-18 2xl:w-24"
+            />
           </div>
 
           <div className="right">
@@ -60,9 +64,15 @@ export default function Main(props) {
               className="flex items-center justify-between p-3 rounded-md cursor-pointer lg:p-5 budget bg-green-default"
               onClick={() => swiper_ref.slideTo(1)}
             >
-              <h5 className="d5 text-white-default">สำรวจดูงบประมาณกทม. ย้อนหลัง 10 ปี</h5>
+              <h5 className="d5 text-white-default">
+                สำรวจดูงบประมาณกทม. ย้อนหลัง 12 ปี
+              </h5>
 
-              <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
+              <img
+                src={arrow_right_white}
+                alt={arrow_right_white}
+                className="w-16 lg:w-18 2xl:w-24"
+              />
             </div>
 
             <div
@@ -71,16 +81,26 @@ export default function Main(props) {
             >
               <h5 className="d5 text-white-default">กทม. มีหน้าที่ทำอะไร ?</h5>
 
-              <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
+              <img
+                src={arrow_right_white}
+                alt={arrow_right_white}
+                className="w-16 lg:w-18 2xl:w-24"
+              />
             </div>
 
             <div
               className="flex items-center justify-between p-3 mt-1 rounded-md cursor-pointer lg:p-5 lg:mt-3 budget bg-pink-default"
               onClick={() => swiper_ref.slideTo(isMobileOnly ? 15 : 10)}
             >
-              <h5 className="d5 text-white-default">ชาวกทม. มีส่วนร่วม อย่างไรได้บ้าง</h5>
+              <h5 className="d5 text-white-default">
+                ชาวกทม. มีส่วนร่วม อย่างไรได้บ้าง
+              </h5>
 
-              <img src={arrow_right_white} alt={arrow_right_white} className="w-16 lg:w-18 2xl:w-24" />
+              <img
+                src={arrow_right_white}
+                alt={arrow_right_white}
+                className="w-16 lg:w-18 2xl:w-24"
+              />
             </div>
           </div>
         </div>

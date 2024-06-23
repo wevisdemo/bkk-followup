@@ -23,7 +23,7 @@ const about = () => {
         <WvContainer>
           <div className="flex flex-col items-center font-bold ">
             <p className="h1">BKK Follow Up</p>
-            <p className="h3">สำรวจย้อนหลัง 10 ปีกับปัญหาที่กวนใจชาวกทม.</p>
+            <p className="h3">สำรวจย้อนหลัง 12 ปีกับปัญหาที่กวนใจชาวกทม.</p>
           </div>
           <WvParagraphGroup heading="เกี่ยวกับโปรเจกต์นี้">
             <div>
@@ -35,41 +35,120 @@ const about = () => {
               ที่ใครหลายคนอาจจะยังไม่เข้าใจถึงระบบหรือการดำเนินการจัดการปัญหาต่างๆของกรุงเทพมหานคร
               <br />
               <br />
-              โปรเจกต์นี้ทางทีม WeVis ร่วมกับสถาบันพระปกเกล้า และผศ.ดร.พิชญ์ พงษ์สวัสดิ์
-              จึงชวนทุกคนทำความรู้จักกรุงเทพมหานคร ทั้งผู้ว่าราชการจังหวัด สภา หน้าที่ของกรุงเทพมหานคร
-              รวมทั้งสำรวจประเด็นที่เกี่ยวข้องในชีวิตประจำวัน ของกรุงเทพมหานคร ไม่ว่าจะเป็น เรื่องฝุ่น น้ำท่วม
-              น้ำเน่าเสีย ขยะ พื้นที่สีเขียว ว่าสถานการณ์ตอนนี้เป็นอย่างไร และกรุงเทพมหานครนั้นในฐานะที่ดูแล
-              มีหน้าที่ในการดำเนินการอย่างไร ประกอบกับมีการจัดสรรงบประมาณเท่าไหร่จัดการอย่างไร
+              โปรเจกต์นี้ทางทีม WeVis ร่วมกับสถาบันพระปกเกล้า และผศ.ดร.พิชญ์
+              พงษ์สวัสดิ์ จึงชวนทุกคนทำความรู้จักกรุงเทพมหานคร
+              ทั้งผู้ว่าราชการจังหวัด สภา หน้าที่ของกรุงเทพมหานคร
+              รวมทั้งสำรวจประเด็นที่เกี่ยวข้องในชีวิตประจำวัน ของกรุงเทพมหานคร
+              ไม่ว่าจะเป็น เรื่องฝุ่น น้ำท่วม น้ำเน่าเสีย ขยะ พื้นที่สีเขียว
+              ว่าสถานการณ์ตอนนี้เป็นอย่างไร และกรุงเทพมหานครนั้นในฐานะที่ดูแล
+              มีหน้าที่ในการดำเนินการอย่างไร
+              ประกอบกับมีการจัดสรรงบประมาณเท่าไหร่จัดการอย่างไร
               <br />
               <br />
-              เพื่อให้ทุกคนได้รับรู้ข้อมูลได้อย่างชัดเจน ทางทีม จะพยายามอัพเดทข้อมูลให้เป็นปัจจุบันมากที่สุด
+              เพื่อให้ทุกคนได้รับรู้ข้อมูลได้อย่างชัดเจน ทางทีม
+              จะพยายามอัพเดทข้อมูลให้เป็นปัจจุบันมากที่สุด
             </div>
           </WvParagraphGroup>
 
           <WvParagraphGroup heading="ที่มาของข้อมูล">
             <div className="b2">
-              ทางทีมผู้พัฒนา ได้ใช้ข้อมูลจากเว็บไซต์จากกรุงเทพมหานครเป็นหลัก ได้แก่ สถิติที่กรุงเทพมหานครรวบรวมไว้
-              จากกองยุทธศาสตร์บริหารจัดการ สำนักยุทธศาสตร์และประเมินผล กรุงเทพมหานคร และรายประเด็น
+              ทางทีมผู้พัฒนา ได้ใช้ข้อมูลจากเว็บไซต์จากกรุงเทพมหานครเป็นหลัก
+              ได้แก่ สถิติที่รวบรวมไว้โดย{" "}
+              <a
+                href="https://webportal.bangkok.go.th/pipd/page/sub/26222/%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3-2565"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="b2 underline"
+              >
+                กองยุทธศาสตร์บริหารจัดการ สำนักยุทธศาสตร์และประเมินผล
+                กรุงเทพมหานคร
+              </a>
             </div>
 
             <div className="b3 hint">
+              <p className=" mb-1">ที่มาข้อมูลเกี่ยวกับปัญหากวนใจ 5 เรื่อง</p>
               <ul className="ml-10 list-disc ">
-                <li>เรื่องฝุ่น จากกองจัดการคุณภาพอากาศและเสียง กรมควบคุมมลพิษ</li>
-                <li>เรื่องน้ำท่วม จากสำนักการระบายน้ำ กรุงเทพมหานคร</li>
-                <li>เรื่องน้ำเน่าเสีย จากกองยุทธศาสตร์บริหารจัดการ สำนักยุทธศาสตร์และประเมินผล กรุงเทพมหานคร</li>
-                <li>เรื่องพื้นที่สีเขียว จากสำนักสิ่งแวดล้อม และ สำนักยุทธศาสตร์และประเมินผล (กรุงเทพมหานคร)</li>
-                <li>เรื่องขยะ จากสำนักสิ่งแวดล้อม กรุงเทพมหานคร</li>
-                <li>เรื่องประชากร กทม. เรื่องประชากร จากสำนักงานสถิติแห่งชาติ</li>
-                <li>เรื่องงบฯ จากข้อบัญญัติกรุงเทพมหานคร ราชกิจจานุเบกษา</li>
+                <li>เรื่องน้ำท่วม จากสำนักการระบายน้ำ</li>
+                <li>
+                  เรื่องพื้นที่สีเขียว จาก{" "}
+                  <a
+                    href="http://203.155.220.118/green-parks-admin/reports/report8.php?park_year=2567"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="b2 underline"
+                  >
+                    สำนักสิ่งแวดล้อม
+                  </a>{" "}
+                  และ สำนักยุทธศาสตร์และประเมินผล
+                </li>
+                <li>
+                  เรื่องมลพิษในคลอง จาก{" "}
+                  <a
+                    href="https://wqmo.blogspot.com/p/blog-page_28.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="b2 underline"
+                  >
+                    สำนักจัดการคุณภาพน้ำ สำนักการระบายน้ำ
+                  </a>
+                  และสำนักยุทธศาสตร์และประเมินผล
+                </li>
+                <li>
+                  เรื่องขยะมูลฝอย จาก{" "}
+                  <a
+                    href="https://webportal.bangkok.go.th/environmentbma/page/sub/28229/%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9D%E0%B8%AD%E0%B8%A2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="b2 underline"
+                  >
+                    สำนักสิ่งแวดล้อม
+                  </a>
+                  และสำนักยุทธศาสตร์และประเมินผล
+                </li>
+                <li>
+                  เรื่องฝุ่นควันเกินมาตรฐาน จาก{" "}
+                  <a
+                    href="https://stations.airbkk.com/bma_register/register.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="b2 underline"
+                  >
+                    กองจัดการคุณภาพอากาศและเสียง สำนักสิ่งแวดล้อม
+                  </a>{" "}
+                  และ สำนักยุทธศาสตร์และประเมินผล
+                </li>
+              </ul>
+              <p className=" mt-2 mb-1">ที่มาข้อมูลอื่น ๆ</p>
+              <ul className="ml-10 list-disc ">
+                <li>
+                  เรื่องประชากรกรุงเทพมหานคร จากสำนักยุทธศาสตร์และประเมินผล
+                </li>
+                <li>
+                  เรื่องงบประมาณรายเขตหรือหน่วยงาน จากข้อบัญญัติกรุงเทพมหานคร
+                  เผยแพร่ใน
+                  <a
+                    href="https://bmc.go.th/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%87%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%88/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="b2 underline"
+                  >
+                    เว็บไซต์สภากรุงเทพมหานคร
+                  </a>
+                </li>
+                <li>
+                  เรื่องงบประมาณแยกด้านและแผนงาน จากสำนักยุทธศาสตร์และประเมินผล
+                </li>
               </ul>
             </div>
           </WvParagraphGroup>
           <WvParagraphGroup small heading="อ้างอิงข้อมูลจาก :">
             <ul className="ml-10 list-disc ">
               {refs_link.map((d, index) => (
-                <li key={index} className="break-all hover:underline ">
+                <li key={index} className="break-all underline ">
                   <a href={d} target="_blank" rel="noopener noreferrer">
-                    {d === "http://www.nso.go.th/sites/2014/Pages/home.aspx" ? "สำนักงานสถิติแห่งชาติ (nso.go.th)" : d}
+                    {d === "http://www.nso.go.th/sites/2014/Pages/home.aspx"
+                      ? "สำนักงานสถิติแห่งชาติ (nso.go.th)"
+                      : d}
                   </a>
                 </li>
               ))}
@@ -78,13 +157,24 @@ const about = () => {
 
           <WvParagraphGroup heading="นโยบายการนำข้อมูลไปใช้ต่อ">
             <div className="b2">
-              ทางทีมมีความตั้งใจที่พัฒนาทุกโปรเจ็กต์ให้เป็น Open Source และเปิดข้อมูลเป็น Open Data ภายใต้เงื่อนไข
-              Creative Commons Attribution-ShareAlike License คือสามารถนำไปเผยแพร่และดัดแปลงได้ โดยต้องระบุที่มา
-              แต่ห้ามนำไปใช้เพื่อการค้า และต้องเผยแพร่งานดัดแปลงโดยใช้สัญญาอนุญาตชนิดเดียวกัน
+              ทางทีมมีความตั้งใจที่พัฒนาทุกโปรเจ็กต์ให้เป็น Open Source
+              และเปิดข้อมูลเป็น Open Data ภายใต้เงื่อนไข Creative Commons
+              Attribution-ShareAlike License คือสามารถนำไปเผยแพร่และดัดแปลงได้
+              โดยต้องระบุที่มา แต่ห้ามนำไปใช้เพื่อการค้า
+              และต้องเผยแพร่งานดัดแปลงโดยใช้สัญญาอนุญาตชนิดเดียวกัน
               <br />
               <br />
-              หากมีข้อสงสัยต้องการสอบถามเพิ่มเติม ประสงค์แจ้งเปลี่ยนแปลงหรือเพิ่มเติมข้อมูลเพื่อความถูกต้อง
-              หรือมีข้อเสนอแนะใดๆ สามารถติดต่อได้ที่ team [at] punchup.world
+              หากมีข้อสงสัยต้องการสอบถามเพิ่มเติม
+              ประสงค์แจ้งเปลี่ยนแปลงหรือเพิ่มเติมข้อมูลเพื่อความถูกต้อง
+              หรือมีข้อเสนอแนะใดๆ สามารถติดต่อได้ที่ team{" "}
+              <a
+                href="https://wevis.info/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mr-1 highlight underline"
+              >
+                WeVis
+              </a>
             </div>
           </WvParagraphGroup>
 
@@ -94,7 +184,7 @@ const about = () => {
                 href="https://github.com/MEEP00H"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="b2 hover:underline"
+                className="b2 underline"
               >
                 โสภณ จำปาซ่อนกลิ่น
               </a>
@@ -102,7 +192,7 @@ const about = () => {
                 href="https://github.com/mixth"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="b2 hover:underline"
+                className="b2 underline"
               >
                 , ณรัฐ สุชาติสุนทร
               </a>
@@ -113,7 +203,7 @@ const about = () => {
                 href="https://www.instagram.com/messymachine/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="b2 hover:underline"
+                className="b2 underline"
               >
                 พิชญา โชนะโต
               </a>
@@ -124,10 +214,11 @@ const about = () => {
                 href="https://www.linkedin.com/in/suphisara-isaranugul-a943b017b/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="b2 hover:underline"
+                className="b2 underline"
               >
-                ศุภิสรา อิศรานุกูล
+                ศุภิสรา อิศรานุกูล,
               </a>
+              <a> ณภัทร แต้เถา</a>
             </WvParagraphGroup>
 
             <WvParagraphGroup small heading="บรรณาธิการ">
@@ -135,7 +226,7 @@ const about = () => {
                 href="https://www.linkedin.com/in/thanisara-r/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="b2 hover:underline"
+                className="b2 underline"
               >
                 ธนิสรา เรืองเดช
               </a>
@@ -147,7 +238,7 @@ const about = () => {
                   href="https://punchup.world/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="highlight hover:underline"
+                  className="highlight underline"
                 >
                   Punch Up
                 </a>
@@ -156,11 +247,11 @@ const about = () => {
                   href="https://wevis.info/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mr-1 highlight hover:underline"
+                  className="mr-1 highlight underline"
                 >
                   WeVis
                 </a>
-                BKK Follow Up สำรวจย้อนหลัง 10 ปีกับปัญหาที่กวนใจชาวกทม.
+                BKK Follow Up สำรวจย้อนหลัง 12 ปีกับปัญหาที่กวนใจชาวกทม.
               </div>
             </WvParagraphGroup>
           </WvParagraphGroup>
@@ -172,8 +263,14 @@ const about = () => {
               rel="noopener noreferrer"
             >
               <WvButton>
-                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_314_173)">
+                <svg
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clipPath="url(#clip0_314_173)">
                     <path
                       d="M7.03582 2.86356H1.17529V19.4081H19.8247V2.86356C19.8247 2.86356 15.306 2.86356 13.9642 2.86356"
                       stroke="currentColor"
@@ -186,11 +283,23 @@ const about = () => {
                       stroke-width="2"
                       stroke-miterlimit="10"
                     />
-                    <line x1="10.667" y1="0.5" x2="10.667" y2="13" stroke="currentColor" stroke-width="2" />
+                    <line
+                      x1="10.667"
+                      y1="0.5"
+                      x2="10.667"
+                      y2="13"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </g>
                   <defs>
                     <clipPath id="clip0_314_173">
-                      <rect width="20.8333" height="20" fill="white" transform="translate(0.0834961 0.5)" />
+                      <rect
+                        width="20.8333"
+                        height="20"
+                        fill="white"
+                        transform="translate(0.0834961 0.5)"
+                      />
                     </clipPath>
                   </defs>
                 </svg>
@@ -198,7 +307,12 @@ const about = () => {
               </WvButton>
             </a>
 
-            <a href="https://airtable.com/shryu4errnlj1LWsM" target="_blank" rel="noopener noreferrer" className="b2 ">
+            <a
+              href="https://airtable.com/shryu4errnlj1LWsM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="b2 "
+            >
               <WvButton>
                 <img
                   width="26"

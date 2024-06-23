@@ -16,6 +16,8 @@ export default function BudgetPageTwo() {
       { year: 2562, value: 14119 },
       { year: 2563, value: 15313 },
       { year: 2564, value: 13658 },
+      { year: 2565, value: 14538 },
+      { year: 2566, value: 14438 },
     ];
 
     const parent_width = d3.select(".line-chart").node().clientWidth;
@@ -163,14 +165,20 @@ export default function BudgetPageTwo() {
       <div className="w-full">
         <div className="container mx-auto">
           <h3 className="mt-5 text-left lg:w-9/12 d3 text-white-default lg:mt-14 md:text-center lg:text-left">
-            10 ปีที่ผ่านมา (2555-2564) กทม. ใช้งบประมาณ ดูแลประชากรที่มีทะเบียนบ้านในกทม. ไม่เคยต่ำกว่า
+            12 ปีที่ผ่านมา (2555-2566) กทม. ใช้งบประมาณ
+            ดูแลประชากรที่มีทะเบียนบ้านในกทม. ไม่เคยต่ำกว่า
           </h3>
 
-          <h2 className="mt-3 text-left d2 text-green-default md:text-center lg:text-left">10,000 บาท/คน/ปี</h2>
+          <h2 className="mt-3 text-left d2 text-green-default md:text-center lg:text-left">
+            10,000 บาท/คน/ปี
+          </h2>
         </div>
 
         <div className="pb-5 mt-16 overflow-x-auto pointer-events-auto lg:pointer-events-none lg:mt-10 2xl:mt-20">
-          <div className="relative mx-auto line-chart mt-14" style={{ width: isMobileOnly ? "200%" : "80%" }}>
+          <div
+            className="relative mx-auto line-chart mt-14"
+            style={{ width: isMobileOnly ? "200%" : "80%" }}
+          >
             <svg></svg>
 
             <h4 className="absolute hidden text-base start-at text-green-default -bottom-1 -right-24 lg:block">
