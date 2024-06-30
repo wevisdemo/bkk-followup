@@ -2,7 +2,10 @@ import React, { useEffect } from "react";
 import { isMobileOnly } from "react-device-detect";
 import * as d3 from "d3";
 
-export default function DashboardLineChart({ selected_theme, data_line_chart }) {
+export default function DashboardLineChart({
+  selected_theme,
+  data_line_chart,
+}) {
   const createChart = () => {
     let AVG;
     if (selected_theme.name === "น้ำท่วมถนน") {
@@ -17,6 +20,8 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         { year: "62", value: 22.53 },
         { year: "63", value: 22.53 },
         { year: "64", value: 22.53 },
+        { year: "65", value: 22.53 },
+        { year: "66", value: 22.53 },
       ];
     } else if (selected_theme.name === "พื้นที่สีเขียว") {
       AVG = [
@@ -30,6 +35,8 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         { year: "62", value: 9 },
         { year: "63", value: 9 },
         { year: "64", value: 9 },
+        { year: "65", value: 9 },
+        { year: "66", value: 9 },
       ];
     } else if (selected_theme.name === "มลพิษในคลอง") {
       AVG = [
@@ -43,6 +50,8 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         { year: "62", value: 4 },
         { year: "63", value: 4 },
         { year: "64", value: 4 },
+        { year: "65", value: 4 },
+        { year: "66", value: 4 },
       ];
     } else if (selected_theme.name === "ขยะมูลฝอย") {
       AVG = [
@@ -56,19 +65,23 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         { year: "62", value: 1.18 },
         { year: "63", value: 1.05 },
         { year: "64", value: 1.05 },
+        { year: "65", value: 1.05 },
+        { year: "66", value: 1.05 },
       ];
     } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
       AVG = [
-        { year: "55", value: 25 },
-        { year: "56", value: 25 },
-        { year: "57", value: 25 },
-        { year: "58", value: 25 },
-        { year: "59", value: 25 },
-        { year: "60", value: 25 },
-        { year: "61", value: 25 },
-        { year: "62", value: 25 },
-        { year: "63", value: 25 },
-        { year: "64", value: 25 },
+        { year: "55", value: 37.5 },
+        { year: "56", value: 37.5 },
+        { year: "57", value: 37.5 },
+        { year: "58", value: 37.5 },
+        { year: "59", value: 37.5 },
+        { year: "60", value: 37.5 },
+        { year: "61", value: 37.5 },
+        { year: "62", value: 37.5 },
+        { year: "63", value: 37.5 },
+        { year: "64", value: 37.5 },
+        { year: "65", value: 37.5 },
+        { year: "66", value: 37.5 },
       ];
     }
 
@@ -103,10 +116,10 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
     const valueLine = d3
       .line()
       .x(function (d) {
-        return x_scale(d.year);
+        return x_scale(d.year || 0);
       })
       .y(function (d) {
-        return y_scale(d.value);
+        return y_scale(d.value || 0);
       });
 
     const lineBgArea = d3
@@ -115,7 +128,7 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         return x_scale(d.year);
       })
       .y(function (d) {
-        return y_scale(d.value);
+        return y_scale(d.value || 0);
       })
       .y1(function () {
         return height;
@@ -199,7 +212,7 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         return x_scale(d.year);
       })
       .attr("cy", function (d) {
-        return y_scale(d.value);
+        return y_scale(d.value || 0);
       })
       .attr("r", 3)
       .style("fill", selected_theme.color);
@@ -220,7 +233,7 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         return x_scale(d.year) - 18;
       })
       .attr("y", function (d) {
-        return y_scale(d.value) - 23;
+        return y_scale(d.value || 0) - 23;
       })
       .attr("rx", 3)
       .style("fill", "white")
@@ -236,7 +249,7 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         return x_scale(d.year);
       })
       .attr("y", function (d) {
-        return y_scale(d.value);
+        return y_scale(d.value || 0);
       })
       .attr("dy", "-10")
       .style("font-size", "12px")
@@ -245,7 +258,12 @@ export default function DashboardLineChart({ selected_theme, data_line_chart }) 
         return d.value ? d.value : 0;
       });
 
-    chart.selectAll("g.tick").select("text").attr("y", 12).style("font-size", "14px").style("font-weight", "bold");
+    chart
+      .selectAll("g.tick")
+      .select("text")
+      .attr("y", 12)
+      .style("font-size", "14px")
+      .style("font-weight", "bold");
   };
 
   d3.select(".svg-line-chart").remove();

@@ -141,20 +141,6 @@ const about = () => {
               </ul>
             </div>
           </WvParagraphGroup>
-          <WvParagraphGroup small heading="อ้างอิงข้อมูลจาก :">
-            <ul className="ml-10 list-disc ">
-              {refs_link.map((d, index) => (
-                <li key={index} className="break-all underline ">
-                  <a href={d} target="_blank" rel="noopener noreferrer">
-                    {d === "http://www.nso.go.th/sites/2014/Pages/home.aspx"
-                      ? "สำนักงานสถิติแห่งชาติ (nso.go.th)"
-                      : d}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </WvParagraphGroup>
-
           <WvParagraphGroup heading="นโยบายการนำข้อมูลไปใช้ต่อ">
             <div className="b2">
               ทางทีมมีความตั้งใจที่พัฒนาทุกโปรเจ็กต์ให้เป็น Open Source

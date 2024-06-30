@@ -16,7 +16,7 @@ export default function BudgetPageTwo() {
       { year: 2562, value: 14119 },
       { year: 2563, value: 15313 },
       { year: 2564, value: 13658 },
-      { year: 2565, value: 14538 },
+      { year: 2565, value: 14373 },
       { year: 2566, value: 14438 },
     ];
 

@@ -77,8 +77,6 @@ export default function BudgetPageOne(props) {
                     <div className="px-4 py-2 my-2 rounded-md budget bg-green-light">
                       <h4 className="d4">14,438.22 บาท / คน / ปี</h4>
                     </div>
-
-                    <h5>เป็นการใช้งบประมาณ สูงสุดในรอบ 12 ปี</h5>
                   </div>
 
                   {/* <a
