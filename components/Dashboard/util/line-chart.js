@@ -65,8 +65,8 @@ export default function DashboardLineChart({
         { year: "62", value: 1.18 },
         { year: "63", value: 1.05 },
         { year: "64", value: 1.05 },
-        { year: "65", value: 1.05 },
-        { year: "66", value: 1.05 },
+        { year: "65", value: 1.07 },
+        { year: "66", value: 1.12 },
       ];
     } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
       AVG = [
