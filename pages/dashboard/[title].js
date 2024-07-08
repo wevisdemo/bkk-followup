@@ -172,8 +172,8 @@ export default function Dashboard(props) {
   const [selected_tooltip, SET_SELECTED_TOOLTIP] = useState();
   const [state_dropdown, SET_STATE_DROPDOWN] = useState(null);
   const [isRank, SET_IS_RANK] = useState(false);
-  const [selected_index, SET_SELECTED_INDEX] = useState(0);
   const years = [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66];
+  const [selected_index, SET_SELECTED_INDEX] = useState(years.length - 1);
   let selected_theme = props.content;
   let selectedData, data;
   if (selected_theme != null) {
@@ -226,7 +226,7 @@ export default function Dashboard(props) {
       }
     };
 
-    const cancle_filter = () => {
+    const cancleFilter = () => {
       SET_CHECKED("เขตพื้นที่ทั้งหมด");
       SET_DISTRICT(null);
       SET_STATE_DROPDOWN(null);
@@ -310,7 +310,7 @@ export default function Dashboard(props) {
                       src={close_filter}
                       alt="close"
                       className="my-auto ml-2 cursor-pointer md:ml-5"
-                      onClick={cancle_filter}
+                      onClick={cancleFilter}
                       style={{
                         height: isMobileOnly ? "30px" : "",
                       }}
@@ -373,7 +373,7 @@ export default function Dashboard(props) {
                       src={close_filter}
                       alt="close"
                       className="my-auto ml-2 cursor-pointer md:ml-5"
-                      onClick={cancle_filter}
+                      onClick={cancleFilter}
                       style={{
                         height: isMobileOnly ? "30px" : "",
                       }}
@@ -403,6 +403,7 @@ export default function Dashboard(props) {
               raw_data={data}
               SET_DISTRICT={SET_DISTRICT}
               district={district}
+              cancleFilter={cancleFilter}
             />
             <div className="relative flex" id="map-footer">
               <InfoMap selected_theme={selected_theme} />

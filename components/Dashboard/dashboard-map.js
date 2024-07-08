@@ -3,8 +3,19 @@ import { isMobileOnly, isMobile } from "react-device-detect";
 import * as d3 from "d3";
 import close_img from "../../assets/images/close_map.svg";
 
-const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw_data, SET_DISTRICT, district }) => {
+const map = ({
+  selected_year,
+  selected_theme,
+  data,
+  state_dropdown,
+  checked,
+  raw_data,
+  SET_DISTRICT,
+  district,
+  cancleFilter,
+}) => {
   const actived_tool_tip = (name) => {
+    cancleFilter();
     SET_DISTRICT(name);
   };
   const disable_tool_tip = (name) => {
@@ -17,7 +28,9 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
   const mouseover = (_, d) => {
     if (!isMobile) {
       if (d.districtName != district) {
-        d3.select(`.rect${d.districtName}`).style("stroke-width", 1).style("stroke", "white");
+        d3.select(`.rect${d.districtName}`)
+          .style("stroke-width", 1)
+          .style("stroke", "white");
         d3.select(`.minimap${d.districtName}`).style("fill", "white");
         d3.select(`.tooltip${d.districtName}`).style("visibility", "visible");
       }
@@ -100,7 +113,10 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
 
     d3.select("#maps")
       .style("width", bkk_width * box_width + (bkk_width - 1) * box_gap + "px")
-      .style("height", bkk_height * box_width + (bkk_height - 1) * box_gap + "px");
+      .style(
+        "height",
+        bkk_height * box_width + (bkk_height - 1) * box_gap + "px"
+      );
 
     let map = parent
       .append("svg")
@@ -113,7 +129,9 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
       .selectAll("g")
       .data(data)
       .join((enter) => {
-        let group = enter.append("g").attr("transform", (d) => `translate(${cx(d)}, ${cy(d)})`);
+        let group = enter
+          .append("g")
+          .attr("transform", (d) => `translate(${cx(d)}, ${cy(d)})`);
         group
           .append("rect")
           .attr("class", (d) => `group_circle rect${d.districtName}`)
@@ -124,7 +142,9 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
           .style("cursor", (d) => (d.value > 0 ? "pointer" : ""))
           .on("mouseover", (e, d) => (d.value ? mouseover(e, d) : ""))
           .on("mouseout", (_, d) => (d.value ? mouseout(d) : ""))
-          .on("click", (_, d) => (d.value > 0 ? actived_tool_tip(d.districtName) : ""));
+          .on("click", (_, d) =>
+            d.value > 0 ? actived_tool_tip(d.districtName) : ""
+          );
 
         group
           .append("circle")
@@ -142,7 +162,9 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
           .append("circle")
           .attr("r", r_scale(ref))
           .style("fill", "none")
-          .style("stroke-width", (d) => (selected_theme.name === "น้ำท่วมถนน" && d.value > 0 ? 0 : 1))
+          .style("stroke-width", (d) =>
+            selected_theme.name === "น้ำท่วมถนน" && d.value > 0 ? 0 : 1
+          )
           .style("stroke", "white")
           .style("stroke-linecap", "round")
           .style("stroke-dasharray", "5 4")
@@ -168,7 +190,11 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
           .join((enter) => {
             let tooltip = enter
               .append("div")
-              .attr("class", (d) => `tool_tip_detail_wrapper rounded-lg tooltip${d.districtName}`)
+              .attr(
+                "class",
+                (d) =>
+                  `tool_tip_detail_wrapper rounded-lg tooltip${d.districtName}`
+              )
               .style("top", (d) => {
                 if (isMobile) {
                   return cy(d) + "px";
@@ -214,7 +240,9 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
               .text((_) => "x")
               .on("click", (_, d) => disable_tool_tip(d.districtName));
 
-            let body = tooltip.append("div").attr("class", "tooltip_body  flex leading-4 font-bold");
+            let body = tooltip
+              .append("div")
+              .attr("class", "tooltip_body  flex leading-4 font-bold");
 
             body
               .append("div")
@@ -226,7 +254,10 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
 
             body
               .append("div")
-              .attr("class", "tooltip_b_right flex text-right flex-1 justify-end")
+              .attr(
+                "class",
+                "tooltip_b_right flex text-right flex-1 justify-end"
+              )
               .style("color", (_) => selected_theme.text_color)
               .append("div")
               .attr("class", "tooltip_number p2")
@@ -237,7 +268,10 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
 
             tooltip
               .append("div")
-              .attr("class", "tooltip_footer rounded-b-lg flex p3  justify-center")
+              .attr(
+                "class",
+                "tooltip_footer rounded-b-lg flex p3  justify-center"
+              )
               .text((d) => {
                 if (d.value > avg) {
                   return `สูงกว่าค่าเฉลี่ย`;
@@ -274,17 +308,31 @@ const map = ({ selected_year, selected_theme, data, state_dropdown, checked, raw
       const maps = d3.select("#maps");
       d3.select(".svg-wrapper").remove();
       d3.selectAll(".tool_tip_wrapper").remove();
-      add_map(maps, merge_data, unit, [selected_theme.color, "#CCF4DD", "#FFFFFF"], selected_year);
-      if (state_dropdown === "group" && checked != "เขตพื้นที่ทั้งหมด" && !district) {
+      add_map(
+        maps,
+        merge_data,
+        unit,
+        [selected_theme.color, "#CCF4DD", "#FFFFFF"],
+        selected_year
+      );
+      if (
+        state_dropdown === "group" &&
+        checked != "เขตพื้นที่ทั้งหมด" &&
+        !district
+      ) {
         _.forEach(raw_data.rankings, (district) => {
-          d3.select(`.rect${district.districtName}`).style("stroke-width", 1).style("stroke", "white");
+          d3.select(`.rect${district.districtName}`)
+            .style("stroke-width", 1)
+            .style("stroke", "white");
           d3.select(`.minimap${district.districtName}`).style("fill", "white");
         });
       } else if (district) {
         d3.selectAll(`.minimap`).style("fill", "none");
         d3.selectAll(".tool_tip_detail_wrapper").style("visibility", "hidden");
         d3.selectAll(`.group_circle`).style("stroke", "none");
-        d3.select(`.rect${district}`).style("stroke-width", 1).style("stroke", "white");
+        d3.select(`.rect${district}`)
+          .style("stroke-width", 1)
+          .style("stroke", "white");
         d3.select(`.minimap${district}`).style("fill", "white");
         d3.select(`.tooltip${district}`).style("visibility", "visible");
       }
