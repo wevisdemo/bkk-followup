@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const rating = (selected_theme, rank_text, district_data) => {
-  if (district_data) {
+  if (district_data.ranked) {
     return (
       <div className="flex flex-col flex-1 " id="AVG-right">
         <div className="flex-1 card_cat_detail">
@@ -26,7 +26,7 @@ const rating = (selected_theme, rank_text, district_data) => {
       </div>
     );
   } else {
-    return '';
+    return "";
   }
 };
 
