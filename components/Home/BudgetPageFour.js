@@ -313,7 +313,7 @@ export default function BudgetPageFour(props) {
         <div className="grid h-full grid-cols-1 gap-5 lg:grid-cols-2">
           <div className="left lg:w-4/5">
             <h2 className="text-left d2 md:text-center lg:text-left">
-              3 ประเด็นที่งบกทม. ถูกใชัมากที่สุด
+              3 ประเด็นที่งบ กทม. ถูกใชัมากที่สุด
             </h2>
 
             {!isMobile || active_index === 7 ? (

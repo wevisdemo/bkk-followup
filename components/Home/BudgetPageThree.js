@@ -14,11 +14,11 @@ export default function BudgetPageThree(props) {
     },
     {
       title: "สาธารณสุข",
-      color: "#B22E56",
+      color: "#825BF0",
     },
     {
       title: "พัฒนาสังคมและชุมชนเมือง",
-      color: "#DF3A6B",
+      color: "#DF3A0E",
     },
     {
       title: "ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
@@ -38,7 +38,8 @@ export default function BudgetPageThree(props) {
     },
     {
       title: "เศรษฐกิจและการพาณิชย์",
-      color: "#825BF0",
+
+      color: "#B22E56",
     },
   ];
   let chart_data = [

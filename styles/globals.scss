@@ -193,7 +193,15 @@ h5 {
 }
 
 ::-webkit-scrollbar {
-  background: unset;
+  width: 10px;
+  height: 7px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gainsboro;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .wv_button--blue {

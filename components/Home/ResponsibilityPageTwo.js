@@ -7,7 +7,11 @@ export default function ResponsibilityPageTwo(props) {
   const cards = [
     {
       title: "ด้านการคมนาคมและการขนส่ง",
-      list: ["การดูแลรักษาทางบกทางน้ำ", "การขนส่ง", "การจัดการและวิศวกรรมจราจร"],
+      list: [
+        "การดูแลรักษาทางบกทางน้ำ",
+        "การขนส่ง",
+        "การจัดการและวิศวกรรมจราจร",
+      ],
     },
     {
       title: "ด้านการจัดบริการสาธารณะ",
@@ -24,11 +28,21 @@ export default function ResponsibilityPageTwo(props) {
     },
     {
       title: "ด้านการพัฒนาสังคม",
-      list: ["การบำรุงรักษาศิลปะและประเพณี", "การสังคมสงเคราะห์", "การส่งเสริมการกีฬา", "การส่งเสริมการประกอบอาชีพ"],
+      list: [
+        "การบำรุงรักษาศิลปะและประเพณี",
+        "การสังคมสงเคราะห์",
+        "การส่งเสริมการกีฬา",
+        "การส่งเสริมการประกอบอาชีพ",
+      ],
     },
     {
       title: "ด้านการโยธาและผังเมือง",
-      list: ["การผังเมือง", "การจัดพื้นที่ค้าขายและเดินทาง", "การควบคุมอาคาร", "การปรับปรุงชุมชนแออัด"],
+      list: [
+        "การผังเมือง",
+        "การจัดพื้นที่ค้าขายและเดินทาง",
+        "การควบคุมอาคาร",
+        "การปรับปรุงชุมชนแออัด",
+      ],
     },
     {
       title: "ด้านการรักษาความสงบเรียบร้อย",
@@ -41,7 +55,11 @@ export default function ResponsibilityPageTwo(props) {
     },
     {
       title: "ด้านการรักษาสิ่งแวดล้อม",
-      list: ["การรักษาความสะอาด", "การดูแลรักษาที่สาธารณะ", "การอนุรักษ์สิ่งแวดล้อม"],
+      list: [
+        "การรักษาความสะอาด",
+        "การดูแลรักษาที่สาธารณะ",
+        "การอนุรักษ์สิ่งแวดล้อม",
+      ],
     },
     {
       title: "ด้านอื่นๆ",
@@ -52,10 +70,17 @@ export default function ResponsibilityPageTwo(props) {
     mousewheel: true,
     slidesPerView: "auto",
     spaceBetween: 10,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      draggable: true,
+      snapOnRelease: true,
+      dragSize: "auto",
+      hide: false,
+    },
   };
   return (
     <div
-      className="fixed inset-0 z-10 flex py-4 text-center pointer-events-none responsibility-page-two md:items-center text-white-default"
+      className="fixed inset-0 z-10 flex py-4 text-center  responsibility-page-two md:items-center text-white-default"
       style={{ top: "60px" }}
     >
       <div className="w-full">
@@ -65,28 +90,30 @@ export default function ResponsibilityPageTwo(props) {
           {!isMobileOnly || active_index === 10 ? (
             <>
               <h4 className="mt-4 text-xl md:mt-6 lg:mt-4 d4 lg:text-2xl">
-                กทม. ไม่ใช่จังหวัด แต่เป็นองค์กรปกครองท้องถิ่นแบบพิเศษ
+                กทม. ไม่ใช่จังหวัด แต่เป็นองค์กรปกครองท้องถิ่นรูปแบบพิเศษ
               </h4>
 
               <p className="mt-4 text-xl md:mt-6 lg:mt-4 lg:text-2xl">
-                กทม. มีกฎหมายการบริหารเป็นของตนเอง ซึ่งจังหวัดอื่นไม่มี (พรบ.ระเบียบริหาราชการกรุงเทพมหานคร พ.ศ. 2528)
+                กทม. มีกฎหมายการบริหารเป็นของตนเอง ซึ่งจังหวัดอื่นไม่มี
+                (พรบ.ระเบียบริหาราชการกรุงเทพมหานคร พ.ศ. 2528)
                 และตามกฎหมายนี้ระบุไว้ว่า กทม.&nbsp;
-                <b>มีหน้าที่ 28 ประการ ซึ่งอาจแบ่งเป็นประเภทของหน้าที่พอสังเขปได้ดังนี้</b>
+                <b>
+                  มีหน้าที่ 28 ประการ
+                  ซึ่งอาจแบ่งเป็นประเภทของหน้าที่พอสังเขปได้ดังนี้
+                </b>
               </p>
             </>
           ) : null}
         </div>
 
         {!isMobileOnly || active_index === 11 ? (
-          <div
-            className="container flex px-4 pb-5 mx-auto mt-10 overflow-x-auto pointer-events-auto lg:mt-20 scroll-list"
-            style={{ scrollBehavior: "smooth" }}
-          >
-            <Swiper {...swiper_options}>
+          <div className="overflow-x-auto px-4">
+            <div className="  flex gap-2 w-max pb-5 pl-4 mt-10 lg:mt-20 scroll-list">
               {cards.map((c, c_index) => (
-                <SwiperSlide
+                <div
                   key={c_index}
-                  className="p-4 text-left rounded-md cursor-pointer box bg-blue-lightest text-black-default responsiveSlide"
+                  className="p-4 text-left rounded-md  box bg-blue-lightest text-black-default responsiveSlide"
+                  style={{ width: "300px" }}
                 >
                   <h5 className="d5">{c.title}</h5>
 
@@ -94,16 +121,19 @@ export default function ResponsibilityPageTwo(props) {
 
                   <ul className="list">
                     {c.list.map((l, l_index) => (
-                      <li key={l_index} className="flex items-center mt-2 2xl:mt-3">
+                      <li
+                        key={l_index}
+                        className="flex items-center mt-2 2xl:mt-3"
+                      >
                         <img width={25} src={check} alt={check} />
 
                         <h4 className="flex-1 ml-3 text-lg">{l}</h4>
                       </li>
                     ))}
                   </ul>
-                </SwiperSlide>
+                </div>
               ))}
-            </Swiper>
+            </div>
           </div>
         ) : null}
       </div>

@@ -50,13 +50,23 @@ export default function Home() {
 
   const Navigation = () => {
     return (
-      <CSSTransition in={active_index !== 0} timeout={300} unmountOnExit classNames="fade">
+      <CSSTransition
+        in={active_index !== 0}
+        timeout={300}
+        unmountOnExit
+        classNames="fade"
+      >
         <div className="fixed z-20 flex pointer-events-none bottom-4 md:inset-y-0 md:justify-center md:flex-col swiper-btn-wrap right-5 ">
           <div
             className="flex items-center justify-center w-12 h-12 rounded-full shadow-xl cursor-pointer pointer-events-auto swiper-btn-prev bg-white-default"
             onClick={() => swiper_ref.slidePrev()}
           >
-            <img width={40} height={40} src={arrow_up_black} alt={arrow_up_black} />
+            <img
+              width={40}
+              height={40}
+              src={arrow_up_black}
+              alt={arrow_up_black}
+            />
           </div>
 
           {swiper_ref && !swiper_ref.isEnd ? (
@@ -64,7 +74,12 @@ export default function Home() {
               className="flex items-center justify-center w-12 h-12 ml-4 rounded-full shadow-xl cursor-pointer pointer-events-auto md:ml-0 md:mt-4 swiper-btn-next bg-white-default"
               onClick={() => swiper_ref.slideNext()}
             >
-              <img width={40} height={40} src={arrow_down_black} alt={arrow_down_black} />
+              <img
+                width={40}
+                height={40}
+                src={arrow_down_black}
+                alt={arrow_down_black}
+              />
             </div>
           ) : null}
         </div>

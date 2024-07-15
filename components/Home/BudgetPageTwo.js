@@ -166,7 +166,7 @@ export default function BudgetPageTwo() {
         <div className="container mx-auto">
           <h3 className="mt-5 text-left lg:w-9/12 d3 text-white-default lg:mt-14 md:text-center lg:text-left">
             12 ปีที่ผ่านมา (2555-2566) กทม. ใช้งบประมาณ
-            ดูแลประชากรที่มีทะเบียนบ้านในกทม. ไม่เคยต่ำกว่า
+            ดูแลประชากรที่มีทะเบียนบ้านใน กทม. ไม่เคยต่ำกว่า
           </h3>
 
           <h2 className="mt-3 text-left d2 text-green-default md:text-center lg:text-left">
