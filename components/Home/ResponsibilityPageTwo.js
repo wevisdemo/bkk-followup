@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import check from "assets/images/check.svg";
 import { isMobileOnly } from "react-device-detect";
-import { Swiper, SwiperSlide } from "swiper/react";
+import useScrollOnDrag from "react-scroll-ondrag";
+
 export default function ResponsibilityPageTwo(props) {
   const { active_index } = props;
   const cards = [
@@ -66,18 +67,9 @@ export default function ResponsibilityPageTwo(props) {
       list: ["การทะเบียน", "การพาณิชย์ของกรุงเทพมหานคร"],
     },
   ];
-  const swiper_options = {
-    mousewheel: true,
-    slidesPerView: "auto",
-    spaceBetween: 10,
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      draggable: true,
-      snapOnRelease: true,
-      dragSize: "auto",
-      hide: false,
-    },
-  };
+  const containerRef = useRef(null);
+  const { events } = useScrollOnDrag(containerRef);
+
   return (
     <div
       className="fixed inset-0 z-10 flex py-4 text-center  responsibility-page-two md:items-center text-white-default"
@@ -107,12 +99,12 @@ export default function ResponsibilityPageTwo(props) {
         </div>
 
         {!isMobileOnly || active_index === 11 ? (
-          <div className="overflow-x-auto px-4">
-            <div className="  flex gap-2 w-max pb-5 pl-4 mt-10 lg:mt-20 scroll-list">
+          <div className="overflow-x-auto px-4" {...events} ref={containerRef}>
+            <div className="  flex gap-2 w-max pb-5 pl-4 mt-10 lg:mt-20 cursor-pointer scroll-list">
               {cards.map((c, c_index) => (
                 <div
                   key={c_index}
-                  className="p-4 text-left rounded-md  box bg-blue-lightest text-black-default responsiveSlide"
+                  className="p-4 text-left rounded-md pointer-events-none  box bg-blue-lightest text-black-default responsiveSlide"
                   style={{ width: "300px" }}
                 >
                   <h5 className="d5">{c.title}</h5>

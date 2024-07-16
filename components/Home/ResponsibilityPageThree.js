@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import image_placeholder from "assets/images/image_placeholder.png";
+import useScrollOnDrag from "react-scroll-ondrag";
 
 export default function ResponsibilityPageThree() {
   const data = [
@@ -121,6 +122,9 @@ export default function ResponsibilityPageThree() {
     }, 1500);
   }, []);
 
+  const containerRef = useRef(null);
+  const { events } = useScrollOnDrag(containerRef);
+
   return (
     <div
       className="fixed inset-0 z-10 flex items-center text-center pointer-events-none responsibility-page-three text-white-default py-14"
@@ -132,8 +136,11 @@ export default function ResponsibilityPageThree() {
             กทม. มีทั้ง
             <span className="text-blue-default">ผู้ว่าราชการกรุงเทพมหานคร</span>
             เป็นผู้บริหาร และ
-            <span className="text-blue-default whitespace-nowrap">สภากรุงเทพมหานคร</span>
-            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
+            <span className="text-blue-default whitespace-nowrap">
+              สภากรุงเทพมหานคร
+            </span>
+            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที
+            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
           </h2>
 
           <h4 className="block leading-snug d4 lg:hidden">
@@ -141,38 +148,51 @@ export default function ResponsibilityPageThree() {
             <span className="text-blue-default">ผู้ว่าราชการกรุงเทพมหานคร</span>
             เป็นผู้บริหาร และ
             <span className="text-blue-default">สภากรุงเทพมหานคร</span>
-            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
+            ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที
+            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
           </h4>
         </div>
-
-        <div className="flex w-full pb-5 pl-4 mt-10 overflow-x-auto pointer-events-auto lg:mt-20 scroll-list">
-          {data.map((d, index) => (
-            <div key={index} className="pr-4 item">
-              {d.image ? (
-                <div
-                  className="overflow-hidden rounded-full bg-blue-default"
-                  style={{ height: "120px", width: "120px" }}
-                >
-                  <img className="object-cover w-full h-full" src={d.image} alt={d.image} />
-                </div>
-              ) : (
-                <div
-                  className="flex items-center justify-center overflow-hidden image-placeholder"
-                  style={{ height: "120px", width: "120px" }}
-                >
-                  <div className="rounded-full bg-white-default" style={{ height: "42px", width: "42px" }}>
-                    <img className="object-cover w-full h-full" src={image_placeholder} alt={image_placeholder} />
+        <div {...events} ref={containerRef} className="overflow-x-auto ">
+          <div className="flex w-full pb-5 pl-4 mt-10 cursor-pointer pointer-events-auto lg:mt-20 scroll-list">
+            {data.map((d, index) => (
+              <div key={index} className="pr-4 item pointer-events-none">
+                {d.image ? (
+                  <div
+                    className="overflow-hidden rounded-full bg-blue-default"
+                    style={{ height: "120px", width: "120px" }}
+                  >
+                    <img
+                      className="object-cover w-full h-full"
+                      src={d.image}
+                      alt={d.image}
+                    />
                   </div>
-                </div>
-              )}
+                ) : (
+                  <div
+                    className="flex items-center justify-center overflow-hidden image-placeholder"
+                    style={{ height: "120px", width: "120px" }}
+                  >
+                    <div
+                      className="rounded-full bg-white-default"
+                      style={{ height: "42px", width: "42px" }}
+                    >
+                      <img
+                        className="object-cover w-full h-full"
+                        src={image_placeholder}
+                        alt={image_placeholder}
+                      />
+                    </div>
+                  </div>
+                )}
 
-              <h4 className="d4">{d.year}</h4>
+                <h4 className="d4">{d.year}</h4>
 
-              <p className="name">{d.name}</p>
+                <p className="name">{d.name}</p>
 
-              {d.appoint ? <p className="appoint">(แต่งตั้ง)</p> : null}
-            </div>
-          ))}
+                {d.appoint ? <p className="appoint">(แต่งตั้ง)</p> : null}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
