@@ -221,15 +221,6 @@ const about = () => {
             <WvParagraphGroup small heading="ประสานงานและจัดการอื่นๆ">
               <div className="b2">
                 <a
-                  href="https://punchup.world/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="highlight underline"
-                >
-                  Punch Up
-                </a>
-                <span className="mx-1"> และ </span>
-                <a
                   href="https://wevis.info/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -244,7 +235,7 @@ const about = () => {
 
           <WvButtonGroup center>
             <a
-              href="https://docs.google.com/spreadsheets/d/1L6rVuwhfpyhx2eK0reUx-hTJd4vMv8aelgJrGPoYS2s/edit#gid=1906545002"
+              href="https://docs.google.com/spreadsheets/d/1L6rVuwhfpyhx2eK0reUx-hTJd4vMv8aelgJrGPoYS2s/edit?gid=830974957#gid=830974957"
               target="_blank"
               rel="noopener noreferrer"
             >
