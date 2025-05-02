@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import image_placeholder from "assets/images/image_placeholder.png";
-import useScrollOnDrag from "react-scroll-ondrag";
 
 export default function ResponsibilityPageThree() {
+  // const useScrollOnDrag = import("react-scroll-ondrag").default;
   const data = [
     {
       year: 2516,
@@ -123,7 +123,7 @@ export default function ResponsibilityPageThree() {
   }, []);
 
   const containerRef = useRef(null);
-  const { events } = useScrollOnDrag(containerRef);
+  // const { events } = useScrollOnDrag(containerRef);
 
   return (
     <div
@@ -152,7 +152,7 @@ export default function ResponsibilityPageThree() {
             โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
           </h4>
         </div>
-        <div {...events} ref={containerRef} className="overflow-x-auto ">
+        <div ref={containerRef} className="overflow-x-auto ">
           <div className="flex w-full pb-5 pl-4 mt-10 cursor-pointer pointer-events-auto lg:mt-20 scroll-list">
             {data.map((d, index) => (
               <div key={index} className="pr-4 item pointer-events-none">

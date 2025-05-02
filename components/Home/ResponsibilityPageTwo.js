@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import check from "assets/images/check.svg";
 import { isMobileOnly } from "react-device-detect";
-import useScrollOnDrag from "react-scroll-ondrag";
 
 export default function ResponsibilityPageTwo(props) {
+  // const useScrollOnDrag = import("react-scroll-ondrag").default;
   const { active_index } = props;
   const cards = [
     {
@@ -68,7 +68,7 @@ export default function ResponsibilityPageTwo(props) {
     },
   ];
   const containerRef = useRef(null);
-  const { events } = useScrollOnDrag(containerRef);
+  // const { events } = useScrollOnDrag(containerRef);
 
   return (
     <div
@@ -99,7 +99,7 @@ export default function ResponsibilityPageTwo(props) {
         </div>
 
         {!isMobileOnly || active_index === 11 ? (
-          <div className="overflow-x-auto px-4" {...events} ref={containerRef}>
+          <div className="overflow-x-auto px-4" ref={containerRef}>
             <div className="  flex gap-2 w-max pb-5 pl-4 mt-10 lg:mt-20 cursor-pointer scroll-list">
               {cards.map((c, c_index) => (
                 <div
