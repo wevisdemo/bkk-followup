@@ -12,7 +12,8 @@
     "2563": 6.57,
     "2564": 7.03,
     "2565": 3.65,
-    "2566": 3.97
+    "2566": 3.97,
+    "2567": 3.97
   },
   "minimumPoint": {
     "value": 2.24,
@@ -74,11 +75,15 @@
     "2566": {
       "all": 237815460,
       "focused": 3505400
+    },
+    "2567": {
+      "all": 251616775,
+      "focused": 2301100
     }
   },
   "budgetOverall": {
-    "all": 2800698220,
-    "focused": 100772800
+    "all": 3052314995,
+    "focused": 103073900
   },
   "ranked": 37,
   "rankings": [
@@ -141,7 +146,12 @@
       "ranked": 37,
       "year": 2566,
       "value": 3.97
+    },
+    {
+      "ranked": 37,
+      "year": 2567,
+      "value": 3.97
     }
   ],
-  "publicGreenSpacePerCapita": null
+  "publicGreenSpacePerCapita": 0
 }

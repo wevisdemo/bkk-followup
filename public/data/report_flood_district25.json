@@ -1,5 +1,5 @@
 {
-  "value": 4,
+  "value": 3,
   "valuePerYear": {
     "2555": 14,
     "2556": 3,
@@ -12,7 +12,8 @@
     "2563": null,
     "2564": 1,
     "2565": 1,
-    "2566": 4
+    "2566": 4,
+    "2567": 3
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 237815460,
       "focused": 3441300
+    },
+    "2567": {
+      "all": 251616775,
+      "focused": 4740400
     }
   },
   "budgetOverall": {
-    "all": 2800698220,
-    "focused": 66188200
+    "all": 3052314995,
+    "focused": 70928600
   },
-  "ranked": 12,
+  "ranked": 17,
   "rankings": [
     {
       "ranked": 10,
@@ -121,6 +126,11 @@
       "ranked": 12,
       "year": 2566,
       "value": 4
+    },
+    {
+      "ranked": 17,
+      "year": 2567,
+      "value": 3
     }
   ],
   "floodHotspots": [
@@ -129,7 +139,7 @@
       "description": "ถนนสุรวงศ์ ถนนเจริญกรุง"
     }
   ],
-  "meanFloodLevel": 33.2,
+  "meanFloodLevel": 31.8,
   "meanFloodLevelMaximumPoint": {
     "value": 40.7,
     "year": 2565,

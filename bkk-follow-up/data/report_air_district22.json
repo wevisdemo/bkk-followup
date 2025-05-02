@@ -1,0 +1,71 @@
+{
+  "value": 116,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": 0,
+    "2562": 0,
+    "2563": 81,
+    "2564": 106,
+    "2565": 76,
+    "2566": 116
+  },
+  "minimumPoint": {
+    "value": 0,
+    "year": 2561,
+    "districtId": 22,
+    "districtName": "บางนา"
+  },
+  "maximumPoint": {
+    "value": 116,
+    "year": 2566,
+    "districtId": 22,
+    "districtName": "บางนา"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": 8,
+  "rankings": [
+    {
+      "ranked": 36,
+      "year": 2561,
+      "value": 0
+    },
+    {
+      "ranked": 36,
+      "year": 2562,
+      "value": 0
+    },
+    {
+      "ranked": 35,
+      "year": 2563,
+      "value": 81
+    },
+    {
+      "ranked": 7,
+      "year": 2564,
+      "value": 106
+    },
+    {
+      "ranked": 32,
+      "year": 2565,
+      "value": 76
+    },
+    {
+      "ranked": 8,
+      "year": 2566,
+      "value": 116
+    }
+  ],
+  "sampling": {
+    "count": 35,
+    "aboveThresholdCount": 22
+  }
+}

@@ -9,6 +9,7 @@ const AVG = ({
   checked,
   state_dropdown,
   district_data,
+  years,
 }) => {
   let AVG_title,
     unit,
@@ -35,14 +36,18 @@ const AVG = ({
   year_length = Object.keys(data.valuePerYear).length;
 
   if (selected_theme.name === "น้ำท่วมถนน") {
-    AVG_title = "ระดับน้ำท่วมบนถนนโดยเฉลี่ยตั้งแต่ปี 2555-2566";
+    AVG_title = `ระดับน้ำท่วมบนถนนโดยเฉลี่ยตั้งแต่ปี ${years[0]}-${
+      years[years.length - 1]
+    }`;
     unit = "ซม.";
     unit_filter = "ครั้ง";
     AVG_max = "เขตที่มีระดับน้ำท่วมบนถนนโดยเฉลี่ยต่ำที่สุด";
     AVG_min = "เขตที่มีระดับน้ำท่วมบนถนนโดยเฉลี่ยสูงที่สุด";
     AVG = (sum(data.valuePerYear) / year_length).toFixed(2);
     compare_title = "เปรียบเทียบจำนวนครั้งทั้งหมดที่น้ำท่วมแต่ละกลุ่มเขต";
-    rank_text = "ปี 2566 เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่";
+    rank_text = `ปี ${
+      years[years.length - 1]
+    } เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่`;
   } else if (selected_theme.name === "พื้นที่สีเขียว") {
     AVG_title =
       "สัดส่วนพื้นที่สีเขียวต่อประชากร 1 คนโดยเฉลี่ย (ข้อมูล ณ พฤษภาคม 2567)";
@@ -53,22 +58,28 @@ const AVG = ({
     AVG = data.value;
     compare_title = "เปรียบเทียบสัดส่วนขยะมูลฝอย";
     compare_sub = "ต่อประชากร 1 คนต่อวันแต่ละกลุ่มเขต";
-    rank_text = "ปี 2566 เขตนี้มีพื้นที่สีเขียวต่อคน มากที่สุดเป็นอันดับ";
+    rank_text = `ปี ${
+      years[years.length - 1]
+    } เขตนี้มีพื้นที่สีเขียวต่อคน มากที่สุดเป็นอันดับ`;
     img_top = exclamation;
     img_bot = smile;
   } else if (selected_theme.name === "มลพิษในคลอง") {
-    AVG_title = "ค่า BOD ในน้ำคลองแต่ละเขตโดยเฉลี่ยตั้งแต่ปี 2555-2566";
+    AVG_title = `ค่า BOD ในน้ำคลองแต่ละเขตโดยเฉลี่ยตั้งแต่ปี ${years[0]}-${
+      years[years.length - 1]
+    }`;
     unit = "มก./ลิตร";
     unit_filter = "มก./ลิตร";
     AVG_max = "ค่า BOD ในน้ำคลองโดยเฉลี่ยสูงที่สุด";
     AVG_min = "ค่า BOD ในน้ำคลองโดยเฉลี่ยต่ำที่สุด";
     AVG = (sum(data.valuePerYear) / year_length - 1).toFixed(2);
     compare_title = "เปรียบเทียบค่า BOD ในน้ำคลองแต่ละกลุ่มเขต";
-    rank_text = "ปี 2566 เขตนี้มีค่า BOD มากที่สุดเป็นอันดับที่";
+    rank_text = `ปี ${
+      years[years.length - 1]
+    } เขตนี้มีค่า BOD มากที่สุดเป็นอันดับที่`;
     img_top = smile;
     img_bot = exclamation;
   } else if (selected_theme.name === "ขยะมูลฝอย") {
-    AVG_title = "จำนวนขยะมูลฝอยโดยเฉลี่ย ปี 2566";
+    AVG_title = `จำนวนขยะมูลฝอยโดยเฉลี่ย ปี ${years[years.length - 1]}`;
     unit = "กก./คน/วัน";
     unit_filter = "กก./คน/วัน";
     AVG_max = "เขตที่ขยะมากที่สุด";
@@ -76,18 +87,24 @@ const AVG = ({
     AVG = data.value;
     compare_title = "เปรียบเทียบสัดส่วนขยะมูลฝอย";
     compare_sub = "ต่อประชากร 1 คนต่อวันแต่ละกลุ่มเขต";
-    rank_text = "ปี 2566 เขตนี้มีปริมาณขยะมูลฝอยต่อคนต่อวันมากสุดเป็นอันดับที่";
+    rank_text = `ปี ${
+      years[years.length - 1]
+    } เขตนี้มีปริมาณขยะมูลฝอยต่อคนต่อวันมากสุดเป็นอันดับที่`;
     img_top = smile;
     img_bot = exclamation;
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
-    AVG_title = "ตลอดปี 2566 ค่าฝุ่น PM2.5 โดยเฉลี่ยทุกเขต";
+    AVG_title = `ตลอดปี ${
+      years[years.length - 1]
+    } ค่าฝุ่น PM2.5 โดยเฉลี่ยทุกเขต`;
     unit = "มค.ก./ลบ.ม.";
     unit_filter = "มค.ก./ลบ.ม.";
     AVG_max = "เขตที่มีค่าสูงสุดของ PM2.5 มากที่สุด";
     AVG_min = "เขตที่มีค่าสูงสุดของ PM2.5 น้อยที่สุด";
     AVG = "26.5";
     compare_title = "เปรียบเทียบปัญหาฝุ่นควันสูงแต่ละกลุ่มเขต";
-    rank_text = "ปี 2566 เขตนี้มีค่าสูงสุดของ PM2.5 มากที่สุดเป็นอันดับที่";
+    rank_text = `ปี ${
+      years[years.length - 1]
+    } เขตนี้มีค่าสูงสุดของ PM2.5 มากที่สุดเป็นอันดับที่`;
     img_top = smile;
     img_bot = exclamation;
   }
@@ -237,7 +254,7 @@ const AVG = ({
           style={{ backgroundColor: selected_theme.color }}
         >
           {selected_theme.name === "ฝุ่นควันเกินมาตรฐาน"
-            ? "จำนวนครั้งที่ค่าฝุ่นเกินกำหนด"
+            ? "ค่าฝุ่นเฉลี่ยตลอดปี"
             : "ค่าเฉลี่ย"}
         </div>
         <div className="px-2 py-3">

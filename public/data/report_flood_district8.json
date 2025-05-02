@@ -1,5 +1,5 @@
 {
-  "value": 8,
+  "value": 14,
   "valuePerYear": {
     "2555": 27,
     "2556": 29,
@@ -12,7 +12,8 @@
     "2563": 10,
     "2564": 23,
     "2565": 15,
-    "2566": 8
+    "2566": 8,
+    "2567": 14
   },
   "minimumPoint": {
     "value": 8,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 379471200,
       "focused": 3721700
+    },
+    "2567": {
+      "all": 374654302,
+      "focused": 5221900
     }
   },
   "budgetOverall": {
-    "all": 4101027050,
-    "focused": 116819100
+    "all": 4475681352,
+    "focused": 122041000
   },
-  "ranked": 3,
+  "ranked": 6,
   "rankings": [
     {
       "ranked": 6,
@@ -141,6 +146,11 @@
       "ranked": 3,
       "year": 2566,
       "value": 8
+    },
+    {
+      "ranked": 6,
+      "year": 2567,
+      "value": 14
     }
   ],
   "floodHotspots": [
@@ -201,7 +211,7 @@
       "description": "อุโมงค์ทางลอดดินแดง"
     }
   ],
-  "meanFloodLevel": 36.9,
+  "meanFloodLevel": 34.7,
   "meanFloodLevelMaximumPoint": {
     "value": 46.1,
     "year": 2565,

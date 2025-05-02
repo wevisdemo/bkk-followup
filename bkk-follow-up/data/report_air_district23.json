@@ -1,0 +1,68 @@
+{
+  "value": 111,
+  "valuePerYear": {
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": 0,
+    "2562": 0,
+    "2563": 84,
+    "2564": 109,
+    "2565": 94,
+    "2566": 111
+  },
+  "minimumPoint": {
+    "value": 0,
+    "year": 2561,
+    "districtId": 23,
+    "districtName": "บางบอน"
+  },
+  "maximumPoint": {
+    "value": 111,
+    "year": 2566,
+    "districtId": 23,
+    "districtName": "บางบอน"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": 10,
+  "rankings": [
+    {
+      "ranked": 37,
+      "year": 2561,
+      "value": 0
+    },
+    {
+      "ranked": 37,
+      "year": 2562,
+      "value": 0
+    },
+    {
+      "ranked": 32,
+      "year": 2563,
+      "value": 84
+    },
+    {
+      "ranked": 4,
+      "year": 2564,
+      "value": 109
+    },
+    {
+      "ranked": 7,
+      "year": 2565,
+      "value": 94
+    },
+    {
+      "ranked": 10,
+      "year": 2566,
+      "value": 111
+    }
+  ],
+  "sampling": null
+}

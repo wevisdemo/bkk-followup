@@ -42,7 +42,10 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
   };
 
   return (
-    <div className="flex-1 mt-3 card_cat_detail md:mt-0" style={{ height: "fit-content" }}>
+    <div
+      className="flex-1 mt-3 card_cat_detail md:mt-0"
+      style={{ height: "fit-content" }}
+    >
       <div
         className="flex justify-center px-5 py-2 font-bold text-center rounded-t text-white-default p2"
         style={{ backgroundColor: selected_theme.color }}
@@ -64,15 +67,26 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
               className="flex flex-1 py-4 pl-2 pr-5 rounded-l cursor-pointer p2 text-white-default"
               style={{
                 backgroundColor:
-                  i === 0 ? (selected_theme.name === "น้ำท่วมถนน" ? "black" : selected_theme.color) : "black",
+                  i === 0
+                    ? selected_theme.name === "น้ำท่วมถนน"
+                      ? "black"
+                      : selected_theme.color
+                    : "black",
               }}
               onClick={() => clickOverAll(_, arr_filter[i])}
             >
-              <img src={arr_img[`${d.areaName}`]} alt="compare-icon" className="mr-2 pointer-events-none" />
+              <img
+                src={arr_img[`${d.areaName}`]}
+                alt="compare-icon"
+                className="mr-2 pointer-events-none"
+              />
               <p className="pointer-events-none">{d.areaName}</p>
             </div>
             <div className="flex flex-col flex-1 px-2 pt-1">
-              <span className="flex flex-row items-center" style={{ color: selected_theme.text_color }}>
+              <span
+                className="flex flex-row items-center"
+                style={{ color: selected_theme.text_color }}
+              >
                 <p className="pr-1 h4">{d.value}</p>
                 <p className="ml-1 p2">{unit}</p>
               </span>

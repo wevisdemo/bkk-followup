@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": 2,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": null,
     "2564": null,
     "2565": 2,
-    "2566": 1
+    "2566": 1,
+    "2567": 2
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 379670450,
       "focused": 12002400
+    },
+    "2567": {
+      "all": 424151020,
+      "focused": 5455800
     }
   },
   "budgetOverall": {
-    "all": 4301869590,
-    "focused": 166845900
+    "all": 4726020610,
+    "focused": 172301700
   },
-  "ranked": 33,
+  "ranked": 22,
   "rankings": [
     {
       "ranked": 21,
@@ -91,8 +96,14 @@
       "ranked": 33,
       "year": 2566,
       "value": 1
+    },
+    {
+      "ranked": 22,
+      "year": 2567,
+      "value": 2
     }
   ],
+  "floodHotspots": [],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 33,

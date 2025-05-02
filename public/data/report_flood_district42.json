@@ -1,5 +1,5 @@
 {
-  "value": 6,
+  "value": 8,
   "valuePerYear": {
     "2555": 7,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 14,
     "2564": 6,
     "2565": 8,
-    "2566": 6
+    "2566": 6,
+    "2567": 8
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 406998060,
       "focused": 12892100
+    },
+    "2567": {
+      "all": 409842780,
+      "focused": 4165500
     }
   },
   "budgetOverall": {
-    "all": 4528884500,
-    "focused": 214831100
+    "all": 4938727280,
+    "focused": 218996600
   },
-  "ranked": 6,
+  "ranked": 9,
   "rankings": [
     {
       "ranked": 18,
@@ -136,6 +141,11 @@
       "ranked": 6,
       "year": 2566,
       "value": 6
+    },
+    {
+      "ranked": 9,
+      "year": 2567,
+      "value": 8
     }
   ],
   "floodHotspots": [
@@ -160,7 +170,7 @@
       "description": "ซอยรามคำเเหง 1 ซอยรามคำเเหง 5"
     }
   ],
-  "meanFloodLevel": 40.3,
+  "meanFloodLevel": 25.7,
   "meanFloodLevelMaximumPoint": {
     "value": 40.3,
     "year": 2566,

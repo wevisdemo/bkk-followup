@@ -1,5 +1,5 @@
 {
-  "value": 102,
+  "value": 427,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 100,
     "2564": 93,
     "2565": 83,
-    "2566": 102
+    "2566": 102,
+    "2567": 427
   },
   "minimumPoint": {
     "value": 19,
@@ -21,8 +22,8 @@
     "districtName": "สัมพันธวงศ์"
   },
   "maximumPoint": {
-    "value": 102,
-    "year": 2566,
+    "value": 427,
+    "year": 2567,
     "districtId": 44,
     "districtName": "สัมพันธวงศ์"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 24,
+  "ranked": 4,
   "rankings": [
     {
       "ranked": 24,
@@ -62,6 +63,11 @@
       "ranked": 24,
       "year": 2566,
       "value": 102
+    },
+    {
+      "ranked": 4,
+      "year": 2567,
+      "value": 427
     }
   ],
   "sampling": null

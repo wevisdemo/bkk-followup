@@ -1,5 +1,5 @@
 {
-  "value": 100,
+  "value": 120.6,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 88,
     "2564": 83,
     "2565": 74,
-    "2566": 100
+    "2566": 100,
+    "2567": 120.6
   },
   "minimumPoint": {
     "value": 20,
@@ -21,8 +22,8 @@
     "districtName": "หลักสี่"
   },
   "maximumPoint": {
-    "value": 100,
-    "year": 2566,
+    "value": 120.6,
+    "year": 2567,
     "districtId": 49,
     "districtName": "หลักสี่"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 29,
+  "ranked": 39,
   "rankings": [
     {
       "ranked": 23,
@@ -62,6 +63,11 @@
       "ranked": 29,
       "year": 2566,
       "value": 100
+    },
+    {
+      "ranked": 39,
+      "year": 2567,
+      "value": 120.6
     }
   ],
   "sampling": null

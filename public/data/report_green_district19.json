@@ -1,5 +1,5 @@
 {
-  "value": 4.54,
+  "value": 4.84,
   "valuePerYear": {
     "2555": 1.88,
     "2556": 2.09,
@@ -12,7 +12,8 @@
     "2563": 3.4,
     "2564": 3.4,
     "2565": 4.3,
-    "2566": 4.54
+    "2566": 4.54,
+    "2567": 4.84
   },
   "minimumPoint": {
     "value": 1.88,
@@ -21,8 +22,8 @@
     "districtName": "บางคอแหลม"
   },
   "maximumPoint": {
-    "value": 4.54,
-    "year": 2566,
+    "value": 4.84,
+    "year": 2567,
     "districtId": 19,
     "districtName": "บางคอแหลม"
   },
@@ -74,13 +75,17 @@
     "2566": {
       "all": 299793298,
       "focused": 5520500
+    },
+    "2567": {
+      "all": 347449240,
+      "focused": 4686600
     }
   },
   "budgetOverall": {
-    "all": 3577849548,
-    "focused": 189766400
+    "all": 3925298788,
+    "focused": 194453000
   },
-  "ranked": 34,
+  "ranked": 32,
   "rankings": [
     {
       "ranked": 41,
@@ -141,7 +146,12 @@
       "ranked": 34,
       "year": 2566,
       "value": 4.54
+    },
+    {
+      "ranked": 32,
+      "year": 2567,
+      "value": 4.84
     }
   ],
-  "publicGreenSpacePerCapita": null
+  "publicGreenSpacePerCapita": 0
 }

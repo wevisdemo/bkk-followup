@@ -1,5 +1,5 @@
 {
-  "value": 5,
+  "value": 14,
   "valuePerYear": {
     "2555": 68,
     "2556": 88,
@@ -12,7 +12,8 @@
     "2563": 10,
     "2564": 11,
     "2565": 6,
-    "2566": 5
+    "2566": 5,
+    "2567": 14
   },
   "minimumPoint": {
     "value": 5,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 511457900,
       "focused": 9525800
+    },
+    "2567": {
+      "all": 701898570,
+      "focused": 10850400
     }
   },
   "budgetOverall": {
-    "all": 6261695230,
-    "focused": 197223000
+    "all": 6963593800,
+    "focused": 208073400
   },
-  "ranked": 7,
+  "ranked": 5,
   "rankings": [
     {
       "ranked": 3,
@@ -141,6 +146,11 @@
       "ranked": 7,
       "year": 2566,
       "value": 5
+    },
+    {
+      "ranked": 5,
+      "year": 2567,
+      "value": 14
     }
   ],
   "floodHotspots": [
@@ -185,7 +195,7 @@
       "description": "ปากซอยเสนานิคม 1-คลองลาดพร้าว"
     }
   ],
-  "meanFloodLevel": 49.2,
+  "meanFloodLevel": 43.3,
   "meanFloodLevelMaximumPoint": {
     "value": 51.4,
     "year": 2565,

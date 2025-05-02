@@ -1,18 +1,19 @@
 {
-  "value": 2.599,
+  "value": null,
   "valuePerYear": {
-    "2555": 2.559,
-    "2556": 2.65,
-    "2557": 2.622,
-    "2558": 2.69,
-    "2559": 2.726,
-    "2560": 2.829,
-    "2561": 2.829,
-    "2562": 2.821,
-    "2563": 2.504,
-    "2564": 1.851,
-    "2565": 2.301,
-    "2566": 2.599
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": null,
+    "2562": null,
+    "2563": null,
+    "2564": null,
+    "2565": null,
+    "2566": null,
+    "2567": null
   },
   "minimumPoint": {
     "districtId": 36,
@@ -23,8 +24,8 @@
   "maximumPoint": {
     "districtId": 27,
     "districtName": "ปทุมวัน",
-    "year": 2562,
-    "value": 6.529
+    "year": 2567,
+    "value": 6.55
   },
   "budgetPerYear": {
     "2555": {
@@ -74,117 +75,121 @@
     "2566": {
       "all": 4398523678,
       "focused": 234667300
+    },
+    "2567": {
+      "all": 4885120645,
+      "focused": 91112442
     }
   },
   "budgetOverall": {
-    "all": 51512247402,
-    "focused": 18271294655
+    "all": 56397368047,
+    "focused": 18362407097
   },
   "rankings": [
     {
       "ranked": 1,
       "districtId": 27,
       "districtName": "ปทุมวัน",
-      "value": 5.503
+      "value": 6.55
     },
     {
       "ranked": 2,
-      "districtId": 50,
-      "districtName": "ห้วยขวาง",
-      "value": 4.117
+      "districtId": 41,
+      "districtName": "วัฒนา",
+      "value": 3.423
     },
     {
       "ranked": 3,
-      "districtId": 1,
-      "districtName": "คลองเตย",
-      "value": 2.916
+      "districtId": 25,
+      "districtName": "บางรัก",
+      "value": 3.243
     },
     {
       "ranked": 4,
-      "districtId": 25,
-      "districtName": "บางรัก",
-      "value": 2.788
+      "districtId": 1,
+      "districtName": "คลองเตย",
+      "value": 3.144
     },
     {
       "ranked": 5,
-      "districtId": 45,
-      "districtName": "สาทร",
-      "value": 2.782
+      "districtId": 36,
+      "districtName": "ราชเทวี",
+      "value": 2.847
     },
     {
       "ranked": 6,
-      "districtId": 41,
-      "districtName": "วัฒนา",
-      "value": 2.708
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 2.784
     },
     {
       "ranked": 7,
-      "districtId": 36,
-      "districtName": "ราชเทวี",
-      "value": 2.363
+      "districtId": 30,
+      "districtName": "พญาไท",
+      "value": 2.257
     },
     {
       "ranked": 8,
-      "districtId": 30,
-      "districtName": "พญาไท",
-      "value": 2.106
+      "districtId": 35,
+      "districtName": "ยานนาวา",
+      "value": 2.17
     },
     {
       "ranked": 9,
       "districtId": 5,
       "districtName": "จตุจักร",
-      "value": 2.084
+      "value": 2.134
     },
     {
       "ranked": 10,
-      "districtId": 35,
-      "districtName": "ยานนาวา",
-      "value": 1.976
+      "districtId": 8,
+      "districtName": "ดินแดง",
+      "value": 2.022
     },
     {
       "ranked": 11,
-      "districtId": 8,
-      "districtName": "ดินแดง",
-      "value": 1.862
+      "districtId": 45,
+      "districtName": "สาทร",
+      "value": 1.984
     },
     {
       "ranked": 12,
       "districtId": 19,
       "districtName": "บางคอแหลม",
-      "value": 1.407
+      "value": 1.571
     },
     {
       "ranked": 13,
       "districtId": 21,
       "districtName": "บางซื่อ",
-      "value": 1.17
+      "value": 1.208
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 1.82
+      "value": 1.845
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 1.437
+      "value": null
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 1.258
+      "value": null
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 2.166
+      "value": null
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 2.599
+      "value": null
     }
   ]
 }

@@ -1,0 +1,97 @@
+{
+  "value": 10.2,
+  "valuePerYear": {
+    "2555": 8.64,
+    "2556": 8.17,
+    "2557": 8.17,
+    "2558": 10.78,
+    "2559": 17.57,
+    "2560": 19.78,
+    "2561": 12.67,
+    "2562": 12.1,
+    "2563": 13.74,
+    "2564": 22.39,
+    "2565": 10.38,
+    "2566": 10.2
+  },
+  "minimumPoint": {
+    "value": 8.17,
+    "year": 2556,
+    "districtId": 46,
+    "districtName": "สายไหม"
+  },
+  "maximumPoint": {
+    "value": 22.39,
+    "year": 2564,
+    "districtId": 46,
+    "districtName": "สายไหม"
+  },
+  "budgetPerYear": {},
+  "budgetOverall": {
+    "all": 0,
+    "focused": 0
+  },
+  "ranked": 31,
+  "rankings": [
+    {
+      "ranked": 27,
+      "year": 2555,
+      "value": 8.64
+    },
+    {
+      "ranked": 25,
+      "year": 2556,
+      "value": 8.17
+    },
+    {
+      "ranked": 25,
+      "year": 2557,
+      "value": 8.17
+    },
+    {
+      "ranked": 33,
+      "year": 2558,
+      "value": 10.78
+    },
+    {
+      "ranked": 19,
+      "year": 2559,
+      "value": 17.57
+    },
+    {
+      "ranked": 8,
+      "year": 2560,
+      "value": 19.78
+    },
+    {
+      "ranked": 19,
+      "year": 2561,
+      "value": 12.67
+    },
+    {
+      "ranked": 23,
+      "year": 2562,
+      "value": 12.1
+    },
+    {
+      "ranked": 25,
+      "year": 2563,
+      "value": 13.74
+    },
+    {
+      "ranked": 6,
+      "year": 2564,
+      "value": 22.39
+    },
+    {
+      "ranked": 27,
+      "year": 2565,
+      "value": 10.38
+    },
+    {
+      "ranked": 31,
+      "year": 2566,
+      "value": 10.2
+    }
+  ]
+}

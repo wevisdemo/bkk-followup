@@ -2,7 +2,7 @@ import React from "react";
 import * as d3 from "d3";
 import { isMobile, isMobileOnly } from "react-device-detect";
 
-const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK }) => {
+const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK, years }) => {
   let title, sub, standard, avg, height_rank, low_rank, unit, note;
   let height_elem = d3
     .select("#group-dropdown")
@@ -81,7 +81,9 @@ const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK }) => {
         className="flex flex-col justify-center mt-3 text-center text-white-default"
       >
         <p className="font-bold d4">{title}</p>
-        <p className="my-2 font-bold h4 lg:my-0">"ข้อมูลประจำปี 2566"</p>
+        <p className="my-2 font-bold h4 lg:my-0">
+          "ข้อมูลประจำปี {years[years.length - 1]}"
+        </p>
         <span className="flex flex-col m-auto p1 md:flex-row">
           <p className="mb-2 lg:mb-0">{sub}</p>
           <p className="mb-1 font-bold underline md:ml-1 lg:mb:0">

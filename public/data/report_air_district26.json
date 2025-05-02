@@ -1,5 +1,5 @@
 {
-  "value": 121,
+  "value": 224.1,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 103,
     "2564": 98,
     "2565": 82,
-    "2566": 121
+    "2566": 121,
+    "2567": 224.1
   },
   "minimumPoint": {
     "value": 33,
@@ -21,8 +22,8 @@
     "districtName": "บึงกุ่ม"
   },
   "maximumPoint": {
-    "value": 121,
-    "year": 2566,
+    "value": 224.1,
+    "year": 2567,
     "districtId": 26,
     "districtName": "บึงกุ่ม"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 5,
+  "ranked": 10,
   "rankings": [
     {
       "ranked": 8,
@@ -62,6 +63,11 @@
       "ranked": 5,
       "year": 2566,
       "value": 121
+    },
+    {
+      "ranked": 10,
+      "year": 2567,
+      "value": 224.1
     }
   ],
   "sampling": null

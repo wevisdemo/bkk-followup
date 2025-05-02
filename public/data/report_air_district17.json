@@ -1,5 +1,5 @@
 {
-  "value": 107,
+  "value": 211,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 114,
     "2564": 109,
     "2565": 98,
-    "2566": 107
+    "2566": 107,
+    "2567": 211
   },
   "minimumPoint": {
     "value": 21,
@@ -21,8 +22,8 @@
     "districtName": "บางขุนเทียน"
   },
   "maximumPoint": {
-    "value": 114,
-    "year": 2563,
+    "value": 211,
+    "year": 2567,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 16,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 22,
@@ -62,6 +63,11 @@
       "ranked": 16,
       "year": 2566,
       "value": 107
+    },
+    {
+      "ranked": 12,
+      "year": 2567,
+      "value": 211
     }
   ],
   "sampling": {

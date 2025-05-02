@@ -1,5 +1,5 @@
 {
-  "value": 93,
+  "value": 389,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 96,
     "2564": 96,
     "2565": 65,
-    "2566": 93
+    "2566": 93,
+    "2567": 389
   },
   "minimumPoint": {
     "value": 0,
@@ -21,8 +22,8 @@
     "districtName": "พระโขนง"
   },
   "maximumPoint": {
-    "value": 96,
-    "year": 2563,
+    "value": 389,
+    "year": 2567,
     "districtId": 31,
     "districtName": "พระโขนง"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 37,
+  "ranked": 5,
   "rankings": [
     {
       "ranked": 40,
@@ -62,6 +63,11 @@
       "ranked": 37,
       "year": 2566,
       "value": 93
+    },
+    {
+      "ranked": 5,
+      "year": 2567,
+      "value": 389
     }
   ],
   "sampling": null

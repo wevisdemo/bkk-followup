@@ -6,7 +6,9 @@ import { useRouter } from "next/router";
 function MetaHead() {
   let og_image = config.og_main;
   const router = useRouter();
-  const og_url = `${config.web_url}${router.query.title ? `/dashboard/${router.query.title}` : ""}`;
+  const og_url = `${config.web_url}${
+    router.query.title ? `/dashboard/${router.query.title}` : ""
+  }`;
 
   if (router.query.title === "น้ำท่วมถนน") og_image = config.og_flood;
   if (router.query.title === "พื้นที่สีเขียว") og_image = config.og_green;
@@ -21,7 +23,7 @@ function MetaHead() {
       <title>{config.title}</title>
       <meta name="description" content={config.description}></meta>
       {/* <link rel="icon" type="image/x-icon" href="/favicon.ico" /> */}
-      <link rel="icon" type="image/x-icon" href="/bkk-followup/favicon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <meta property="og:title" content={config.title} />
 
       <meta property="og:description" content={config.description} />
@@ -41,7 +43,10 @@ function MetaHead() {
       <meta name="twitter:image:src" content={config.web_url + og_image} />
 
       <meta property="twitter:url" content={og_url} />
-      <link rel="stylesheet" href="https://design-systems.wevis.info/typography.css" />
+      <link
+        rel="stylesheet"
+        href="https://design-systems.wevis.info/typography.css"
+      />
     </Head>
   );
 }

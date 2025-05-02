@@ -172,8 +172,7 @@ export default function Dashboard(props) {
   const [selected_tooltip, SET_SELECTED_TOOLTIP] = useState();
   const [state_dropdown, SET_STATE_DROPDOWN] = useState(null);
   const [isRank, SET_IS_RANK] = useState(false);
-  const years = [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66];
-  const [selected_index, SET_SELECTED_INDEX] = useState(years.length - 1);
+
   let selected_theme = props.content;
   let selectedData, data;
   if (selected_theme != null) {
@@ -200,6 +199,11 @@ export default function Dashboard(props) {
       data = selectedData.report_suburban;
       format_type = "suburban";
     }
+    const years = Object.keys(data.valuePerYear);
+    const subfixYears = Object.keys(data.valuePerYear).map((d) => {
+      return d.toString().substring(2, 4);
+    });
+    const [selected_index, SET_SELECTED_INDEX] = useState(years.length - 1);
     let note;
     if (selected_theme.name === "น้ำท่วมถนน") {
       note =
@@ -391,11 +395,11 @@ export default function Dashboard(props) {
             <TimeLine
               selected_index={selected_index}
               SET_SELECTED_INDEX={SET_SELECTED_INDEX}
-              years={years}
-              selected_year={years[selected_index]}
+              years={subfixYears}
+              selected_year={subfixYears[selected_index]}
             />
             <Map
-              selected_year={years[selected_index]}
+              selected_year={subfixYears[selected_index]}
               selected_theme={selected_theme}
               data={selectedData.map}
               state_dropdown={state_dropdown}
@@ -517,7 +521,11 @@ export default function Dashboard(props) {
                     >
                       ข้อควรรู้
                     </div>
-                    <Knowledge selected={selected_theme} />
+                    <Knowledge
+                      selected={selected_theme}
+                      years={years}
+                      data={data}
+                    />
                   </div>
                 ) : (
                   ""
@@ -548,6 +556,7 @@ export default function Dashboard(props) {
                     district_data={district_data}
                     checked={checked}
                     state_dropdown={state_dropdown}
+                    years={years}
                   />
                 ) : (
                   ""
@@ -580,6 +589,7 @@ export default function Dashboard(props) {
                   ""
                 )}
                 <LineChart
+                  years={years}
                   selected_theme={selected_theme}
                   data={
                     district ? district_data.valuePerYear : data.valuePerYear
@@ -592,6 +602,7 @@ export default function Dashboard(props) {
                     checked={checked}
                     rankings={rankings}
                     is_show={is_show}
+                    years={years}
                   />
                 ) : (
                   ""
@@ -606,6 +617,7 @@ export default function Dashboard(props) {
                     data={district ? district_data : data}
                     checked={checked}
                     state_dropdown={state_dropdown}
+                    years={years}
                   />
                   {checked === "เขตพื้นที่ทั้งหมด" && !district ? (
                     <Compare
@@ -627,6 +639,7 @@ export default function Dashboard(props) {
                       id="list-ranking"
                       selected_theme={selected_theme}
                       data={data.rankings}
+                      years={years}
                     />
                   )}
                 </div>
@@ -641,6 +654,7 @@ export default function Dashboard(props) {
                 data={selectedData.all.rankings}
                 SET_DISTRICT={SET_DISTRICT}
                 SET_IS_RANK={SET_IS_RANK}
+                years={years}
               />
             )}
           </div>

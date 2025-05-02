@@ -12,7 +12,8 @@
     "2563": null,
     "2564": null,
     "2565": null,
-    "2566": null
+    "2566": null,
+    "2567": null
   },
   "minimumPoint": {
     "districtId": 48,
@@ -70,14 +71,19 @@
     "2566": {
       "all": 591923050,
       "focused": 4231000
+    },
+    "2567": {
+      "all": 754150535,
+      "focused": 3544600
     }
   },
   "budgetOverall": {
-    "all": 6454085540,
-    "focused": 176423200
+    "all": 7208236075,
+    "focused": 179967800
   },
   "ranked": null,
   "rankings": [],
+  "floodHotspots": [],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 48,
