@@ -12,7 +12,8 @@
     "2563": null,
     "2564": 15,
     "2565": 15,
-    "2566": 8
+    "2566": 8,
+    "2567": 8
   },
   "minimumPoint": {
     "value": 8,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 327459636,
       "focused": 1809500
+    },
+    "2567": {
+      "all": 344517144,
+      "focused": 1660000
     }
   },
   "budgetOverall": {
-    "all": 3974042396,
-    "focused": 79196200
+    "all": 4318559540,
+    "focused": 80856200
   },
-  "ranked": 4,
+  "ranked": 8,
   "rankings": [
     {
       "ranked": 1,
@@ -135,6 +140,11 @@
     {
       "ranked": 4,
       "year": 2566,
+      "value": 8
+    },
+    {
+      "ranked": 8,
+      "year": 2567,
       "value": 8
     }
   ],
@@ -196,7 +206,7 @@
       "description": "แยกศรีอยุธยา แยกอุรุพงษ์"
     }
   ],
-  "meanFloodLevel": 44.6,
+  "meanFloodLevel": 28.1,
   "meanFloodLevelMaximumPoint": {
     "value": 44.6,
     "year": 2566,

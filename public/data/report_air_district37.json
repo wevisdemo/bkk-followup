@@ -1,5 +1,5 @@
 {
-  "value": 99,
+  "value": 157.5,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 71,
     "2564": 100,
     "2565": 78,
-    "2566": 99
+    "2566": 99,
+    "2567": 157.5
   },
   "minimumPoint": {
     "value": 0,
@@ -21,8 +22,8 @@
     "districtName": "ราษฎร์บูรณะ"
   },
   "maximumPoint": {
-    "value": 100,
-    "year": 2564,
+    "value": 157.5,
+    "year": 2567,
     "districtId": 37,
     "districtName": "ราษฎร์บูรณะ"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 30,
+  "ranked": 23,
   "rankings": [
     {
       "ranked": 42,
@@ -62,6 +63,11 @@
       "ranked": 30,
       "year": 2566,
       "value": 99
+    },
+    {
+      "ranked": 23,
+      "year": 2567,
+      "value": 157.5
     }
   ],
   "sampling": null

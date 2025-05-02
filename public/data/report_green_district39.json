@@ -1,5 +1,5 @@
 {
-  "value": 5.67,
+  "value": 5.84,
   "valuePerYear": {
     "2555": 4.87,
     "2556": 4.91,
@@ -12,7 +12,8 @@
     "2563": 10.73,
     "2564": 10.88,
     "2565": 5.68,
-    "2566": 5.67
+    "2566": 5.67,
+    "2567": 5.84
   },
   "minimumPoint": {
     "value": 4.87,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 342225328,
       "focused": 11988500
+    },
+    "2567": {
+      "all": 439171770,
+      "focused": 2946600
     }
   },
   "budgetOverall": {
-    "all": 4322969078,
-    "focused": 257474300
+    "all": 4762140848,
+    "focused": 260420900
   },
-  "ranked": 25,
+  "ranked": 23,
   "rankings": [
     {
       "ranked": 19,
@@ -141,7 +146,12 @@
       "ranked": 25,
       "year": 2566,
       "value": 5.67
+    },
+    {
+      "ranked": 23,
+      "year": 2567,
+      "value": 5.84
     }
   ],
-  "publicGreenSpacePerCapita": null
+  "publicGreenSpacePerCapita": 0
 }

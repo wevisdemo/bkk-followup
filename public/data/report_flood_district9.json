@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": null,
   "valuePerYear": {
     "2555": 83,
     "2556": 45,
@@ -12,7 +12,8 @@
     "2563": 3,
     "2564": 6,
     "2565": 1,
-    "2566": 1
+    "2566": 1,
+    "2567": null
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 375819300,
       "focused": 3568700
+    },
+    "2567": {
+      "all": 412796065,
+      "focused": 20169900
     }
   },
   "budgetOverall": {
-    "all": 4412794830,
-    "focused": 113464500
+    "all": 4825590895,
+    "focused": 133634400
   },
-  "ranked": 26,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 2,
@@ -165,7 +170,7 @@
       "description": "หน้าอาคารรัฐสภา"
     }
   ],
-  "meanFloodLevel": 18.1,
+  "meanFloodLevel": 5,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2558,

@@ -1,18 +1,19 @@
 {
-  "value": 6.91,
+  "value": null,
   "valuePerYear": {
-    "2555": 3.2,
-    "2556": 3.31,
-    "2557": 3.48,
-    "2558": 4.88,
-    "2559": 4.27,
-    "2560": 5.39,
-    "2561": 5.39,
-    "2562": 5.84,
-    "2563": 9.15,
-    "2564": 9.71,
-    "2565": 6.49,
-    "2566": 6.91
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": null,
+    "2562": null,
+    "2563": null,
+    "2564": null,
+    "2565": null,
+    "2566": null,
+    "2567": null
   },
   "minimumPoint": {
     "districtId": 15,
@@ -74,11 +75,15 @@
     "2566": {
       "all": 2984639454,
       "focused": 50720200
+    },
+    "2567": {
+      "all": 3250146990,
+      "focused": 30784500
     }
   },
   "budgetOverall": {
-    "all": 34267695872,
-    "focused": 1519911960
+    "all": 37517842862,
+    "focused": 1550696460
   },
   "rankings": [
     {
@@ -91,13 +96,13 @@
       "ranked": 2,
       "districtId": 32,
       "districtName": "พระนคร",
-      "value": 15.81
+      "value": 15.75
     },
     {
       "ranked": 3,
       "districtId": 44,
       "districtName": "สัมพันธวงศ์",
-      "value": 7.17
+      "value": 7.22
     },
     {
       "ranked": 4,
@@ -115,52 +120,52 @@
       "ranked": 6,
       "districtId": 15,
       "districtName": "บางกอกใหญ่",
-      "value": 3.67
+      "value": 3.6
     },
     {
       "ranked": 7,
       "districtId": 14,
       "districtName": "บางกอกน้อย",
-      "value": 3.24
+      "value": 3.23
     },
     {
       "ranked": 8,
       "districtId": 24,
       "districtName": "บางพลัด",
-      "value": 3.04
+      "value": 3.07
     },
     {
       "ranked": 9,
       "districtId": 13,
       "districtName": "ธนบุรี",
-      "value": 2.76
+      "value": 2.82
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 7.87
+      "value": 7.89
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 9.02
+      "value": null
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 8.47
+      "value": null
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 6.91
+      "value": null
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 7.64
+      "value": null
     }
   ],
   "publicGreenSpacePerCapita": null

@@ -1,5 +1,5 @@
 {
-  "value": 101,
+  "value": 135.7,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 115,
     "2564": 101,
     "2565": 93,
-    "2566": 101
+    "2566": 101,
+    "2567": 135.7
   },
   "minimumPoint": {
     "value": 25,
@@ -21,8 +22,8 @@
     "districtName": "บางกอกน้อย"
   },
   "maximumPoint": {
-    "value": 115,
-    "year": 2563,
+    "value": 135.7,
+    "year": 2567,
     "districtId": 14,
     "districtName": "บางกอกน้อย"
   },
@@ -31,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 25,
+  "ranked": 31,
   "rankings": [
     {
       "ranked": 15,
@@ -62,6 +63,11 @@
       "ranked": 25,
       "year": 2566,
       "value": 101
+    },
+    {
+      "ranked": 31,
+      "year": 2567,
+      "value": 135.7
     }
   ],
   "sampling": null

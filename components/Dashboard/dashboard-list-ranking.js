@@ -1,19 +1,19 @@
 import React from "react";
 
-const listRanking = ({ selected_theme, data }) => {
+const listRanking = ({ selected_theme, data, years }) => {
   let title, subtitle, unit, standard, height_rank, low_rank, std_text;
   if (selected_theme.name === "น้ำท่วมถนน") {
     title = "ระดับน้ำท่วมบนถนน";
     subtitle = "เรียงลำดับจากมากไปน้อย";
     unit = "ครั้ง";
   } else if (selected_theme.name === "พื้นที่สีเขียว") {
-    title = "ปริมาณพื้นที่สีเขียว ปี 2566";
+    title = `ปริมาณพื้นที่สีเขียว ปี ${years[years.length - 1]}`;
     subtitle = "เรียงลำดับจากมากไปน้อย";
     unit = "ตร.ม./คน";
     standard = 9;
     std_text = "ค่ามาตรฐานตาม WHO 9 ตร.ม./คน";
   } else if (selected_theme.name === "มลพิษในคลอง") {
-    title = "ค่า BOD ในน้ำคลอง ปี 2566";
+    title = `ค่า BOD ในน้ำคลอง ปี ${years[years.length - 1]}`;
     subtitle = "เรียงลำดับจากมากไปน้อย";
     unit = "มก./ลิตร";
     standard = 4;
@@ -25,7 +25,7 @@ const listRanking = ({ selected_theme, data }) => {
     standard = 1.8;
     std_text = "ค่าเฉลี่ย 1.80 kg";
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
-    title = "ค่าสูงสุดของ PM2.5 ปี 2566";
+    title = `ค่าสูงสุดของ PM2.5 ปี ${years[years.length - 1]}`;
     subtitle = "เรียงลำดับจากมากไปน้อย";
     unit = "มค.ก./ลบ.ม.";
     standard = 25;

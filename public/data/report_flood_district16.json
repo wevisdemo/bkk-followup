@@ -1,5 +1,5 @@
 {
-  "value": 0,
+  "value": null,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 1,
     "2564": 16,
     "2565": 2,
-    "2566": 0
+    "2566": 0,
+    "2567": null
   },
   "minimumPoint": {
     "value": 0,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 488296900,
       "focused": 4931900
+    },
+    "2567": {
+      "all": 564470525,
+      "focused": 14769000
     }
   },
   "budgetOverall": {
-    "all": 5609957840,
-    "focused": 199808100
+    "all": 6174428365,
+    "focused": 214577100
   },
-  "ranked": 35,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 15,
@@ -155,7 +160,7 @@
       "description": "ตรงข้ามซอย 39 65"
     }
   ],
-  "meanFloodLevel": 24.3,
+  "meanFloodLevel": 14.8,
   "meanFloodLevelMaximumPoint": {
     "value": 34.2,
     "year": 2558,

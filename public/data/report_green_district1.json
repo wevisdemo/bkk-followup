@@ -1,5 +1,5 @@
 {
-  "value": 14.11,
+  "value": 14.27,
   "valuePerYear": {
     "2555": 5.06,
     "2556": 5.17,
@@ -12,7 +12,8 @@
     "2563": 12.59,
     "2564": 14.05,
     "2565": 12,
-    "2566": 14.11
+    "2566": 14.11,
+    "2567": 14.27
   },
   "minimumPoint": {
     "value": 5.06,
@@ -21,8 +22,8 @@
     "districtName": "คลองเตย"
   },
   "maximumPoint": {
-    "value": 14.11,
-    "year": 2566,
+    "value": 14.27,
+    "year": 2567,
     "districtId": 1,
     "districtName": "คลองเตย"
   },
@@ -74,11 +75,15 @@
     "2566": {
       "all": 361319540,
       "focused": 6843900
+    },
+    "2567": {
+      "all": 384999301,
+      "focused": 3925800
     }
   },
   "budgetOverall": {
-    "all": 4389816580,
-    "focused": 220610100
+    "all": 4774815881,
+    "focused": 224535900
   },
   "ranked": 9,
   "rankings": [
@@ -141,7 +146,12 @@
       "ranked": 9,
       "year": 2566,
       "value": 14.11
+    },
+    {
+      "ranked": 9,
+      "year": 2567,
+      "value": 14.27
     }
   ],
-  "publicGreenSpacePerCapita": null
+  "publicGreenSpacePerCapita": 0
 }

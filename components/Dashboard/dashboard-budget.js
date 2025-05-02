@@ -2,9 +2,8 @@ import React from "react";
 import numeral from "numeral";
 import DonutChart from "components/Dashboard/util/donut-chart";
 import BarChart from "components/Dashboard/util/bar-chart";
-import ElectLink from "assets/images/link_elect.svg";
 
-const budget = ({ selected_theme, data, checked, state_dropdown }) => {
+const budget = ({ selected_theme, data, checked, state_dropdown, years }) => {
   let focused = data.budgetOverall.focused / 1000000;
   let percent = data.budgetOverall.focused / data.budgetOverall.all;
   let title, sub;
@@ -49,7 +48,9 @@ const budget = ({ selected_theme, data, checked, state_dropdown }) => {
           งบประมาณที่ใช้ไปในพื้นที่นี้
         </div>
         <span className="flex flex-col items-center py-3 font-bold leading-snug">
-          <p className="p2">ในปี 2555-2566 กทม. ใช้เงินงบประมาณ</p>
+          <p className="p2">
+            ในปี {years[0]}-{years[years.length - 1]} กทม. ใช้เงินงบประมาณ
+          </p>
           <p className="h2" style={{ color: selected_theme.text_color }}>
             {numeral(focused).format("0,0")} ล้านบาท
           </p>

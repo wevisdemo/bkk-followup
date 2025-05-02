@@ -1,5 +1,5 @@
 {
-  "value": 2,
+  "value": 5,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": null,
     "2564": null,
     "2565": 0,
-    "2566": 2
+    "2566": 2,
+    "2567": 5
   },
   "minimumPoint": {
     "value": 0,
@@ -21,8 +22,8 @@
     "districtName": "ลาดกระบัง"
   },
   "maximumPoint": {
-    "value": 2,
-    "year": 2566,
+    "value": 5,
+    "year": 2567,
     "districtId": 38,
     "districtName": "ลาดกระบัง"
   },
@@ -74,13 +75,17 @@
     "2566": {
       "all": 588620400,
       "focused": 10108400
+    },
+    "2567": {
+      "all": 774356920,
+      "focused": 14070500
     }
   },
   "budgetOverall": {
-    "all": 6743699840,
-    "focused": 291722800
+    "all": 7518056760,
+    "focused": 305793300
   },
-  "ranked": 23,
+  "ranked": 15,
   "rankings": [
     {
       "ranked": 36,
@@ -91,8 +96,14 @@
       "ranked": 23,
       "year": 2566,
       "value": 2
+    },
+    {
+      "ranked": 15,
+      "year": 2567,
+      "value": 5
     }
   ],
+  "floodHotspots": [],
   "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "districtId": 38,

@@ -12,7 +12,8 @@
     "2563": 2,
     "2564": 1,
     "2565": 4,
-    "2566": 1
+    "2566": 1,
+    "2567": 1
   },
   "minimumPoint": {
     "value": 1,
@@ -74,11 +75,15 @@
     "2566": {
       "all": 384357630,
       "focused": 11730200
+    },
+    "2567": {
+      "all": 440844200,
+      "focused": 45343300
     }
   },
   "budgetOverall": {
-    "all": 4772464478,
-    "focused": 265773088
+    "all": 5213308678,
+    "focused": 311116388
   },
   "ranked": 27,
   "rankings": [
@@ -141,6 +146,11 @@
       "ranked": 27,
       "year": 2566,
       "value": 1
+    },
+    {
+      "ranked": 27,
+      "year": 2567,
+      "value": 1
     }
   ],
   "floodHotspots": [
@@ -149,7 +159,7 @@
       "description": "หน้าตลาดพรานนก"
     }
   ],
-  "meanFloodLevel": 15,
+  "meanFloodLevel": 14.1,
   "meanFloodLevelMaximumPoint": {
     "value": 29.3,
     "year": 2556,

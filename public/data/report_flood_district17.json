@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": null,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 2,
     "2564": 2,
     "2565": 2,
-    "2566": 1
+    "2566": 1,
+    "2567": null
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 498278700,
       "focused": 10938600
+    },
+    "2567": {
+      "all": 677121250,
+      "focused": 38539200
     }
   },
   "budgetOverall": {
-    "all": 6447135225,
-    "focused": 218993220
+    "all": 7124256475,
+    "focused": 257532420
   },
-  "ranked": 28,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 18,
@@ -113,7 +118,7 @@
       "description": "ท่าข้าม ซ.6 ฝั่งตรงข้าม ซ.5"
     }
   ],
-  "meanFloodLevel": 1,
+  "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "value": 17.5,
     "year": 2563,

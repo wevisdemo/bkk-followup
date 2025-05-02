@@ -1,18 +1,19 @@
 {
-  "value": 1.437,
+  "value": null,
   "valuePerYear": {
-    "2555": 1.517,
-    "2556": 1.557,
-    "2557": 1.563,
-    "2558": 1.566,
-    "2559": 1.601,
-    "2560": 1.679,
-    "2561": 1.679,
-    "2562": 1.682,
-    "2563": 1.572,
-    "2564": 2.218,
-    "2565": 1.54,
-    "2566": 1.437
+    "2555": null,
+    "2556": null,
+    "2557": null,
+    "2558": null,
+    "2559": null,
+    "2560": null,
+    "2561": null,
+    "2562": null,
+    "2563": null,
+    "2564": null,
+    "2565": null,
+    "2566": null,
+    "2567": null
   },
   "minimumPoint": {
     "districtId": 43,
@@ -74,123 +75,127 @@
     "2566": {
       "all": 5046553208,
       "focused": 187168860
+    },
+    "2567": {
+      "all": 6303266831,
+      "focused": 147667046
     }
   },
   "budgetOverall": {
-    "all": 61397637007,
-    "focused": 15586364646
+    "all": 67700903838,
+    "focused": 15734031692
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 40,
-      "districtName": "วังทองหลาง",
-      "value": 2.494
+      "districtId": 16,
+      "districtName": "บางกะปิ",
+      "value": 2.218
     },
     {
       "ranked": 2,
-      "districtId": 22,
-      "districtName": "บางนา",
-      "value": 2.005
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 2.136
     },
     {
       "ranked": 3,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 1.99
+      "districtId": 22,
+      "districtName": "บางนา",
+      "value": 2.031
     },
     {
       "ranked": 4,
-      "districtId": 16,
-      "districtName": "บางกะปิ",
-      "value": 1.891
+      "districtId": 42,
+      "districtName": "สวนหลวง",
+      "value": 1.794
     },
     {
       "ranked": 5,
       "districtId": 39,
       "districtName": "ลาดพร้าว",
-      "value": 1.613
+      "value": 1.657
     },
     {
       "ranked": 6,
       "districtId": 28,
       "districtName": "ประเวศ",
-      "value": 1.583
+      "value": 1.565
     },
     {
       "ranked": 7,
       "districtId": 31,
       "districtName": "พระโขนง",
-      "value": 1.494
+      "value": 1.492
     },
     {
       "ranked": 8,
-      "districtId": 4,
-      "districtName": "คันนายาว",
-      "value": 1.345
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 1.483
     },
     {
       "ranked": 9,
-      "districtId": 18,
-      "districtName": "บางเขน",
-      "value": 1.317
+      "districtId": 4,
+      "districtName": "คันนายาว",
+      "value": 1.382
     },
     {
       "ranked": 10,
       "districtId": 26,
       "districtName": "บึงกุ่ม",
-      "value": 1.243
+      "value": 1.361
     },
     {
       "ranked": 11,
-      "districtId": 7,
-      "districtName": "ดอนเมือง",
-      "value": 0.995
+      "districtId": 18,
+      "districtName": "บางเขน",
+      "value": 1.357
     },
     {
       "ranked": 12,
-      "districtId": 42,
-      "districtName": "สวนหลวง",
-      "value": 0.943
+      "districtId": 43,
+      "districtName": "สะพานสูง",
+      "value": 1.349
     },
     {
       "ranked": 13,
-      "districtId": 46,
-      "districtName": "สายไหม",
-      "value": 0.774
+      "districtId": 7,
+      "districtName": "ดอนเมือง",
+      "value": 1.037
     },
     {
       "ranked": 14,
-      "districtId": 43,
-      "districtName": "สะพานสูง",
-      "value": 0.438
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 0.958
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 1.82
+      "value": 1.845
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 1.437
+      "value": null
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 1.258
+      "value": null
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 2.166
+      "value": null
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 2.599
+      "value": null
     }
   ]
 }

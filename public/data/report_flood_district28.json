@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": 4,
   "valuePerYear": {
     "2555": 8,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 3,
     "2564": 5,
     "2565": 3,
-    "2566": 1
+    "2566": 1,
+    "2567": 4
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 460315500,
       "focused": 5814500
+    },
+    "2567": {
+      "all": 619169800,
+      "focused": 14456300
     }
   },
   "budgetOverall": {
-    "all": 5580415610,
-    "focused": 268648400
+    "all": 6199585410,
+    "focused": 283104700
   },
-  "ranked": 30,
+  "ranked": 16,
   "rankings": [
     {
       "ranked": 16,
@@ -136,6 +141,11 @@
       "ranked": 30,
       "year": 2566,
       "value": 1
+    },
+    {
+      "ranked": 16,
+      "year": 2567,
+      "value": 4
     }
   ],
   "floodHotspots": [
@@ -144,7 +154,7 @@
       "description": "แยกศรีอุดม"
     }
   ],
-  "meanFloodLevel": 23.7,
+  "meanFloodLevel": 11.4,
   "meanFloodLevelMaximumPoint": {
     "value": 41,
     "year": 2565,
