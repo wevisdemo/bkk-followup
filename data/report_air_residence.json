@@ -1,5 +1,5 @@
 {
-  "value": 130,
+  "value": null,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -7,12 +7,13 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": 46,
-    "2562": 105,
-    "2563": 104,
-    "2564": 109,
-    "2565": 88,
-    "2566": 130
+    "2561": null,
+    "2562": null,
+    "2563": null,
+    "2564": null,
+    "2565": null,
+    "2566": null,
+    "2567": null
   },
   "minimumPoint": {
     "districtId": 4,
@@ -21,10 +22,10 @@
     "value": 0
   },
   "maximumPoint": {
-    "districtId": 28,
-    "districtName": "ประเวศ",
-    "year": 2566,
-    "value": 130
+    "districtId": 31,
+    "districtName": "พระโขนง",
+    "year": 2567,
+    "value": 389
   },
   "budgetPerYear": {},
   "budgetOverall": {
@@ -34,114 +35,114 @@
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 28,
-      "districtName": "ประเวศ",
-      "value": 130
+      "districtId": 31,
+      "districtName": "พระโขนง",
+      "value": 389
     },
     {
       "ranked": 2,
-      "districtId": 26,
-      "districtName": "บึงกุ่ม",
-      "value": 121
+      "districtId": 39,
+      "districtName": "ลาดพร้าว",
+      "value": 365
     },
     {
       "ranked": 3,
-      "districtId": 22,
-      "districtName": "บางนา",
-      "value": 116
+      "districtId": 26,
+      "districtName": "บึงกุ่ม",
+      "value": 224.1
     },
     {
       "ranked": 4,
-      "districtId": 4,
-      "districtName": "คันนายาว",
-      "value": 103
+      "districtId": 18,
+      "districtName": "บางเขน",
+      "value": 213.3
     },
     {
       "ranked": 5,
-      "districtId": 42,
-      "districtName": "สวนหลวง",
-      "value": 101
+      "districtId": 22,
+      "districtName": "บางนา",
+      "value": 190.4
     },
     {
       "ranked": 6,
-      "districtId": 46,
-      "districtName": "สายไหม",
-      "value": 101
+      "districtId": 7,
+      "districtName": "ดอนเมือง",
+      "value": 165
     },
     {
       "ranked": 7,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 100
+      "districtId": 4,
+      "districtName": "คันนายาว",
+      "value": 143.9
     },
     {
       "ranked": 8,
-      "districtId": 40,
-      "districtName": "วังทองหลาง",
-      "value": 99
+      "districtId": 28,
+      "districtName": "ประเวศ",
+      "value": 133.4
     },
     {
       "ranked": 9,
-      "districtId": 7,
-      "districtName": "ดอนเมือง",
-      "value": 97
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 130
     },
     {
       "ranked": 10,
-      "districtId": 18,
-      "districtName": "บางเขน",
-      "value": 97
+      "districtId": 43,
+      "districtName": "สะพานสูง",
+      "value": 124.7
     },
     {
       "ranked": 11,
-      "districtId": 16,
-      "districtName": "บางกะปิ",
-      "value": 93
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 124.2
     },
     {
       "ranked": 12,
-      "districtId": 31,
-      "districtName": "พระโขนง",
-      "value": 93
+      "districtId": 42,
+      "districtName": "สวนหลวง",
+      "value": 123
     },
     {
       "ranked": 13,
-      "districtId": 39,
-      "districtName": "ลาดพร้าว",
-      "value": 84
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 120.6
     },
     {
       "ranked": 14,
-      "districtId": 43,
-      "districtName": "สะพานสูง",
-      "value": 81
+      "districtId": 16,
+      "districtName": "บางกะปิ",
+      "value": 117.6
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 134
+      "value": 484.1
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 130
+      "value": null
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 134
+      "value": null
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 111
+      "value": null
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 117
+      "value": null
     }
   ],
   "sampling": {

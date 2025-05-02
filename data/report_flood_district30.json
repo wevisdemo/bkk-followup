@@ -1,5 +1,5 @@
 {
-  "value": 5,
+  "value": 1,
   "valuePerYear": {
     "2555": 54,
     "2556": 14,
@@ -12,11 +12,12 @@
     "2563": 2,
     "2564": 11,
     "2565": 7,
-    "2566": 5
+    "2566": 5,
+    "2567": 1
   },
   "minimumPoint": {
-    "value": 2,
-    "year": 2563,
+    "value": 1,
+    "year": 2567,
     "districtId": 30,
     "districtName": "พญาไท"
   },
@@ -74,13 +75,17 @@
     "2566": {
       "all": 298718100,
       "focused": 7547000
+    },
+    "2567": {
+      "all": 286863001,
+      "focused": 5947400
     }
   },
   "budgetOverall": {
-    "all": 3631814780,
-    "focused": 159689100
+    "all": 3918677781,
+    "focused": 165636500
   },
-  "ranked": 9,
+  "ranked": 32,
   "rankings": [
     {
       "ranked": 5,
@@ -141,6 +146,11 @@
       "ranked": 9,
       "year": 2566,
       "value": 5
+    },
+    {
+      "ranked": 32,
+      "year": 2567,
+      "value": 1
     }
   ],
   "floodHotspots": [
@@ -181,7 +191,7 @@
       "description": "ถนนพหลโยธิน-ถนนวิภาวดี"
     }
   ],
-  "meanFloodLevel": 30.4,
+  "meanFloodLevel": 10.2,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2558,

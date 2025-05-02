@@ -1,5 +1,5 @@
 {
-  "value": 9,
+  "value": 18,
   "valuePerYear": {
     "2555": 9,
     "2556": 4,
@@ -12,7 +12,8 @@
     "2563": 6,
     "2564": 8,
     "2565": 11,
-    "2566": 9
+    "2566": 9,
+    "2567": 18
   },
   "minimumPoint": {
     "value": 4,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 361319540,
       "focused": 2974800
+    },
+    "2567": {
+      "all": 384999301,
+      "focused": 3528900
     }
   },
   "budgetOverall": {
-    "all": 4389816580,
-    "focused": 115131400
+    "all": 4774815881,
+    "focused": 118660300
   },
-  "ranked": 1,
+  "ranked": 2,
   "rankings": [
     {
       "ranked": 14,
@@ -141,6 +146,11 @@
       "ranked": 1,
       "year": 2566,
       "value": 9
+    },
+    {
+      "ranked": 2,
+      "year": 2567,
+      "value": 18
     }
   ],
   "floodHotspots": [
@@ -177,7 +187,7 @@
       "description": "ตลาดฮ่องกงปีนัง ทางรถไฟ"
     }
   ],
-  "meanFloodLevel": 34.1,
+  "meanFloodLevel": 17.9,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2557,

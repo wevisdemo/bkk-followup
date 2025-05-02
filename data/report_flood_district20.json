@@ -1,5 +1,5 @@
 {
-  "value": 4,
+  "value": 8,
   "valuePerYear": {
     "2555": 60,
     "2556": 6,
@@ -12,7 +12,8 @@
     "2563": 13,
     "2564": 3,
     "2565": 2,
-    "2566": 4
+    "2566": 4,
+    "2567": 8
   },
   "minimumPoint": {
     "value": 1,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 439915300,
       "focused": 17547800
+    },
+    "2567": {
+      "all": 531349375,
+      "focused": 27762430
     }
   },
   "budgetOverall": {
-    "all": 5414886990,
-    "focused": 261322100
+    "all": 5946236365,
+    "focused": 289084530
   },
-  "ranked": 11,
+  "ranked": 7,
   "rankings": [
     {
       "ranked": 4,
@@ -141,6 +146,11 @@
       "ranked": 11,
       "year": 2566,
       "value": 4
+    },
+    {
+      "ranked": 7,
+      "year": 2567,
+      "value": 8
     }
   ],
   "floodHotspots": [
@@ -157,7 +167,7 @@
       "description": "ซอยเพชรเกษม36 -ม.สยาม"
     }
   ],
-  "meanFloodLevel": 19.9,
+  "meanFloodLevel": 18.9,
   "meanFloodLevelMaximumPoint": {
     "value": 34.4,
     "year": 2559,

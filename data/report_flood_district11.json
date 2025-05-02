@@ -12,7 +12,8 @@
     "2563": null,
     "2564": null,
     "2565": null,
-    "2566": null
+    "2566": null,
+    "2567": null
   },
   "minimumPoint": {
     "districtId": 11,
@@ -70,18 +71,23 @@
     "2566": {
       "all": 359942900,
       "focused": 8675700
+    },
+    "2567": {
+      "all": 478717370,
+      "focused": 2644000
     }
   },
   "budgetOverall": {
-    "all": 4048063900,
-    "focused": 126837000
+    "all": 4526781270,
+    "focused": 129481000
   },
   "ranked": null,
   "rankings": [],
-  "meanFloodLevel": 17.6,
+  "floodHotspots": [],
+  "meanFloodLevel": 50,
   "meanFloodLevelMaximumPoint": {
-    "value": 23.3,
-    "year": 2565,
+    "value": 50,
+    "year": 2567,
     "districtId": 11,
     "districtName": "ทวีวัฒนา"
   }

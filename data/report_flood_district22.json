@@ -1,5 +1,5 @@
 {
-  "value": 3,
+  "value": 5,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -12,7 +12,8 @@
     "2563": 7,
     "2564": 3,
     "2565": 5,
-    "2566": 3
+    "2566": 3,
+    "2567": 5
   },
   "minimumPoint": {
     "value": 3,
@@ -74,13 +75,17 @@
     "2566": {
       "all": 290762550,
       "focused": 3260000
+    },
+    "2567": {
+      "all": 345957300,
+      "focused": 7065200
     }
   },
   "budgetOverall": {
-    "all": 3658778390,
-    "focused": 90185800
+    "all": 4004735690,
+    "focused": 97251000
   },
-  "ranked": 17,
+  "ranked": 13,
   "rankings": [
     {
       "ranked": 18,
@@ -131,6 +136,11 @@
       "ranked": 17,
       "year": 2566,
       "value": 3
+    },
+    {
+      "ranked": 13,
+      "year": 2567,
+      "value": 5
     }
   ],
   "floodHotspots": [
@@ -147,7 +157,7 @@
       "description": "วัดศรีเอี่ยม ขาเข้า"
     }
   ],
-  "meanFloodLevel": 33.1,
+  "meanFloodLevel": 27.6,
   "meanFloodLevelMaximumPoint": {
     "value": 50.9,
     "year": 2565,
