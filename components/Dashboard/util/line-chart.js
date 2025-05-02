@@ -86,10 +86,6 @@ export default function DashboardLineChart({
         { year: "66", value: 37.5 },
       ];
     }
-    console.log(
-      _.sum(Object.values(data_line_chart)) / years.length,
-      "data_line_chart"
-    );
 
     let data = [];
     _.forIn(data_line_chart, (d, key) => {
