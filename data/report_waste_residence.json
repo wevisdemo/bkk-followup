@@ -1,19 +1,19 @@
 {
-  "value": null,
+  "value": 1.559,
   "valuePerYear": {
-    "2555": null,
-    "2556": null,
-    "2557": null,
-    "2558": null,
-    "2559": null,
-    "2560": null,
-    "2561": null,
-    "2562": null,
-    "2563": null,
-    "2564": null,
-    "2565": null,
-    "2566": null,
-    "2567": null
+    "2555": 1.517,
+    "2556": 1.557,
+    "2557": 1.563,
+    "2558": 1.566,
+    "2559": 1.601,
+    "2560": 1.679,
+    "2561": 1.679,
+    "2562": 1.682,
+    "2563": 1.572,
+    "2564": 2.218,
+    "2565": 1.54,
+    "2566": 1.437,
+    "2567": 1.559
   },
   "minimumPoint": {
     "districtId": 43,
@@ -29,61 +29,61 @@
   },
   "budgetPerYear": {
     "2555": {
-      "all": 4908482500,
-      "focused": 1277370300
+      "all": 4125604600,
+      "focused": 1100509100
     },
     "2556": {
-      "all": 4981462200,
-      "focused": 1390933000
+      "all": 4172478200,
+      "focused": 1205154300
     },
     "2557": {
-      "all": 5296721200,
-      "focused": 1381079100
+      "all": 4500711900,
+      "focused": 1190830400
     },
     "2558": {
-      "all": 5150126360,
-      "focused": 1413948100
+      "all": 4337335060,
+      "focused": 1218285500
     },
     "2559": {
-      "all": 5265285900,
-      "focused": 1460987500
+      "all": 4501309600,
+      "focused": 1262613100
     },
     "2560": {
-      "all": 5488774200,
-      "focused": 1477414500
+      "all": 4739514100,
+      "focused": 1276208900
     },
     "2561": {
-      "all": 5066597100,
-      "focused": 1552541900
+      "all": 4323583420,
+      "focused": 1344952000
     },
     "2562": {
-      "all": 5098737500,
-      "focused": 1587943900
+      "all": 4363714500,
+      "focused": 1376435000
     },
     "2563": {
-      "all": 5384028800,
-      "focused": 1477215600
+      "all": 4619117800,
+      "focused": 1265085900
     },
     "2564": {
-      "all": 5226776600,
-      "focused": 1596110590
+      "all": 4461290600,
+      "focused": 1385135790
     },
     "2565": {
-      "all": 4484091439,
-      "focused": 783651296
+      "all": 3830252349,
+      "focused": 681461956
     },
     "2566": {
-      "all": 5046553208,
-      "focused": 187168860
+      "all": 4322907958,
+      "focused": 161413810
     },
     "2567": {
-      "all": 6303266831,
-      "focused": 147667046
+      "all": 5330788631,
+      "focused": 125262046
     }
   },
   "budgetOverall": {
-    "all": 67700903838,
-    "focused": 15734031692
+    "all": 57628608718,
+    "focused": 13593347802
   },
   "rankings": [
     {
@@ -130,45 +130,33 @@
     },
     {
       "ranked": 8,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 1.483
-    },
-    {
-      "ranked": 9,
       "districtId": 4,
       "districtName": "คันนายาว",
       "value": 1.382
     },
     {
-      "ranked": 10,
+      "ranked": 9,
       "districtId": 26,
       "districtName": "บึงกุ่ม",
       "value": 1.361
     },
     {
-      "ranked": 11,
+      "ranked": 10,
       "districtId": 18,
       "districtName": "บางเขน",
       "value": 1.357
     },
     {
-      "ranked": 12,
+      "ranked": 11,
       "districtId": 43,
       "districtName": "สะพานสูง",
       "value": 1.349
     },
     {
-      "ranked": 13,
+      "ranked": 12,
       "districtId": 7,
       "districtName": "ดอนเมือง",
       "value": 1.037
-    },
-    {
-      "ranked": 14,
-      "districtId": 46,
-      "districtName": "สายไหม",
-      "value": 0.958
     }
   ],
   "benchmarks": [
@@ -180,22 +168,22 @@
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 1.559
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 1.3
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 1.879
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 2.718
     }
   ]
 }

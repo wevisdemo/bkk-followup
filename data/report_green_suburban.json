@@ -1,19 +1,19 @@
 {
-  "value": null,
+  "value": 8.46,
   "valuePerYear": {
-    "2555": null,
-    "2556": null,
-    "2557": null,
-    "2558": null,
-    "2559": null,
-    "2560": null,
-    "2561": null,
-    "2562": null,
-    "2563": null,
-    "2564": null,
-    "2565": null,
-    "2566": null,
-    "2567": null
+    "2555": 5.07,
+    "2556": 5.37,
+    "2557": 5.95,
+    "2558": 7.02,
+    "2559": 6.74,
+    "2560": 6.57,
+    "2561": 6.57,
+    "2562": 7.76,
+    "2563": 17.49,
+    "2564": 18.12,
+    "2565": 8.28,
+    "2566": 8.47,
+    "2567": 8.46
   },
   "minimumPoint": {
     "districtId": 20,
@@ -29,61 +29,61 @@
   },
   "budgetPerYear": {
     "2555": {
-      "all": 5341762100,
-      "focused": 288195700
+      "all": 4476430100,
+      "focused": 238733000
     },
     "2556": {
-      "all": 5628543100,
-      "focused": 322880300
+      "all": 4761898100,
+      "focused": 267705800
     },
     "2557": {
-      "all": 6014678700,
-      "focused": 330399000
+      "all": 5124011500,
+      "focused": 276974000
     },
     "2558": {
-      "all": 5795749100,
-      "focused": 328657800
+      "all": 4828574300,
+      "focused": 276191300
     },
     "2559": {
-      "all": 5715356700,
-      "focused": 226019100
+      "all": 4733094600,
+      "focused": 198430700
     },
     "2560": {
-      "all": 5977032600,
-      "focused": 235871300
+      "all": 5000000800,
+      "focused": 200252100
     },
     "2561": {
-      "all": 5841390560,
-      "focused": 240895500
+      "all": 4879115880,
+      "focused": 212061100
     },
     "2562": {
-      "all": 5980481300,
-      "focused": 400682800
+      "all": 5021502300,
+      "focused": 330353600
     },
     "2563": {
-      "all": 6443658340,
-      "focused": 410851700
+      "all": 5410250740,
+      "focused": 339531700
     },
     "2564": {
-      "all": 6182171000,
-      "focused": 412759740
+      "all": 5174015800,
+      "focused": 343443740
     },
     "2565": {
-      "all": 5291407258,
-      "focused": 407977440
+      "all": 4410398308,
+      "focused": 341623440
     },
     "2566": {
-      "all": 6071269991,
-      "focused": 149538120
+      "all": 5034447701,
+      "focused": 131065120
     },
     "2567": {
-      "all": 7415236647,
-      "focused": 82200025
+      "all": 6093847312,
+      "focused": 74163925
     }
   },
   "budgetOverall": {
-    "all": 77698737396,
-    "focused": 3836928525
+    "all": 64947587441,
+    "focused": 3230529525
   },
   "rankings": [
     {
@@ -112,60 +112,48 @@
     },
     {
       "ranked": 5,
-      "districtId": 48,
-      "districtName": "หนองจอก",
-      "value": 8.25
-    },
-    {
-      "ranked": 6,
       "districtId": 34,
       "districtName": "มีนบุรี",
       "value": 6.88
     },
     {
-      "ranked": 7,
+      "ranked": 6,
       "districtId": 37,
       "districtName": "ราษฎร์บูรณะ",
       "value": 6.1
     },
     {
-      "ranked": 8,
-      "districtId": 47,
-      "districtName": "หนองแขม",
-      "value": 5.35
-    },
-    {
-      "ranked": 9,
+      "ranked": 7,
       "districtId": 20,
       "districtName": "บางแค",
       "value": 5.3
     },
     {
-      "ranked": 10,
+      "ranked": 8,
       "districtId": 12,
       "districtName": "ทุ่งครุ",
       "value": 4.75
     },
     {
-      "ranked": 11,
+      "ranked": 9,
       "districtId": 3,
       "districtName": "คลองสามวา",
       "value": 4.56
     },
     {
-      "ranked": 12,
+      "ranked": 10,
       "districtId": 38,
       "districtName": "ลาดกระบัง",
       "value": 4.19
     },
     {
-      "ranked": 13,
+      "ranked": 11,
       "districtId": 6,
       "districtName": "จอมทอง",
       "value": 3.36
     },
     {
-      "ranked": 14,
+      "ranked": 12,
       "districtId": 33,
       "districtName": "ภาษีเจริญ",
       "value": 3.27
@@ -180,22 +168,22 @@
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 9.05
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 8.46
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 6.91
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 7.63
     }
   ],
   "publicGreenSpacePerCapita": null

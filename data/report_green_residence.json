@@ -1,19 +1,19 @@
 {
-  "value": null,
+  "value": 9.05,
   "valuePerYear": {
-    "2555": null,
-    "2556": null,
-    "2557": null,
-    "2558": null,
-    "2559": null,
-    "2560": null,
-    "2561": null,
-    "2562": null,
-    "2563": null,
-    "2564": null,
-    "2565": null,
-    "2566": null,
-    "2567": null
+    "2555": 5.83,
+    "2556": 6.22,
+    "2557": 6.93,
+    "2558": 7.3,
+    "2559": 7.37,
+    "2560": 7.37,
+    "2561": 7.37,
+    "2562": 7.86,
+    "2563": 15.82,
+    "2564": 16.48,
+    "2565": 8.83,
+    "2566": 9.02,
+    "2567": 9.05
   },
   "minimumPoint": {
     "districtId": 40,
@@ -29,61 +29,61 @@
   },
   "budgetPerYear": {
     "2555": {
-      "all": 4908482500,
-      "focused": 234580300
+      "all": 4125604600,
+      "focused": 204181400
     },
     "2556": {
-      "all": 4981462200,
-      "focused": 270049400
+      "all": 4172478200,
+      "focused": 236950100
     },
     "2557": {
-      "all": 5296721200,
-      "focused": 305377600
+      "all": 4500711900,
+      "focused": 270960000
     },
     "2558": {
-      "all": 5150126360,
-      "focused": 307977700
+      "all": 4337335060,
+      "focused": 260044600
     },
     "2559": {
-      "all": 5265285900,
-      "focused": 484544100
+      "all": 4501309600,
+      "focused": 401489100
     },
     "2560": {
-      "all": 5488774200,
-      "focused": 314813300
+      "all": 4739514100,
+      "focused": 277674300
     },
     "2561": {
-      "all": 5066597100,
-      "focused": 278841400
+      "all": 4323583420,
+      "focused": 233968700
     },
     "2562": {
-      "all": 5098737500,
-      "focused": 325546300
+      "all": 4363714500,
+      "focused": 285198200
     },
     "2563": {
-      "all": 5384028800,
-      "focused": 326718200
+      "all": 4619117800,
+      "focused": 286267200
     },
     "2564": {
-      "all": 5226776600,
-      "focused": 336603600
+      "all": 4461290600,
+      "focused": 294510600
     },
     "2565": {
-      "all": 4484091439,
-      "focused": 316330990
+      "all": 3830252349,
+      "focused": 277020190
     },
     "2566": {
-      "all": 5046553208,
-      "focused": 110407000
+      "all": 4322907958,
+      "focused": 98990900
     },
     "2567": {
-      "all": 6303266831,
-      "focused": 54564660
+      "all": 5330788631,
+      "focused": 48635260
     }
   },
   "budgetOverall": {
-    "all": 67700903838,
-    "focused": 3666354550
+    "all": 57628608718,
+    "focused": 3175890550
   },
   "rankings": [
     {
@@ -94,78 +94,66 @@
     },
     {
       "ranked": 2,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 18.71
-    },
-    {
-      "ranked": 3,
       "districtId": 28,
       "districtName": "ประเวศ",
       "value": 16.85
     },
     {
-      "ranked": 4,
+      "ranked": 3,
       "districtId": 16,
       "districtName": "บางกะปิ",
       "value": 6.23
     },
     {
-      "ranked": 5,
+      "ranked": 4,
       "districtId": 26,
       "districtName": "บึงกุ่ม",
       "value": 6.15
     },
     {
-      "ranked": 6,
+      "ranked": 5,
       "districtId": 42,
       "districtName": "สวนหลวง",
       "value": 6.15
     },
     {
-      "ranked": 7,
+      "ranked": 6,
       "districtId": 39,
       "districtName": "ลาดพร้าว",
       "value": 5.84
     },
     {
-      "ranked": 8,
+      "ranked": 7,
       "districtId": 18,
       "districtName": "บางเขน",
       "value": 5.81
     },
     {
-      "ranked": 9,
+      "ranked": 8,
       "districtId": 43,
       "districtName": "สะพานสูง",
       "value": 5.72
     },
     {
-      "ranked": 10,
-      "districtId": 46,
-      "districtName": "สายไหม",
-      "value": 5.47
-    },
-    {
-      "ranked": 11,
+      "ranked": 9,
       "districtId": 22,
       "districtName": "บางนา",
       "value": 4.86
     },
     {
-      "ranked": 12,
+      "ranked": 10,
       "districtId": 7,
       "districtName": "ดอนเมือง",
       "value": 4.64
     },
     {
-      "ranked": 13,
+      "ranked": 11,
       "districtId": 31,
       "districtName": "พระโขนง",
       "value": 3.82
     },
     {
-      "ranked": 14,
+      "ranked": 12,
       "districtId": 40,
       "districtName": "วังทองหลาง",
       "value": 2.18
@@ -180,22 +168,22 @@
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 9.05
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 8.46
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 6.91
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 7.63
     }
   ],
   "publicGreenSpacePerCapita": null
