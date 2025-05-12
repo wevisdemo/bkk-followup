@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 469.9,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -7,13 +7,13 @@
     "2558": null,
     "2559": null,
     "2560": null,
-    "2561": null,
-    "2562": null,
-    "2563": null,
-    "2564": null,
-    "2565": null,
-    "2566": null,
-    "2567": null
+    "2561": 63,
+    "2562": 97,
+    "2563": 121,
+    "2564": 105,
+    "2565": 93,
+    "2566": 111,
+    "2567": 469.9
   },
   "minimumPoint": {
     "districtId": 9,
@@ -97,26 +97,23 @@
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 389
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 320.6
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 469.9
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 484.1
     }
   ],
-  "sampling": {
-    "count": 38,
-    "aboveThresholdCount": 33
-  }
+  "sampling": null
 }

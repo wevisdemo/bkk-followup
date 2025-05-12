@@ -1,19 +1,19 @@
 {
-  "value": null,
+  "value": 87,
   "valuePerYear": {
-    "2555": null,
-    "2556": null,
-    "2557": null,
-    "2558": null,
-    "2559": null,
-    "2560": null,
-    "2561": null,
-    "2562": null,
-    "2563": null,
-    "2564": null,
-    "2565": null,
-    "2566": null,
-    "2567": null
+    "2555": 321,
+    "2556": 337,
+    "2557": 651,
+    "2558": 811,
+    "2559": 230,
+    "2560": 708,
+    "2561": 255,
+    "2562": 290,
+    "2563": 91,
+    "2564": 105,
+    "2565": 85,
+    "2566": 57,
+    "2567": 87
   },
   "minimumPoint": {
     "districtId": 35,
@@ -29,61 +29,61 @@
   },
   "budgetPerYear": {
     "2555": {
-      "all": 3956402600,
-      "focused": 133951400
+      "all": 3665727600,
+      "focused": 118315600
     },
     "2556": {
-      "all": 4164147400,
-      "focused": 168389700
+      "all": 3851287800,
+      "focused": 153797400
     },
     "2557": {
-      "all": 4414443300,
-      "focused": 137381300
+      "all": 4090918900,
+      "focused": 122881200
     },
     "2558": {
-      "all": 4131289700,
-      "focused": 130098900
+      "all": 3811233900,
+      "focused": 112823400
     },
     "2559": {
-      "all": 4159547700,
-      "focused": 187846100
+      "all": 3840793200,
+      "focused": 173440200
     },
     "2560": {
-      "all": 4356943900,
-      "focused": 169905800
+      "all": 4019245700,
+      "focused": 153809100
     },
     "2561": {
-      "all": 4305063920,
-      "focused": 180688600
+      "all": 3965363080,
+      "focused": 162220400
     },
     "2562": {
-      "all": 4432998700,
-      "focused": 189608900
+      "all": 4088566700,
+      "focused": 170238600
     },
     "2563": {
-      "all": 4523127314,
-      "focused": 188836554
+      "all": 4170865314,
+      "focused": 171035754
     },
     "2564": {
-      "all": 4725704700,
-      "focused": 190190100
+      "all": 4373216700,
+      "focused": 171874200
     },
     "2565": {
-      "all": 3944054490,
-      "focused": 139438300
+      "all": 3629861130,
+      "focused": 121608000
     },
     "2566": {
-      "all": 4398523678,
-      "focused": 70421398
+      "all": 4037064378,
+      "focused": 63610698
     },
     "2567": {
-      "all": 4885120645,
-      "focused": 76799020
+      "all": 4550786735,
+      "focused": 70655920
     }
   },
   "budgetOverall": {
-    "all": 56397368047,
-    "focused": 1963556072
+    "all": 52094931137,
+    "focused": 1766310472
   },
   "rankings": [
     {
@@ -136,24 +136,18 @@
     },
     {
       "ranked": 9,
-      "districtId": 50,
-      "districtName": "ห้วยขวาง",
-      "value": 2
-    },
-    {
-      "ranked": 10,
       "districtId": 19,
       "districtName": "บางคอแหลม",
       "value": 1
     },
     {
-      "ranked": 11,
+      "ranked": 10,
       "districtId": 21,
       "districtName": "บางซื่อ",
       "value": 1
     },
     {
-      "ranked": 12,
+      "ranked": 11,
       "districtId": 30,
       "districtName": "พญาไท",
       "value": 1
@@ -168,22 +162,22 @@
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": null
+      "value": 70
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": null
+      "value": 22
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": null
+      "value": 8
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": null
+      "value": 87
     }
   ],
   "floodHotspots": [
@@ -526,17 +520,9 @@
     {
       "name": "ถนนจันทน์",
       "description": "แยกสาธุประดิษฐ์-หน้าตลาด"
-    },
-    {
-      "name": "ถนนรัชดาภิเษก",
-      "description": "แยกเทียมร่วมมิตร"
-    },
-    {
-      "name": "ถนนศรีวรา",
-      "description": "แยกศรีวรา คลองเจ้าคุณสิงห์"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 22.02,
   "meanFloodLevelMaximumPoint": {
     "districtId": 5,
     "districtName": "จตุจักร",
