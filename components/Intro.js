@@ -13,7 +13,6 @@ import config from "jsconfig.json";
 
 export default function Intro() {
   const [hide_intro, hideIntro] = useState(false);
-  console.log(landing_data, "leading");
 
   useEffect(() => {
     setTimeout(() => {
