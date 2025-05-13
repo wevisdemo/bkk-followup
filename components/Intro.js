@@ -3,6 +3,7 @@ import intro_bg from "assets/images/intro-bg.png";
 import fb_share from "assets/images/fb_share.svg";
 import twitter_share from "assets/images/twitter_share.svg";
 import line_share from "assets/images/line_share.svg";
+import landing_data from "public/data/landing.json";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -12,6 +13,7 @@ import config from "jsconfig.json";
 
 export default function Intro() {
   const [hide_intro, hideIntro] = useState(false);
+  console.log(landing_data, "leading");
 
   useEffect(() => {
     setTimeout(() => {
@@ -47,7 +49,7 @@ export default function Intro() {
 
           <div className="right text-white-default">
             <h3 className="leading-tight d3">
-              สำรวจย้อนหลัง 12 ปีกับ
+              สำรวจย้อนหลัง {landing_data.yearlyBudgetSummaries.length} ปีกับ
               <br />
               ปัญหาที่กวนใจชาวกทม.
             </h3>

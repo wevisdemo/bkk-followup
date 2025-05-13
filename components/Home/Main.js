@@ -4,6 +4,7 @@ import arrow_down_black from "assets/images/arrow_down_black.svg";
 import config from "jsconfig.json";
 import { isMobileOnly } from "react-device-detect";
 import WvSharer from "@wevisdemo/ui/components/sharer";
+import landing_data from "public/data/landing.json";
 
 export default function Main(props) {
   const { swiper_ref } = props;
@@ -23,7 +24,7 @@ export default function Main(props) {
           </h1>
           <div className="right">
             <h3 className="leading-tight d3">
-              สำรวจย้อนหลัง 12 ปีกับ
+              สำรวจย้อนหลัง {landing_data.yearlyBudgetSummaries.length} ปีกับ
               <br className=" md:hidden lg:block" />
               ปัญหาที่กวนใจชาวกทม.
             </h3>

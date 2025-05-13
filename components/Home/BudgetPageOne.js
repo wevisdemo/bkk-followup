@@ -2,6 +2,7 @@ import React from "react";
 import children from "assets/images/children.gif";
 import p_icon from "assets/images/p_icon.svg";
 import { isMobileOnly, isMobile } from "react-device-detect";
+import landing_data from "public/data/landing.json";
 
 export default function BudgetPageOne(props) {
   const { active_index } = props;
@@ -17,12 +18,12 @@ export default function BudgetPageOne(props) {
             <div className="left">
               <h2 className="hidden leading-tight d2 lg:block">
                 <span className="d2 text-white-default">
-                  สิ้นปี 2566
+                  สิ้นปี {landing_data.latestYear.year}
                   <br />
                   กรุงเทพมีประชากร
                 </span>
                 <br />
-                5,471,588 คน
+                {landing_data.latestYear.population.toLocaleString()} คน
               </h2>
 
               <h3 className="block leading-tight text-center d3 lg:hidden">
@@ -32,19 +33,31 @@ export default function BudgetPageOne(props) {
                   กรุงเทพมีประชากร
                 </span>
                 <br />
-                5,471,588 คน
+                {landing_data.latestYear.population.toLocaleString()} คน
               </h3>
 
               <h2 className="hidden leading-tight d2 mt-14 lg:block">
                 <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
-                79,000 ล้านบาท
+                {(landing_data.latestYear.budget / 1000000).toLocaleString(
+                  "en-US",
+                  {
+                    maximumFractionDigits: 0,
+                  }
+                )}{" "}
+                ล้านบาท
               </h2>
 
               <h3 className="block mt-8 leading-tight text-center d3 lg:hidden">
                 <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
-                79,000 ล้านบาท
+                {(landing_data.latestYear.budget / 1000000).toLocaleString(
+                  "en-US",
+                  {
+                    maximumFractionDigits: 0,
+                  }
+                )}{" "}
+                ล้านบาท
               </h3>
 
               <h3 className="mt-8 text-center h2 lg:text-left">
@@ -71,11 +84,21 @@ export default function BudgetPageOne(props) {
                     }}
                   >
                     <h5 className="text-lg">
-                      ในปี 2566 กทม. ได้รับเงินดูแลเฉลี่ย
+                      ในปี {landing_data.latestYear.year} กทม.
+                      ได้รับเงินดูแลเฉลี่ย
                     </h5>
 
                     <div className="px-4 py-2 my-2 rounded-md budget bg-green-light">
-                      <h4 className="d4">14,438.22 บาท / คน / ปี</h4>
+                      <h4 className="d4">
+                        {landing_data.latestYear.budgetPerCapita.toLocaleString(
+                          "en-US",
+                          {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2,
+                          }
+                        )}{" "}
+                        บาท / คน / ปี
+                      </h4>
                     </div>
                   </div>
 

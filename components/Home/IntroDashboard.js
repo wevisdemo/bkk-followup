@@ -11,6 +11,7 @@ import {
 } from "react-share";
 import { isMobileOnly, isMobile, isTablet } from "react-device-detect";
 import config from "jsconfig.json";
+import landing_data from "public/data/landing.json";
 
 export default function IntroDashboard() {
   const category = [
@@ -50,11 +51,14 @@ export default function IntroDashboard() {
         <div className="flex justify-center flex-1 py-4 md:py-10 lg:py-0">
           <div>
             <div className="mt-5 d3">
-              ร่วมกันสำรวจสถานการณ์ ปัญหาด้านต่างๆ ของ กทม. ในรอบ 12 ปีที่ผ่านมา
+              ร่วมกันสำรวจสถานการณ์ ปัญหาด้านต่างๆ ของ กทม. ในรอบ{" "}
+              {landing_data.yearCount} ปีที่ผ่านมา
             </div>
 
             {!isMobileOnly ? (
-              <h5 className="mt-4 text-lg">ข้อมูลย้อนหลัง พ.ศ. 2555-2566</h5>
+              <h5 className="mt-4 text-lg">
+                ข้อมูลย้อนหลัง พ.ศ. 2555-{landing_data.latestYear.year}
+              </h5>
             ) : null}
 
             {isMobileOnly ? (
@@ -162,7 +166,9 @@ export default function IntroDashboard() {
         ) : null}
 
         {isMobile ? (
-          <p className="mt-2 h4">ข้อมูลย้อนหลัง พ.ศ. 2555-2566</p>
+          <p className="mt-2 h4">
+            ข้อมูลย้อนหลัง พ.ศ. 2555-{landing_data.latestYear.year}
+          </p>
         ) : null}
       </div>
     </div>

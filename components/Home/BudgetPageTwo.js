@@ -2,23 +2,11 @@ import React, { useEffect } from "react";
 import * as d3 from "d3";
 import numeral from "numeral";
 import { isMobileOnly } from "react-device-detect";
-
+import landing_data from "public/data/landing.json";
 export default function BudgetPageTwo() {
   useEffect(() => {
-    const data = [
-      { year: 2555, value: 12338 },
-      { year: 2556, value: 12295 },
-      { year: 2557, value: 12297 },
-      { year: 2558, value: 11411 },
-      { year: 2559, value: 12310 },
-      { year: 2560, value: 13676 },
-      { year: 2561, value: 13829 },
-      { year: 2562, value: 14119 },
-      { year: 2563, value: 15313 },
-      { year: 2564, value: 13658 },
-      { year: 2565, value: 14373 },
-      { year: 2566, value: 14438 },
-    ];
+    landing_data.budgetPerCapita;
+    const data = landing_data.budgetPerCapita;
 
     const parent_width = d3.select(".line-chart").node().clientWidth;
 
@@ -117,7 +105,7 @@ export default function BudgetPageTwo() {
       .append("text")
       .attr("class", "label-unit")
       .attr("x", (d) => x_scale(d.year))
-      .attr("y", (d) => y_scale(d.value))
+      .attr("y", (d) => y_scale(d.value.toFixed(0)))
       .attr("dy", "-12")
       .style("font-size", "16px")
       .style("fill", "#7AE2A6")
@@ -165,7 +153,8 @@ export default function BudgetPageTwo() {
       <div className="w-full">
         <div className="container mx-auto">
           <h3 className="mt-5 text-left lg:w-9/12 d3 text-white-default lg:mt-14 md:text-center lg:text-left">
-            12 ปีที่ผ่านมา (2555-2566) กทม. ใช้งบประมาณ
+            {landing_data.yearCount} ปีที่ผ่านมา (2555-
+            {landing_data.latestYear.year}) กทม. ใช้งบประมาณ
             ดูแลประชากรที่มีทะเบียนบ้านใน กทม. ไม่เคยต่ำกว่า
           </h3>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import p_icon from "assets/images/p_icon.svg";
 import bkk_follow_up2 from "assets/images/bkk_follow_up2.gif";
+import landing_data from "public/data/landing.json";
 
 export default function ResponsibilityPageOne() {
   return (
@@ -17,15 +18,16 @@ export default function ResponsibilityPageOne() {
 
         <p className="mt-6 text-xl leading-6 md:mt-10 lg:text-2xl lg:w-4/5 lg:mx-auto">
           การบริหารงานเพื่อให้ตอบสนองต่อความต้องการของประชาชน
-          จึงถือเป็นโจทย์สำคัญสำหรับว่าที่ผู้ว่าฯ และสภากทม.
+          ถือเป็นโจทย์สำคัญสำหรับว่าที่ผู้ว่าฯ และสภากทม.
           ผู้มีบทบาทในการบริหารกรุงเทพมหานคร
         </p>
 
         <p className="mt-4 text-xl leading-6 md:mt-10 lg:text-2xl lg:w-4/5 lg:mx-auto">
           เราเลยอยากชวนประชาชน ว่าที่ผู้ว่าฯ และสภากทม.
           มาร่วมทำความเข้าใจอำนาจหน้าที่ การบริหารงบประมาณ
-          และสถานการณ์ปัญหาด้านต่าง ๆ ผ่านชุดข้อมูลย้อนหลัง (พ.ศ. 2555-2566)
-          เพื่อช่วยกันสร้างกรุงเทพฯ และชีวิตดี ๆ แบบที่เราฝันอยากให้เป็นร่วมกัน
+          และสถานการณ์ปัญหาด้านต่าง ๆ ผ่านชุดข้อมูลย้อนหลัง (พ.ศ. 2555-
+          {landing_data.latestYear.year}) เพื่อช่วยกันสร้างกรุงเทพฯ และชีวิตดี ๆ
+          แบบที่เราฝันอยากให้เป็นร่วมกัน
         </p>
 
         {/* <a

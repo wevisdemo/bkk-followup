@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import _ from "lodash";
 import numeral from "numeral";
 import { isMobile, isMobileOnly, isTablet } from "react-device-detect";
+import landing_data from "public/data/landing.json";
 
 export default function BudgetPageFour(props) {
   const { active_index } = props;
