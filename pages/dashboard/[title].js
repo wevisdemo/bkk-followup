@@ -466,6 +466,7 @@ export default function Dashboard(props) {
                 SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
                 SET_CHECKED={SET_CHECKED}
                 SET_DISTRICT={SET_DISTRICT}
+                years={years}
               />
             )}
 

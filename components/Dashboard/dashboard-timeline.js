@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import _ from 'lodash';
-import playImg from 'assets/images/play.svg';
-import pauseImg from 'assets/images/pause.svg';
-import { isMobileOnly } from 'react-device-detect';
+import React, { useState } from "react";
+import _ from "lodash";
+import playImg from "assets/images/play.svg";
+import pauseImg from "assets/images/pause.svg";
+import { isMobileOnly } from "react-device-detect";
 
 const timeLine = ({
   selected_index,
@@ -42,12 +42,6 @@ const timeLine = ({
   if (selected_index == years.length - 1) {
     clearInterval(interval);
   }
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     play();
-  //   }, 4500);
-  // }, []);
 
   return (
     <div
@@ -98,15 +92,15 @@ const timeLine = ({
               key={index}
               className={
                 index <= selected_index
-                  ? 'active-tl timeline-li'
-                  : 'unselected timeline-li'
+                  ? "active-tl timeline-li"
+                  : "unselected timeline-li"
               }
             >
               <div
                 className={
                   index === selected_index
-                    ? 'text-selected text h4'
-                    : 'text h4 text-white-default'
+                    ? "text-selected text h4"
+                    : "text h4 text-white-default"
                 }
                 onClick={() => selectedYear(y, index)}
               >
