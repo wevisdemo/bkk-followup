@@ -1,0 +1,13 @@
+{
+  "green": {
+    "date": "2025-05-01",
+    "perCapita": 7.87,
+    "accessiblePerCapita": 1.209
+  },
+  "air": {
+    "latestYearAverage": 27.5
+  },
+  "waste": {
+    "latestYearNationwidePerCapita": 1.569
+  }
+}

@@ -180,6 +180,22 @@
       "45": {
         "districtName": "สาทร",
         "value": null
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": null
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": null
       }
     },
     "2556": {
@@ -361,6 +377,22 @@
       },
       "45": {
         "districtName": "สาทร",
+        "value": null
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": null
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
         "value": null
       }
     },
@@ -544,6 +576,22 @@
       "45": {
         "districtName": "สาทร",
         "value": null
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": null
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": null
       }
     },
     "2558": {
@@ -725,6 +773,22 @@
       },
       "45": {
         "districtName": "สาทร",
+        "value": null
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": null
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
         "value": null
       }
     },
@@ -908,6 +972,22 @@
       "45": {
         "districtName": "สาทร",
         "value": null
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": null
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": null
       }
     },
     "2560": {
@@ -1089,6 +1169,22 @@
       },
       "45": {
         "districtName": "สาทร",
+        "value": null
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": null
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
         "value": null
       }
     },
@@ -1272,6 +1368,22 @@
       "45": {
         "districtName": "สาทร",
         "value": 26
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 0
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 0
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 0
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 20
       }
     },
     "2562": {
@@ -1453,6 +1565,22 @@
       },
       "45": {
         "districtName": "สาทร",
+        "value": 90
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 0
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 0
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 0
+      },
+      "49": {
+        "districtName": "หลักสี่",
         "value": 90
       }
     },
@@ -1636,6 +1764,22 @@
       "45": {
         "districtName": "สาทร",
         "value": 44
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 82
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 111
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 55
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 88
       }
     },
     "2564": {
@@ -1818,6 +1962,22 @@
       "45": {
         "districtName": "สาทร",
         "value": 109
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 95
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 111
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 97
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 83
       }
     },
     "2565": {
@@ -2000,6 +2160,22 @@
       "45": {
         "districtName": "สาทร",
         "value": 76
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 75
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 112
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 78
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 74
       }
     },
     "2566": {
@@ -2182,6 +2358,22 @@
       "45": {
         "districtName": "สาทร",
         "value": 117
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 101
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 134
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 109
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 100
       }
     },
     "2567": {
@@ -2364,6 +2556,22 @@
       "45": {
         "districtName": "สาทร",
         "value": 108.8
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 124.2
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": 320.6
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": 166.2
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 120.6
       }
     }
   }

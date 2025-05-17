@@ -95,12 +95,24 @@
     },
     {
       "ranked": 11,
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 124.2
+    },
+    {
+      "ranked": 12,
       "districtId": 42,
       "districtName": "สวนหลวง",
       "value": 123
     },
     {
-      "ranked": 12,
+      "ranked": 13,
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 120.6
+    },
+    {
+      "ranked": 14,
       "districtId": 16,
       "districtName": "บางกะปิ",
       "value": 117.6
@@ -133,5 +145,8 @@
       "value": 484.1
     }
   ],
-  "sampling": null
+  "sampling": {
+    "count": 75,
+    "aboveThresholdCount": 59
+  }
 }

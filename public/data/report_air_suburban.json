@@ -22,10 +22,10 @@
     "value": 0
   },
   "maximumPoint": {
-    "districtId": 17,
-    "districtName": "บางขุนเทียน",
+    "districtId": 47,
+    "districtName": "หนองแขม",
     "year": 2567,
-    "value": 211
+    "value": 320.6
   },
   "budgetPerYear": {},
   "budgetOverall": {
@@ -35,72 +35,84 @@
   "rankings": [
     {
       "ranked": 1,
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 320.6
+    },
+    {
+      "ranked": 2,
       "districtId": 17,
       "districtName": "บางขุนเทียน",
       "value": 211
     },
     {
-      "ranked": 2,
+      "ranked": 3,
       "districtId": 10,
       "districtName": "ตลิ่งชัน",
       "value": 195.5
     },
     {
-      "ranked": 3,
+      "ranked": 4,
       "districtId": 34,
       "districtName": "มีนบุรี",
       "value": 170.9
     },
     {
-      "ranked": 4,
+      "ranked": 5,
+      "districtId": 48,
+      "districtName": "หนองจอก",
+      "value": 166.2
+    },
+    {
+      "ranked": 6,
       "districtId": 6,
       "districtName": "จอมทอง",
       "value": 159.4
     },
     {
-      "ranked": 5,
+      "ranked": 7,
       "districtId": 37,
       "districtName": "ราษฎร์บูรณะ",
       "value": 157.5
     },
     {
-      "ranked": 6,
+      "ranked": 8,
       "districtId": 38,
       "districtName": "ลาดกระบัง",
       "value": 156.8
     },
     {
-      "ranked": 7,
+      "ranked": 9,
       "districtId": 12,
       "districtName": "ทุ่งครุ",
       "value": 155.1
     },
     {
-      "ranked": 8,
+      "ranked": 10,
       "districtId": 23,
       "districtName": "บางบอน",
       "value": 150.6
     },
     {
-      "ranked": 9,
+      "ranked": 11,
       "districtId": 11,
       "districtName": "ทวีวัฒนา",
       "value": 141
     },
     {
-      "ranked": 10,
+      "ranked": 12,
       "districtId": 3,
       "districtName": "คลองสามวา",
       "value": 140
     },
     {
-      "ranked": 11,
+      "ranked": 13,
       "districtId": 33,
       "districtName": "ภาษีเจริญ",
       "value": 127.7
     },
     {
-      "ranked": 12,
+      "ranked": 14,
       "districtId": 20,
       "districtName": "บางแค",
       "value": 119.5
@@ -133,5 +145,8 @@
       "value": 484.1
     }
   ],
-  "sampling": null
+  "sampling": {
+    "count": 200,
+    "aboveThresholdCount": 144
+  }
 }

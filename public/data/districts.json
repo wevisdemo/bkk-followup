@@ -358,5 +358,37 @@
     "areaSize": 9.33,
     "minimumPopulationDensity": 11351,
     "maximumPopluationDensity": 9119
+  },
+  {
+    "id": 46,
+    "name": "สายไหม",
+    "districtType": "residence",
+    "areaSize": 44.62,
+    "minimumPopulationDensity": 4627,
+    "maximumPopluationDensity": 4624
+  },
+  {
+    "id": 47,
+    "name": "หนองแขม",
+    "districtType": "suburban",
+    "areaSize": 35.83,
+    "minimumPopulationDensity": 2430,
+    "maximumPopluationDensity": 4364
+  },
+  {
+    "id": 48,
+    "name": "หนองจอก",
+    "districtType": "suburban",
+    "areaSize": 236.26,
+    "minimumPopulationDensity": 333.52,
+    "maximumPopluationDensity": 745
+  },
+  {
+    "id": 49,
+    "name": "หลักสี่",
+    "districtType": "residence",
+    "areaSize": 22.84,
+    "minimumPopulationDensity": 5402,
+    "maximumPopluationDensity": 4810
   }
 ]
