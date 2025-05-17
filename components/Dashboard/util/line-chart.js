@@ -1,90 +1,36 @@
 import React, { useEffect } from "react";
 import { isMobileOnly } from "react-device-detect";
 import * as d3 from "d3";
-
+import dashboard from "public/data/dashboard.json";
 export default function DashboardLineChart({
   selected_theme,
   data_line_chart,
   years,
 }) {
+  function convertYearsToAVG(years, avgValue) {
+    return years.map((year) => ({
+      year: year.slice(2), // เอาเฉพาะเลขสองตัวท้าย เช่น "2555" → "55"
+      value: avgValue,
+    }));
+  }
+  function convertYearObjectToArray(data) {
+    return Object.entries(data).map(([year, value]) => ({
+      year: year.slice(2), // ตัดปีให้เหลือ 2 หลักท้าย เช่น "2555" → "55"
+      value: value,
+    }));
+  }
   const createChart = () => {
     let AVG;
-
     if (selected_theme.name === "น้ำท่วมถนน") {
-      AVG = [
-        { year: "55", value: 22.53 },
-        { year: "56", value: 22.53 },
-        { year: "57", value: 22.53 },
-        { year: "58", value: 22.53 },
-        { year: "59", value: 22.53 },
-        { year: "60", value: 22.53 },
-        { year: "61", value: 22.53 },
-        { year: "62", value: 22.53 },
-        { year: "63", value: 22.53 },
-        { year: "64", value: 22.53 },
-        { year: "65", value: 22.53 },
-        { year: "66", value: 22.53 },
-      ];
+      AVG = convertYearsToAVG(years, 22.53);
     } else if (selected_theme.name === "พื้นที่สีเขียว") {
-      AVG = [
-        { year: "55", value: 9 },
-        { year: "56", value: 9 },
-        { year: "57", value: 9 },
-        { year: "58", value: 9 },
-        { year: "59", value: 9 },
-        { year: "60", value: 9 },
-        { year: "61", value: 9 },
-        { year: "62", value: 9 },
-        { year: "63", value: 9 },
-        { year: "64", value: 9 },
-        { year: "65", value: 9 },
-        { year: "66", value: 9 },
-      ];
+      AVG = convertYearsToAVG(years, 9);
     } else if (selected_theme.name === "มลพิษในคลอง") {
-      AVG = [
-        { year: "55", value: 4 },
-        { year: "56", value: 4 },
-        { year: "57", value: 4 },
-        { year: "58", value: 4 },
-        { year: "59", value: 4 },
-        { year: "60", value: 4 },
-        { year: "61", value: 4 },
-        { year: "62", value: 4 },
-        { year: "63", value: 4 },
-        { year: "64", value: 4 },
-        { year: "65", value: 4 },
-        { year: "66", value: 4 },
-      ];
+      AVG = convertYearsToAVG(years, 4);
     } else if (selected_theme.name === "ขยะมูลฝอย") {
-      AVG = [
-        { year: "55", value: 1.05 },
-        { year: "56", value: 1.15 },
-        { year: "57", value: 1.11 },
-        { year: "58", value: 1.13 },
-        { year: "59", value: 1.14 },
-        { year: "60", value: 1.13 },
-        { year: "61", value: 1.15 },
-        { year: "62", value: 1.18 },
-        { year: "63", value: 1.05 },
-        { year: "64", value: 1.05 },
-        { year: "65", value: 1.07 },
-        { year: "66", value: 1.12 },
-      ];
+      AVG = convertYearObjectToArray(dashboard.waste.nationwidePerCapita);
     } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
-      AVG = [
-        { year: "55", value: 37.5 },
-        { year: "56", value: 37.5 },
-        { year: "57", value: 37.5 },
-        { year: "58", value: 37.5 },
-        { year: "59", value: 37.5 },
-        { year: "60", value: 37.5 },
-        { year: "61", value: 37.5 },
-        { year: "62", value: 37.5 },
-        { year: "63", value: 37.5 },
-        { year: "64", value: 37.5 },
-        { year: "65", value: 37.5 },
-        { year: "66", value: 37.5 },
-      ];
+      AVG = convertYearsToAVG(years, 37.5);
     }
 
     let data = [];

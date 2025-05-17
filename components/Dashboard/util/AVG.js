@@ -2,6 +2,7 @@ import React from "react";
 import Rating from "components/Dashboard/util/rating";
 import exclamation from "assets/images/exclamation.svg";
 import smile from "assets/images/smile.svg";
+import dashboard from "public/data/dashboard.json";
 
 const AVG = ({
   selected_theme,
@@ -100,7 +101,7 @@ const AVG = ({
     unit_filter = "มค.ก./ลบ.ม.";
     AVG_max = "เขตที่มีค่าสูงสุดของ PM2.5 มากที่สุด";
     AVG_min = "เขตที่มีค่าสูงสุดของ PM2.5 น้อยที่สุด";
-    AVG = "26.5";
+    AVG = dashboard.air.latestYearAverage;
     compare_title = "เปรียบเทียบปัญหาฝุ่นควันสูงแต่ละกลุ่มเขต";
     rank_text = `ปี ${
       years[years.length - 1]

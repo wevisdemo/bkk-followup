@@ -108,14 +108,23 @@ const about = () => {
                 <li>
                   เรื่องฝุ่นควันเกินมาตรฐาน จาก{" "}
                   <a
+                    href="https://airquality.airbkk.com/PublicWebClient/#/Modules/Aqs/DashboardPage"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="b2 underline"
+                  >
+                    รายงานการตรวจวัดคุณภาพอากาศ กองจัดการคุณภาพอากาศและเสียง
+                  </a>{" "}
+                  (2567),{" "}
+                  <a
                     href="https://stations.airbkk.com/bma_register/register.html"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="b2 underline"
                   >
-                    กองจัดการคุณภาพอากาศและเสียง สำนักสิ่งแวดล้อม
+                    ส่วนบริการข้อมูล กองจัดการคุณภาพอากาศและเสียง
                   </a>{" "}
-                  และ สำนักยุทธศาสตร์และประเมินผล
+                  (2565-2566) และ สำนักยุทธศาสตร์และประเมินผล (2555-2565)
                 </li>
               </ul>
               <p className=" mt-2 mb-1">ที่มาข้อมูลอื่น ๆ</p>
