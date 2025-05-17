@@ -22,10 +22,10 @@
     "value": 2.92
   },
   "maximumPoint": {
-    "districtId": 38,
-    "districtName": "ลาดกระบัง",
+    "districtId": 47,
+    "districtName": "หนองแขม",
     "year": 2564,
-    "value": 17.81
+    "value": 20.52
   },
   "budgetPerYear": {},
   "budgetOverall": {
@@ -47,54 +47,66 @@
     },
     {
       "ranked": 3,
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 9.35
+    },
+    {
+      "ranked": 4,
       "districtId": 23,
       "districtName": "บางบอน",
       "value": 7.67
     },
     {
-      "ranked": 4,
+      "ranked": 5,
       "districtId": 37,
       "districtName": "ราษฎร์บูรณะ",
       "value": 7.32
     },
     {
-      "ranked": 5,
+      "ranked": 6,
       "districtId": 34,
       "districtName": "มีนบุรี",
       "value": 6.93
     },
     {
-      "ranked": 6,
+      "ranked": 7,
       "districtId": 17,
       "districtName": "บางขุนเทียน",
       "value": 6.29
     },
     {
-      "ranked": 7,
+      "ranked": 8,
+      "districtId": 48,
+      "districtName": "หนองจอก",
+      "value": 6.27
+    },
+    {
+      "ranked": 9,
       "districtId": 6,
       "districtName": "จอมทอง",
       "value": 6.18
     },
     {
-      "ranked": 8,
+      "ranked": 10,
       "districtId": 3,
       "districtName": "คลองสามวา",
       "value": 5.46
     },
     {
-      "ranked": 9,
+      "ranked": 11,
       "districtId": 33,
       "districtName": "ภาษีเจริญ",
       "value": 5.28
     },
     {
-      "ranked": 10,
+      "ranked": 12,
       "districtId": 10,
       "districtName": "ตลิ่งชัน",
       "value": 4.72
     },
     {
-      "ranked": 11,
+      "ranked": 13,
       "districtId": 11,
       "districtName": "ทวีวัฒนา",
       "value": 3.94

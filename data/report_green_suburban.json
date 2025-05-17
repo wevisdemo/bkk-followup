@@ -29,61 +29,61 @@
   },
   "budgetPerYear": {
     "2555": {
-      "all": 4476430100,
-      "focused": 238733000
+      "all": 5341762100,
+      "focused": 288195700
     },
     "2556": {
-      "all": 4761898100,
-      "focused": 267705800
+      "all": 5628543100,
+      "focused": 322880300
     },
     "2557": {
-      "all": 5124011500,
-      "focused": 276974000
+      "all": 6014678700,
+      "focused": 330399000
     },
     "2558": {
-      "all": 4828574300,
-      "focused": 276191300
+      "all": 5795749100,
+      "focused": 328657800
     },
     "2559": {
-      "all": 4733094600,
-      "focused": 198430700
+      "all": 5715356700,
+      "focused": 226019100
     },
     "2560": {
-      "all": 5000000800,
-      "focused": 200252100
+      "all": 5977032600,
+      "focused": 235871300
     },
     "2561": {
-      "all": 4879115880,
-      "focused": 212061100
+      "all": 5841390560,
+      "focused": 240895500
     },
     "2562": {
-      "all": 5021502300,
-      "focused": 330353600
+      "all": 5980481300,
+      "focused": 400682800
     },
     "2563": {
-      "all": 5410250740,
-      "focused": 339531700
+      "all": 6443658340,
+      "focused": 410851700
     },
     "2564": {
-      "all": 5174015800,
-      "focused": 343443740
+      "all": 6182171000,
+      "focused": 412759740
     },
     "2565": {
-      "all": 4410398308,
-      "focused": 341623440
+      "all": 5291407258,
+      "focused": 407977440
     },
     "2566": {
-      "all": 5034447701,
-      "focused": 131065120
+      "all": 6071269991,
+      "focused": 149538120
     },
     "2567": {
-      "all": 6093847312,
-      "focused": 74163925
+      "all": 7415236647,
+      "focused": 82200025
     }
   },
   "budgetOverall": {
-    "all": 64947587441,
-    "focused": 3230529525
+    "all": 77698737396,
+    "focused": 3836928525
   },
   "rankings": [
     {
@@ -112,48 +112,60 @@
     },
     {
       "ranked": 5,
+      "districtId": 48,
+      "districtName": "หนองจอก",
+      "value": 8.25
+    },
+    {
+      "ranked": 6,
       "districtId": 34,
       "districtName": "มีนบุรี",
       "value": 6.88
     },
     {
-      "ranked": 6,
+      "ranked": 7,
       "districtId": 37,
       "districtName": "ราษฎร์บูรณะ",
       "value": 6.1
     },
     {
-      "ranked": 7,
+      "ranked": 8,
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 5.35
+    },
+    {
+      "ranked": 9,
       "districtId": 20,
       "districtName": "บางแค",
       "value": 5.3
     },
     {
-      "ranked": 8,
+      "ranked": 10,
       "districtId": 12,
       "districtName": "ทุ่งครุ",
       "value": 4.75
     },
     {
-      "ranked": 9,
+      "ranked": 11,
       "districtId": 3,
       "districtName": "คลองสามวา",
       "value": 4.56
     },
     {
-      "ranked": 10,
+      "ranked": 12,
       "districtId": 38,
       "districtName": "ลาดกระบัง",
       "value": 4.19
     },
     {
-      "ranked": 11,
+      "ranked": 13,
       "districtId": 6,
       "districtName": "จอมทอง",
       "value": 3.36
     },
     {
-      "ranked": 12,
+      "ranked": 14,
       "districtId": 33,
       "districtName": "ภาษีเจริญ",
       "value": 3.27

@@ -22,108 +22,120 @@
     "value": 0
   },
   "maximumPoint": {
-    "districtId": 22,
-    "districtName": "บางนา",
-    "year": 2558,
-    "value": 335
+    "districtId": 49,
+    "districtName": "หลักสี่",
+    "year": 2560,
+    "value": 376
   },
   "budgetPerYear": {
     "2555": {
-      "all": 4125604600,
-      "focused": 195491500
+      "all": 4908482500,
+      "focused": 216427400
     },
     "2556": {
-      "all": 4172478200,
-      "focused": 199994700
+      "all": 4981462200,
+      "focused": 234408300
     },
     "2557": {
-      "all": 4500711900,
-      "focused": 214860000
+      "all": 5296721200,
+      "focused": 237517800
     },
     "2558": {
-      "all": 4337335060,
-      "focused": 367239200
+      "all": 5150126360,
+      "focused": 389638400
     },
     "2559": {
-      "all": 4501309600,
-      "focused": 401489100
+      "all": 5265285900,
+      "focused": 484544100
     },
     "2560": {
-      "all": 4739514100,
-      "focused": 277674300
+      "all": 5488774200,
+      "focused": 314813300
     },
     "2561": {
-      "all": 4323583420,
-      "focused": 233968700
+      "all": 5066597100,
+      "focused": 278841400
     },
     "2562": {
-      "all": 4363714500,
-      "focused": 246015700
+      "all": 5098737500,
+      "focused": 291386000
     },
     "2563": {
-      "all": 4619117800,
-      "focused": 273830100
+      "all": 5384028800,
+      "focused": 306834900
     },
     "2564": {
-      "all": 4461290600,
-      "focused": 232323200
+      "all": 5226776600,
+      "focused": 264402000
     },
     "2565": {
-      "all": 3830252349,
-      "focused": 228985880
+      "all": 4484091439,
+      "focused": 258404480
     },
     "2566": {
-      "all": 4322907958,
-      "focused": 96051600
+      "all": 5046553208,
+      "focused": 109040700
     },
     "2567": {
-      "all": 5330788631,
-      "focused": 158274450
+      "all": 6303266831,
+      "focused": 255104050
     }
   },
   "budgetOverall": {
-    "all": 57628608718,
-    "focused": 3126198430
+    "all": 67700903838,
+    "focused": 3641362830
   },
   "rankings": [
     {
       "ranked": 1,
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 20
+    },
+    {
+      "ranked": 2,
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 15
+    },
+    {
+      "ranked": 3,
       "districtId": 42,
       "districtName": "สวนหลวง",
       "value": 8
     },
     {
-      "ranked": 2,
+      "ranked": 4,
       "districtId": 26,
       "districtName": "บึงกุ่ม",
       "value": 7
     },
     {
-      "ranked": 3,
+      "ranked": 5,
       "districtId": 18,
       "districtName": "บางเขน",
       "value": 5
     },
     {
-      "ranked": 4,
+      "ranked": 6,
       "districtId": 22,
       "districtName": "บางนา",
       "value": 5
     },
     {
-      "ranked": 5,
+      "ranked": 7,
       "districtId": 31,
       "districtName": "พระโขนง",
       "value": 5
     },
     {
-      "ranked": 6,
+      "ranked": 8,
       "districtId": 28,
       "districtName": "ประเวศ",
       "value": 4
     },
     {
-      "ranked": 7,
+      "ranked": 9,
       "districtId": 7,
       "districtName": "ดอนเมือง",
       "value": 1
@@ -248,6 +260,26 @@
     {
       "name": "ถนนพัฒนาการขาออก",
       "description": "ซอยรามคำเเหง 1 ซอยรามคำเเหง 5"
+    },
+    {
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "ศาลปกครองกลาง"
+    },
+    {
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "หน้ากรมทหาร"
+    },
+    {
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "มทบ.11"
+    },
+    {
+      "name": "ถนนแจ้งวัฒนะ",
+      "description": "หน้าห้างโลตัส"
+    },
+    {
+      "name": "ถนนงานวงศ์วาน",
+      "description": "หน้าตลาดพงษ์เพชร"
     }
   ],
   "meanFloodLevel": 21.34,

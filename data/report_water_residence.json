@@ -83,24 +83,36 @@
     },
     {
       "ranked": 9,
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 13.63
+    },
+    {
+      "ranked": 10,
       "districtId": 7,
       "districtName": "ดอนเมือง",
       "value": 13
     },
     {
-      "ranked": 10,
+      "ranked": 11,
       "districtId": 4,
       "districtName": "คันนายาว",
       "value": 12.25
     },
     {
-      "ranked": 11,
+      "ranked": 12,
       "districtId": 16,
       "districtName": "บางกะปิ",
       "value": 11.47
     },
     {
-      "ranked": 12,
+      "ranked": 13,
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 7.8
+    },
+    {
+      "ranked": 14,
       "districtId": 43,
       "districtName": "สะพานสูง",
       "value": 7.79

@@ -133,5 +133,8 @@
       "value": 484.1
     }
   ],
-  "sampling": null
+  "sampling": {
+    "count": 179,
+    "aboveThresholdCount": 123
+  }
 }
