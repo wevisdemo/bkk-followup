@@ -101,6 +101,12 @@
     },
     {
       "ranked": 12,
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 102.5
+    },
+    {
+      "ranked": 13,
       "districtId": 30,
       "districtName": "พญาไท",
       "value": 99.7

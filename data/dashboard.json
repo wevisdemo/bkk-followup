@@ -2,10 +2,15 @@
   "green": {
     "date": "2025-05-01",
     "perCapita": 7.87,
-    "accessiblePerCapita": 1.209
+    "accessiblePerCapita": 1.209,
+    "standard": 9
+  },
+  "water": {
+    "standard": 4
   },
   "air": {
-    "latestYearAverage": 27.5
+    "latestYearAverage": 27.5,
+    "standard": 37.5
   },
   "waste": {
     "nationwidePerCapita": {

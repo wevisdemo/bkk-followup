@@ -390,5 +390,13 @@
     "areaSize": 22.84,
     "minimumPopulationDensity": 5402,
     "maximumPopluationDensity": 4810
+  },
+  {
+    "id": 50,
+    "name": "ห้วยขวาง",
+    "districtType": "business",
+    "areaSize": 15.03,
+    "minimumPopulationDensity": 6829,
+    "maximumPopluationDensity": 5610
   }
 ]
