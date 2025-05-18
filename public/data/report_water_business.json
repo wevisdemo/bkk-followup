@@ -65,42 +65,48 @@
     },
     {
       "ranked": 6,
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 19.86
+    },
+    {
+      "ranked": 7,
       "districtId": 36,
       "districtName": "ราชเทวี",
       "value": 19.33
     },
     {
-      "ranked": 7,
+      "ranked": 8,
       "districtId": 41,
       "districtName": "วัฒนา",
       "value": 13.31
     },
     {
-      "ranked": 8,
+      "ranked": 9,
       "districtId": 5,
       "districtName": "จตุจักร",
       "value": 12.32
     },
     {
-      "ranked": 9,
+      "ranked": 10,
       "districtId": 35,
       "districtName": "ยานนาวา",
       "value": 12.22
     },
     {
-      "ranked": 10,
+      "ranked": 11,
       "districtId": 19,
       "districtName": "บางคอแหลม",
       "value": 11.71
     },
     {
-      "ranked": 11,
+      "ranked": 12,
       "districtId": 21,
       "districtName": "บางซื่อ",
       "value": 9.8
     },
     {
-      "ranked": 12,
+      "ranked": 13,
       "districtId": 30,
       "districtName": "พญาไท",
       "value": 9.25

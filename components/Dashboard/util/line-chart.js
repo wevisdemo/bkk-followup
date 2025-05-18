@@ -24,13 +24,13 @@ export default function DashboardLineChart({
     if (selected_theme.name === "น้ำท่วมถนน") {
       AVG = convertYearsToAVG(years, 22.53);
     } else if (selected_theme.name === "พื้นที่สีเขียว") {
-      AVG = convertYearsToAVG(years, 9);
+      AVG = convertYearsToAVG(years, dashboard.green.standard);
     } else if (selected_theme.name === "มลพิษในคลอง") {
-      AVG = convertYearsToAVG(years, 4);
+      AVG = convertYearsToAVG(years, dashboard.water.standard);
     } else if (selected_theme.name === "ขยะมูลฝอย") {
       AVG = convertYearObjectToArray(dashboard.waste.nationwidePerCapita);
     } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
-      AVG = convertYearsToAVG(years, 37.5);
+      AVG = convertYearsToAVG(years, dashboard.air.standard);
     }
 
     let data = [];
@@ -51,7 +51,7 @@ export default function DashboardLineChart({
     x_scale.domain(
       d3.extent(data, function (d) {
         return d.year;
-      })
+      }),
     );
 
     const scale_data = [...data, ...AVG];

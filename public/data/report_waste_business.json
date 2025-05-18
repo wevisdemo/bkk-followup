@@ -29,61 +29,61 @@
   },
   "budgetPerYear": {
     "2555": {
-      "all": 3665727600,
-      "focused": 1422156200
+      "all": 3956402600,
+      "focused": 1530774900
     },
     "2556": {
-      "all": 3851287800,
-      "focused": 1542394000
+      "all": 4164147400,
+      "focused": 1661480600
     },
     "2557": {
-      "all": 4090918900,
-      "focused": 1556746200
+      "all": 4414443300,
+      "focused": 1675626000
     },
     "2558": {
-      "all": 3811233900,
-      "focused": 1559934000
+      "all": 4131289700,
+      "focused": 1680504900
     },
     "2559": {
-      "all": 3840793200,
-      "focused": 1580326300
+      "all": 4159547700,
+      "focused": 1701233100
     },
     "2560": {
-      "all": 4019245700,
-      "focused": 1584266800
+      "all": 4356943900,
+      "focused": 1709788400
     },
     "2561": {
-      "all": 3965363080,
-      "focused": 1654266700
+      "all": 4305063920,
+      "focused": 1789742700
     },
     "2562": {
-      "all": 4088566700,
-      "focused": 1702460000
+      "all": 4432998700,
+      "focused": 1844302700
     },
     "2563": {
-      "all": 4170865314,
-      "focused": 1745434580
+      "all": 4523127314,
+      "focused": 1886957180
     },
     "2564": {
-      "all": 4373216700,
-      "focused": 1670589280
+      "all": 4725704700,
+      "focused": 1812095680
     },
     "2565": {
-      "all": 3629861130,
-      "focused": 661517719
+      "all": 3944054490,
+      "focused": 744121195
     },
     "2566": {
-      "all": 4037064378,
-      "focused": 213452900
+      "all": 4398523678,
+      "focused": 234667300
     },
     "2567": {
-      "all": 4550786735,
-      "focused": 85968642
+      "all": 4885120645,
+      "focused": 91112442
     }
   },
   "budgetOverall": {
-    "all": 52094931137,
-    "focused": 16979513321
+    "all": 56397368047,
+    "focused": 18362407097
   },
   "rankings": [
     {
@@ -118,42 +118,48 @@
     },
     {
       "ranked": 6,
+      "districtId": 50,
+      "districtName": "ห้วยขวาง",
+      "value": 2.784
+    },
+    {
+      "ranked": 7,
       "districtId": 30,
       "districtName": "พญาไท",
       "value": 2.257
     },
     {
-      "ranked": 7,
+      "ranked": 8,
       "districtId": 35,
       "districtName": "ยานนาวา",
       "value": 2.17
     },
     {
-      "ranked": 8,
+      "ranked": 9,
       "districtId": 5,
       "districtName": "จตุจักร",
       "value": 2.134
     },
     {
-      "ranked": 9,
+      "ranked": 10,
       "districtId": 8,
       "districtName": "ดินแดง",
       "value": 2.022
     },
     {
-      "ranked": 10,
+      "ranked": 11,
       "districtId": 45,
       "districtName": "สาทร",
       "value": 1.984
     },
     {
-      "ranked": 11,
+      "ranked": 12,
       "districtId": 19,
       "districtName": "บางคอแหลม",
       "value": 1.571
     },
     {
-      "ranked": 12,
+      "ranked": 13,
       "districtId": 21,
       "districtName": "บางซื่อ",
       "value": 1.208

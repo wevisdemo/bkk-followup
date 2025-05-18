@@ -196,6 +196,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": null
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": null
       }
     },
     "2556": {
@@ -393,6 +397,10 @@
       },
       "49": {
         "districtName": "หลักสี่",
+        "value": null
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
         "value": null
       }
     },
@@ -592,6 +600,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": null
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": null
       }
     },
     "2558": {
@@ -789,6 +801,10 @@
       },
       "49": {
         "districtName": "หลักสี่",
+        "value": null
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
         "value": null
       }
     },
@@ -988,6 +1004,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": null
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": null
       }
     },
     "2560": {
@@ -1185,6 +1205,10 @@
       },
       "49": {
         "districtName": "หลักสี่",
+        "value": null
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
         "value": null
       }
     },
@@ -1384,6 +1408,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 20
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 0
       }
     },
     "2562": {
@@ -1582,6 +1610,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 90
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 0
       }
     },
     "2563": {
@@ -1780,6 +1812,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 88
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 75
       }
     },
     "2564": {
@@ -1978,6 +2014,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 83
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 80
       }
     },
     "2565": {
@@ -2176,6 +2216,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 74
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 62
       }
     },
     "2566": {
@@ -2374,6 +2418,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 100
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 77
       }
     },
     "2567": {
@@ -2572,6 +2620,10 @@
       "49": {
         "districtName": "หลักสี่",
         "value": 120.6
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 102.5
       }
     }
   }
