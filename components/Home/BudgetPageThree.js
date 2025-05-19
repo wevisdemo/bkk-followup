@@ -9,6 +9,11 @@ export default function BudgetPageThree(props) {
   const [hover_legend, setHoverLegend] = useState({});
   const chart_legends = [
     {
+      title: "เศรษฐกิจและการพาณิชย์",
+
+      color: "#B22E56",
+    },
+    {
       title: "การศึกษา",
       color: "#F4B8CA",
     },
@@ -35,11 +40,6 @@ export default function BudgetPageThree(props) {
     {
       title: "การบริหารจัดการและบริหารราชการ",
       color: "#00C853",
-    },
-    {
-      title: "เศรษฐกิจและการพาณิชย์",
-
-      color: "#B22E56",
     },
   ];
   let chart_data = landing_data.yearlyBudgetSummaries;

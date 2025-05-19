@@ -44,6 +44,11 @@ export const formatTop3WithOthers = (data) => {
 export const matchingBGColor = (title) => {
   const chart_legends = [
     {
+      title: "เศรษฐกิจและการพาณิชย์",
+
+      color: "#B22E56",
+    },
+    {
       title: "การศึกษา",
       color: "#F4B8CA",
     },
@@ -70,11 +75,6 @@ export const matchingBGColor = (title) => {
     {
       title: "การบริหารจัดการและบริหารราชการ",
       color: "#00C853",
-    },
-    {
-      title: "เศรษฐกิจและการพาณิชย์",
-
-      color: "#B22E56",
     },
   ];
   return chart_legends.find((l) => l.title === title)?.color;

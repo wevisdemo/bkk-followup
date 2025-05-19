@@ -66,7 +66,8 @@ export default function Main(props) {
               onClick={() => swiper_ref.slideTo(1)}
             >
               <h5 className="d5 text-white-default">
-                สำรวจดูงบประมาณกทม. ย้อนหลัง 12 ปี
+                สำรวจดูงบประมาณกทม. ย้อนหลัง{" "}
+                {landing_data.yearlyBudgetSummaries.length} ปี
               </h5>
 
               <img

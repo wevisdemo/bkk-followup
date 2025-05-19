@@ -6,6 +6,7 @@ import WvButton from "@wevisdemo/ui/components/button";
 import WvSharer from "@wevisdemo/ui/components/sharer";
 import WvFooter from "@wevisdemo/ui/components/footer";
 import config from "jsconfig.json";
+import landing_data from "public/data/landing.json";
 
 const about = () => {
   const refs_link = [
@@ -23,7 +24,10 @@ const about = () => {
         <WvContainer>
           <div className="flex flex-col items-center font-bold ">
             <p className="h1">BKK Follow Up</p>
-            <p className="h3">สำรวจย้อนหลัง 12 ปีกับปัญหาที่กวนใจชาวกทม.</p>
+            <p className="h3">
+              สำรวจย้อนหลัง {landing_data.yearlyBudgetSummaries.length}{" "}
+              ปีกับปัญหาที่กวนใจชาวกทม.
+            </p>
           </div>
           <WvParagraphGroup heading="เกี่ยวกับโปรเจกต์นี้">
             <div>
@@ -124,7 +128,7 @@ const about = () => {
                   >
                     ส่วนบริการข้อมูล กองจัดการคุณภาพอากาศและเสียง
                   </a>{" "}
-                  (2565-2566) และ สำนักยุทธศาสตร์และประเมินผล (2555-2565)
+                  (2565-2566) และ สำนักยุทธศาสตร์และประเมินผล (2555-2564)
                 </li>
               </ul>
               <p className=" mt-2 mb-1">ที่มาข้อมูลอื่น ๆ</p>
@@ -237,7 +241,9 @@ const about = () => {
                 >
                   WeVis
                 </a>
-                BKK Follow Up สำรวจย้อนหลัง 12 ปีกับปัญหาที่กวนใจชาวกทม.
+                BKK Follow Up สำรวจย้อนหลัง{" "}
+                {landing_data.yearlyBudgetSummaries.length}{" "}
+                ปีกับปัญหาที่กวนใจชาวกทม.
               </div>
             </WvParagraphGroup>
           </WvParagraphGroup>

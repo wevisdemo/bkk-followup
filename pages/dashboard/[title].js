@@ -34,6 +34,7 @@ import { isMobile, isMobileOnly } from "react-device-detect";
 import _ from "lodash";
 import * as d3 from "d3";
 import Header from "components/Header";
+import landing_data from "public/data/landing.json";
 
 export async function getStaticPaths() {
   return {
@@ -493,7 +494,11 @@ export default function Dashboard(props) {
                     )}
 
                     {isMobileOnly ? (
-                      <p className="h4">ภาพรวมย้อนหลัง 12 ปี (2555-2566)</p>
+                      <p className="h4">
+                        ภาพรวมย้อนหลัง{" "}
+                        {landing_data.yearlyBudgetSummaries.length} ปี (2555-
+                        {landing_data.latestYear.year})
+                      </p>
                     ) : (
                       ""
                     )}
