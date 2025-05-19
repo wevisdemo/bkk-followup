@@ -52,7 +52,7 @@ const info_map = ({ selected_theme }) => {
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
     infos = [
       { id: 1, des: "มีค่าฝุ่นมากกว่าที่กำหนด" },
-      { id: 2, des: "ค่าฝุ่นละออง PM2.5\n(ไม่เกิน 25 มคก./ลบ.ม.)" },
+      { id: 2, des: "ค่าฝุ่นละออง PM2.5\n(ไม่เกิน 37.5 มคก./ลบ.ม.)" },
       { id: 3, des: "มีค่าฝุ่นน้อยกว่าที่กำหนด" },
     ];
   }
@@ -136,7 +136,11 @@ const info_map = ({ selected_theme }) => {
         <div id="flood-wrapper" className="flex w-full">
           <div className="flex flex-col items-center flex-1" id="dot1">
             {dots1.map((dot, index) => (
-              <div key={index} className="flex w-full" style={{ height: "40px" }}>
+              <div
+                key={index}
+                className="flex w-full"
+                style={{ height: "40px" }}
+              >
                 <div className="flex items-center justify-end flex-1 my-1">
                   <span
                     className="rounded-full dot"
@@ -147,7 +151,10 @@ const info_map = ({ selected_theme }) => {
                     }}
                   />
                 </div>
-                <p className="flex items-center pl-2 font-bold p2" style={{ flex: "2" }}>
+                <p
+                  className="flex items-center pl-2 font-bold p2"
+                  style={{ flex: "2" }}
+                >
                   {dot.text}
                 </p>
               </div>
@@ -155,7 +162,11 @@ const info_map = ({ selected_theme }) => {
           </div>
           <div className="flex flex-col items-center flex-1" id="dot2">
             {dots2.map((dot, index) => (
-              <div key={index} className="flex w-full" style={{ height: "40px" }}>
+              <div
+                key={index}
+                className="flex w-full"
+                style={{ height: "40px" }}
+              >
                 <div className="flex items-center justify-end flex-1 my-1">
                   <span
                     className="rounded-full dot"
@@ -166,7 +177,10 @@ const info_map = ({ selected_theme }) => {
                     }}
                   />
                 </div>
-                <p className="flex items-center pl-2 font-bold p2" style={{ flex: "2" }}>
+                <p
+                  className="flex items-center pl-2 font-bold p2"
+                  style={{ flex: "2" }}
+                >
                   {dot.text}
                 </p>
               </div>
@@ -175,7 +189,10 @@ const info_map = ({ selected_theme }) => {
               <div className="flex items-center justify-end flex-1 my-1">
                 <img src={noData} alt="noData" style={{ height: "19px" }} />
               </div>
-              <p className="flex items-center pl-2 font-bold p2" style={{ flex: "2" }}>
+              <p
+                className="flex items-center pl-2 font-bold p2"
+                style={{ flex: "2" }}
+              >
                 ไม่มีข้อมูล
               </p>
             </div>
@@ -188,7 +205,11 @@ const info_map = ({ selected_theme }) => {
         <div className="flex items-center p2">
           <div className="mr-2">น้อย</div>
           <div className="flex items-center justify-end flex-1 mx-1">
-            <img src={noData} alt="noData" style={{ height: isMobileOnly ? "15px" : "19px" }} />
+            <img
+              src={noData}
+              alt="noData"
+              style={{ height: isMobileOnly ? "15px" : "19px" }}
+            />
           </div>
           <span
             className="mx-1 rounded-full dot"
