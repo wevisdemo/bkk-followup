@@ -200,7 +200,7 @@ export default function DashboardLineChart({
         return y_scale(d.value || 0);
       })
       .attr("dy", "-10")
-      .style("font-size", isMobileOnly ? "8px" : "12px")
+      .style("font-size", isMobileOnly ? "7px" : "12px")
       .style("text-anchor", "middle")
       .text(function (d) {
         return d.value ? d.value : 0;
