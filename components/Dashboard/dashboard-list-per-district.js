@@ -1,23 +1,23 @@
-import React from 'react';
+import React from "react";
 
 const per_district = ({ selected_theme, district_data }) => {
   let unit;
-  if (selected_theme.name === 'น้ำท่วมถนน') {
-    unit = 'ครั้ง';
-  } else if (selected_theme.name === 'พื้นที่สีเขียว') {
-    unit = 'ตร.ม./คน';
-  } else if (selected_theme.name === 'มลพิษในคลอง') {
-    unit = 'มก./ลิตร';
-  } else if (selected_theme.name === 'ขยะมูลฝอย') {
-    unit = 'กก./คน/วัน';
-  } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
-    unit = 'มค.ก./ลบ.ม.';
+  if (selected_theme.name === "น้ำท่วมถนน") {
+    unit = "ครั้ง";
+  } else if (selected_theme.name === "พื้นที่สีเขียว") {
+    unit = "ตร.ม./คน";
+  } else if (selected_theme.name === "มลพิษในคลอง") {
+    unit = "มก./ลิตร";
+  } else if (selected_theme.name === "ขยะมูลฝอย") {
+    unit = "กก./คน/วัน";
+  } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
+    unit = "มค.ก./ลบ.ม.";
   }
   return (
     <div
-      className="flex flex-col flex-1 mt-3 card_cat_detail md:mt-0 "
+      className="flex flex-col flex-1 mt-3 card_cat_detail lg:mt-0 "
       id="list-ranking"
-      style={{ backgroundColor: selected_theme.color, height: 'fit-content' }}
+      style={{ backgroundColor: selected_theme.color, height: "fit-content" }}
     >
       <div
         id="list-header"
@@ -42,7 +42,7 @@ const per_district = ({ selected_theme, district_data }) => {
               className="flex flex-row justify-end flex-1"
               style={{ color: selected_theme.text_color }}
             >
-              <div>{rank.value === null ? 'ไม่มีข้อมูล' : rank.value}</div>
+              <div>{rank.value === null ? "ไม่มีข้อมูล" : rank.value}</div>
               <div className="ml-2">{unit}</div>
             </div>
           </div>

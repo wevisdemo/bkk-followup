@@ -153,7 +153,7 @@ export default function BudgetPageFour(props) {
                       <div
                         className="flex-none w-5 h-5 mr-3 rounded"
                         style={{
-                          background: l.color,
+                          background: matchingBGColor(l.title),
                           border:
                             l.title === "อื่นๆ"
                               ? "2px solid rgba(255, 255, 255, 0.9)"

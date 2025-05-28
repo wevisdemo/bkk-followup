@@ -38,7 +38,7 @@ const budget = ({ selected_theme, data, checked, state_dropdown, years }) => {
     return (
       <div
         id="budget"
-        className="relative flex-1 md:mr-3 card_cat_detail"
+        className="relative flex-1 lg:mr-3 card_cat_detail"
         style={{ height: "fit-content" }}
       >
         <div

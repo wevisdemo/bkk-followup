@@ -51,7 +51,7 @@ export default function DashboardLineChart({
     x_scale.domain(
       d3.extent(data, function (d) {
         return d.year;
-      }),
+      })
     );
 
     const scale_data = [...data, ...AVG];
@@ -200,7 +200,7 @@ export default function DashboardLineChart({
         return y_scale(d.value || 0);
       })
       .attr("dy", "-10")
-      .style("font-size", "12px")
+      .style("font-size", isMobileOnly ? "8px" : "12px")
       .style("text-anchor", "middle")
       .text(function (d) {
         return d.value ? d.value : 0;
@@ -210,7 +210,7 @@ export default function DashboardLineChart({
       .selectAll("g.tick")
       .select("text")
       .attr("y", 12)
-      .style("font-size", "14px")
+      .style("font-size", isMobileOnly ? "10px" : "14px")
       .style("font-weight", "bold");
   };
 

@@ -508,7 +508,7 @@ export default function Dashboard(props) {
                   <div className="mt-3" id="flood-rating">
                     {Rating(
                       selected_theme,
-                      "ปี 2566 เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่",
+                      `ปี ${landing_data.latestYear.year} เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่`,
                       district_data
                     )}
                   </div>
@@ -615,7 +615,7 @@ export default function Dashboard(props) {
                 )}
                 <div
                   id="budget compare"
-                  className="flex flex-col mt-3 md:flex-row "
+                  className="flex flex-col mt-3 lg:flex-row "
                 >
                   <Budget
                     id="budget"

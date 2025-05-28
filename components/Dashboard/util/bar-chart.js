@@ -23,7 +23,10 @@ const bar_chart = ({ data, selected_theme }) => {
   };
 
   return (
-    <div className="flex items-end justify-center w-full" style={{ height: "70px" }}>
+    <div
+      className="flex items-end justify-center w-full"
+      style={{ height: "70px" }}
+    >
       {budgetPerYear.map((d, index) => (
         <div
           id="bar"
@@ -44,19 +47,24 @@ const bar_chart = ({ data, selected_theme }) => {
             style={{
               backgroundColor: selected_theme.color,
               borderRadius: "3px",
-              width: "30px",
+              width: "100%",
               height: `${(d.focused / d.all) * 100}%`,
             }}
           ></div>
-          <div id="text-in-bar" className="absolute pointer-events-none p2" style={{ bottom: "-25px" }}>
+          <div
+            id="text-in-bar"
+            className="absolute pointer-events-none p2"
+            style={{ bottom: "-25px" }}
+          >
             {d.year}
           </div>
           <div
             id={`tooltip-budget${d.year}`}
-            className="absolute invisible font-bold "
+            className="absolute invisible font-bold  z-10"
             style={{
               bottom: "90%",
-              left: "70%",
+              left: index > budgetPerYear.length / 2 ? "unset" : "70%",
+              right: index > budgetPerYear.length / 2 ? "0" : "unset",
               width: "160px",
             }}
           >

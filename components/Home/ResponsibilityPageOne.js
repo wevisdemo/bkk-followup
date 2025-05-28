@@ -22,7 +22,7 @@ export default function ResponsibilityPageOne() {
           ผู้มีบทบาทในการบริหารกรุงเทพมหานคร
         </p>
 
-        <p className="mt-4 text-xl leading-6 md:mt-10 lg:text-2xl lg:w-4/5 lg:mx-auto">
+        <p className="mt-4 text-xl md:leading-6 md:mt-10 lg:text-2xl lg:w-4/5 lg:mx-auto">
           เราเลยอยากชวนประชาชน ว่าที่ผู้ว่าฯ และสภากทม.
           มาร่วมทำความเข้าใจอำนาจหน้าที่ การบริหารงบประมาณ
           และสถานการณ์ปัญหาด้านต่าง ๆ ผ่านชุดข้อมูลย้อนหลัง (พ.ศ. 2555-

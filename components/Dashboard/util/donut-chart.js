@@ -1,5 +1,5 @@
-import * as d3 from 'd3';
-import React, { useEffect } from 'react';
+import * as d3 from "d3";
+import React, { useEffect } from "react";
 
 const donut_chart = ({ selected_theme, percent }) => {
   const draw_donut_chart = () => {
@@ -7,19 +7,18 @@ const donut_chart = ({ selected_theme, percent }) => {
     let width = 140,
       height = 140;
     let svg = d3
-      .select('#donut-chart')
-      .append('svg')
-      .attr('class', 'svg-donut-chart')
-      .attr('width', width)
-      .attr('height', height),
+        .select("#donut-chart")
+        .append("svg")
+        .attr("class", "svg-donut-chart")
+        .attr("width", width)
+        .attr("height", height),
       radius = Math.min(width, height) / 2,
       g = svg
-        .append('g')
-        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')')
-        .attr('class', 'donut-chart');
+        .append("g")
+        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+        .attr("class", "donut-chart");
 
-    var color = d3.scaleOrdinal([selected_theme.color, '#CFD8DC']);
-
+    var color = d3.scaleOrdinal([selected_theme.color, "#CFD8DC"]);
 
     var pie = d3.pie().sort(null);
 
@@ -31,21 +30,21 @@ const donut_chart = ({ selected_theme, percent }) => {
 
     //Generate groups
     var arcs = g
-      .selectAll('arc')
+      .selectAll("arc")
       .data(pie(data))
       .enter()
-      .append('g')
-      .attr('className', (_, i) => `pie${i}`);
+      .append("g")
+      .attr("className", (_, i) => `pie${i}`);
 
     //Draw arc paths
     arcs
-      .append('path')
-      .attr('fill', function (d, i) {
+      .append("path")
+      .attr("fill", function (d, i) {
         return color(i);
       })
-      .attr('d', arc);
+      .attr("d", arc);
   };
-  d3.select('.svg-donut-chart').remove();
+  d3.select(".svg-donut-chart").remove();
   draw_donut_chart();
   useEffect(() => {
     draw_donut_chart();
@@ -56,7 +55,7 @@ const donut_chart = ({ selected_theme, percent }) => {
       <div
         id="text-donut"
         className="absolute flex flex-col w-full text-center top-2/4 left-2/4"
-        style={{ transform: 'translate(-50%, -50%)' }}
+        style={{ transform: "translate(-50%, -50%)" }}
       >
         <p
           className="font-bold h3"
@@ -64,7 +63,7 @@ const donut_chart = ({ selected_theme, percent }) => {
         >
           {percent.toFixed(2)}%
         </p>
-        <span className="font-bold p2">
+        <span className="font-bold ">
           <p>ของงบประมาณ </p>
           <p>ทั้งหมด</p>
         </span>

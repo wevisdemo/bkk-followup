@@ -1,10 +1,10 @@
-import React, { useState, useRef } from 'react';
-import arrow from 'assets/images/arrow.svg';
-import { useRouter } from 'next/router';
-import { isMobileOnly } from 'react-device-detect';
-import useOutsideClick from 'components/Dashboard/util/useOutsideClick';
+import React, { useState, useRef } from "react";
+import arrow from "assets/images/arrow.svg";
+import { useRouter } from "next/router";
+import { isMobileOnly } from "react-device-detect";
+import useOutsideClick from "components/Dashboard/util/useOutsideClick";
 
-import * as d3 from 'd3';
+import * as d3 from "d3";
 
 const dropdown = ({
   filter,
@@ -19,7 +19,7 @@ const dropdown = ({
   SET_DISTRICT,
 }) => {
   const [dropdown_state, SET_DROPDOWN_STATE] = useState(false);
-  const [category, SET_CATEGORY] = useState('น้ำท่วมถนน');
+  const [category, SET_CATEGORY] = useState("น้ำท่วมถนน");
   const router = useRouter();
 
   const showMenu = (e) => {
@@ -27,31 +27,31 @@ const dropdown = ({
   };
 
   const closeMenu = (e) => {
-    if (dropdown_state && e.target.id != 'options') {
+    if (dropdown_state && e.target.id != "options") {
       SET_DROPDOWN_STATE(false);
-      document.removeEventListener('click', closeMenu);
+      document.removeEventListener("click", closeMenu);
     }
   };
 
   const handleOptionChange = (e) => {
     SET_STATE_DROPDOWN(type);
-    if (type === 'group') {
-      d3.selectAll(`.minimap`).style('fill', 'none');
+    if (type === "group") {
+      d3.selectAll(`.minimap`).style("fill", "none");
       SET_CHECKED(e.target.value);
       SET_DISTRICT(null);
-    } else if (type === 'zone') {
+    } else if (type === "zone") {
       SET_DISTRICT(e.target.value);
       setTimeout(() => {
         d3.select(`.rect${e.target.value}`)
-          .style('stroke-width', 1)
-          .style('stroke', 'white');
-        d3.select(`.minimap${e.target.value}`).style('fill', 'white');
-        d3.select(`.tooltip${e.target.value}`).style('visibility', 'visible');
+          .style("stroke-width", 1)
+          .style("stroke", "white");
+        d3.select(`.minimap${e.target.value}`).style("fill", "white");
+        d3.select(`.tooltip${e.target.value}`).style("visibility", "visible");
       }, 100);
     }
     SET_DROPDOWN_STATE(false);
     SET_IS_RANK(false);
-    document.removeEventListener('click', closeMenu);
+    document.removeEventListener("click", closeMenu);
   };
 
   setTimeout(() => {
@@ -59,15 +59,15 @@ const dropdown = ({
   }, 0);
 
   const handleCategory = (e) => {
-    router.push('/dashboard/' + e.target.value);
+    router.push("/dashboard/" + e.target.value);
     SET_SELECTED_INDEX(0);
     SET_SELECTED_TOOLTIP();
     SET_STATE_DROPDOWN(null);
-    SET_CHECKED('เขตพื้นที่ทั้งหมด');
+    SET_CHECKED("เขตพื้นที่ทั้งหมด");
     SET_DISTRICT(null);
     SET_CATEGORY(e.target.value);
     SET_DROPDOWN_STATE(false);
-    document.removeEventListener('click', closeMenu);
+    document.removeEventListener("click", closeMenu);
   };
   const ref = useRef();
   useOutsideClick(ref, () => {
@@ -79,11 +79,11 @@ const dropdown = ({
   return (
     <div
       style={{
-        width: isMobileOnly ? '100%' : '',
-        maxWidth: isMobileOnly && type != 'category' ? '50%' : '',
+        width: isMobileOnly ? "100%" : "",
+        maxWidth: isMobileOnly && type != "category" ? "50%" : "",
       }}
     >
-      {type === 'group' ? (
+      {type === "group" ? (
         <div
           id="dropdown"
           className="relative inline-block w-full text-left md:ml-3"
@@ -93,12 +93,12 @@ const dropdown = ({
             id="manu"
             className="relative flex flex-row p-2 font-bold rounded cursor-pointer md:w-56 bg-white-default h4 "
           >
-            {checked === 'เขตพื้นที่ทั้งหมด' ? (
+            {checked === "เขตพื้นที่ทั้งหมด" ? (
               <p>เลือกกลุ่มพื้นที่ </p>
             ) : (
               <p
                 className="truncate ..."
-                style={{ width: isMobileOnly ? '60%' : '80%' }}
+                style={{ width: isMobileOnly ? "60%" : "80%" }}
               >
                 {checked}
               </p>
@@ -106,7 +106,7 @@ const dropdown = ({
             <div
               id="arrow-wrpper"
               className="absolute right-0 flex justify-center pr-3"
-              style={{ top: '50%', transform: 'translateY(-50%)' }}
+              style={{ top: "50%", transform: "translateY(-50%)" }}
             >
               {dropdown_state ? (
                 <img src={arrow} alt="arrow" className="transform rotate-180" />
@@ -119,8 +119,8 @@ const dropdown = ({
             <div
               className="absolute bottom-auto z-20 flex flex-col w-full p-3 mt-1 rounded bg-white-default"
               style={{
-                border: '1px solid #eee',
-                boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.15)',
+                border: "1px solid #eee",
+                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.15)",
               }}
               id="options"
               ref={ref}
@@ -133,7 +133,7 @@ const dropdown = ({
                 >
                   <span className="flex pointer-events-none pl-7">
                     {isMobileOnly ? (
-                      ''
+                      ""
                     ) : (
                       <img src={f.img} alt="icon-dropdown" className="mr-3" />
                     )}
@@ -154,7 +154,7 @@ const dropdown = ({
           ) : null}
         </div>
       ) : null}
-      {type === 'zone' ? (
+      {type === "zone" ? (
         <div
           id="dropdown"
           className="relative inline-block w-full pl-3 text-left md:ml-3"
@@ -168,7 +168,7 @@ const dropdown = ({
             <div
               id="arrow-wrpper"
               className="absolute right-0 flex justify-center pr-3"
-              style={{ top: '50%', transform: 'translateY(-50%)' }}
+              style={{ top: "50%", transform: "translateY(-50%)" }}
             >
               {dropdown_state ? (
                 <img src={arrow} alt="arrow" className="transform rotate-180" />
@@ -181,9 +181,9 @@ const dropdown = ({
             <div
               className="absolute bottom-auto z-50 flex flex-col w-full p-3 mt-1 overflow-hidden rounded bg-white-default"
               style={{
-                border: '1px solid #eee',
-                boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.15)',
-                maxHeight: '50vh',
+                border: "1px solid #eee",
+                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.15)",
+                maxHeight: "50vh",
               }}
               ref={ref}
               id="options"
@@ -195,7 +195,7 @@ const dropdown = ({
                     id="options"
                     key={index}
                   >
-                    <p className="pointer-events-none pl-7 p1 truncate ...">
+                    <p className="pointer-events-none pl-7  truncate ...">
                       {f.filter_by}
                     </p>
                     <input
@@ -213,12 +213,12 @@ const dropdown = ({
           ) : null}
         </div>
       ) : null}
-      {type === 'category' ? (
+      {type === "category" ? (
         <div
           id="dropdown"
           className="relative inline-block mb-2 text-left md:mb-0"
           style={{
-            width: isMobileOnly ? '100%' : '',
+            width: isMobileOnly ? "100%" : "",
           }}
         >
           <div
@@ -228,7 +228,7 @@ const dropdown = ({
           >
             <p
               className="truncate ..."
-              style={{ width: isMobileOnly ? '60%' : '80%' }}
+              style={{ width: isMobileOnly ? "60%" : "80%" }}
             >
               {category}
             </p>
@@ -236,7 +236,7 @@ const dropdown = ({
             <div
               id="arrow-wrpper"
               className="absolute right-0 flex justify-center pr-3"
-              style={{ top: '50%', transform: 'translateY(-50%)' }}
+              style={{ top: "50%", transform: "translateY(-50%)" }}
             >
               {dropdown_state ? (
                 <img src={arrow} alt="arrow" className="transform rotate-180" />
@@ -249,8 +249,8 @@ const dropdown = ({
             <div
               className="absolute bottom-auto z-50 flex flex-col w-full p-3 mt-1 rounded bg-white-default"
               style={{
-                border: '1px solid #eee',
-                boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.15)',
+                border: "1px solid #eee",
+                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.15)",
               }}
               id="options"
               ref={ref}

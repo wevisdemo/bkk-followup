@@ -43,7 +43,7 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
 
   return (
     <div
-      className="flex-1 mt-3 card_cat_detail md:mt-0"
+      className="flex-1 mt-3 card_cat_detail lg:mt-0"
       style={{ height: "fit-content" }}
     >
       <div

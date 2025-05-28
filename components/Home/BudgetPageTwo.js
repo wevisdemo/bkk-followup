@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import * as d3 from "d3";
 import numeral from "numeral";
-import { isMobileOnly } from "react-device-detect";
+import { isMobileOnly, isDesktop } from "react-device-detect";
 import landing_data from "public/data/landing.json";
 export default function BudgetPageTwo() {
   useEffect(() => {
@@ -76,7 +76,7 @@ export default function BudgetPageTwo() {
       .attr("x", (d) => x_scale(d.year))
       .attr("y", (d) => y_scale(d.value))
       .attr("dy", "-50")
-      .style("font-size", "24px")
+      .style("font-size", isDesktop ? "24px" : "16px")
       .style("fill", "white")
       .style("text-anchor", "middle")
       .style("opacity", "0")
@@ -90,8 +90,8 @@ export default function BudgetPageTwo() {
       .attr("class", "label-value")
       .attr("x", (d) => x_scale(d.year))
       .attr("y", (d) => y_scale(d.value))
-      .attr("dy", "-28")
-      .style("font-size", "16px")
+      .attr("dy", isDesktop ? "-28" : "-32")
+      .style("font-size", isDesktop ? "16px" : "10px")
       .style("font-family", "KondolarThai")
       .style("fill", "#7AE2A6")
       .style("text-anchor", "middle")
@@ -106,8 +106,8 @@ export default function BudgetPageTwo() {
       .attr("class", "label-unit")
       .attr("x", (d) => x_scale(d.year))
       .attr("y", (d) => y_scale(d.value.toFixed(0)))
-      .attr("dy", "-12")
-      .style("font-size", "16px")
+      .attr("dy", isDesktop ? "-12" : "-18")
+      .style("font-size", isDesktop ? "16px" : "10px")
       .style("fill", "#7AE2A6")
       .style("text-anchor", "middle")
       .style("opacity", "0")

@@ -72,7 +72,7 @@ const info_map = ({ selected_theme }) => {
   };
 
   setTimeout(() => {
-    if (!isMobile) {
+    if (!isMobileOnly) {
       d3.selectAll(".circle0")
         .append("circle")
         .attr("class", "info-circle0")
@@ -81,7 +81,7 @@ const info_map = ({ selected_theme }) => {
         .attr("cy", 20)
         .style("fill", selected_theme.color);
     }
-    if (!isMobile) {
+    if (!isMobileOnly) {
       d3.selectAll(".circle2")
         .append("circle")
         .attr("class", "info-circle")
@@ -108,7 +108,7 @@ const info_map = ({ selected_theme }) => {
 
   return (
     <div
-      className="absolute bottom-0 right-0 flex flex-col items-start flex-1 px-10 pb-5 text-white-default lg:relative "
+      className="absolute bottom-0 right-0 flex flex-col items-start flex-1 px-10 pb-5 text-white-default lg:relative  pointer-events-none"
       id="info-map-wrpper"
     >
       {selected_theme.name != "น้ำท่วมถนน" ? (
