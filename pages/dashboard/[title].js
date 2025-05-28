@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "layouts/layout";
 import Category_Manu from "components/Dashboard/dashboard-category-manu";
 import DropDown from "components/Dashboard/dropdown";
@@ -205,6 +205,11 @@ export default function Dashboard(props) {
       return d.toString().substring(2, 4);
     });
     const [selected_index, SET_SELECTED_INDEX] = useState(years.length - 1);
+
+    useEffect(() => {
+      SET_SELECTED_INDEX(years.length - 1);
+    }, [selected_theme]);
+
     let note;
     if (selected_theme.name === "น้ำท่วมถนน") {
       note =

@@ -61,7 +61,10 @@ export default function Header() {
   const insideMenu = () => (
     <div className="relative z-10 flex flex-col items-center space-y-3 right md:flex-row md:space-y-0">
       <div className="w-full md:w-max">
-        <WvNavButton onClick={() => selectMenu(1)} active={router.pathname === "/"}>
+        <WvNavButton
+          onClick={() => selectMenu(1)}
+          active={router.pathname === "/"}
+        >
           สรุปงบประมาณกทม.
         </WvNavButton>
       </div>
@@ -69,9 +72,16 @@ export default function Header() {
         <WvNavDropdown label="สำรวจแผนที่ตามประเด็น">
           {dashboardData.map((dashboard, index) => (
             <WvNavDropdownItem key={index}>
-              <div className="flex items-center WvNavDropdownItem " onClick={() => selectDashboard(dashboard.name)}>
+              <div
+                className="flex items-center WvNavDropdownItem "
+                onClick={() => selectDashboard(dashboard.name)}
+              >
                 <div
-                  style={{ width: "15px", height: "15px", background: dashboard.color }}
+                  style={{
+                    width: "15px",
+                    height: "15px",
+                    background: dashboard.color,
+                  }}
                   className="mr-2 rounded-full "
                 />
                 {dashboard.name}
@@ -81,18 +91,39 @@ export default function Header() {
         </WvNavDropdown>
       </div>
       <div className="w-full md:w-max">
-        <WvNavButton onClick={() => selectAbout()} active={router.pathname === "/about"}>
+        <WvNavButton
+          onClick={() => selectAbout()}
+          active={router.pathname === "/about"}
+        >
           About
         </WvNavButton>
       </div>
       <div className="flex items-center flex-1 md:hidden lg:flex">
         <div className="mr-4 p3 whitespace-nowrap">In collaboration with</div>
-        <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-3 ">
-          <img src={stb_logo} alt={stb_logo} style={{ height: "50px" }} />
+        <a
+          href="http://www.kpi.ac.th/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mr-3 "
+        >
+          <img
+            src={stb_logo}
+            alt={stb_logo}
+            style={{ height: isMobileOnly ? "100%" : "50px" }}
+          />
         </a>
 
-        <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer" className="mr-8 ">
-          <img src={cu_thai_logo} alt={cu_thai_logo} style={{ height: "45px" }} />
+        <a
+          href="https://www.polsci.chula.ac.th/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mr-8 "
+        >
+          <img
+            src={cu_thai_logo}
+            alt={cu_thai_logo}
+            style={{ height: "45px" }}
+          />
         </a>
       </div>
     </div>
@@ -105,7 +136,12 @@ export default function Header() {
         className="sticky z-20 flex items-center justify-between px-3 shadow-xl bg-white-default lg:px-5 "
       >
         <div className="flex items-center left">
-          <a href="https://wevis.info/" target="_blank" rel="noopener noreferrer" className="mr-4">
+          <a
+            href="https://wevis.info/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mr-4"
+          >
             <img width={isMobileOnly ? 60 : 100} src={wevis_logo} />
           </a>
 
@@ -122,12 +158,24 @@ export default function Header() {
           </div>
         </div>
         <div className="flex items-center flex-1 mx-2 lg:hidden">
-          <a href="http://www.kpi.ac.th/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="http://www.kpi.ac.th/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={stb_logo} alt={stb_logo} style={{ height: "50px" }} />
           </a>
 
-          <a href="https://www.polsci.chula.ac.th/" target="_blank" rel="noopener noreferrer">
-            <img src={cu_thai_logo} alt={cu_thai_logo} style={{ height: "45px" }} />
+          <a
+            href="https://www.polsci.chula.ac.th/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={cu_thai_logo}
+              alt={cu_thai_logo}
+              style={{ height: "45px" }}
+            />
           </a>
         </div>
         <div className=" md:hidden">
@@ -140,7 +188,9 @@ export default function Header() {
         {!isMobileOnly && insideMenu()}
       </div>
       {isOpen && (
-        <div className="absolute left-0 z-10 w-screen py-5 bg-white-default">{isMobileOnly && insideMenu()}</div>
+        <div className="absolute left-0 z-10 w-screen py-5 bg-white-default">
+          {isMobileOnly && insideMenu()}
+        </div>
       )}
     </div>
   );

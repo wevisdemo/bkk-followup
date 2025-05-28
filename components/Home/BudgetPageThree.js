@@ -159,7 +159,7 @@ export default function BudgetPageThree(props) {
                               <br />
                               <b>{v.title}</b>
                               <br />
-                              {(v.value / 1e7).toLocaleString(undefined, {
+                              {(v.value / 1000000).toLocaleString(undefined, {
                                 maximumFractionDigits: 2,
                               })}{" "}
                               ล้านบาท ({numeral(v.percent).format("0.00")}
@@ -193,8 +193,10 @@ export default function BudgetPageThree(props) {
                 <br />
                 <b>{hover_legend.title}</b>
                 <br />
-                {numeral(hover_legend.value / 1e7).format("0.00")} ล้านบาท (
-                {numeral(hover_legend.percent).format("0.00")}
+                {(hover_legend.value / 1000000).toLocaleString(undefined, {
+                  maximumFractionDigits: 2,
+                })}{" "}
+                ล้านบาท ({numeral(hover_legend.percent).format("0.00")}
                 %)
               </div>
             </div>

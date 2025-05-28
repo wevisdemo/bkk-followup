@@ -57,9 +57,9 @@ export default function CitizenPageOne() {
         >
           <p className="hidden max-w-4xl mx-auto mt-6 text-xl text-center text-white-default md:block lg:hidden">
             <b>
-              ที่มา: • พรบ.
+              ที่มา: • พ.ร.บ.
               ว่าด้วยการลงคะแนนเสียงเพื่อถอดถอนสมาชิกหรือผู้บริหารท้องถิ่น พ.ศ.
-              2542 <br />• พรบ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ.
+              2542 <br />• พ.ร.บ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ.
               2542
             </b>
           </p>
@@ -96,9 +96,9 @@ export default function CitizenPageOne() {
 
           <p className="hidden max-w-4xl mx-auto mt-6 text-xl text-center 2xl:mt-20 text-white-default lg:block">
             <b>
-              ที่มา: • พรบ.
+              ที่มา: • พ.ร.บ.
               ว่าด้วยการลงคะแนนเสียงเพื่อถอดถอนสมาชิกหรือผู้บริหารท้องถิ่น พ.ศ.
-              2542 <br />• พรบ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ.
+              2542 <br />• พ.ร.บ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ.
               2542
             </b>
           </p>
