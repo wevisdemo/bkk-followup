@@ -73,12 +73,12 @@ export default function BudgetPageThree(props) {
       style={{ top: "60px" }}
     >
       <div className="container h-full py-5 mx-auto">
-        <div className="grid h-full grid-cols-1 gap-5 lg:grid-cols-2">
+        <div className="grid h-full grid-cols-1 gap-3 md:gap-5 lg:grid-cols-2">
           <div className="text-left left lg:w-4/5 md:text-center lg:text-left">
-            <h3 className="d3 mt-3">
+            <h3 className="d4 mt-3">
               {landing_data.yearCount} ปีที่ผ่านมา กทม. ใช้งบประมาณไป
             </h3>
-            <h2 className="d2">
+            <h2 className="d3">
               {landing_data.totalBudget.toLocaleString()} บาท
             </h2>
             <h4 className="hidden mt-6 d4 md:block">
@@ -180,21 +180,23 @@ export default function BudgetPageThree(props) {
           ) : null}
 
           {isMobileOnly ? (
-            <div
-              className="max-w-full p-2 mx-auto text-xs text-center rounded-md shadow-md pointer-events-none tooltip bg-white-default text-black-default w-max"
-              style={{
-                minWidth: "176px",
-                height: "fit-content",
-                opacity: hover_legend.title ? 1 : 0,
-              }}
-            >
-              ปี {hover_legend.year}
-              <br />
-              <b>{hover_legend.title}</b>
-              <br />
-              {numeral(hover_legend.value / 1e7).format("0.00")} ล้านบาท (
-              {numeral(hover_legend.percent).format("0.00")}
-              %)
+            <div className=" w-full">
+              <div
+                className="max-w-full p-2 text-xs text-center rounded-md shadow-md pointer-events-none tooltip bg-white-default text-black-default w-max"
+                style={{
+                  minWidth: "176px",
+                  height: "fit-content",
+                  opacity: hover_legend.title ? 1 : 0,
+                }}
+              >
+                ปี {hover_legend.year}
+                <br />
+                <b>{hover_legend.title}</b>
+                <br />
+                {numeral(hover_legend.value / 1e7).format("0.00")} ล้านบาท (
+                {numeral(hover_legend.percent).format("0.00")}
+                %)
+              </div>
             </div>
           ) : null}
 

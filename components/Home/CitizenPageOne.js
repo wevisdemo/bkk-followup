@@ -53,13 +53,14 @@ export default function CitizenPageOne() {
 
         <div
           className="relative z-10 h-full mt-0 lg:mt-6 2xl:mt-14"
-          style={{ opacity: show_card ? 1 : 0, transition: "0.4s" }}
+          style={{ opacity: show_card ? 1 : 0, transition: "0.3s" }}
         >
           <p className="hidden max-w-4xl mx-auto mt-6 text-xl text-center text-white-default md:block lg:hidden">
             <b>
               ที่มา: • พรบ.
               ว่าด้วยการลงคะแนนเสียงเพื่อถอดถอนสมาชิกหรือผู้บริหารท้องถิ่น พ.ศ.
-              2542 <br />• พรบ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ. 2542
+              2542 <br />• พรบ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ.
+              2542
             </b>
           </p>
 
@@ -97,7 +98,8 @@ export default function CitizenPageOne() {
             <b>
               ที่มา: • พรบ.
               ว่าด้วยการลงคะแนนเสียงเพื่อถอดถอนสมาชิกหรือผู้บริหารท้องถิ่น พ.ศ.
-              2542 <br />• พรบ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ. 2542
+              2542 <br />• พรบ. ว่าด้วยการเข้าชื่อเสนอข้อบัญญัติท้องถิ่น พ.ศ.
+              2542
             </b>
           </p>
         </div>
@@ -109,7 +111,7 @@ export default function CitizenPageOne() {
             className="absolute inset-x-0 bottom-0 w-2/4 mx-auto md:w-1/4"
             style={{
               bottom: show_hand ? 0 : "-28%",
-              transition: "0.4s",
+              transition: "0.3s",
             }}
           />
         ) : null}
