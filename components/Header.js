@@ -106,11 +106,7 @@ export default function Header() {
           rel="noopener noreferrer"
           className="mr-3 "
         >
-          <img
-            src={stb_logo}
-            alt={stb_logo}
-            style={{ height: isMobileOnly ? "100%" : "50px" }}
-          />
+          <img src={stb_logo} alt={stb_logo} style={{ height: "50px" }} />
         </a>
 
         <a
@@ -157,7 +153,7 @@ export default function Header() {
             </h5>
           </div>
         </div>
-        <div className="flex items-center flex-1 mx-2 lg:hidden">
+        <div className="flex items-center flex-1 mx-2 lg:hidden justify-center">
           <a
             href="http://www.kpi.ac.th/"
             target="_blank"
