@@ -72,7 +72,7 @@ export default function ResponsibilityPageTwo(props) {
 
   return (
     <div
-      className="fixed inset-0 z-10 flex py-4 text-center  responsibility-page-two md:items-center text-white-default"
+      className=" absolute inset-0  flex py-4 text-center  responsibility-page-two md:items-center text-white-default"
       style={{ top: "60px" }}
     >
       <div className="w-full">
@@ -99,7 +99,10 @@ export default function ResponsibilityPageTwo(props) {
         </div>
 
         {!isMobileOnly || active_index === 11 ? (
-          <div className="overflow-x-auto px-4" ref={containerRef}>
+          <div
+            className="overflow-x-auto px-4 z-10 relative"
+            ref={containerRef}
+          >
             <div className="  flex gap-2 w-max pb-5 pl-4 mt-10 lg:mt-20 cursor-pointer scroll-list">
               {cards.map((c, c_index) => (
                 <div
