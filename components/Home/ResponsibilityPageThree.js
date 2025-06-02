@@ -153,7 +153,10 @@ export default function ResponsibilityPageThree() {
           </h4>
         </div>
         <div ref={containerRef} className="overflow-x-auto ">
-          <div className="flex w-full pb-5 pl-4 mt-10 cursor-pointer pointer-events-auto lg:mt-20 scroll-list">
+          <div
+            className="flex pb-5 pl-4 mt-10 cursor-pointer pointer-events-auto lg:mt-20 scroll-list"
+            style={{ width: "fit-content" }}
+          >
             {data.map((d, index) => (
               <div key={index} className="pr-4 item pointer-events-none">
                 {d.image ? (
