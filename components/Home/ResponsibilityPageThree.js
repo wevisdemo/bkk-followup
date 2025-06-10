@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import image_placeholder from "assets/images/image_placeholder.png";
+import { isMobileOnly } from "react-device-detect";
+import SwiperCore, { Mousewheel } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
 
 export default function ResponsibilityPageThree() {
   // const useScrollOnDrag = import("react-scroll-ondrag").default;
@@ -118,7 +122,10 @@ export default function ResponsibilityPageThree() {
   useEffect(() => {
     const scroll = document.querySelector(".scroll-list");
     setTimeout(() => {
-      scroll.scrollLeft = scroll.scrollWidth;
+      scroll.scrollTo({
+        left: scroll.scrollWidth,
+        behavior: "smooth",
+      });
     }, 1500);
   }, []);
 
@@ -127,7 +134,7 @@ export default function ResponsibilityPageThree() {
 
   return (
     <div
-      className="fixed inset-0 z-10 flex items-center text-center pointer-events-none responsibility-page-three text-white-default py-14"
+      className="absolute inset-0 flex py-4 text-center responsibility-page-two md:items-center text-white-default fade-enter-done"
       style={{ top: "60px" }}
     >
       <div className="flex flex-col justify-between w-full h-full">
@@ -152,13 +159,25 @@ export default function ResponsibilityPageThree() {
             โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
           </h4>
         </div>
-        <div ref={containerRef} className="overflow-x-auto ">
-          <div
-            className="flex pb-5 pl-4 mt-10 cursor-pointer pointer-events-auto lg:mt-20 scroll-list"
+        <div
+          ref={containerRef}
+          className="overflow-x-auto relative z-10 mb-5  px-5  "
+        >
+          {/* <div
+            className="flex pb-5 mt-10 cursor-pointer pointer-events-auto lg:mt-20"
             style={{ width: "fit-content" }}
+          > */}
+          <Swiper
+            spaceBetween={10}
+            slidesPerView={"auto"}
+            className=" flex justify-center items-center  cursor-pointer max-w-[120px] w-full scroll-list  "
           >
             {data.map((d, index) => (
-              <div key={index} className="pr-4 item pointer-events-none">
+              <SwiperSlide
+                key={index}
+                className=" item pointer-events-none slidePageThree"
+                style={{ height: "200px", width: "120px" }}
+              >
                 {d.image ? (
                   <div
                     className="overflow-hidden rounded-full bg-blue-default"
@@ -193,11 +212,12 @@ export default function ResponsibilityPageThree() {
                 <p className="name">{d.name}</p>
 
                 {d.appoint ? <p className="appoint">(แต่งตั้ง)</p> : null}
-              </div>
+              </SwiperSlide>
             ))}
-          </div>
+          </Swiper>
         </div>
       </div>
     </div>
+    // </div>
   );
 }

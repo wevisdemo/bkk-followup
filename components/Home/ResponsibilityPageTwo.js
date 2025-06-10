@@ -1,6 +1,11 @@
 import React, { useRef } from "react";
 import check from "assets/images/check.svg";
 import { isMobileOnly } from "react-device-detect";
+import SwiperCore, { Mousewheel } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+
+SwiperCore.use([Mousewheel]);
 
 export default function ResponsibilityPageTwo(props) {
   // const useScrollOnDrag = import("react-scroll-ondrag").default;
@@ -68,7 +73,6 @@ export default function ResponsibilityPageTwo(props) {
     },
   ];
   const containerRef = useRef(null);
-  // const { events } = useScrollOnDrag(containerRef);
 
   return (
     <div
@@ -103,31 +107,39 @@ export default function ResponsibilityPageTwo(props) {
             className="overflow-x-auto px-4 z-10 relative"
             ref={containerRef}
           >
-            <div className="  flex gap-2 w-max pb-5 pl-4 mt-10 lg:mt-20 cursor-pointer scroll-list">
-              {cards.map((c, c_index) => (
-                <div
-                  key={c_index}
-                  className="p-4 text-left rounded-md pointer-events-none  box bg-blue-lightest text-black-default responsiveSlide"
-                  style={{ width: "300px" }}
-                >
-                  <h5 className="d5">{c.title}</h5>
-
-                  <hr className="my-4" />
-
-                  <ul className="list">
-                    {c.list.map((l, l_index) => (
-                      <li
-                        key={l_index}
-                        className="flex items-center mt-2 2xl:mt-3"
-                      >
-                        <img width={25} src={check} alt={check} />
-
-                        <h4 className="flex-1 ml-3 text-lg">{l}</h4>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+            <div className="w-full mt-10 lg:mt-20">
+              <Swiper
+                direction={"horizontal"}
+                spaceBetween={10}
+                className="h-[500px] max-w-[300px] mx-auto cursor-pointer"
+                slidesPerView={"auto"}
+              >
+                {cards.map((c, c_index) => (
+                  <SwiperSlide
+                    key={c_index}
+                    className="p-4 text-left rounded-md box bg-blue-lightest text-black-default slidePageTwo"
+                    style={{
+                      height: "500px",
+                    }}
+                  >
+                    <div>
+                      <h5 className="d5">{c.title}</h5>
+                      <hr className="my-4" />
+                      <ul className="list">
+                        {c.list.map((l, l_index) => (
+                          <li
+                            key={l_index}
+                            className="flex items-center mt-2 2xl:mt-3"
+                          >
+                            <img width={25} src={check} alt="check" />
+                            <h4 className="flex-1 ml-3 text-lg">{l}</h4>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
           </div>
         ) : null}
