@@ -119,18 +119,19 @@ export default function ResponsibilityPageThree() {
     },
   ];
 
+  const swiperRef = useRef(null);
+
   useEffect(() => {
-    const scroll = document.querySelector(".scroll-list");
-    setTimeout(() => {
-      scroll.scrollTo({
-        left: scroll.scrollWidth,
-        behavior: "smooth",
-      });
-    }, 1500);
-  }, []);
+    const timeout = setTimeout(() => {
+      if (swiperRef.current && swiperRef.current.swiper) {
+        swiperRef.current.swiper.slideTo(data.length - 1, 500); // ✅ เลื่อนไปหน้าสุดท้ายใน 500ms
+      }
+    }, 1000); // รอ 1 วิหลังโหลด
+
+    return () => clearTimeout(timeout);
+  }, [data]);
 
   const containerRef = useRef(null);
-  // const { events } = useScrollOnDrag(containerRef);
 
   return (
     <div
@@ -163,14 +164,11 @@ export default function ResponsibilityPageThree() {
           ref={containerRef}
           className="overflow-x-auto relative z-10 mb-5  px-5  "
         >
-          {/* <div
-            className="flex pb-5 mt-10 cursor-pointer pointer-events-auto lg:mt-20"
-            style={{ width: "fit-content" }}
-          > */}
           <Swiper
+            ref={swiperRef}
             spaceBetween={10}
             slidesPerView={"auto"}
-            className=" flex justify-center items-center  cursor-pointer max-w-[120px] w-full scroll-list  "
+            className=" flex justify-center items-center  cursor-pointer max-w-[120px] w-full scroll-list "
           >
             {data.map((d, index) => (
               <SwiperSlide
@@ -218,6 +216,5 @@ export default function ResponsibilityPageThree() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
