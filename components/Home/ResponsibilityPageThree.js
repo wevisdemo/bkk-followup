@@ -1,9 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import image_placeholder from "assets/images/image_placeholder.png";
 import { isMobileOnly } from "react-device-detect";
-import SwiperCore, { Mousewheel } from "swiper";
+import SwiperCore, { Mousewheel, Scrollbar } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/components/scrollbar/scrollbar.min.css";
 import "swiper/swiper-bundle.css";
+
+SwiperCore.use([Mousewheel, Scrollbar]);
 
 export default function ResponsibilityPageThree() {
   // const useScrollOnDrag = import("react-scroll-ondrag").default;
@@ -162,13 +165,15 @@ export default function ResponsibilityPageThree() {
         </div>
         <div
           ref={containerRef}
-          className="overflow-x-auto relative z-10 mb-5  px-5  "
+          className="overflow-x-auto relative z-10 mb-10  px-5 "
         >
           <Swiper
             ref={swiperRef}
+            scrollbar={{ draggable: true }}
             spaceBetween={10}
             slidesPerView={"auto"}
-            className=" flex justify-center items-center  cursor-pointer max-w-[120px] w-full scroll-list "
+            style={{ paddingBottom: "50px" }}
+            className=" flex justify-center items-center  cursor-pointer max-w-[120px] w-full scroll-list  "
           >
             {data.map((d, index) => (
               <SwiperSlide

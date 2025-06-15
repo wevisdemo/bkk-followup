@@ -1,11 +1,12 @@
 import React, { useRef } from "react";
 import check from "assets/images/check.svg";
 import { isMobileOnly } from "react-device-detect";
-import SwiperCore, { Mousewheel } from "swiper";
+import SwiperCore, { Mousewheel, Scrollbar } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/components/scrollbar/scrollbar.min.css";
 import "swiper/swiper-bundle.css";
 
-SwiperCore.use([Mousewheel]);
+SwiperCore.use([Mousewheel, Scrollbar]);
 
 export default function ResponsibilityPageTwo(props) {
   // const useScrollOnDrag = import("react-scroll-ondrag").default;
@@ -109,6 +110,7 @@ export default function ResponsibilityPageTwo(props) {
           >
             <div className="w-full mt-10 lg:mt-20">
               <Swiper
+                scrollbar={{ draggable: true }}
                 direction={"horizontal"}
                 spaceBetween={10}
                 className="h-[500px] max-w-[300px] mx-auto cursor-pointer"
