@@ -1,9 +1,11 @@
 import React from "react";
 import * as d3 from "d3";
 import { isMobile, isMobileOnly } from "react-device-detect";
+import dashboard_data from "public/data/dashboard.json";
 
 const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK, years }) => {
   let title, sub, standard, avg, height_rank, low_rank, unit, note;
+
   let height_elem = d3
     .select("#group-dropdown")
     .node()
@@ -42,7 +44,7 @@ const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK, years }) => {
     title = "อันดับค่าฝุ่นควันในกรุงเทพมหานคร";
     sub = "ค่าฝุ่นควันสูงสุด ( มคก./ลบ.ม.)";
     standard = 25;
-    avg = "ค่าฝุ่นละออง PM2.5 (ไม่เกิน 25 มคก./ลบ.ม.)";
+    avg = `ค่าฝุ่นละออง PM2.5 (ไม่เกิน ${dashboard_data.air.standard} มคก./ลบ.ม.)`;
     unit = "มคก./ลบซม.";
     note = "ที่มาข้อมูล: กรมควบคุมมลพิษ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม";
   }
@@ -55,7 +57,6 @@ const rank62 = ({ selected_theme, data, SET_DISTRICT, SET_IS_RANK, years }) => {
     }
   });
   low_rank = _.filter(data, (d) => d.value < standard);
-
   const selected_zone = (name) => {
     SET_DISTRICT(name);
     setTimeout(() => {

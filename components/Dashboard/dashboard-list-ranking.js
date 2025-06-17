@@ -1,4 +1,5 @@
 import React from "react";
+import dashboard_data from "public/data/dashboard.json";
 
 const listRanking = ({ selected_theme, data, years }) => {
   let title, subtitle, unit, standard, height_rank, low_rank, std_text;
@@ -28,8 +29,8 @@ const listRanking = ({ selected_theme, data, years }) => {
     title = `ค่าสูงสุดของ PM2.5 ปี ${years[years.length - 1]}`;
     subtitle = "เรียงลำดับจากมากไปน้อย";
     unit = "มค.ก./ลบ.ม.";
-    standard = 25;
-    std_text = "ค่ามาตรฐานตาม WHO กำหนด 25 มคก./ลบ.ม.";
+    standard = dashboard_data.air.standard;
+    std_text = `ค่ามาตรฐานตาม WHO กำหนด ${dashboard_data.air.standard}`;
   }
 
   height_rank = _.filter(data, (d) => {

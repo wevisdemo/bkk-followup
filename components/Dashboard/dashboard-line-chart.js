@@ -1,6 +1,7 @@
 import React from "react";
 import LineChart from "components/Dashboard/util/line-chart";
 import dashImg from "assets/images/dash.svg";
+import dashboard_data from "public/data/dashboard.json";
 
 const line_chart = ({ selected_theme, data, years }) => {
   let title, sub, dis, note;
@@ -29,7 +30,7 @@ const line_chart = ({ selected_theme, data, years }) => {
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
     title = "แนวโน้มค่าสูงสุดของ PM2.5 (มคก./ลบ.ม.) ";
     sub = `ตั้งแต่ปี ${years[0]}-${years[years.length - 1]}`;
-    dis = "ค่าฝุ่นละออง PM2.5 (ไม่เกิน 37.5 มคก./ลบ.ม.)";
+    dis = `ค่าฝุ่นละออง PM2.5 (ไม่เกิน ${dashboard_data.air.standard} มคก./ลบ.ม.)`;
     note = "ยิ่งน้อย ยิ่งดี และควรมีฝุ่นละออง PM2.5 ไม่เกินกว่ามาตรฐานที่กำหนด";
   }
 
