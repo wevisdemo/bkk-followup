@@ -1,5 +1,5 @@
 {
-  "value": 365,
+  "value": 76.4,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 86,
     "2565": 66,
     "2566": 84,
-    "2567": 365
+    "2567": 76.4
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "ลาดพร้าว"
   },
   "maximumPoint": {
-    "value": 365,
-    "year": 2567,
+    "value": 104,
+    "year": 2563,
     "districtId": 39,
     "districtName": "ลาดพร้าว"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 6,
+  "ranked": 26,
   "rankings": [
     {
       "ranked": 43,
@@ -65,9 +65,9 @@
       "value": 84
     },
     {
-      "ranked": 6,
+      "ranked": 26,
       "year": 2567,
-      "value": 365
+      "value": 76.4
     }
   ],
   "sampling": null

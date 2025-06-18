@@ -1,5 +1,5 @@
 {
-  "value": 123,
+  "value": 61.9,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 90,
     "2565": 71,
     "2566": 101,
-    "2567": 123
+    "2567": 61.9
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "สวนหลวง"
   },
   "maximumPoint": {
-    "value": 123,
-    "year": 2567,
+    "value": 101,
+    "year": 2566,
     "districtId": 42,
     "districtName": "สวนหลวง"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 38,
+  "ranked": 50,
   "rankings": [
     {
       "ranked": 45,
@@ -65,9 +65,9 @@
       "value": 101
     },
     {
-      "ranked": 38,
+      "ranked": 50,
       "year": 2567,
-      "value": 123
+      "value": 61.9
     }
   ],
   "sampling": null

@@ -1,5 +1,5 @@
 {
-  "value": 99.7,
+  "value": 68.8,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 80,
     "2565": 82,
     "2566": 85,
-    "2567": 99.7
+    "2567": 68.8
   },
   "minimumPoint": {
     "value": 23,
@@ -22,8 +22,8 @@
     "districtName": "พญาไท"
   },
   "maximumPoint": {
-    "value": 99.7,
-    "year": 2567,
+    "value": 95,
+    "year": 2563,
     "districtId": 30,
     "districtName": "พญาไท"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 50,
+  "ranked": 44,
   "rankings": [
     {
       "ranked": 20,
@@ -65,9 +65,9 @@
       "value": 85
     },
     {
-      "ranked": 50,
+      "ranked": 44,
       "year": 2567,
-      "value": 99.7
+      "value": 68.8
     }
   ],
   "sampling": {

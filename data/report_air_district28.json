@@ -1,5 +1,5 @@
 {
-  "value": 133.4,
+  "value": 91.3,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 109,
     "2565": 79,
     "2566": 130,
-    "2567": 133.4
+    "2567": 91.3
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "ประเวศ"
   },
   "maximumPoint": {
-    "value": 133.4,
-    "year": 2567,
+    "value": 130,
+    "year": 2566,
     "districtId": 28,
     "districtName": "ประเวศ"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 32,
+  "ranked": 1,
   "rankings": [
     {
       "ranked": 38,
@@ -65,9 +65,9 @@
       "value": 130
     },
     {
-      "ranked": 32,
+      "ranked": 1,
       "year": 2567,
-      "value": 133.4
+      "value": 91.3
     }
   ],
   "sampling": null

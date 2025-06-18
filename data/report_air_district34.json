@@ -1,5 +1,5 @@
 {
-  "value": 170.9,
+  "value": 81.6,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 97,
     "2565": 80,
     "2566": 105,
-    "2567": 170.9
+    "2567": 81.6
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "มีนบุรี"
   },
   "maximumPoint": {
-    "value": 170.9,
-    "year": 2567,
+    "value": 105,
+    "year": 2566,
     "districtId": 34,
     "districtName": "มีนบุรี"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 19,
+  "ranked": 13,
   "rankings": [
     {
       "ranked": 41,
@@ -65,9 +65,9 @@
       "value": 105
     },
     {
-      "ranked": 19,
+      "ranked": 13,
       "year": 2567,
-      "value": 170.9
+      "value": 81.6
     }
   ],
   "sampling": null

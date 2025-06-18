@@ -1,5 +1,5 @@
 {
-  "value": 155.1,
+  "value": 73.4,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 101,
     "2565": 65,
     "2566": 107,
-    "2567": 155.1
+    "2567": 73.4
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "ทุ่งครุ"
   },
   "maximumPoint": {
-    "value": 155.1,
-    "year": 2567,
+    "value": 107,
+    "year": 2566,
     "districtId": 12,
     "districtName": "ทุ่งครุ"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 25,
+  "ranked": 36,
   "rankings": [
     {
       "ranked": 33,
@@ -65,9 +65,9 @@
       "value": 107
     },
     {
-      "ranked": 25,
+      "ranked": 36,
       "year": 2567,
-      "value": 155.1
+      "value": 73.4
     }
   ],
   "sampling": null

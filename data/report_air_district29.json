@@ -1,5 +1,5 @@
 {
-  "value": 110.3,
+  "value": 76.6,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 91,
     "2565": 79,
     "2566": 85,
-    "2567": 110.3
+    "2567": 76.6
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "ป้อมปราบศัตรูพ่าย"
   },
   "maximumPoint": {
-    "value": 110.3,
-    "year": 2567,
+    "value": 91,
+    "year": 2564,
     "districtId": 29,
     "districtName": "ป้อมปราบศัตรูพ่าย"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 44,
+  "ranked": 25,
   "rankings": [
     {
       "ranked": 39,
@@ -65,9 +65,9 @@
       "value": 85
     },
     {
-      "ranked": 44,
+      "ranked": 25,
       "year": 2567,
-      "value": 110.3
+      "value": 76.6
     }
   ],
   "sampling": null

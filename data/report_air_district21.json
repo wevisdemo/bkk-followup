@@ -1,5 +1,5 @@
 {
-  "value": 198.1,
+  "value": 74,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 83,
     "2565": 72,
     "2566": 91,
-    "2567": 198.1
+    "2567": 74
   },
   "minimumPoint": {
     "value": 26,
@@ -22,8 +22,8 @@
     "districtName": "บางซื่อ"
   },
   "maximumPoint": {
-    "value": 198.1,
-    "year": 2567,
+    "value": 95,
+    "year": 2563,
     "districtId": 21,
     "districtName": "บางซื่อ"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 15,
+  "ranked": 35,
   "rankings": [
     {
       "ranked": 11,
@@ -65,9 +65,9 @@
       "value": 91
     },
     {
-      "ranked": 15,
+      "ranked": 35,
       "year": 2567,
-      "value": 198.1
+      "value": 74
     }
   ],
   "sampling": null

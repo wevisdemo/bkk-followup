@@ -1,5 +1,5 @@
 {
-  "value": 469.9,
+  "value": 82.9,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 80,
     "2565": 86,
     "2566": 94,
-    "2567": 469.9
+    "2567": 82.9
   },
   "minimumPoint": {
     "value": 34,
@@ -22,8 +22,8 @@
     "districtName": "บางพลัด"
   },
   "maximumPoint": {
-    "value": 469.9,
-    "year": 2567,
+    "value": 103,
+    "year": 2563,
     "districtId": 24,
     "districtName": "บางพลัด"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 2,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 7,
@@ -65,9 +65,9 @@
       "value": 94
     },
     {
-      "ranked": 2,
+      "ranked": 12,
       "year": 2567,
-      "value": 469.9
+      "value": 82.9
     }
   ],
   "sampling": null

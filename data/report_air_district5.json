@@ -1,5 +1,5 @@
 {
-  "value": 443.5,
+  "value": 75.9,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 79,
     "2565": 75,
     "2566": 88,
-    "2567": 443.5
+    "2567": 75.9
   },
   "minimumPoint": {
     "value": 25,
@@ -22,8 +22,8 @@
     "districtName": "จตุจักร"
   },
   "maximumPoint": {
-    "value": 443.5,
-    "year": 2567,
+    "value": 121,
+    "year": 2562,
     "districtId": 5,
     "districtName": "จตุจักร"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 3,
+  "ranked": 29,
   "rankings": [
     {
       "ranked": 14,
@@ -65,9 +65,9 @@
       "value": 88
     },
     {
-      "ranked": 3,
+      "ranked": 29,
       "year": 2567,
-      "value": 443.5
+      "value": 75.9
     }
   ],
   "sampling": null
