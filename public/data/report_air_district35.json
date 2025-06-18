@@ -1,5 +1,5 @@
 {
-  "value": 484.1,
+  "value": 85.7,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 100,
     "2565": 70,
     "2566": 117,
-    "2567": 484.1
+    "2567": 85.7
   },
   "minimumPoint": {
     "value": 22,
@@ -22,8 +22,8 @@
     "districtName": "ยานนาวา"
   },
   "maximumPoint": {
-    "value": 484.1,
-    "year": 2567,
+    "value": 186,
+    "year": 2562,
     "districtId": 35,
     "districtName": "ยานนาวา"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 1,
+  "ranked": 4,
   "rankings": [
     {
       "ranked": 21,
@@ -65,9 +65,9 @@
       "value": 117
     },
     {
-      "ranked": 1,
+      "ranked": 4,
       "year": 2567,
-      "value": 484.1
+      "value": 85.7
     }
   ],
   "sampling": {

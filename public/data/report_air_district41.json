@@ -1,5 +1,5 @@
 {
-  "value": 120,
+  "value": 70.4,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 86,
     "2565": 60,
     "2566": 95,
-    "2567": 120
+    "2567": 70.4
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "วัฒนา"
   },
   "maximumPoint": {
-    "value": 120,
-    "year": 2567,
+    "value": 95,
+    "year": 2566,
     "districtId": 41,
     "districtName": "วัฒนา"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 40,
+  "ranked": 39,
   "rankings": [
     {
       "ranked": 44,
@@ -65,9 +65,9 @@
       "value": 95
     },
     {
-      "ranked": 40,
+      "ranked": 39,
       "year": 2567,
-      "value": 120
+      "value": 70.4
     }
   ],
   "sampling": null

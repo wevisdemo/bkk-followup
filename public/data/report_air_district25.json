@@ -1,5 +1,5 @@
 {
-  "value": 332,
+  "value": 79.7,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 88,
     "2565": 77,
     "2566": 90,
-    "2567": 332
+    "2567": 79.7
   },
   "minimumPoint": {
     "value": 25,
@@ -22,8 +22,8 @@
     "districtName": "บางรัก"
   },
   "maximumPoint": {
-    "value": 332,
-    "year": 2567,
+    "value": 92,
+    "year": 2563,
     "districtId": 25,
     "districtName": "บางรัก"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 7,
+  "ranked": 18,
   "rankings": [
     {
       "ranked": 16,
@@ -65,9 +65,9 @@
       "value": 90
     },
     {
-      "ranked": 7,
+      "ranked": 18,
       "year": 2567,
-      "value": 332
+      "value": 79.7
     }
   ],
   "sampling": null

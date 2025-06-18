@@ -1,5 +1,5 @@
 {
-  "value": 203.8,
+  "value": 74.3,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 84,
     "2565": 79,
     "2566": 84,
-    "2567": 203.8
+    "2567": 74.3
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "ดินแดง"
   },
   "maximumPoint": {
-    "value": 203.8,
-    "year": 2567,
+    "value": 84,
+    "year": 2564,
     "districtId": 8,
     "districtName": "ดินแดง"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 14,
+  "ranked": 34,
   "rankings": [
     {
       "ranked": 29,
@@ -65,9 +65,9 @@
       "value": 84
     },
     {
-      "ranked": 14,
+      "ranked": 34,
       "year": 2567,
-      "value": 203.8
+      "value": 74.3
     }
   ],
   "sampling": {

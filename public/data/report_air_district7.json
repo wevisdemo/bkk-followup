@@ -1,5 +1,5 @@
 {
-  "value": 165,
+  "value": 68.9,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 87,
     "2565": 76,
     "2566": 97,
-    "2567": 165
+    "2567": 68.9
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "ดอนเมือง"
   },
   "maximumPoint": {
-    "value": 165,
-    "year": 2567,
+    "value": 97,
+    "year": 2566,
     "districtId": 7,
     "districtName": "ดอนเมือง"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 21,
+  "ranked": 43,
   "rankings": [
     {
       "ranked": 28,
@@ -65,9 +65,9 @@
       "value": 97
     },
     {
-      "ranked": 21,
+      "ranked": 43,
       "year": 2567,
-      "value": 165
+      "value": 68.9
     }
   ],
   "sampling": null

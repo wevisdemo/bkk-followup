@@ -1,5 +1,5 @@
 {
-  "value": 389,
+  "value": 91.3,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 109,
     "2565": 88,
     "2566": 130,
-    "2567": 389
+    "2567": 91.3
   },
   "minimumPoint": {
     "districtId": 4,
@@ -22,10 +22,10 @@
     "value": 0
   },
   "maximumPoint": {
-    "districtId": 31,
-    "districtName": "พระโขนง",
-    "year": 2567,
-    "value": 389
+    "districtId": 28,
+    "districtName": "ประเวศ",
+    "year": 2566,
+    "value": 130
   },
   "budgetPerYear": {},
   "budgetOverall": {
@@ -35,114 +35,114 @@
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 31,
-      "districtName": "พระโขนง",
-      "value": 389
+      "districtId": 28,
+      "districtName": "ประเวศ",
+      "value": 91.3
     },
     {
       "ranked": 2,
-      "districtId": 39,
-      "districtName": "ลาดพร้าว",
-      "value": 365
+      "districtId": 26,
+      "districtName": "บึงกุ่ม",
+      "value": 85.5
     },
     {
       "ranked": 3,
-      "districtId": 26,
-      "districtName": "บึงกุ่ม",
-      "value": 224.1
+      "districtId": 22,
+      "districtName": "บางนา",
+      "value": 83.5
     },
     {
       "ranked": 4,
-      "districtId": 18,
-      "districtName": "บางเขน",
-      "value": 213.3
+      "districtId": 4,
+      "districtName": "คันนายาว",
+      "value": 81.5
     },
     {
       "ranked": 5,
-      "districtId": 22,
-      "districtName": "บางนา",
-      "value": 190.4
+      "districtId": 40,
+      "districtName": "วังทองหลาง",
+      "value": 78.3
     },
     {
       "ranked": 6,
-      "districtId": 7,
-      "districtName": "ดอนเมือง",
-      "value": 165
+      "districtId": 18,
+      "districtName": "บางเขน",
+      "value": 77
     },
     {
       "ranked": 7,
-      "districtId": 4,
-      "districtName": "คันนายาว",
-      "value": 143.9
+      "districtId": 39,
+      "districtName": "ลาดพร้าว",
+      "value": 76.4
     },
     {
       "ranked": 8,
-      "districtId": 28,
-      "districtName": "ประเวศ",
-      "value": 133.4
+      "districtId": 31,
+      "districtName": "พระโขนง",
+      "value": 76.1
     },
     {
       "ranked": 9,
-      "districtId": 40,
-      "districtName": "วังทองหลาง",
-      "value": 130
+      "districtId": 46,
+      "districtName": "สายไหม",
+      "value": 75.9
     },
     {
       "ranked": 10,
-      "districtId": 43,
-      "districtName": "สะพานสูง",
-      "value": 124.7
+      "districtId": 49,
+      "districtName": "หลักสี่",
+      "value": 75.4
     },
     {
       "ranked": 11,
-      "districtId": 46,
-      "districtName": "สายไหม",
-      "value": 124.2
+      "districtId": 16,
+      "districtName": "บางกะปิ",
+      "value": 73.3
     },
     {
       "ranked": 12,
-      "districtId": 42,
-      "districtName": "สวนหลวง",
-      "value": 123
+      "districtId": 7,
+      "districtName": "ดอนเมือง",
+      "value": 68.9
     },
     {
       "ranked": 13,
-      "districtId": 49,
-      "districtName": "หลักสี่",
-      "value": 120.6
+      "districtId": 43,
+      "districtName": "สะพานสูง",
+      "value": 68.8
     },
     {
       "ranked": 14,
-      "districtId": 16,
-      "districtName": "บางกะปิ",
-      "value": 117.6
+      "districtId": 42,
+      "districtName": "สวนหลวง",
+      "value": 61.9
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 484.1
+      "value": 91.3
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 389
+      "value": 91.3
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 320.6
+      "value": 87.7
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 469.9
+      "value": 83.7
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 484.1
+      "value": 85.7
     }
   ],
   "sampling": {

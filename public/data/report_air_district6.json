@@ -1,5 +1,5 @@
 {
-  "value": 159.4,
+  "value": 74.3,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,7 @@
     "2564": 118,
     "2565": 78,
     "2566": 108,
-    "2567": 159.4
+    "2567": 74.3
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +22,8 @@
     "districtName": "จอมทอง"
   },
   "maximumPoint": {
-    "value": 159.4,
-    "year": 2567,
+    "value": 118,
+    "year": 2564,
     "districtId": 6,
     "districtName": "จอมทอง"
   },
@@ -32,7 +32,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 22,
+  "ranked": 33,
   "rankings": [
     {
       "ranked": 27,
@@ -65,9 +65,9 @@
       "value": 108
     },
     {
-      "ranked": 22,
+      "ranked": 33,
       "year": 2567,
-      "value": 159.4
+      "value": 74.3
     }
   ],
   "sampling": null
