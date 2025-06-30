@@ -1,4 +1,6 @@
 import React from "react";
+import dashboard from "public/data/dashboard.json";
+import { formatThaiDate } from "components/Dashboard/util/formatThaiDate";
 
 const standard = ({ selected_theme }) => {
   return (
@@ -62,7 +64,9 @@ const standard = ({ selected_theme }) => {
           </p>
           <span className="flex p2 ">
             <p className="font-bold">หมายเหตุ</p>
-            <p className="pl-2">ข้อมูลอัปเดท พฤษภาคม 2567</p>
+            <p className="pl-2">
+              ข้อมูลอัปเดท {formatThaiDate(dashboard.green.date)}
+            </p>
           </span>
           <p className="p3">ที่มา: สำนักสิ่งแวดล้อม กรุงเทพมหานคร</p>
         </div>

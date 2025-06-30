@@ -3,6 +3,7 @@ import Rating from "components/Dashboard/util/rating";
 import exclamation from "assets/images/exclamation.svg";
 import smile from "assets/images/smile.svg";
 import dashboard from "public/data/dashboard.json";
+import { formatThaiDate } from "components/Dashboard/util/formatThaiDate";
 
 const AVG = ({
   selected_theme,
@@ -50,8 +51,9 @@ const AVG = ({
       years[years.length - 1]
     } เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่`;
   } else if (selected_theme.name === "พื้นที่สีเขียว") {
-    AVG_title =
-      "สัดส่วนพื้นที่สีเขียวต่อประชากร 1 คนโดยเฉลี่ย (ข้อมูล ณ พฤษภาคม 2567)";
+    AVG_title = `สัดส่วนพื้นที่สีเขียวต่อประชากร 1 คนโดยเฉลี่ย (ข้อมูล ณ ${formatThaiDate(
+      dashboard.green.date
+    )})`;
     unit = "ตร.ม./คน";
     unit_filter = "ตร.ม./คน";
     AVG_max = "เขตที่มีพื้นที่สีเขียวมากที่สุด";
