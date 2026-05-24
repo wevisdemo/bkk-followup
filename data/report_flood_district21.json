@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": null,
   "valuePerYear": {
     "2555": 13,
     "2556": 10,
@@ -13,7 +13,8 @@
     "2564": 1,
     "2565": 3,
     "2566": 3,
-    "2567": 1
+    "2567": 1,
+    "2568": null
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 344757980,
       "focused": 3289300
+    },
+    "2568": {
+      "all": 372748200,
+      "focused": 3266400
     }
   },
   "budgetOverall": {
-    "all": 4209607522,
-    "focused": 223813700
+    "all": 4582355722,
+    "focused": 227080100
   },
-  "ranked": 29,
+  "ranked": null,
   "rankings": [
     {
       "ranked": 11,
@@ -149,7 +154,7 @@
       "description": "ใกล้แยกเตาปูน"
     }
   ],
-  "meanFloodLevel": 8.9,
+  "meanFloodLevel": null,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2555,

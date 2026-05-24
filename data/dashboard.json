@@ -1,7 +1,7 @@
 {
   "green": {
-    "date": "2025-04-01",
-    "perCapita": 7.89,
+    "date": "2025-10-01",
+    "perCapita": 8.11,
     "accessiblePerCapita": 1.2,
     "standard": 9
   },
@@ -9,7 +9,7 @@
     "standard": 4
   },
   "air": {
-    "latestYearAverage": 26.5,
+    "latestYearAverage": 23,
     "standard": 37.5
   },
   "waste": {
@@ -26,7 +26,8 @@
       "2564": 1.05,
       "2565": 1.07,
       "2566": 1.12,
-      "2567": 1.13
+      "2567": 1.13,
+      "2568": null
     }
   }
 }

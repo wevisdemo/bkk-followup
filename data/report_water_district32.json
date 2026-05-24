@@ -1,5 +1,5 @@
 {
-  "value": 8.52,
+  "value": 10.56,
   "valuePerYear": {
     "2555": 7.86,
     "2556": 6.03,
@@ -13,7 +13,8 @@
     "2564": 6.96,
     "2565": 6.5,
     "2566": 8.28,
-    "2567": 8.52
+    "2567": 8.52,
+    "2568": 10.56
   },
   "minimumPoint": {
     "value": 6.03,
@@ -22,8 +23,8 @@
     "districtName": "พระนคร"
   },
   "maximumPoint": {
-    "value": 10.28,
-    "year": 2559,
+    "value": 10.56,
+    "year": 2568,
     "districtId": 32,
     "districtName": "พระนคร"
   },
@@ -32,7 +33,7 @@
     "all": 0,
     "focused": 0
   },
-  "ranked": 35,
+  "ranked": 29,
   "rankings": [
     {
       "ranked": 32,
@@ -98,6 +99,11 @@
       "ranked": 35,
       "year": 2567,
       "value": 8.52
+    },
+    {
+      "ranked": 29,
+      "year": 2568,
+      "value": 10.56
     }
   ]
 }

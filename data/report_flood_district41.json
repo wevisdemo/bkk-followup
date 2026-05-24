@@ -1,5 +1,5 @@
 {
-  "value": 16,
+  "value": 15,
   "valuePerYear": {
     "2555": 16,
     "2556": 81,
@@ -13,7 +13,8 @@
     "2564": 10,
     "2565": 16,
     "2566": 7,
-    "2567": 16
+    "2567": 16,
+    "2568": 15
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 369693530,
       "focused": 3116300
+    },
+    "2568": {
+      "all": 376731900,
+      "focused": 40018100
     }
   },
   "budgetOverall": {
-    "all": 4241438930,
-    "focused": 111574200
+    "all": 4618170830,
+    "focused": 151592300
   },
-  "ranked": 3,
+  "ranked": 21,
   "rankings": [
     {
       "ranked": 8,
@@ -151,6 +156,11 @@
       "ranked": 3,
       "year": 2567,
       "value": 16
+    },
+    {
+      "ranked": 21,
+      "year": 2568,
+      "value": 15
     }
   ],
   "floodHotspots": [
@@ -183,7 +193,7 @@
       "description": "ปากซอยสุขุมวิท 39 แยกถนนพร้อมศรี"
     }
   ],
-  "meanFloodLevel": 20.4,
+  "meanFloodLevel": 10.45,
   "meanFloodLevelMaximumPoint": {
     "value": 33.9,
     "year": 2558,

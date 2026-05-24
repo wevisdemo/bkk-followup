@@ -13,7 +13,8 @@
     "2564": 1,
     "2565": 1,
     "2566": 1,
-    "2567": 2
+    "2567": 2,
+    "2568": 2
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 467190160,
       "focused": 41591200
+    },
+    "2568": {
+      "all": 402416100,
+      "focused": 9654300
     }
   },
   "budgetOverall": {
-    "all": 5427831600,
-    "focused": 308056400
+    "all": 5830247700,
+    "focused": 317710700
   },
-  "ranked": 20,
+  "ranked": 34,
   "rankings": [
     {
       "ranked": 13,
@@ -126,6 +131,11 @@
       "ranked": 20,
       "year": 2567,
       "value": 2
+    },
+    {
+      "ranked": 34,
+      "year": 2568,
+      "value": 2
     }
   ],
   "floodHotspots": [
@@ -134,7 +144,7 @@
       "description": "แยกจอมทอง จอมทอง 17 ทั้งสองฝั่ง"
     }
   ],
-  "meanFloodLevel": 19.3,
+  "meanFloodLevel": 10.65,
   "meanFloodLevelMaximumPoint": {
     "value": 30.5,
     "year": 2561,

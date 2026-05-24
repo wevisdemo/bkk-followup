@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": 2,
   "valuePerYear": {
     "2555": null,
     "2556": 14,
@@ -13,7 +13,8 @@
     "2564": 1,
     "2565": null,
     "2566": null,
-    "2567": 1
+    "2567": 1,
+    "2568": 2
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 347449240,
       "focused": 5708100
+    },
+    "2568": {
+      "all": 315487400,
+      "focused": 9415600
     }
   },
   "budgetOverall": {
-    "all": 3925298788,
-    "focused": 239989998
+    "all": 4240786188,
+    "focused": 249405598
   },
-  "ranked": 28,
+  "ranked": 35,
   "rankings": [
     {
       "ranked": 10,
@@ -131,6 +136,11 @@
       "ranked": 28,
       "year": 2567,
       "value": 1
+    },
+    {
+      "ranked": 35,
+      "year": 2568,
+      "value": 2
     }
   ],
   "floodHotspots": [
@@ -139,7 +149,7 @@
       "description": "ถนนตก วัดราชสิงขร"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 4.15,
   "meanFloodLevelMaximumPoint": {
     "value": 30.8,
     "year": 2561,

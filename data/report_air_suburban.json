@@ -1,5 +1,5 @@
 {
-  "value": 87.7,
+  "value": 104.2,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,8 @@
     "2564": 118,
     "2565": 116,
     "2566": 134,
-    "2567": 87.7
+    "2567": 87.7,
+    "2568": 104.2
   },
   "minimumPoint": {
     "districtId": 3,
@@ -35,114 +36,114 @@
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 11,
-      "districtName": "ทวีวัฒนา",
-      "value": 87.7
+      "districtId": 47,
+      "districtName": "หนองแขม",
+      "value": 104.2
     },
     {
       "ranked": 2,
       "districtId": 48,
       "districtName": "หนองจอก",
-      "value": 86.3
+      "value": 101.8
     },
     {
       "ranked": 3,
-      "districtId": 3,
-      "districtName": "คลองสามวา",
-      "value": 85
+      "districtId": 11,
+      "districtName": "ทวีวัฒนา",
+      "value": 100.8
     },
     {
       "ranked": 4,
       "districtId": 38,
       "districtName": "ลาดกระบัง",
-      "value": 84.7
+      "value": 98.7
     },
     {
       "ranked": 5,
-      "districtId": 23,
-      "districtName": "บางบอน",
-      "value": 84.4
+      "districtId": 34,
+      "districtName": "มีนบุรี",
+      "value": 98.5
     },
     {
       "ranked": 6,
-      "districtId": 34,
-      "districtName": "มีนบุรี",
-      "value": 81.6
+      "districtId": 3,
+      "districtName": "คลองสามวา",
+      "value": 96.3
     },
     {
       "ranked": 7,
-      "districtId": 47,
-      "districtName": "หนองแขม",
-      "value": 81
+      "districtId": 17,
+      "districtName": "บางขุนเทียน",
+      "value": 95.2
     },
     {
       "ranked": 8,
-      "districtId": 10,
-      "districtName": "ตลิ่งชัน",
-      "value": 80.9
+      "districtId": 33,
+      "districtName": "ภาษีเจริญ",
+      "value": 93.7
     },
     {
       "ranked": 9,
-      "districtId": 17,
-      "districtName": "บางขุนเทียน",
-      "value": 77.5
+      "districtId": 10,
+      "districtName": "ตลิ่งชัน",
+      "value": 92.2
     },
     {
       "ranked": 10,
-      "districtId": 33,
-      "districtName": "ภาษีเจริญ",
-      "value": 77
+      "districtId": 6,
+      "districtName": "จอมทอง",
+      "value": 90.1
     },
     {
       "ranked": 11,
-      "districtId": 37,
-      "districtName": "ราษฎร์บูรณะ",
-      "value": 76
+      "districtId": 23,
+      "districtName": "บางบอน",
+      "value": 89.3
     },
     {
       "ranked": 12,
-      "districtId": 6,
-      "districtName": "จอมทอง",
-      "value": 74.3
+      "districtId": 12,
+      "districtName": "ทุ่งครุ",
+      "value": 85.7
     },
     {
       "ranked": 13,
-      "districtId": 12,
-      "districtName": "ทุ่งครุ",
-      "value": 73.4
+      "districtId": 37,
+      "districtName": "ราษฎร์บูรณะ",
+      "value": 82.9
     },
     {
       "ranked": 14,
       "districtId": 20,
       "districtName": "บางแค",
-      "value": 69.6
+      "value": 79
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 91.3
+      "value": 104.2
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 91.3
+      "value": 101.8
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 87.7
+      "value": 104.2
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 83.7
+      "value": 96.9
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 85.7
+      "value": 86.6
     }
   ],
   "sampling": {

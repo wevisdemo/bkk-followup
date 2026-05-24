@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 2,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,13 +13,18 @@
     "2564": null,
     "2565": null,
     "2566": null,
-    "2567": null
+    "2567": null,
+    "2568": 2
   },
   "minimumPoint": {
+    "value": 2,
+    "year": 2568,
     "districtId": 4,
     "districtName": "คันนายาว"
   },
   "maximumPoint": {
+    "value": 2,
+    "year": 2568,
     "districtId": 4,
     "districtName": "คันนายาว"
   },
@@ -75,17 +80,29 @@
     "2567": {
       "all": 390439070,
       "focused": 63812100
+    },
+    "2568": {
+      "all": 342226810,
+      "focused": 25425970
     }
   },
   "budgetOverall": {
-    "all": 3759089430,
-    "focused": 255474200
+    "all": 4101316240,
+    "focused": 280900170
   },
-  "ranked": null,
-  "rankings": [],
+  "ranked": 33,
+  "rankings": [
+    {
+      "ranked": 33,
+      "year": 2568,
+      "value": 2
+    }
+  ],
   "floodHotspots": [],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 8.15,
   "meanFloodLevelMaximumPoint": {
+    "value": 8.15,
+    "year": 2568,
     "districtId": 4,
     "districtName": "คันนายาว"
   }

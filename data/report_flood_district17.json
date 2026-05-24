@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 10,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,8 @@
     "2564": 2,
     "2565": 2,
     "2566": 1,
-    "2567": null
+    "2567": null,
+    "2568": 10
   },
   "minimumPoint": {
     "value": 1,
@@ -22,8 +23,8 @@
     "districtName": "บางขุนเทียน"
   },
   "maximumPoint": {
-    "value": 2,
-    "year": 2563,
+    "value": 10,
+    "year": 2568,
     "districtId": 17,
     "districtName": "บางขุนเทียน"
   },
@@ -79,13 +80,17 @@
     "2567": {
       "all": 677121250,
       "focused": 38539200
+    },
+    "2568": {
+      "all": 734130300,
+      "focused": 24719900
     }
   },
   "budgetOverall": {
-    "all": 7124256475,
-    "focused": 257532420
+    "all": 7858386775,
+    "focused": 282252320
   },
-  "ranked": null,
+  "ranked": 22,
   "rankings": [
     {
       "ranked": 18,
@@ -106,6 +111,11 @@
       "ranked": 28,
       "year": 2566,
       "value": 1
+    },
+    {
+      "ranked": 22,
+      "year": 2568,
+      "value": 10
     }
   ],
   "floodHotspots": [
@@ -118,7 +128,7 @@
       "description": "ท่าข้าม ซ.6 ฝั่งตรงข้าม ซ.5"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 9.85,
   "meanFloodLevelMaximumPoint": {
     "value": 17.5,
     "year": 2563,

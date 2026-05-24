@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 1,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,13 +13,18 @@
     "2564": null,
     "2565": null,
     "2566": null,
-    "2567": null
+    "2567": null,
+    "2568": 1
   },
   "minimumPoint": {
+    "value": 1,
+    "year": 2568,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   },
   "maximumPoint": {
+    "value": 1,
+    "year": 2568,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   },
@@ -75,17 +80,29 @@
     "2567": {
       "all": 338751125,
       "focused": 102095800
+    },
+    "2568": {
+      "all": 250337500,
+      "focused": 5488300
     }
   },
   "budgetOverall": {
-    "all": 3325815315,
-    "focused": 408547400
+    "all": 3576152815,
+    "focused": 414035700
   },
-  "ranked": null,
-  "rankings": [],
+  "ranked": 39,
+  "rankings": [
+    {
+      "ranked": 39,
+      "year": 2568,
+      "value": 1
+    }
+  ],
   "floodHotspots": [],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 7.7,
   "meanFloodLevelMaximumPoint": {
+    "value": 7.7,
+    "year": 2568,
     "districtId": 15,
     "districtName": "บางกอกใหญ่"
   }

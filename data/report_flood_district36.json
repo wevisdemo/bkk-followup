@@ -1,5 +1,5 @@
 {
-  "value": 8,
+  "value": 29,
   "valuePerYear": {
     "2555": 99,
     "2556": 55,
@@ -13,7 +13,8 @@
     "2564": 15,
     "2565": 15,
     "2566": 8,
-    "2567": 8
+    "2567": 8,
+    "2568": 29
   },
   "minimumPoint": {
     "value": 8,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 344517144,
       "focused": 1660000
+    },
+    "2568": {
+      "all": 328778800,
+      "focused": 1492000
     }
   },
   "budgetOverall": {
-    "all": 4318559540,
-    "focused": 80856200
+    "all": 4647338340,
+    "focused": 82348200
   },
-  "ranked": 8,
+  "ranked": 10,
   "rankings": [
     {
       "ranked": 1,
@@ -146,6 +151,11 @@
       "ranked": 8,
       "year": 2567,
       "value": 8
+    },
+    {
+      "ranked": 10,
+      "year": 2568,
+      "value": 29
     }
   ],
   "floodHotspots": [
@@ -206,7 +216,7 @@
       "description": "แยกศรีอยุธยา แยกอุรุพงษ์"
     }
   ],
-  "meanFloodLevel": 28.1,
+  "meanFloodLevel": 10.05,
   "meanFloodLevelMaximumPoint": {
     "value": 44.6,
     "year": 2566,

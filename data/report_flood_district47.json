@@ -13,7 +13,8 @@
     "2564": null,
     "2565": 2,
     "2566": 0,
-    "2567": null
+    "2567": null,
+    "2568": null
   },
   "minimumPoint": {
     "value": 0,
@@ -79,11 +80,15 @@
     "2567": {
       "all": 567238800,
       "focused": 65642700
+    },
+    "2568": {
+      "all": 615048900,
+      "focused": 181906200
     }
   },
   "budgetOverall": {
-    "all": 5542913880,
-    "focused": 268651500
+    "all": 6157962780,
+    "focused": 450557700
   },
   "ranked": null,
   "rankings": [
