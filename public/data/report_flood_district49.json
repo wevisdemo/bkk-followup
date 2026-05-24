@@ -1,5 +1,5 @@
 {
-  "value": 20,
+  "value": 29,
   "valuePerYear": {
     "2555": 25,
     "2556": 66,
@@ -13,7 +13,8 @@
     "2564": 6,
     "2565": 8,
     "2566": 9,
-    "2567": 20
+    "2567": 20,
+    "2568": 29
   },
   "minimumPoint": {
     "value": 3,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 422249200,
       "focused": 78979600
+    },
+    "2568": {
+      "all": 467593100,
+      "focused": 70664300
     }
   },
   "budgetOverall": {
-    "all": 4404310130,
-    "focused": 219087400
+    "all": 4871903230,
+    "focused": 289751700
   },
-  "ranked": 1,
+  "ranked": 11,
   "rankings": [
     {
       "ranked": 7,
@@ -151,6 +156,11 @@
       "ranked": 1,
       "year": 2567,
       "value": 20
+    },
+    {
+      "ranked": 11,
+      "year": 2568,
+      "value": 29
     }
   ],
   "floodHotspots": [
@@ -175,7 +185,7 @@
       "description": "หน้าตลาดพงษ์เพชร"
     }
   ],
-  "meanFloodLevel": 20,
+  "meanFloodLevel": 13.15,
   "meanFloodLevelMaximumPoint": {
     "value": 36.1,
     "year": 2565,

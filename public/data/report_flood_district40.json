@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 32,
   "valuePerYear": {
     "2555": 8,
     "2556": 14,
@@ -13,7 +13,8 @@
     "2564": 3,
     "2565": 4,
     "2566": 5,
-    "2567": null
+    "2567": null,
+    "2568": 32
   },
   "minimumPoint": {
     "value": 1,
@@ -22,8 +23,8 @@
     "districtName": "วังทองหลาง"
   },
   "maximumPoint": {
-    "value": 14,
-    "year": 2556,
+    "value": 32,
+    "year": 2568,
     "districtId": 40,
     "districtName": "วังทองหลาง"
   },
@@ -79,13 +80,17 @@
     "2567": {
       "all": 324519700,
       "focused": 9273400
+    },
+    "2568": {
+      "all": 352213700,
+      "focused": 9061700
     }
   },
   "budgetOverall": {
-    "all": 4404028900,
-    "focused": 182122900
+    "all": 4756242600,
+    "focused": 191184600
   },
-  "ranked": null,
+  "ranked": 5,
   "rankings": [
     {
       "ranked": 17,
@@ -146,6 +151,11 @@
       "ranked": 10,
       "year": 2566,
       "value": 5
+    },
+    {
+      "ranked": 5,
+      "year": 2568,
+      "value": 32
     }
   ],
   "floodHotspots": [
@@ -154,7 +164,7 @@
       "description": "ซอยลาดพร้าว 112-ริมคลองเจ้าคุณสิงห์"
     }
   ],
-  "meanFloodLevel": 9.1,
+  "meanFloodLevel": 13,
   "meanFloodLevelMaximumPoint": {
     "value": 37.5,
     "year": 2566,

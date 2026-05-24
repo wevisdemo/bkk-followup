@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 3,
   "valuePerYear": {
     "2555": 83,
     "2556": 45,
@@ -13,7 +13,8 @@
     "2564": 6,
     "2565": 1,
     "2566": 1,
-    "2567": null
+    "2567": null,
+    "2568": 3
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 412796065,
       "focused": 20169900
+    },
+    "2568": {
+      "all": 382649100,
+      "focused": 12074900
     }
   },
   "budgetOverall": {
-    "all": 4825590895,
-    "focused": 133634400
+    "all": 5208239995,
+    "focused": 145709300
   },
-  "ranked": null,
+  "ranked": 32,
   "rankings": [
     {
       "ranked": 2,
@@ -146,6 +151,11 @@
       "ranked": 26,
       "year": 2566,
       "value": 1
+    },
+    {
+      "ranked": 32,
+      "year": 2568,
+      "value": 3
     }
   ],
   "floodHotspots": [
@@ -170,7 +180,7 @@
       "description": "หน้าอาคารรัฐสภา"
     }
   ],
-  "meanFloodLevel": 5,
+  "meanFloodLevel": 7.4,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2558,

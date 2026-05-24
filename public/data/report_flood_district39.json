@@ -1,5 +1,5 @@
 {
-  "value": null,
+  "value": 31,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,8 @@
     "2564": 1,
     "2565": 0,
     "2566": 1,
-    "2567": null
+    "2567": null,
+    "2568": 31
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +23,8 @@
     "districtName": "ลาดพร้าว"
   },
   "maximumPoint": {
-    "value": 1,
-    "year": 2564,
+    "value": 31,
+    "year": 2568,
     "districtId": 39,
     "districtName": "ลาดพร้าว"
   },
@@ -79,13 +80,17 @@
     "2567": {
       "all": 439171770,
       "focused": 9104550
+    },
+    "2568": {
+      "all": 395588100,
+      "focused": 10351200
     }
   },
   "budgetOverall": {
-    "all": 4762140848,
-    "focused": 302648650
+    "all": 5157728948,
+    "focused": 312999850
   },
-  "ranked": null,
+  "ranked": 6,
   "rankings": [
     {
       "ranked": 28,
@@ -101,6 +106,11 @@
       "ranked": 34,
       "year": 2566,
       "value": 1
+    },
+    {
+      "ranked": 6,
+      "year": 2568,
+      "value": 31
     }
   ],
   "floodHotspots": [
@@ -109,10 +119,10 @@
       "description": "ปากซอยลาดพร้าว 114"
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 9.5,
   "meanFloodLevelMaximumPoint": {
-    "value": 7.5,
-    "year": 2564,
+    "value": 9.5,
+    "year": 2568,
     "districtId": 39,
     "districtName": "ลาดพร้าว"
   }

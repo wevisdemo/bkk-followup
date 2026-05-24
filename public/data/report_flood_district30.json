@@ -1,5 +1,5 @@
 {
-  "value": 1,
+  "value": 17,
   "valuePerYear": {
     "2555": 54,
     "2556": 14,
@@ -13,7 +13,8 @@
     "2564": 11,
     "2565": 7,
     "2566": 5,
-    "2567": 1
+    "2567": 1,
+    "2568": 17
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 286863001,
       "focused": 5947400
+    },
+    "2568": {
+      "all": 300819800,
+      "focused": 6007400
     }
   },
   "budgetOverall": {
-    "all": 3918677781,
-    "focused": 165636500
+    "all": 4219497581,
+    "focused": 171643900
   },
-  "ranked": 32,
+  "ranked": 18,
   "rankings": [
     {
       "ranked": 5,
@@ -151,6 +156,11 @@
       "ranked": 32,
       "year": 2567,
       "value": 1
+    },
+    {
+      "ranked": 18,
+      "year": 2568,
+      "value": 17
     }
   ],
   "floodHotspots": [
@@ -191,7 +201,7 @@
       "description": "ถนนพหลโยธิน-ถนนวิภาวดี"
     }
   ],
-  "meanFloodLevel": 10.2,
+  "meanFloodLevel": 10.65,
   "meanFloodLevelMaximumPoint": {
     "value": 34.7,
     "year": 2558,

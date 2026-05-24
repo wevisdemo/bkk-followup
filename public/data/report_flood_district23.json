@@ -1,5 +1,5 @@
 {
-  "value": 2,
+  "value": 15,
   "valuePerYear": {
     "2555": null,
     "2556": null,
@@ -13,7 +13,8 @@
     "2564": 2,
     "2565": 4,
     "2566": 2,
-    "2567": 2
+    "2567": 2,
+    "2568": 15
   },
   "minimumPoint": {
     "value": 2,
@@ -22,8 +23,8 @@
     "districtName": "บางบอน"
   },
   "maximumPoint": {
-    "value": 14,
-    "year": 2560,
+    "value": 15,
+    "year": 2568,
     "districtId": 23,
     "districtName": "บางบอน"
   },
@@ -79,13 +80,17 @@
     "2567": {
       "all": 396477350,
       "focused": 14765620
+    },
+    "2568": {
+      "all": 425078100,
+      "focused": 17612200
     }
   },
   "budgetOverall": {
-    "all": 4639686010,
-    "focused": 195519020
+    "all": 5064764110,
+    "focused": 213131220
   },
-  "ranked": 21,
+  "ranked": 20,
   "rankings": [
     {
       "ranked": 21,
@@ -131,6 +136,11 @@
       "ranked": 21,
       "year": 2567,
       "value": 2
+    },
+    {
+      "ranked": 20,
+      "year": 2568,
+      "value": 15
     }
   ],
   "floodHotspots": [
@@ -143,7 +153,7 @@
       "description": "หน้าห้างบิ๊กซี คลองราชมนตรี"
     }
   ],
-  "meanFloodLevel": 15.4,
+  "meanFloodLevel": 10.65,
   "meanFloodLevelMaximumPoint": {
     "value": 29.5,
     "year": 2562,

@@ -1,5 +1,5 @@
 {
-  "value": 7,
+  "value": 37,
   "valuePerYear": {
     "2555": 1,
     "2556": 9,
@@ -13,7 +13,8 @@
     "2564": 7,
     "2565": 4,
     "2566": 2,
-    "2567": 7
+    "2567": 7,
+    "2568": 37
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 484653640,
       "focused": 3036500
+    },
+    "2568": {
+      "all": 419728200,
+      "focused": 15781700
     }
   },
   "budgetOverall": {
-    "all": 5059900237,
-    "focused": 646130700
+    "all": 5479628437,
+    "focused": 661912400
   },
-  "ranked": 10,
+  "ranked": 3,
   "rankings": [
     {
       "ranked": 22,
@@ -146,6 +151,11 @@
       "ranked": 10,
       "year": 2567,
       "value": 7
+    },
+    {
+      "ranked": 3,
+      "year": 2568,
+      "value": 37
     }
   ],
   "floodHotspots": [
@@ -178,7 +188,7 @@
       "description": "หน้าปากซอยนวมินทร์ 79"
     }
   ],
-  "meanFloodLevel": 32.5,
+  "meanFloodLevel": 8.15,
   "meanFloodLevelMaximumPoint": {
     "value": 39.4,
     "year": 2566,

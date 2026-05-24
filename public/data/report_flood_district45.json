@@ -1,5 +1,5 @@
 {
-  "value": 6,
+  "value": 19,
   "valuePerYear": {
     "2555": 11,
     "2556": 10,
@@ -13,7 +13,8 @@
     "2564": 18,
     "2565": 8,
     "2566": 4,
-    "2567": 6
+    "2567": 6,
+    "2568": 19
   },
   "minimumPoint": {
     "value": 4,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 339574850,
       "focused": 3192800
+    },
+    "2568": {
+      "all": 270010510,
+      "focused": 2134800
     }
   },
   "budgetOverall": {
-    "all": 3539211290,
-    "focused": 127890600
+    "all": 3809221800,
+    "focused": 130025400
   },
-  "ranked": 11,
+  "ranked": 15,
   "rankings": [
     {
       "ranked": 13,
@@ -151,6 +156,11 @@
       "ranked": 11,
       "year": 2567,
       "value": 6
+    },
+    {
+      "ranked": 15,
+      "year": 2568,
+      "value": 19
     }
   ],
   "floodHotspots": [
@@ -227,7 +237,7 @@
       "description": "แยกสาธุประดิษฐ์-หน้าตลาด"
     }
   ],
-  "meanFloodLevel": 23.5,
+  "meanFloodLevel": 9.85,
   "meanFloodLevelMaximumPoint": {
     "value": 40.4,
     "year": 2565,

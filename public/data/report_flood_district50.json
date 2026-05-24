@@ -1,5 +1,5 @@
 {
-  "value": 2,
+  "value": 24,
   "valuePerYear": {
     "2555": 1,
     "2556": 11,
@@ -13,7 +13,8 @@
     "2564": 4,
     "2565": 0,
     "2566": 2,
-    "2567": 2
+    "2567": 2,
+    "2568": 24
   },
   "minimumPoint": {
     "value": 0,
@@ -22,8 +23,8 @@
     "districtName": "ห้วยขวาง"
   },
   "maximumPoint": {
-    "value": 11,
-    "year": 2556,
+    "value": 24,
+    "year": 2568,
     "districtId": 50,
     "districtName": "ห้วยขวาง"
   },
@@ -79,13 +80,17 @@
     "2567": {
       "all": 334333910,
       "focused": 6143100
+    },
+    "2568": {
+      "all": 346266570,
+      "focused": 6378500
     }
   },
   "budgetOverall": {
-    "all": 4302436910,
-    "focused": 197245600
+    "all": 4648703480,
+    "focused": 203624100
   },
-  "ranked": 23,
+  "ranked": 12,
   "rankings": [
     {
       "ranked": 23,
@@ -146,6 +151,11 @@
       "ranked": 23,
       "year": 2567,
       "value": 2
+    },
+    {
+      "ranked": 12,
+      "year": 2568,
+      "value": 24
     }
   ],
   "floodHotspots": [
@@ -158,7 +168,7 @@
       "description": "แยกศรีวรา คลองเจ้าคุณสิงห์"
     }
   ],
-  "meanFloodLevel": 15,
+  "meanFloodLevel": 12.9,
   "meanFloodLevelMaximumPoint": {
     "value": 36,
     "year": 2565,

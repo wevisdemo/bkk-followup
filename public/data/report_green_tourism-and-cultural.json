@@ -1,5 +1,5 @@
 {
-  "value": 6.91,
+  "value": 7.08,
   "valuePerYear": {
     "2555": 3.2,
     "2556": 3.31,
@@ -13,7 +13,8 @@
     "2564": 9.71,
     "2565": 6.49,
     "2566": 6.91,
-    "2567": 6.91
+    "2567": 6.91,
+    "2568": 7.08
   },
   "minimumPoint": {
     "districtId": 15,
@@ -79,93 +80,97 @@
     "2567": {
       "all": 3250146990,
       "focused": 30784500
+    },
+    "2568": {
+      "all": 2972061940,
+      "focused": 34749800
     }
   },
   "budgetOverall": {
-    "all": 37517842862,
-    "focused": 1612020460
+    "all": 40489904802,
+    "focused": 1646770260
   },
   "rankings": [
     {
       "ranked": 1,
-      "districtId": 9,
-      "districtName": "ดุสิต",
-      "value": 15.83
+      "districtId": 32,
+      "districtName": "พระนคร",
+      "value": 16.12
     },
     {
       "ranked": 2,
-      "districtId": 32,
-      "districtName": "พระนคร",
-      "value": 15.75
+      "districtId": 9,
+      "districtName": "ดุสิต",
+      "value": 16.09
     },
     {
       "ranked": 3,
       "districtId": 44,
       "districtName": "สัมพันธวงศ์",
-      "value": 7.22
+      "value": 7.54
     },
     {
       "ranked": 4,
       "districtId": 29,
       "districtName": "ป้อมปราบศัตรูพ่าย",
-      "value": 6.76
+      "value": 6.98
     },
     {
       "ranked": 5,
       "districtId": 2,
       "districtName": "คลองสาน",
-      "value": 3.87
+      "value": 4.03
     },
     {
       "ranked": 6,
       "districtId": 15,
       "districtName": "บางกอกใหญ่",
-      "value": 3.6
+      "value": 3.68
     },
     {
       "ranked": 7,
       "districtId": 14,
       "districtName": "บางกอกน้อย",
-      "value": 3.23
+      "value": 3.25
     },
     {
       "ranked": 8,
       "districtId": 24,
       "districtName": "บางพลัด",
-      "value": 3.07
+      "value": 3.1
     },
     {
       "ranked": 9,
       "districtId": 13,
       "districtName": "ธนบุรี",
-      "value": 2.82
+      "value": 2.89
     }
   ],
   "benchmarks": [
     {
       "zoneId": "all",
       "areaName": "ทุกเขตในกรุงเทพมหานคร",
-      "value": 7.89
+      "value": 8.11
     },
     {
       "zoneId": "residence",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัย",
-      "value": 9.05
+      "value": 9.54
     },
     {
       "zoneId": "suburban",
       "areaName": "ทุกเขตพื้นที่อยู่อาศัยชานเมือง",
-      "value": 8.46
+      "value": 8.32
     },
     {
       "zoneId": "tourism-and-cultural",
       "areaName": "พื้นที่อนุรักษ์ศิลปวัฒนธรรมและส่งเสริมการท่องเที่ยว",
-      "value": 6.91
+      "value": 7.08
     },
     {
       "zoneId": "business",
       "areaName": "พื้นที่ศูนย์กลางธุรกิจและพาณิชยกรรม",
-      "value": 7.63
+      "value": 7.72
     }
   ],
   "publicGreenSpacePerCapita": null

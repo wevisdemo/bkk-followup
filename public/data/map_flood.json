@@ -2625,6 +2625,208 @@
         "districtName": "ห้วยขวาง",
         "value": 2
       }
+    },
+    "2568": {
+      "1": {
+        "districtName": "คลองเตย",
+        "value": 17
+      },
+      "2": {
+        "districtName": "คลองสาน",
+        "value": 5
+      },
+      "3": {
+        "districtName": "คลองสามวา",
+        "value": null
+      },
+      "4": {
+        "districtName": "คันนายาว",
+        "value": 2
+      },
+      "5": {
+        "districtName": "จตุจักร",
+        "value": 33
+      },
+      "6": {
+        "districtName": "จอมทอง",
+        "value": 2
+      },
+      "7": {
+        "districtName": "ดอนเมือง",
+        "value": 18
+      },
+      "8": {
+        "districtName": "ดินแดง",
+        "value": 41
+      },
+      "9": {
+        "districtName": "ดุสิต",
+        "value": 3
+      },
+      "10": {
+        "districtName": "ตลิ่งชัน",
+        "value": null
+      },
+      "11": {
+        "districtName": "ทวีวัฒนา",
+        "value": null
+      },
+      "12": {
+        "districtName": "ทุ่งครุ",
+        "value": null
+      },
+      "13": {
+        "districtName": "ธนบุรี",
+        "value": null
+      },
+      "14": {
+        "districtName": "บางกอกน้อย",
+        "value": 1
+      },
+      "15": {
+        "districtName": "บางกอกใหญ่",
+        "value": 1
+      },
+      "16": {
+        "districtName": "บางกะปิ",
+        "value": 44
+      },
+      "17": {
+        "districtName": "บางขุนเทียน",
+        "value": 10
+      },
+      "18": {
+        "districtName": "บางเขน",
+        "value": 30
+      },
+      "19": {
+        "districtName": "บางคอแหลม",
+        "value": 2
+      },
+      "20": {
+        "districtName": "บางแค",
+        "value": 8
+      },
+      "21": {
+        "districtName": "บางซื่อ",
+        "value": null
+      },
+      "22": {
+        "districtName": "บางนา",
+        "value": 20
+      },
+      "23": {
+        "districtName": "บางบอน",
+        "value": 15
+      },
+      "24": {
+        "districtName": "บางพลัด",
+        "value": null
+      },
+      "25": {
+        "districtName": "บางรัก",
+        "value": 7
+      },
+      "26": {
+        "districtName": "บึงกุ่ม",
+        "value": 37
+      },
+      "27": {
+        "districtName": "ปทุมวัน",
+        "value": 7
+      },
+      "28": {
+        "districtName": "ประเวศ",
+        "value": 29
+      },
+      "29": {
+        "districtName": "ป้อมปราบศัตรูพ่าย",
+        "value": 2
+      },
+      "30": {
+        "districtName": "พญาไท",
+        "value": 17
+      },
+      "31": {
+        "districtName": "พระโขนง",
+        "value": 9
+      },
+      "32": {
+        "districtName": "พระนคร",
+        "value": 4
+      },
+      "33": {
+        "districtName": "ภาษีเจริญ",
+        "value": 7
+      },
+      "34": {
+        "districtName": "มีนบุรี",
+        "value": 4
+      },
+      "35": {
+        "districtName": "ยานนาวา",
+        "value": 2
+      },
+      "36": {
+        "districtName": "ราชเทวี",
+        "value": 29
+      },
+      "37": {
+        "districtName": "ราษฎร์บูรณะ",
+        "value": null
+      },
+      "38": {
+        "districtName": "ลาดกระบัง",
+        "value": 30
+      },
+      "39": {
+        "districtName": "ลาดพร้าว",
+        "value": 31
+      },
+      "40": {
+        "districtName": "วังทองหลาง",
+        "value": 32
+      },
+      "41": {
+        "districtName": "วัฒนา",
+        "value": 15
+      },
+      "42": {
+        "districtName": "สวนหลวง",
+        "value": 16
+      },
+      "43": {
+        "districtName": "สะพานสูง",
+        "value": null
+      },
+      "44": {
+        "districtName": "สัมพันธวงศ์",
+        "value": 6
+      },
+      "45": {
+        "districtName": "สาทร",
+        "value": 19
+      },
+      "46": {
+        "districtName": "สายไหม",
+        "value": 20
+      },
+      "47": {
+        "districtName": "หนองแขม",
+        "value": null
+      },
+      "48": {
+        "districtName": "หนองจอก",
+        "value": null
+      },
+      "49": {
+        "districtName": "หลักสี่",
+        "value": 29
+      },
+      "50": {
+        "districtName": "ห้วยขวาง",
+        "value": 24
+      }
     }
   }
 }

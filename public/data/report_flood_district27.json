@@ -1,5 +1,5 @@
 {
-  "value": 3,
+  "value": 7,
   "valuePerYear": {
     "2555": 9,
     "2556": 18,
@@ -13,7 +13,8 @@
     "2564": 2,
     "2565": 1,
     "2566": 2,
-    "2567": 3
+    "2567": 3,
+    "2568": 7
   },
   "minimumPoint": {
     "value": 1,
@@ -79,13 +80,17 @@
     "2567": {
       "all": 466070220,
       "focused": 1043500
+    },
+    "2568": {
+      "all": 323201300,
+      "focused": 1665700
     }
   },
   "budgetOverall": {
-    "all": 4796629550,
-    "focused": 64493000
+    "all": 5119830850,
+    "focused": 66158700
   },
-  "ranked": 18,
+  "ranked": 26,
   "rankings": [
     {
       "ranked": 15,
@@ -146,6 +151,11 @@
       "ranked": 18,
       "year": 2567,
       "value": 3
+    },
+    {
+      "ranked": 26,
+      "year": 2568,
+      "value": 7
     }
   ],
   "floodHotspots": [
@@ -158,7 +168,7 @@
       "description": "แยกราชประสงค์ แยกราชเทวี"
     }
   ],
-  "meanFloodLevel": 8.4,
+  "meanFloodLevel": 11.15,
   "meanFloodLevelMaximumPoint": {
     "value": 33,
     "year": 2559,
