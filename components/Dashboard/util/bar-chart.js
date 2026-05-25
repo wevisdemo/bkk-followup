@@ -37,7 +37,7 @@ const bar_chart = ({ data, selected_theme }) => {
           style={{
             background: "rgba(0, 0, 0, 0.2)",
             borderRadius: "3px",
-            width: "30px",
+            width: "25px",
             height: `${(d.all / maxBudget.all) * 100}%`,
           }}
         >

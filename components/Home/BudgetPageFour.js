@@ -14,17 +14,17 @@ export default function BudgetPageFour(props) {
   const [hover_legend, setHoverLegend] = useState(null);
 
   const chart_legends = formatTop3WithOthers(
-    landing_data.yearlyBudgetSummaries
+    landing_data.yearlyBudgetSummaries,
   );
   let chart_data = formatTop3WithOthersGroupByYear(
-    landing_data.yearlyBudgetSummaries
+    landing_data.yearlyBudgetSummaries,
   );
 
   const chartLegend = chart_legends.map((d) => d.title);
 
   chart_data.map((yearData) => {
     const sortedValues = yearData.values.sort(
-      (a, b) => chartLegend.indexOf(b.title) - chartLegend.indexOf(a.title)
+      (a, b) => chartLegend.indexOf(b.title) - chartLegend.indexOf(a.title),
     );
     return {
       ...yearData,
@@ -111,14 +111,14 @@ export default function BudgetPageFour(props) {
                           height: isTablet
                             ? "calc(100vh - 500px)"
                             : isMobileOnly
-                            ? "calc(100vh - 455px)"
-                            : "560px",
+                              ? "calc(100vh - 455px)"
+                              : "560px",
                         }}
                       >
                         {d.values.map((v, index) => (
                           <div
                             key={index}
-                            className={`box rounded-md mb-0.5 pt-1 ${
+                            className={`box rounded md:rounded-md mb-0.5 pt-1 ${
                               hover_legend === v.title ? "is-hover" : ""
                             }`}
                             style={{

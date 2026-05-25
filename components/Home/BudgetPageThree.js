@@ -132,16 +132,16 @@ export default function BudgetPageThree(props) {
                         height: isTablet
                           ? "calc(100vh - 500px)"
                           : isMobileOnly
-                          ? "calc(100vh - 455px)"
-                          : "560px",
+                            ? "calc(100vh - 455px)"
+                            : "560px",
                       }}
                     >
                       {d.values.map((v) => (
                         <div
                           key={v.title}
-                          className="box rounded-md mb-0.5 relative pointer-events-auto cursor-pointer"
+                          className="box rounded md:rounded-md mb-0.5 relative pointer-events-auto cursor-pointer"
                           style={{
-                            width: isMobile ? "100%" : "35px",
+                            width: "100%",
                             height: `${v.percent}%`,
                             background: getColor(v.title),
                           }}
