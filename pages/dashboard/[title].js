@@ -272,66 +272,66 @@ export default function Dashboard(props) {
             id="dashboard-left"
           >
             {/* group-dropdown */}
-
-            <div
-              className="relative z-50 "
-              id="group-dropdown"
-              style={{
-                backgroundColor: selected_theme.color,
-                padding: "10px 0",
-              }}
-            >
-              <div className="flex flex-col items-start justify-center w-full md:items-center md:flex-row">
-                {isMobile ? (
-                  <DropDown
-                    type="category"
-                    filter={category}
-                    SET_SELECTED_INDEX={SET_SELECTED_INDEX}
-                    SET_SELECTED_TOOLTIP={SET_SELECTED_TOOLTIP}
-                    SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
-                    SET_CHECKED={SET_CHECKED}
-                    SET_DISTRICT={SET_DISTRICT}
-                  />
-                ) : (
-                  <div className="py-2 font-bold text-white-default h4 ">
-                    สำรวจตาม
-                  </div>
-                )}
-                <div className="flex w-full px-3 md:contents">
-                  <DropDown
-                    filter={filter_by_group}
-                    checked={checked}
-                    SET_CHECKED={SET_CHECKED}
-                    type="group"
-                    SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
-                    SET_DISTRICT={SET_DISTRICT}
-                    SET_IS_RANK={SET_IS_RANK}
-                  />
-                  <DropDown
-                    filter={districtName}
-                    district={district}
-                    SET_DISTRICT={SET_DISTRICT}
-                    type="zone"
-                    SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
-                    SET_IS_RANK={SET_IS_RANK}
-                  />
-                  {checked != "เขตพื้นที่ทั้งหมด" || district != null ? (
-                    <img
-                      src={close_filter}
-                      alt="close"
-                      className="my-auto ml-2 cursor-pointer md:ml-5"
-                      onClick={cancleFilter}
-                      style={{
-                        height: isMobileOnly ? "30px" : "",
-                      }}
+            {!isMobile && (
+              <div
+                className="relative z-50 "
+                id="group-dropdown"
+                style={{
+                  backgroundColor: selected_theme.color,
+                  padding: "10px 0",
+                }}
+              >
+                <div className="flex flex-col items-start justify-center w-full md:items-center md:flex-row">
+                  {isMobile ? (
+                    <DropDown
+                      type="category"
+                      filter={category}
+                      SET_SELECTED_INDEX={SET_SELECTED_INDEX}
+                      SET_SELECTED_TOOLTIP={SET_SELECTED_TOOLTIP}
+                      SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
+                      SET_CHECKED={SET_CHECKED}
+                      SET_DISTRICT={SET_DISTRICT}
                     />
                   ) : (
-                    ""
+                    <div className="py-2 font-bold text-white-default h4 ">
+                      สำรวจตาม
+                    </div>
                   )}
+                  <div className="flex w-full px-3 md:contents">
+                    <DropDown
+                      filter={filter_by_group}
+                      checked={checked}
+                      SET_CHECKED={SET_CHECKED}
+                      type="group"
+                      SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
+                      SET_DISTRICT={SET_DISTRICT}
+                      SET_IS_RANK={SET_IS_RANK}
+                    />
+                    <DropDown
+                      filter={districtName}
+                      district={district}
+                      SET_DISTRICT={SET_DISTRICT}
+                      type="zone"
+                      SET_STATE_DROPDOWN={SET_STATE_DROPDOWN}
+                      SET_IS_RANK={SET_IS_RANK}
+                    />
+                    {checked != "เขตพื้นที่ทั้งหมด" || district != null ? (
+                      <img
+                        src={close_filter}
+                        alt="close"
+                        className="my-auto ml-2 cursor-pointer md:ml-5"
+                        onClick={cancleFilter}
+                        style={{
+                          height: isMobileOnly ? "30px" : "",
+                        }}
+                      />
+                    ) : (
+                      ""
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-
+            )}
             {/* group-dropdown */}
             {/* group-dropdown-mobile */}
             {isMobile ? (
@@ -479,7 +479,7 @@ export default function Dashboard(props) {
             {!isRank ? (
               <div
                 id="isAll-wrapper"
-                className="absolute max-w-full px-5 pb-10 md:pb-16 bg-white-default lg:relative lg:overflow-auto"
+                className="absolute max-w-full px-5 pb-10 md:pb-16 bg-white-default lg:relative lg:overflow-auto md:w-full"
               >
                 <div
                   id={`card${selected_theme.name}`}
@@ -514,7 +514,7 @@ export default function Dashboard(props) {
                     {Rating(
                       selected_theme,
                       `ปี ${landing_data.latestYear.year} เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่`,
-                      district_data
+                      district_data,
                     )}
                   </div>
                 ) : (
@@ -618,10 +618,7 @@ export default function Dashboard(props) {
                 ) : (
                   ""
                 )}
-                <div
-                  id="budget compare"
-                  className="flex flex-col mt-3 lg:flex-row "
-                >
+                <div id="budget compare" className="flex flex-col mt-3 ">
                   <Budget
                     id="budget"
                     selected_theme={selected_theme}

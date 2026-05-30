@@ -51,7 +51,7 @@ export default function IntroDashboard() {
         <div className="flex justify-center flex-1 py-4 md:py-10 lg:py-0">
           <div>
             <div className="mt-5 d3">
-              ร่วมกันสำรวจสถานการณ์ ปัญหาด้านต่างๆ ของ กทม. ในรอบ{" "}
+              ร่วมกันสำรวจสถานการณ์ ปัญหาด้านต่าง ๆ ของ กทม. ในรอบ{" "}
               {landing_data.yearCount} ปีที่ผ่านมา
             </div>
 

@@ -151,7 +151,7 @@ export default function ResponsibilityPageThree() {
               สภากรุงเทพมหานคร
             </span>
             ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที
-            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
+            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุก ๆ 4 ปี
           </h2>
 
           <h4 className="block leading-snug d4 lg:hidden">
@@ -160,7 +160,7 @@ export default function ResponsibilityPageThree() {
             เป็นผู้บริหาร และ
             <span className="text-blue-default">สภากรุงเทพมหานคร</span>
             ในการตรวจสอบการทำงานของผู้ว่าฯ อีกที
-            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุกๆ 4 ปี
+            โดยจะมาจากการเลือกตั้งโดยตรงของประชาชน ทุก ๆ 4 ปี
           </h4>
         </div>
         <div

@@ -64,7 +64,7 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
             }}
           >
             <div
-              className="flex flex-1 py-4 pl-2 pr-5 rounded-l cursor-pointer p2 text-white-default"
+              className="flex items-center flex-1 py-4 pl-2 pr-5 rounded-l cursor-pointer p2 text-white-default"
               style={{
                 backgroundColor:
                   i === 0
@@ -78,7 +78,8 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
               <img
                 src={arr_img[`${d.areaName}`]}
                 alt="compare-icon"
-                className="mr-2 pointer-events-none"
+                className="mr-2 pointer-events-none flex-shrink-0"
+                style={{ width: "32px", height: "32px", objectFit: "contain" }}
               />
               <p className="pointer-events-none">{d.areaName}</p>
             </div>

@@ -30,7 +30,7 @@ const timeLine = ({
       setInterval(() => {
         SET_SELECTED_INDEX(index++);
         if (index === years.length) SET_PLAYING(false);
-      }, 1300)
+      }, 1300),
     );
   };
 
@@ -45,7 +45,7 @@ const timeLine = ({
 
   return (
     <div
-      className="items-center block mt-2 md:flex text-white-default"
+      className="items-center block mt-2 md:flex text-white-default pt-20 mt-10 md:mt-0 md:pt-20 lg:pt-5"
       id="tile-line-wrapper"
     >
       {isMobileOnly ? (
@@ -65,7 +65,10 @@ const timeLine = ({
           />
         )
       ) : (
-        <div className="flex justify-end flex-1 d2" id="time-line-text">
+        <div
+          className="flex justify-end flex-2 d3 items-center"
+          id="time-line-text"
+        >
           {playing ? (
             <img
               src={pauseImg}
@@ -99,8 +102,8 @@ const timeLine = ({
               <div
                 className={
                   index === selected_index
-                    ? "text-selected text h4"
-                    : "text h4 text-white-default"
+                    ? "text-selected text h5"
+                    : "text h5 text-white-default"
                 }
                 onClick={() => selectedYear(y, index)}
               >

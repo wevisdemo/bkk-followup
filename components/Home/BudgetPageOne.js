@@ -27,8 +27,8 @@ export default function BudgetPageOne(props) {
               </h2>
 
               <h3 className="block leading-tight text-center d3 lg:hidden">
-                <span className="d3 text-white-default">
-                  สิ้นปี 2566
+                <span className="d2 text-white-default">
+                  สิ้นปี {landing_data.latestYear.year}
                   <br />
                   กรุงเทพมีประชากร
                 </span>
@@ -43,7 +43,7 @@ export default function BudgetPageOne(props) {
                   "en-US",
                   {
                     maximumFractionDigits: 0,
-                  }
+                  },
                 )}{" "}
                 ล้านบาท
               </h2>
@@ -55,13 +55,13 @@ export default function BudgetPageOne(props) {
                   "en-US",
                   {
                     maximumFractionDigits: 0,
-                  }
+                  },
                 )}{" "}
                 ล้านบาท
               </h3>
 
               <h3 className="mt-8 text-center h2 lg:text-left">
-                แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำๆ และยังไม่ถูกแก้
+                แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำ ๆ และยังไม่ถูกแก้
               </h3>
             </div>
           ) : null}
@@ -95,7 +95,7 @@ export default function BudgetPageOne(props) {
                           {
                             minimumFractionDigits: 2,
                             maximumFractionDigits: 2,
-                          }
+                          },
                         )}{" "}
                         บาท / คน / ปี
                       </h4>

@@ -2,8 +2,9 @@ import * as d3 from "d3";
 import React, { useEffect } from "react";
 
 const donut_chart = ({ selected_theme, percent }) => {
+  const value = (!percent || isNaN(percent)) ? 0 : percent;
   const draw_donut_chart = () => {
-    let data = [percent, 100 - percent];
+    let data = [value, 100 - value];
     let width = 140,
       height = 140;
     let svg = d3
@@ -61,7 +62,7 @@ const donut_chart = ({ selected_theme, percent }) => {
           className="font-bold h3"
           style={{ color: selected_theme.text_color }}
         >
-          {percent.toFixed(2)}%
+          {value.toFixed(2)}%
         </p>
         <span className="font-bold ">
           <p>ของงบประมาณ </p>

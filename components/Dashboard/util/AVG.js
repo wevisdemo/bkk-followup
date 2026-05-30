@@ -52,7 +52,7 @@ const AVG = ({
     } เขตนี้น้ำท่วมบ่อยสุดเป็นอันดับที่`;
   } else if (selected_theme.name === "พื้นที่สีเขียว") {
     AVG_title = `สัดส่วนพื้นที่สีเขียวต่อประชากร 1 คนโดยเฉลี่ย (ข้อมูล ณ ${formatThaiDate(
-      dashboard.green.date
+      dashboard.green.date,
     )})`;
     unit = "ตร.ม./คน";
     unit_filter = "ตร.ม./คน";
@@ -156,7 +156,7 @@ const AVG = ({
             />
             {AVG_min}
           </div>
-          <div className="px-2 py-3 leading-tight">
+          <div className="px-2 py-3 leading-tight text-center md:text-left">
             <p className="font-bold h4">
               เขต{data.minimumPoint.districtName} ปี {data.minimumPoint.year}
             </p>
@@ -182,7 +182,7 @@ const AVG = ({
             />
             {AVG_max}
           </div>
-          <div className="px-2 py-3 leading-tight">
+          <div className="px-2 py-3 leading-tight text-center md:text-left">
             <p className="font-bold h4">
               เขต{data.maximumPoint.districtName} ปี {data.maximumPoint.year}
             </p>
@@ -226,7 +226,7 @@ const AVG = ({
             <p>{compare_title}</p>
             <p>{compare_sub ? compare_sub : ""}</p>
           </div>
-          <div className="px-2 py-3 leading-tight">
+          <div className="px-2 py-3 leading-tight text-center md:text-left">
             {selected_theme.name === "น้ำท่วมถนน"
               ? ""
               : box_compare(...default_choose, unit, selected_theme.color)}
@@ -260,7 +260,7 @@ const AVG = ({
             ? "ค่าฝุ่นเฉลี่ยตลอดปี"
             : "ค่าเฉลี่ย"}
         </div>
-        <div className="px-2 py-3">
+        <div className="px-2 py-3 text-center md:text-left">
           <p className="font-bold leading-tight h4">{AVG_title}</p>
           <p
             style={{ color: selected_theme.text_color }}
@@ -280,8 +280,8 @@ const AVG = ({
       {state_dropdown === "zone"
         ? checked_district(district_data)
         : checked === "เขตพื้นที่ทั้งหมด"
-        ? default_choice(data, unit_filter)
-        : checked_choice(data, unit_filter)}
+          ? default_choice(data, unit_filter)
+          : checked_choice(data, unit_filter)}
     </div>
   );
 };
