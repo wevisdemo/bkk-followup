@@ -11,7 +11,7 @@ const per_district = ({ selected_theme, district_data }) => {
   } else if (selected_theme.name === "ขยะมูลฝอย") {
     unit = "กก./คน/วัน";
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
-    unit = "มค.ก./ลบ.ม.";
+    unit = "มคก./ลบ.ม.";
   }
   return (
     <div

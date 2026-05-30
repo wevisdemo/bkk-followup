@@ -103,7 +103,7 @@ const map = ({
       tool_bot = "ขยะมูลฝอย";
       avg = "1.864";
     } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
-      unit = "มค.ก./ลบ.ม.";
+      unit = "มคก./ลบ.ม.";
       tool_top = "ปริมาณ";
       tool_bot = "ฝุ่นควันเกินมาตรฐาน";
       avg = "25";
@@ -115,7 +115,7 @@ const map = ({
       .style("width", bkk_width * box_width + (bkk_width - 1) * box_gap + "px")
       .style(
         "height",
-        bkk_height * box_width + (bkk_height - 1) * box_gap + "px"
+        bkk_height * box_width + (bkk_height - 1) * box_gap + "px",
       );
 
     let map = parent
@@ -143,7 +143,7 @@ const map = ({
           .on("mouseover", (e, d) => (d.value ? mouseover(e, d) : ""))
           .on("mouseout", (_, d) => (d.value ? mouseout(d) : ""))
           .on("click", (_, d) =>
-            d.value > 0 ? actived_tool_tip(d.districtName) : ""
+            d.value > 0 ? actived_tool_tip(d.districtName) : "",
           );
 
         group
@@ -163,7 +163,7 @@ const map = ({
           .attr("r", r_scale(ref))
           .style("fill", "none")
           .style("stroke-width", (d) =>
-            selected_theme.name === "น้ำท่วมถนน" && d.value > 0 ? 0 : 1
+            selected_theme.name === "น้ำท่วมถนน" && d.value > 0 ? 0 : 1,
           )
           .style("stroke", "white")
           .style("stroke-linecap", "round")
@@ -193,7 +193,7 @@ const map = ({
               .attr(
                 "class",
                 (d) =>
-                  `tool_tip_detail_wrapper rounded-lg tooltip${d.districtName}`
+                  `tool_tip_detail_wrapper rounded-lg tooltip${d.districtName}`,
               )
               .style("top", (d) => {
                 if (isMobile) {
@@ -256,7 +256,7 @@ const map = ({
               .append("div")
               .attr(
                 "class",
-                "tooltip_b_right flex text-right flex-1 justify-end"
+                "tooltip_b_right flex text-right flex-1 justify-end",
               )
               .style("color", (_) => selected_theme.text_color)
               .append("div")
@@ -270,7 +270,7 @@ const map = ({
               .append("div")
               .attr(
                 "class",
-                "tooltip_footer rounded-b-lg flex p3  justify-center"
+                "tooltip_footer rounded-b-lg flex p3  justify-center",
               )
               .text((d) => {
                 if (d.value > avg) {
@@ -313,7 +313,7 @@ const map = ({
         merge_data,
         unit,
         [selected_theme.color, "#CCF4DD", "#FFFFFF"],
-        selected_year
+        selected_year,
       );
       if (
         state_dropdown === "group" &&

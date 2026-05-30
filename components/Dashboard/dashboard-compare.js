@@ -25,7 +25,7 @@ const compare = ({ selected_theme, data, SET_CHECKED, SET_STATE_DROPDOWN }) => {
     unit = "กก./คน/วัน";
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
     title = "เปรียบเทียบปัญหาฝุ่นควันสูงแต่ละกลุ่มเขต";
-    unit = "มค.ก./ลบ.ม.";
+    unit = "มคก./ลบ.ม.";
   }
 
   let arr_img = {

@@ -1,25 +1,25 @@
-import React from 'react';
+import React from "react";
 
 const per_district = ({ selected_theme, district_data }) => {
   let unit, text_max, text_min;
-  if (selected_theme.name === 'น้ำท่วมถนน') {
-    unit = 'ซม.';
-  } else if (selected_theme.name === 'พื้นที่สีเขียว') {
-    unit = 'ตร.ม./คน';
-    text_max = 'ปีที่มีสัดส่วนพื้นที่สีเขียวมากที่สุด';
-    text_min = 'ปีที่มีสัดส่วนพื้นที่สีเขียวน้อยที่สุด';
-  } else if (selected_theme.name === 'มลพิษในคลอง') {
-    unit = 'มก./ลิตร';
-    text_max = 'ปีที่มีค่า BOD ในน้ำคลองสูงสุด';
-    text_min = 'ปีที่มีค่า BOD ในน้ำคลองต่ำสุด';
-  } else if (selected_theme.name === 'ขยะมูลฝอย') {
-    unit = 'กก./คน/วัน';
-    text_max = 'ปีที่มีขยะมูลฝอยต่อคนต่อวันเยอะที่สุด';
-    text_min = 'ปีที่มีขยะมูลฝอยต่อคนต่อวันน้อยที่สุด';
-  } else if (selected_theme.name === 'ฝุ่นควันเกินมาตรฐาน') {
-    unit = 'มค.ก./ลบ.ม.';
-    text_max = 'ปีที่ค่าสูงสุดของ PM2.5 มากที่สุด';
-    text_min = 'ปีที่ค่าสูงสุดของ PM2.5 น้อยที่สุด';
+  if (selected_theme.name === "น้ำท่วมถนน") {
+    unit = "ซม.";
+  } else if (selected_theme.name === "พื้นที่สีเขียว") {
+    unit = "ตร.ม./คน";
+    text_max = "ปีที่มีสัดส่วนพื้นที่สีเขียวมากที่สุด";
+    text_min = "ปีที่มีสัดส่วนพื้นที่สีเขียวน้อยที่สุด";
+  } else if (selected_theme.name === "มลพิษในคลอง") {
+    unit = "มก./ลิตร";
+    text_max = "ปีที่มีค่า BOD ในน้ำคลองสูงสุด";
+    text_min = "ปีที่มีค่า BOD ในน้ำคลองต่ำสุด";
+  } else if (selected_theme.name === "ขยะมูลฝอย") {
+    unit = "กก./คน/วัน";
+    text_max = "ปีที่มีขยะมูลฝอยต่อคนต่อวันเยอะที่สุด";
+    text_min = "ปีที่มีขยะมูลฝอยต่อคนต่อวันน้อยที่สุด";
+  } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
+    unit = "มคก./ลบ.ม.";
+    text_max = "ปีที่ค่าสูงสุดของ PM2.5 มากที่สุด";
+    text_min = "ปีที่ค่าสูงสุดของ PM2.5 น้อยที่สุด";
   }
 
   return (

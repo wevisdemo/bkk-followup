@@ -35,7 +35,7 @@ const ranking = ({ selected_theme, checked, rankings, is_show, years }) => {
     }`;
     top3 = "3 เขตที่ค่าสูงสุด PM2.5 มากที่สุด";
     last3 = "3 เขตที่ค่าสูงสุด PM2.5 น้อยที่สุด";
-    unit = "มค.ก./ลบ.ม.";
+    unit = "มคก./ลบ.ม.";
   }
 
   const list_top3 = () => {

@@ -28,7 +28,7 @@ const listRanking = ({ selected_theme, data, years }) => {
   } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
     title = `ค่าสูงสุดของ PM2.5 ปี ${years[years.length - 1]}`;
     subtitle = "เรียงลำดับจากมากไปน้อย";
-    unit = "มค.ก./ลบ.ม.";
+    unit = "มคก./ลบ.ม.";
     standard = dashboard_data.air.standard;
     std_text = `ค่ามาตรฐานตาม WHO กำหนด ${dashboard_data.air.standard}`;
   }

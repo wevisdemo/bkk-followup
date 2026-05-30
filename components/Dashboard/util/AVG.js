@@ -99,8 +99,8 @@ const AVG = ({
     AVG_title = `ตลอดปี ${
       years[years.length - 1]
     } ค่าฝุ่น PM2.5 โดยเฉลี่ยทุกเขต`;
-    unit = "มค.ก./ลบ.ม.";
-    unit_filter = "มค.ก./ลบ.ม.";
+    unit = "มคก./ลบ.ม.";
+    unit_filter = "มคก./ลบ.ม.";
     AVG_max = "เขตที่มีค่าสูงสุดของ PM2.5 มากที่สุด";
     AVG_min = "เขตที่มีค่าสูงสุดของ PM2.5 น้อยที่สุด";
     AVG = dashboard.air.latestYearAverage;
@@ -161,7 +161,7 @@ const AVG = ({
               เขต{data.minimumPoint.districtName} ปี {data.minimumPoint.year}
             </p>
             <span
-              className="flex flex-row font-bold h4"
+              className="md:flex flex-row font-bold h4"
               style={{ color: selected_theme.text_color }}
             >
               <p>{data.minimumPoint.value}</p>
@@ -187,7 +187,7 @@ const AVG = ({
               เขต{data.maximumPoint.districtName} ปี {data.maximumPoint.year}
             </p>
             <span
-              className="flex flex-row font-bold h4"
+              className="md:flex flex-row font-bold h4"
               style={{ color: selected_theme.text_color }}
             >
               <p>{data.maximumPoint.value}</p>
@@ -270,7 +270,7 @@ const AVG = ({
           </p>
           <p
             style={{ color: selected_theme.text_color }}
-            className="mr-32 font-bold p1"
+            className="md:mr-32 font-bold p1"
           >
             {unit}
           </p>
