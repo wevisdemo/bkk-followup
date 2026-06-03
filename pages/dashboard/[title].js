@@ -226,15 +226,7 @@ export default function Dashboard(props) {
     } else if (selected_theme.name === "ฝุ่นควันเกินมาตรฐาน") {
       note = (
         <>
-          ที่มาข้อมูล:{" "}
-          <a
-            href="https://official.airbkk.com/bma_register/register.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            กองจัดการคุณภาพอากาศและเสียง สำนักสิ่งแวดล้อม
-          </a>{" "}
+          ที่มาข้อมูล: กองจัดการคุณภาพอากาศและเสียง สำนักสิ่งแวดล้อม
           สำนักยุทธศาสตร์และประเมินผล สำนักงบประมาณ กรุงเทพมหานคร
           และกรมควบคุมมลพิษ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม
         </>
