@@ -181,11 +181,11 @@ export default function Header() {
             <img src={hamburger} onClick={() => setIsOpen(true)} width={20} />
           )}
         </div>
-        {!isMobileOnly && insideMenu()}
+        <div className="hidden md:block">{insideMenu()}</div>
       </div>
       {isOpen && (
-        <div className="absolute left-0 z-10 w-screen py-5 bg-white-default">
-          {isMobileOnly && insideMenu()}
+        <div className="absolute left-0 z-10 w-screen py-5 bg-white-default md:hidden">
+          {insideMenu()}
         </div>
       )}
     </div>
