@@ -26,8 +26,8 @@ export default function BudgetPageOne(props) {
                 {landing_data.latestYear.population.toLocaleString()} คน
               </h2>
 
-              <h3 className="block leading-tight text-center d3 lg:hidden">
-                <span className="d2 text-white-default">
+              <h3 className="block leading-tight text-center d2 lg:hidden">
+                <span className="d3 text-white-default">
                   สิ้นปี {landing_data.latestYear.year}
                   <br />
                   กรุงเทพมีประชากร
@@ -48,8 +48,8 @@ export default function BudgetPageOne(props) {
                 ล้านบาท
               </h2>
 
-              <h3 className="block mt-8 leading-tight text-center d3 lg:hidden">
-                <span className="d2 text-white-default">ใช้งบประมาณมากถึง</span>
+              <h3 className="block mt-8 leading-tight text-center d2 lg:hidden">
+                <span className="d3 text-white-default">ใช้งบประมาณมากถึง</span>
                 <br />
                 {(landing_data.latestYear.budget / 1000000).toLocaleString(
                   "en-US",
@@ -60,7 +60,10 @@ export default function BudgetPageOne(props) {
                 ล้านบาท
               </h3>
 
-              <h3 className="mt-8 text-center h2 lg:text-left">
+              <h3 className="mt-8 text-center h2 lg:text-left hidden md:block">
+                แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำ ๆ และยังไม่ถูกแก้
+              </h3>
+              <h3 className="mt-8 text-center h3 lg:text-left  md:hidden">
                 แต่เราก็ยังเห็นหลายปัญหากวนใจ ที่เกิดขึ้นซ้ำ ๆ และยังไม่ถูกแก้
               </h3>
             </div>
