@@ -883,7 +883,7 @@
       "value": 213
     }
   ],
-  "meanFloodLevel": null,
+  "meanFloodLevel": 14.8,
   "meanFloodLevelMaximumPoint": {
     "districtId": 5,
     "districtName": "จตุจักร",
