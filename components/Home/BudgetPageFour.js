@@ -115,27 +115,37 @@ export default function BudgetPageFour(props) {
                               : "560px",
                         }}
                       >
-                        {d.values.map((v, index) => (
-                          <div
-                            key={index}
-                            className={`box rounded md:rounded-md mb-0.5 pt-1 ${
-                              hover_legend === v.title ? "is-hover" : ""
-                            }`}
-                            style={{
-                              width: isMobile ? "100%" : "35px",
-                              height: `${v.percent}%`,
-                              border:
-                                v.title === "อื่นๆ"
-                                  ? "2px solid rgba(255, 255, 255, 0.9)"
-                                  : "none",
-                              background: matchingBGColor(v.title),
-                            }}
-                          >
-                            <h5 className="text-xs value text-black-default">
-                              {numeral(v.percent).format("0.00")}%
-                            </h5>
-                          </div>
-                        ))}
+                        {d.values.map((v, index) => {
+                          const tooSmall = v.percent < 3;
+                          return (
+                            <div
+                              key={index}
+                              className={`box rounded md:rounded-md mb-0.5 pt-1 ${
+                                hover_legend === v.title ? "is-hover" : ""
+                              }`}
+                              style={{
+                                width: isMobile ? "100%" : "35px",
+                                height: `${v.percent}%`,
+                                minHeight: tooSmall ? "6px" : undefined,
+                                border:
+                                  v.title === "อื่นๆ"
+                                    ? "2px solid rgba(255, 255, 255, 0.9)"
+                                    : "none",
+                                background: matchingBGColor(v.title),
+                              }}
+                            >
+                              {tooSmall ? (
+                                <div className="tooltip text-xs value text-black-default">
+                                  {numeral(v.percent).format("0.00")}%
+                                </div>
+                              ) : (
+                                <h5 className="text-xs value text-black-default">
+                                  {numeral(v.percent).format("0.00")}%
+                                </h5>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
 
                       <div className="year d5">

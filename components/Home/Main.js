@@ -26,7 +26,7 @@ export default function Main(props) {
             <h3 className="leading-tight d3">
               สำรวจย้อนหลัง {landing_data.yearlyBudgetSummaries.length} ปีกับ
               <br className=" md:hidden lg:block" />
-              ปัญหาที่กวนใจชาวกทม.
+              ปัญหาที่กวนใจชาว กทม.
             </h3>
 
             <div className="items-center hidden mt-4 lg:flex social-wrap">
@@ -66,7 +66,7 @@ export default function Main(props) {
               onClick={() => swiper_ref.slideTo(1)}
             >
               <h5 className="d5 text-white-default">
-                สำรวจดูงบประมาณกทม. ย้อนหลัง{" "}
+                สำรวจดูงบประมาณ กทม. ย้อนหลัง{" "}
                 {landing_data.yearlyBudgetSummaries.length} ปี
               </h5>
 
@@ -95,7 +95,7 @@ export default function Main(props) {
               onClick={() => swiper_ref.slideTo(isMobileOnly ? 15 : 10)}
             >
               <h5 className="d5 text-white-default">
-                ชาวกทม. มีส่วนร่วม อย่างไรได้บ้าง
+                ชาว กทม. มีส่วนร่วมอย่างไรได้บ้าง
               </h5>
 
               <img

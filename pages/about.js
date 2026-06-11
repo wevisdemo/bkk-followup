@@ -26,7 +26,7 @@ const about = () => {
             <p className="h1">BKK Follow Up</p>
             <p className="h3">
               สำรวจย้อนหลัง {landing_data.yearlyBudgetSummaries.length}{" "}
-              ปีกับปัญหาที่กวนใจชาวกทม.
+              ปีกับปัญหาที่กวนใจชาว กทม.
             </p>
           </div>
           <WvParagraphGroup heading="เกี่ยวกับโปรเจกต์นี้">
@@ -229,7 +229,7 @@ const about = () => {
                 </a>
                 BKK Follow Up สำรวจย้อนหลัง{" "}
                 {landing_data.yearlyBudgetSummaries.length}{" "}
-                ปีกับปัญหาที่กวนใจชาวกทม.
+                ปีกับปัญหาที่กวนใจชาว กทม.
               </div>
             </WvParagraphGroup>
           </WvParagraphGroup>

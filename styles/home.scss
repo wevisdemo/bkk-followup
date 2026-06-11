@@ -25,7 +25,12 @@
     }
   }
   .box {
+    position: relative;
+    overflow: visible;
     .value {
+      display: none;
+    }
+    .tooltip {
       display: none;
     }
   }
@@ -33,6 +38,22 @@
     background: rgba(255, 255, 255, 0.9) !important;
     .value {
       display: block;
+    }
+    .tooltip {
+      display: block;
+      position: absolute;
+      bottom: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      color: #000;
+      font-size: 10px;
+      font-weight: bold;
+      white-space: nowrap;
+      padding: 1px 6px;
+      border-radius: 3px;
+      pointer-events: none;
+      z-index: 10;
     }
   }
 }

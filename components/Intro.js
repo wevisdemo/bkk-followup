@@ -50,7 +50,7 @@ export default function Intro() {
             <h3 className="leading-tight d3">
               สำรวจย้อนหลัง {landing_data.yearlyBudgetSummaries.length} ปีกับ
               <br />
-              ปัญหาที่กวนใจชาวกทม.
+              ปัญหาที่กวนใจชาว กทม.
             </h3>
 
             <div className="flex items-center justify-center mt-8 space-x-3 lg:justify-start lg:mt-4 social-wrap opacity-80">
